@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Field Doctor (inspired recreation)",
   "source_url": "https://www.fielddoctor.co.uk/products/mac-cheese",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/MacandCheesesq.png?v=1663149100",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/MacandCheesesq.png",
   "photo": "58B6C01E-67B4-4569-9334-B60FB50F23B0.jpg",
   "photo_hash": "4D30CEA3A5027F1EF9A4167CB437EF58653ED5EE19C5F4EC24556A1DF0A18F6F",
   "photo_large": "58B6C01E-67B4-4569-9334-B60FB50F23B0.jpg",
@@ -36,5 +36,5 @@
   "created": "2026-09-13 12:30:40",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/58B6C01E-67B4-4569-9334-B60FB50F23B0.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303689&Signature=PMdjlmUt49%2FbaQ3COzUViKudtdA%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/58B6C01E-67B4-4569-9334-B60FB50F23B0.jpg"
 }

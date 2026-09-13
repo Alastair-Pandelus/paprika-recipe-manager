@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Field Doctor (inspired recreation)",
   "source_url": "https://www.fielddoctor.co.uk/products/3-bean-smoked-tofu-chilli-1",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FODBeanandSmokedTofuChilli.jpg?v=1712570975",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FODBeanandSmokedTofuChilli.jpg",
   "photo": "6478A680-8EE0-4BAF-BFFE-1CB3D6F86A2B.jpg",
   "photo_hash": "421C2E26EFC2249D39E686B0A9F8504869424001169D1B4E300E7D0C82620C63",
   "photo_large": "6478A680-8EE0-4BAF-BFFE-1CB3D6F86A2B.jpg",
@@ -36,5 +36,5 @@
   "created": "2026-09-13 12:30:30",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/6478A680-8EE0-4BAF-BFFE-1CB3D6F86A2B.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303682&Signature=uf3rQcKSC8KrwwztS4n9Uh9mYDg%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/6478A680-8EE0-4BAF-BFFE-1CB3D6F86A2B.jpg"
 }

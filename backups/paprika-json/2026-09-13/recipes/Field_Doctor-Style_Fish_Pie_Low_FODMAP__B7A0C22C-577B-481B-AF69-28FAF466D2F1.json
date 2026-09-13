@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Field Doctor (inspired recreation)",
   "source_url": "https://www.fielddoctor.co.uk/products/fish-pie-low-fodmap",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FishPie_1.jpg?v=1701865728",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FishPie_1.jpg",
   "photo": "FA6B1547-7341-4551-B7F6-D31D85734616.jpg",
   "photo_hash": "3D8E9CD3F3837C9125CEEE8656677B6A431448FB3796B1D9362A8C6282D8A218",
   "photo_large": "FA6B1547-7341-4551-B7F6-D31D85734616.jpg",
@@ -36,5 +36,5 @@
   "created": "2026-09-13 12:30:41",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/FA6B1547-7341-4551-B7F6-D31D85734616.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303690&Signature=1d2sEu3%2FD9gCOB%2BCzE7kqK2E1L8%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/FA6B1547-7341-4551-B7F6-D31D85734616.jpg"
 }

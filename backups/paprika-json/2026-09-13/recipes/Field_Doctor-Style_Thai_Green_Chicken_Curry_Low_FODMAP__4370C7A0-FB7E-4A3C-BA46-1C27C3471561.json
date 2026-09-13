@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Field Doctor (inspired recreation)",
   "source_url": "https://www.fielddoctor.co.uk/products/green-curry",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/Thai_Green_LL.png?v=1723557938",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/Thai_Green_LL.png",
   "photo": "11F8E7ED-1B18-4EF4-AF1C-72123B7CFBE9.jpg",
   "photo_hash": "65448111F6189409C06819A253B15954804DA0DEED7955500EBA4E550297C113",
   "photo_large": "11F8E7ED-1B18-4EF4-AF1C-72123B7CFBE9.jpg",
@@ -36,5 +36,5 @@
   "created": "2026-09-13 12:30:32",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/11F8E7ED-1B18-4EF4-AF1C-72123B7CFBE9.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303684&Signature=vYVmjFkxFy%2FrMvLRmjxXUJZmnjY%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/11F8E7ED-1B18-4EF4-AF1C-72123B7CFBE9.jpg"
 }

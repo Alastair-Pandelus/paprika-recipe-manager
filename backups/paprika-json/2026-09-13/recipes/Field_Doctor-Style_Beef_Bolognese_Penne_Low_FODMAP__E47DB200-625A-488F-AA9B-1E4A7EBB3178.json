@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Field Doctor (inspired recreation)",
   "source_url": "https://www.fielddoctor.co.uk/products/beef-ragu-penne",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/Beefragunourishaward.jpg?v=1701872831",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/Beefragunourishaward.jpg",
   "photo": "8F4F6488-6B40-4209-9E0A-E4F5D2A6F023.jpg",
   "photo_hash": "8AF1A87AA23CD0C74724413062AF88BA3A6E46AA1212CFBD45C9621E7A9622B3",
   "photo_large": "8F4F6488-6B40-4209-9E0A-E4F5D2A6F023.jpg",
@@ -36,5 +36,5 @@
   "created": "2026-09-13 12:30:43",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/8F4F6488-6B40-4209-9E0A-E4F5D2A6F023.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303691&Signature=GvTB8HOJiEfsgLfT7m9dL0wX9HQ%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/8F4F6488-6B40-4209-9E0A-E4F5D2A6F023.jpg"
 }

@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Field Doctor (inspired recreation)",
   "source_url": "https://www.fielddoctor.co.uk/products/cottage-pie",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FOD_Cottage_Pie_nut_free.png?v=1742292743",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FOD_Cottage_Pie_nut_free.png",
   "photo": "87744613-A785-4329-BA72-BAB3A7075D07.jpg",
   "photo_hash": "7A97C250DFFE23CCDE9A849C2AEC192E4C5A654A6D994EA87B3713F8669F6455",
   "photo_large": "87744613-A785-4329-BA72-BAB3A7075D07.jpg",
@@ -36,5 +36,5 @@
   "created": "2026-09-13 12:30:34",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/87744613-A785-4329-BA72-BAB3A7075D07.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303685&Signature=iiFYVMrQ1BAl2%2B2UmPgeqf66kUg%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/87744613-A785-4329-BA72-BAB3A7075D07.jpg"
 }

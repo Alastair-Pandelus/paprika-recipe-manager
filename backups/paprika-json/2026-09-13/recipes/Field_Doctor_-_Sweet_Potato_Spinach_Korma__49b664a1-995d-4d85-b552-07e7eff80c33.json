@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Fielddoctor.co.uk",
   "source_url": "https://www.fielddoctor.co.uk/collections/fodmap/products/sweet-potato-spinach-korma?variant=37784866554033",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/awards-10_2100x.png?v=1632835707",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/awards-10_2100x.png",
   "photo": "91f92266-28f4-4c69-919c-1cd39ac53745.jpg",
   "photo_hash": "d5ff4dcb5e69a71ada141efbf5458dbb841b9d69b31bf91755b0cdc4d4392a8a",
   "photo_large": null,
@@ -35,5 +35,5 @@
   "created": "2026-09-13 13:12:58",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/91f92266-28f4-4c69-919c-1cd39ac53745.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303684&Signature=hereYkyJrQfAFglturl2PYyZFK4%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/91f92266-28f4-4c69-919c-1cd39ac53745.jpg"
 }

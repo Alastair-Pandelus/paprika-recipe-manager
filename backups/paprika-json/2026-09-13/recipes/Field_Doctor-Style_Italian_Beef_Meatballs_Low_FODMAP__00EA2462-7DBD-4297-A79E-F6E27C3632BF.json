@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Field Doctor (inspired recreation)",
   "source_url": "https://www.fielddoctor.co.uk/products/italian-beef-meatballs-low-fodmap",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FOD_Meatballs.jpg?v=1767862086",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FOD_Meatballs.jpg",
   "photo": "A2B23CDC-C5FC-4187-8F2E-8F8E8ECF405B.jpg",
   "photo_hash": "AEFDB40F98FED01C57D5A64192ED6B158C2CA4F8488ED3117B337667F5474C0A",
   "photo_large": "A2B23CDC-C5FC-4187-8F2E-8F8E8ECF405B.jpg",
@@ -36,5 +36,5 @@
   "created": "2026-09-13 12:30:29",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/A2B23CDC-C5FC-4187-8F2E-8F8E8ECF405B.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303681&Signature=OFTIZga0oG8KjiD0%2FSNIKrOK3mc%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/A2B23CDC-C5FC-4187-8F2E-8F8E8ECF405B.jpg"
 }

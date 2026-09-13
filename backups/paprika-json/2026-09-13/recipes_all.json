@@ -19,7 +19,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/italian-beef-meatballs-low-fodmap",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FOD_Meatballs.jpg?v=1767862086",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FOD_Meatballs.jpg",
     "photo": "A2B23CDC-C5FC-4187-8F2E-8F8E8ECF405B.jpg",
     "photo_hash": "AEFDB40F98FED01C57D5A64192ED6B158C2CA4F8488ED3117B337667F5474C0A",
     "photo_large": "A2B23CDC-C5FC-4187-8F2E-8F8E8ECF405B.jpg",
@@ -37,7 +37,7 @@
     "created": "2026-09-13 12:30:29",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/A2B23CDC-C5FC-4187-8F2E-8F8E8ECF405B.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303681&Signature=OFTIZga0oG8KjiD0%2FSNIKrOK3mc%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/A2B23CDC-C5FC-4187-8F2E-8F8E8ECF405B.jpg"
   },
   {
     "uid": "03630b33-89a9-4d7d-b058-eea780665117",
@@ -77,7 +77,7 @@
     "created": "2024-09-14 14:18:51",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/2ac6bf5f-82e3-463a-beac-03841dc6c610.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303681&Signature=8%2FYeQlgPBrhapRmQGx7TcVmnlgk%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/2ac6bf5f-82e3-463a-beac-03841dc6c610.jpg"
   },
   {
     "uid": "04F1CE81-1817-4558-9943-150AF4E11F32",
@@ -117,7 +117,7 @@
     "created": "2026-09-13 12:43:39",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/B01DC4AA-B912-4765-B73D-908F0A532CDB.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303681&Signature=mxD7bsi0PDPo7AIP1YJNKXB%2BcSU%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/B01DC4AA-B912-4765-B73D-908F0A532CDB.jpg"
   },
   {
     "uid": "065E4E92-601B-4E00-8186-C613ECCC2C88",
@@ -139,7 +139,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/chicken-pea-asparagus-risotto-low-fodmap",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FOD_ChickenRisotto.jpg?v=1763647990",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FOD_ChickenRisotto.jpg",
     "photo": "DF2BA5BB-F4FC-4EAD-9408-E9EA8C707B72.jpg",
     "photo_hash": "A408CA277829855B0491B4D80CAC2AA9CDCC02FA3F24E235EE551D9EE7616803",
     "photo_large": "DF2BA5BB-F4FC-4EAD-9408-E9EA8C707B72.jpg",
@@ -157,7 +157,7 @@
     "created": "2026-09-13 12:30:30",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/DF2BA5BB-F4FC-4EAD-9408-E9EA8C707B72.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303682&Signature=%2FsdQ3QkFCqQczHQvYGQj037ZjG4%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/DF2BA5BB-F4FC-4EAD-9408-E9EA8C707B72.jpg"
   },
   {
     "uid": "0E0562D1-9C27-466B-915A-DDD12722E741",
@@ -198,7 +198,7 @@
     "created": "2023-01-08 17:21:07",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/B5EB624F-A2A8-4869-A705-53BEAB8EFC63.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303682&Signature=igZ2nrTQ3NoFZEPiSYvP2hcjNYQ%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/B5EB624F-A2A8-4869-A705-53BEAB8EFC63.jpg"
   },
   {
     "uid": "0eeddf3e-f9f7-4e8e-8d12-46028bd5144f",
@@ -238,7 +238,7 @@
     "created": "2018-10-07 12:14:35",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/24fac6c2-5ff9-43c4-9e62-994dcff99531.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303682&Signature=PX82W78zCbx16jehr8Y6GR39Lu4%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/24fac6c2-5ff9-43c4-9e62-994dcff99531.jpg"
   },
   {
     "uid": "0FE58699-53B9-4138-BD4A-EC46F454445E",
@@ -260,7 +260,7 @@
     "total_minutes": null,
     "source": "Bbcgoodfood.com",
     "source_url": "https://www.bbcgoodfood.com/recipes/vegan-chilli",
-    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/vegan-chilli-be48585.jpg?quality=90&resize=440,400",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/vegan-chilli-be48585.jpg",
     "photo": "C319B010-9A29-4618-81EB-AF05FCDDB11C.jpg",
     "photo_hash": "56C7D7E89EA4C91ED5DDED4C1E22FCB2F1868D0D4ADDFE3D02FC2737BB30E5A6",
     "photo_large": null,
@@ -278,7 +278,7 @@
     "created": "2022-12-10 12:34:18",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/C319B010-9A29-4618-81EB-AF05FCDDB11C.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303682&Signature=xQ7odlECXnW%2BbJzpVUwtZLibYKA%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/C319B010-9A29-4618-81EB-AF05FCDDB11C.jpg"
   },
   {
     "uid": "1542D475-6205-4FCB-A5F7-576DCC792A1F",
@@ -300,7 +300,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/3-bean-smoked-tofu-chilli-1",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FODBeanandSmokedTofuChilli.jpg?v=1712570975",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FODBeanandSmokedTofuChilli.jpg",
     "photo": "6478A680-8EE0-4BAF-BFFE-1CB3D6F86A2B.jpg",
     "photo_hash": "421C2E26EFC2249D39E686B0A9F8504869424001169D1B4E300E7D0C82620C63",
     "photo_large": "6478A680-8EE0-4BAF-BFFE-1CB3D6F86A2B.jpg",
@@ -318,7 +318,7 @@
     "created": "2026-09-13 12:30:30",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/6478A680-8EE0-4BAF-BFFE-1CB3D6F86A2B.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303682&Signature=uf3rQcKSC8KrwwztS4n9Uh9mYDg%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/6478A680-8EE0-4BAF-BFFE-1CB3D6F86A2B.jpg"
   },
   {
     "uid": "161076aa-a4dc-4be9-8b53-a9b94228bbbd",
@@ -340,7 +340,7 @@
     "total_minutes": null,
     "source": "Fielddoctor.co.uk",
     "source_url": "https://www.fielddoctor.co.uk/products/goan-fish-curry?utm_source=google&utm_medium=cpc&utm_campaign=&utm_keyword=&gclid=EAIaIQobChMIt_iC9JnB9gIVEgeRCh0-8QyJEAAYASAAEgIbePD_BwE&variant=37784871469233",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/awards-06_2100x.png?v=1632835672",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/awards-06_2100x.png",
     "photo": "925be853-5b16-4b4b-b129-7c9cd060bd63.jpg",
     "photo_hash": "c9c5cc49dde58e2419de4c590cd47b16f017474377197d840305e5ef20f20a7d",
     "photo_large": null,
@@ -357,7 +357,7 @@
     "created": "2022-03-12 18:29:39",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/925be853-5b16-4b4b-b129-7c9cd060bd63.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303682&Signature=hP0eZppYDSW5HoTlcuPYYeuh1qQ%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/925be853-5b16-4b4b-b129-7c9cd060bd63.jpg"
   },
   {
     "uid": "1ceb1f9b-fc6f-4a11-8d25-32150585832a",
@@ -398,7 +398,7 @@
     "created": "2023-12-09 13:32:46",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/8af3a529-67a1-4356-a0e8-9752c3fd8091.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303682&Signature=iENZRgxhp7qq7BRuBG0H121ht7E%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/8af3a529-67a1-4356-a0e8-9752c3fd8091.jpg"
   },
   {
     "uid": "1EA96FBB-84BD-4F80-B623-4B0524DE76C9",
@@ -437,7 +437,7 @@
     "created": "2022-09-11 19:37:23",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/769802C3-6B1A-4A65-987A-F72121C4EAD0.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303682&Signature=wMHsPklal6QL8VBIn2Sjfw4pXgA%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/769802C3-6B1A-4A65-987A-F72121C4EAD0.jpg"
   },
   {
     "uid": "215446C1-14A8-40AF-BF03-EEA2DCE9F5B0",
@@ -477,7 +477,7 @@
     "created": "2026-09-13 12:43:40",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/576670EA-C4D0-4E1F-8266-243C0D9D878D.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303683&Signature=iN7xvxruzssLtxhnhKtD%2BpoOHMQ%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/576670EA-C4D0-4E1F-8266-243C0D9D878D.jpg"
   },
   {
     "uid": "2513f53f-25e1-4af1-8b7e-f00ec295ad2b",
@@ -517,7 +517,7 @@
     "created": "2017-08-17 21:35:14",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/9c04203b-6560-4df2-a948-ba17ec2f7bb7.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303683&Signature=41bRmW3OpBkRGe1NbTYnUHKCN1k%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/9c04203b-6560-4df2-a948-ba17ec2f7bb7.jpg"
   },
   {
     "uid": "28ccc969-b625-49ce-be0d-501ca701cc8d",
@@ -557,7 +557,7 @@
     "created": "2025-01-10 16:26:49",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/41e57d01-973d-4338-863f-20e4dc4e77fd.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303683&Signature=pcd0AJn6xj4ec8RxcKrXOFfc8ao%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/41e57d01-973d-4338-863f-20e4dc4e77fd.jpg"
   },
   {
     "uid": "39989DD3-BEE6-43FE-BDA4-7EAB17C8B28A",
@@ -597,7 +597,7 @@
     "created": "2022-10-12 19:30:53",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/4406F6FE-F0D3-45C6-83E8-ED149BC63D9E.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303683&Signature=vhd2J0xsViJDm%2ByMHRG6%2B%2BDsN7M%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/4406F6FE-F0D3-45C6-83E8-ED149BC63D9E.jpg"
   },
   {
     "uid": "3D8A362C-C11C-4B45-8D9A-106A805D2711",
@@ -637,7 +637,7 @@
     "created": "2025-12-16 22:49:11",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/BFCB72F6-0CB1-4654-A472-A2E4111096C8.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303683&Signature=uUeCtJIOeci9X%2FUpdXlYLC6cVGI%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/BFCB72F6-0CB1-4654-A472-A2E4111096C8.jpg"
   },
   {
     "uid": "3d9f14b3-0cf2-4ece-9ffa-39c1904d983f",
@@ -659,7 +659,7 @@
     "total_minutes": null,
     "source": "Jamieoliver.com",
     "source_url": "https://www.jamieoliver.com/recipes/pasta-recipes/jamie-s-classic-family-lasagne/",
-    "image_url": "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/xtra_med/1475_6_1432138866.jpg?tr=w-414,",
+    "image_url": "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/xtra_med/1475_6_1432138866.jpg",
     "photo": "715f0f3e-787e-44df-8c8c-149f9a4937ca.jpg",
     "photo_hash": "5810490394db042f0fbca026299389eaac63a82ad70571ef4b5698b2efe93aea",
     "photo_large": null,
@@ -677,7 +677,7 @@
     "created": "2019-03-14 21:04:07",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/715f0f3e-787e-44df-8c8c-149f9a4937ca.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303683&Signature=579dYyWPAO2%2FHpu%2B5UlCOmwI16g%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/715f0f3e-787e-44df-8c8c-149f9a4937ca.jpg"
   },
   {
     "uid": "4144fbfc-9f4b-48e6-a222-c1774d7c3160",
@@ -717,7 +717,7 @@
     "created": "2018-11-23 23:56:07",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/14bdd4c8-5471-427b-a8f8-397a0921281f.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303683&Signature=ch8RubF8LkRxDNfWWBxVJgGiUi8%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/14bdd4c8-5471-427b-a8f8-397a0921281f.jpg"
   },
   {
     "uid": "42F32E0E-66B0-4716-BD29-B0EA9E1F93B2",
@@ -739,7 +739,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/sweet-potato-spinach-korma",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/awards-10.png?v=1632835707",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/awards-10.png",
     "photo": "64087AE9-B8E2-4E05-B8AA-BBBA5ED1866D.jpg",
     "photo_hash": "854B27123AEA15DF98FAF6223CD5AF0E24B614C31DEF9AD07FACD550ADBCCCD4",
     "photo_large": "64087AE9-B8E2-4E05-B8AA-BBBA5ED1866D.jpg",
@@ -757,7 +757,7 @@
     "created": "2026-09-13 12:30:32",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/64087AE9-B8E2-4E05-B8AA-BBBA5ED1866D.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303683&Signature=VbkT7vk9o7dg3Ujsz%2B7xa1aha7g%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/64087AE9-B8E2-4E05-B8AA-BBBA5ED1866D.jpg"
   },
   {
     "uid": "4370C7A0-FB7E-4A3C-BA46-1C27C3471561",
@@ -779,7 +779,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/green-curry",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/Thai_Green_LL.png?v=1723557938",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/Thai_Green_LL.png",
     "photo": "11F8E7ED-1B18-4EF4-AF1C-72123B7CFBE9.jpg",
     "photo_hash": "65448111F6189409C06819A253B15954804DA0DEED7955500EBA4E550297C113",
     "photo_large": "11F8E7ED-1B18-4EF4-AF1C-72123B7CFBE9.jpg",
@@ -797,7 +797,7 @@
     "created": "2026-09-13 12:30:32",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/11F8E7ED-1B18-4EF4-AF1C-72123B7CFBE9.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303684&Signature=vYVmjFkxFy%2FrMvLRmjxXUJZmnjY%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/11F8E7ED-1B18-4EF4-AF1C-72123B7CFBE9.jpg"
   },
   {
     "uid": "4565F0A3-CF24-4090-8303-33AF2595E432",
@@ -837,7 +837,7 @@
     "created": "2026-09-13 12:43:40",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/CAC39AC5-66F5-4235-8554-C24CF5029069.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303684&Signature=5pqDighmzNRTkQDYDQhO7OSMJFI%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/CAC39AC5-66F5-4235-8554-C24CF5029069.jpg"
   },
   {
     "uid": "459CBDFB-58B6-4CA5-88F0-96E2B375F79C-4096-00000D0E2BBD1B2E",
@@ -877,7 +877,7 @@
     "created": "2019-06-29 21:00:27",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/5c3bf2cb-daa0-4cf1-a51c-aafa950ebbd2.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303684&Signature=KggY%2FVX5HfdUqroBKKsWM5iKloE%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/5c3bf2cb-daa0-4cf1-a51c-aafa950ebbd2.jpg"
   },
   {
     "uid": "461C38D3-47BD-4027-9D6B-EE36480BE5FC",
@@ -899,7 +899,7 @@
     "total_minutes": null,
     "source": "M.recipes.timesofindia.com",
     "source_url": "https://m.recipes.timesofindia.com/recipes/rice-chapati/rs59701200.cms",
-    "image_url": "https://static.toiimg.com/thumb/59701200.cms?imgsize=297178&width=800&height=800",
+    "image_url": "https://static.toiimg.com/thumb/59701200.cms",
     "photo": "E71FB738-3916-4D83-8262-BC8065722155.jpg",
     "photo_hash": "AAE74B3F869934ACD95931F5533C62ED7E44B8741BBA7BE959188943FA5E584A",
     "photo_large": null,
@@ -917,7 +917,7 @@
     "created": "2021-05-09 17:13:00",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/E71FB738-3916-4D83-8262-BC8065722155.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303684&Signature=lJTZjpwpLfsVCM%2FsJOKksSW25Vg%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/E71FB738-3916-4D83-8262-BC8065722155.jpg"
   },
   {
     "uid": "49b664a1-995d-4d85-b552-07e7eff80c33",
@@ -939,7 +939,7 @@
     "total_minutes": null,
     "source": "Fielddoctor.co.uk",
     "source_url": "https://www.fielddoctor.co.uk/collections/fodmap/products/sweet-potato-spinach-korma?variant=37784866554033",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/awards-10_2100x.png?v=1632835707",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/awards-10_2100x.png",
     "photo": "91f92266-28f4-4c69-919c-1cd39ac53745.jpg",
     "photo_hash": "d5ff4dcb5e69a71ada141efbf5458dbb841b9d69b31bf91755b0cdc4d4392a8a",
     "photo_large": null,
@@ -956,7 +956,7 @@
     "created": "2026-09-13 13:12:58",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/91f92266-28f4-4c69-919c-1cd39ac53745.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303684&Signature=hereYkyJrQfAFglturl2PYyZFK4%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/91f92266-28f4-4c69-919c-1cd39ac53745.jpg"
   },
   {
     "uid": "4E19DB85-F6E6-4755-8724-AE8CA9DF0E6C",
@@ -978,7 +978,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/chickpea-tagine",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/AromacticChickpea.jpg?v=1636985187",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/AromacticChickpea.jpg",
     "photo": "4D7E8B2B-66A5-4981-8D36-FFF883350997.jpg",
     "photo_hash": "A203A61702424BB5C548F324F6C2198D9D3D18BBC0A4D87D7CEBF8B8A463C153",
     "photo_large": "4D7E8B2B-66A5-4981-8D36-FFF883350997.jpg",
@@ -996,7 +996,7 @@
     "created": "2026-09-13 12:30:33",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/4D7E8B2B-66A5-4981-8D36-FFF883350997.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303684&Signature=ZI5%2FmOUGwnQ6fRLTCmzI0qUSoNY%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/4D7E8B2B-66A5-4981-8D36-FFF883350997.jpg"
   },
   {
     "uid": "51CFD54D-50C3-46B6-9F9C-E58BBCC45333",
@@ -1018,7 +1018,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/peri-peri-chicken",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/PiriPiriChicken.jpg?v=1663313279",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/PiriPiriChicken.jpg",
     "photo": "1BA35CB8-AA12-4381-BB7F-C8EAA2B28992.jpg",
     "photo_hash": "70DDFED3FF6472ED8EB1583BC8E28ADD95CD999951C2FF67D01468B5DF269F6A",
     "photo_large": "1BA35CB8-AA12-4381-BB7F-C8EAA2B28992.jpg",
@@ -1036,7 +1036,7 @@
     "created": "2026-09-13 12:30:33",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/1BA35CB8-AA12-4381-BB7F-C8EAA2B28992.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303684&Signature=PJbVfrDztQM8mliV398E03UWftc%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/1BA35CB8-AA12-4381-BB7F-C8EAA2B28992.jpg"
   },
   {
     "uid": "53be6f49-3f12-444f-894f-213e1871ae09",
@@ -1058,7 +1058,7 @@
     "total_minutes": null,
     "source": "Fielddoctor.co.uk",
     "source_url": "https://www.fielddoctor.co.uk/products/seafood-spinach-paella?variant=42174917050623",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/SeafoodRisottoPlated_2100x.jpg?v=1641475494",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/SeafoodRisottoPlated_2100x.jpg",
     "photo": "b961add4-106f-40d9-a0e5-3b3daa4ed5e2.jpg",
     "photo_hash": "d137acfc46299bd25c197211cd99bb913c4e9b9bf633143b31ecdc9464377fa6",
     "photo_large": null,
@@ -1075,7 +1075,7 @@
     "created": "2022-04-18 16:14:33",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/b961add4-106f-40d9-a0e5-3b3daa4ed5e2.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303684&Signature=2iH7BtbYOM5fgycNJSj%2FRppwaIc%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/b961add4-106f-40d9-a0e5-3b3daa4ed5e2.jpg"
   },
   {
     "uid": "53ebbd13-79bc-4a2d-ad5f-2e0064f1921c",
@@ -1115,7 +1115,7 @@
     "created": "2024-09-14 14:17:05",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/52e46a88-92b6-49f7-a775-506d69155a36.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303685&Signature=jVuK8YX6KQTm2xM1pTecxX3V3tM%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/52e46a88-92b6-49f7-a775-506d69155a36.jpg"
   },
   {
     "uid": "5A7586FD-0A9F-4F85-B2B2-6EDE3C31BE98",
@@ -1155,7 +1155,7 @@
     "created": "2026-09-13 12:43:38",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/DF46F8A5-1F96-40AC-9FCD-70BC058C7A52.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303685&Signature=t20ZLuSRaZnBRr7Do68erzOylBo%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/DF46F8A5-1F96-40AC-9FCD-70BC058C7A52.jpg"
   },
   {
     "uid": "5F9B1CEE-64D0-41DA-8B6F-B6854B436792",
@@ -1195,7 +1195,7 @@
     "created": "2022-07-22 10:35:39",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/2430FB89-71C3-4053-839A-9D7DA26E7A5D.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303685&Signature=hFS4BtrJ%2BoYExDu%2BO9%2FpZc51VRE%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/2430FB89-71C3-4053-839A-9D7DA26E7A5D.jpg"
   },
   {
     "uid": "5fd1f86a-dbf6-430b-8d9f-5c81ee905dfa",
@@ -1234,7 +1234,7 @@
     "created": "2020-02-17 21:02:34",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/c5816330-a647-498f-b070-b50b270f3151.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303685&Signature=Yi%2FE%2Fos7%2FmBmkNFIjBSvcesmYoo%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/c5816330-a647-498f-b070-b50b270f3151.jpg"
   },
   {
     "uid": "6153EFB8-0267-41F8-B943-BB409D2B2B7A",
@@ -1274,7 +1274,7 @@
     "created": "2026-09-13 12:43:41",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/583C65FC-C502-45BF-AFA3-87478E8DD0DB.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303685&Signature=NYci3dxehRvcGzjZHPS74WLJH8s%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/583C65FC-C502-45BF-AFA3-87478E8DD0DB.jpg"
   },
   {
     "uid": "63DC2F87-A023-4C7B-99BE-6BFC46DA8083",
@@ -1296,7 +1296,7 @@
     "total_minutes": null,
     "source": "Bbcgoodfood.com",
     "source_url": "https://www.bbcgoodfood.com/recipes/flourless-lemon-polenta-drizzle-cake",
-    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/polenta-cake-6822442.jpg?quality=90&resize=440,400",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/polenta-cake-6822442.jpg",
     "photo": "629E84A8-3105-46BF-86D4-154064B6CB99.jpg",
     "photo_hash": "35D9791A38E5E9E4CAEECC307CFAF28D0627C3B3376179F06C4382A49ECC77AA",
     "photo_large": null,
@@ -1314,7 +1314,7 @@
     "created": "2022-05-15 20:44:23",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/629E84A8-3105-46BF-86D4-154064B6CB99.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303685&Signature=M9lOGXHNE559GrESY6sI8PhsPBg%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/629E84A8-3105-46BF-86D4-154064B6CB99.jpg"
   },
   {
     "uid": "6631f671-e6c1-41f3-8fee-7f4b92a85d36",
@@ -1355,7 +1355,7 @@
     "created": "2024-12-08 12:48:46",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/3370401f-a7c8-4e1a-82f5-d8ff14b7d091.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303685&Signature=fnXuchMgTKwg30HecLNVI1M8VV8%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/3370401f-a7c8-4e1a-82f5-d8ff14b7d091.jpg"
   },
   {
     "uid": "68E63E6C-51E1-448C-8CE0-72DC96316691",
@@ -1377,7 +1377,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/cottage-pie",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FOD_Cottage_Pie_nut_free.png?v=1742292743",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FOD_Cottage_Pie_nut_free.png",
     "photo": "87744613-A785-4329-BA72-BAB3A7075D07.jpg",
     "photo_hash": "7A97C250DFFE23CCDE9A849C2AEC192E4C5A654A6D994EA87B3713F8669F6455",
     "photo_large": "87744613-A785-4329-BA72-BAB3A7075D07.jpg",
@@ -1395,7 +1395,7 @@
     "created": "2026-09-13 12:30:34",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/87744613-A785-4329-BA72-BAB3A7075D07.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303685&Signature=iiFYVMrQ1BAl2%2B2UmPgeqf66kUg%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/87744613-A785-4329-BA72-BAB3A7075D07.jpg"
   },
   {
     "uid": "6B4663D8-8170-447D-9B4E-6B7035FF09AE",
@@ -1417,7 +1417,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/aromatic-chicken-curry",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/ChickenCurrygreen.jpg?v=1662015577",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/ChickenCurrygreen.jpg",
     "photo": "FFE3EF5C-534B-4D4B-81D0-8B88E59AAFBE.jpg",
     "photo_hash": "BE5E2E89379AB01C91BBDE349F2BC5F79E9A2BA0ACF97BD64C93BEC87CBDD33F",
     "photo_large": "FFE3EF5C-534B-4D4B-81D0-8B88E59AAFBE.jpg",
@@ -1435,7 +1435,7 @@
     "created": "2026-09-13 12:30:35",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/FFE3EF5C-534B-4D4B-81D0-8B88E59AAFBE.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303686&Signature=HRBEhgowdyZq9PvmkTa4HVwcpEI%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/FFE3EF5C-534B-4D4B-81D0-8B88E59AAFBE.jpg"
   },
   {
     "uid": "6bc12c44-75f1-454e-bb1e-acddbbc5f012",
@@ -1457,7 +1457,7 @@
     "total_minutes": null,
     "source": "Bbcgoodfood.com",
     "source_url": "https://www.bbcgoodfood.com/recipes/salmon-lemon-mini-fish-cakes",
-    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-4451_12-235a9b1.jpg?quality=90&resize=440,400",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-4451_12-235a9b1.jpg",
     "photo": "e72c87e3-9171-4573-bd87-0d582390f9cf.jpg",
     "photo_hash": "eeab502b7342371a025fd1216adb1da396e88c2072e38090d4f81dc79dae736c",
     "photo_large": null,
@@ -1476,7 +1476,7 @@
     "created": "2024-09-14 13:49:09",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/e72c87e3-9171-4573-bd87-0d582390f9cf.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303686&Signature=KnRYeWcBVJcf0lk%2FjPNLMw8t78U%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/e72c87e3-9171-4573-bd87-0d582390f9cf.jpg"
   },
   {
     "uid": "6D5A76FF-7A66-4FD7-BE3B-656C6069E3BA-2523-000002A20DC7DFE9",
@@ -1516,7 +1516,7 @@
     "created": "2017-12-07 19:49:10",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/ac18172a-c098-4326-9f35-e791ad1303b1.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303686&Signature=9XnAvAwpgmcSsu%2Bu%2FxsVeh5U0Rc%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/ac18172a-c098-4326-9f35-e791ad1303b1.jpg"
   },
   {
     "uid": "6D9436B9-ADE9-4694-9D41-82BF98677DD6",
@@ -1538,7 +1538,7 @@
     "total_minutes": null,
     "source": "Theguardian.com",
     "source_url": "https://www.theguardian.com/food/2025/oct/27/harissa-baked-hake-chicken-schnitzel-recipes-ravinder-bhogal",
-    "image_url": "https://i.guim.co.uk/img/media/e0f4ff106ecd59f3b2eaefc41a9ed40d6666ab04/67_409_3673_4586/master/3673.jpg?width=465&dpr=1&s=none&crop=none",
+    "image_url": "https://i.guim.co.uk/img/media/e0f4ff106ecd59f3b2eaefc41a9ed40d6666ab04/67_409_3673_4586/master/3673.jpg",
     "photo": "4AD8DD2F-4F65-4F40-8DD7-D785E82C64AA.jpg",
     "photo_hash": "052499A74C019CA9AC9A207080FB7F816C8A6DFC20119C144E642F8062C308F0",
     "photo_large": null,
@@ -1553,7 +1553,7 @@
     "created": "2025-10-27 16:16:57",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/4AD8DD2F-4F65-4F40-8DD7-D785E82C64AA.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303686&Signature=PEx4QiSEEvYbBEbmuC%2FreHiOC1U%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/4AD8DD2F-4F65-4F40-8DD7-D785E82C64AA.jpg"
   },
   {
     "uid": "703F4FDA-3D2D-425C-8066-B42B128124EC",
@@ -1593,7 +1593,7 @@
     "created": "2026-09-13 12:43:42",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/320F29F1-4B2C-4C7A-A311-15075F4FD35C.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303686&Signature=3dTPWmtH7cF71VTTRYYcNeZe%2FDk%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/320F29F1-4B2C-4C7A-A311-15075F4FD35C.jpg"
   },
   {
     "uid": "712e215e-a90a-4e72-99a1-b5e2bf1947f7",
@@ -1615,7 +1615,7 @@
     "total_minutes": null,
     "source": "Bbcgoodfood.com",
     "source_url": "https://www.bbcgoodfood.com/recipes/3229/yummy-scrummy-carrot-cake",
-    "image_url": "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2012/07/yummy-scrummy-carrot-cake_1.jpg?itok=9WuugmlL",
+    "image_url": "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2012/07/yummy-scrummy-carrot-cake_1.jpg",
     "photo": "1847e7eb-b367-41f0-89f9-41c0bbabbb98.jpg",
     "photo_hash": "2e9faccd0aae472d93a6a29e209c2f02457eb3a38a66aa62fddaee275b1c2b69",
     "photo_large": null,
@@ -1632,7 +1632,7 @@
     "created": "2019-07-28 21:38:05",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/1847e7eb-b367-41f0-89f9-41c0bbabbb98.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303686&Signature=IpO0x8EbbcYRbma9JDadgjAwl6M%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/1847e7eb-b367-41f0-89f9-41c0bbabbb98.jpg"
   },
   {
     "uid": "7520DE69-2A01-48C7-B1C6-E03AFABEA45D",
@@ -1654,7 +1654,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/aromatic-chicken-tagine",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/chicken_tagine_NN-2.png?v=1739274215",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/chicken_tagine_NN-2.png",
     "photo": "3F81FD65-7D7D-40DD-96AB-BCD02A5674C7.jpg",
     "photo_hash": "12A0D47351BCEA5D5783CAFF7E8B1CA117F2A1DFEB99EEBAC5841573D52A858B",
     "photo_large": "3F81FD65-7D7D-40DD-96AB-BCD02A5674C7.jpg",
@@ -1672,7 +1672,7 @@
     "created": "2026-09-13 12:30:36",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/3F81FD65-7D7D-40DD-96AB-BCD02A5674C7.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303686&Signature=H0qcJds%2BrVPEZmpfB08Ka%2BBbyRM%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/3F81FD65-7D7D-40DD-96AB-BCD02A5674C7.jpg"
   },
   {
     "uid": "7826bb54-7fdb-4943-8443-79fea1df7950",
@@ -1713,7 +1713,7 @@
     "created": "2024-09-14 14:11:18",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/96a68d7b-baa3-42b7-bad2-1332421dfa12.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303686&Signature=dxXch9jDOccHbRQUimAXxILDm94%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/96a68d7b-baa3-42b7-bad2-1332421dfa12.jpg"
   },
   {
     "uid": "787982A8-0FF0-4B4D-B408-E9BEFD152E3E",
@@ -1735,7 +1735,7 @@
     "total_minutes": null,
     "source": "Jamieoliver.com",
     "source_url": "https://www.jamieoliver.com/recipes/pork-recipes/sausage-rolls/",
-    "image_url": "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/xtra_med/482_36_1434038982.jpg?tr=w-414,",
+    "image_url": "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/xtra_med/482_36_1434038982.jpg",
     "photo": "1F3B1FEA-C563-4443-B6B1-C135887F2E95.jpg",
     "photo_hash": "28DAE8FEEDEF509175696CDF34B09C35EDCD75F9367F21DE6EEBE177924525C0",
     "photo_large": null,
@@ -1753,7 +1753,7 @@
     "created": "2018-12-22 14:23:21",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/1F3B1FEA-C563-4443-B6B1-C135887F2E95.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303687&Signature=uDiyh0tQDdVAZp7nJsyGJeq2fw0%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/1F3B1FEA-C563-4443-B6B1-C135887F2E95.jpg"
   },
   {
     "uid": "7a17bd10-e8fc-4935-a596-3de7f205af2d",
@@ -1794,7 +1794,7 @@
     "created": "2018-11-16 10:22:55",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/3d79c873-a127-4d95-beb6-f5e74a4fd331.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303687&Signature=8tp8m8vsMGcTVk1fRtQY2hbzwPc%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/3d79c873-a127-4d95-beb6-f5e74a4fd331.jpg"
   },
   {
     "uid": "7ba544a2-0b50-4c6e-b4b0-563971f4e81e",
@@ -1833,7 +1833,7 @@
     "created": "2024-09-14 14:22:37",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/2485f35a-166d-4933-b8f1-9171f02df877.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303687&Signature=s%2FAFOACdN9o38ON%2Fu7wcLumJiDU%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/2485f35a-166d-4933-b8f1-9171f02df877.jpg"
   },
   {
     "uid": "7C9FF046-1648-4427-BC4D-8F64522FD85F",
@@ -1873,7 +1873,7 @@
     "created": "2023-02-01 20:31:39",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/CB3337C4-8403-4DA4-BE8A-CFC97C183F05.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303687&Signature=tQHkRdGc8xKQZJuTShJIiUrmxYU%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/CB3337C4-8403-4DA4-BE8A-CFC97C183F05.jpg"
   },
   {
     "uid": "8927bb63-4bed-4cf3-8c32-bf017880275a",
@@ -1912,7 +1912,7 @@
     "created": "2019-06-18 10:22:08",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/bb6f27d3-0efd-46ae-a78b-839c88c819ea.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303687&Signature=4FZ19lUHoKYslwcX6tASoOK5lYw%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/bb6f27d3-0efd-46ae-a78b-839c88c819ea.jpg"
   },
   {
     "uid": "8CAD27E8-C642-4CA8-B114-5FFA77100B13",
@@ -1951,7 +1951,7 @@
     "created": "2020-02-22 21:10:47",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/6EAFE51B-AED7-4AEB-AE8F-10E89FB01FB1.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303687&Signature=UqtHWq5Lj7Pq0GxE7sDncEzD64U%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/6EAFE51B-AED7-4AEB-AE8F-10E89FB01FB1.jpg"
   },
   {
     "uid": "8ccf2b57-b774-47a2-a747-83c4860a34aa",
@@ -1991,7 +1991,7 @@
     "created": "2024-09-14 14:15:37",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/25e340a8-30b1-472e-ae14-dbe9a8d736ad.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303687&Signature=fPWq%2Ft6JTawgnzqLBUkiMoz23d4%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/25e340a8-30b1-472e-ae14-dbe9a8d736ad.jpg"
   },
   {
     "uid": "9199131D-BA09-4FAB-8E50-EC839871C83B",
@@ -2031,7 +2031,7 @@
     "created": "2026-09-13 12:43:39",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/18BDACA6-675C-4EF8-86AA-D9495064837F.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303687&Signature=p2W4JDovIEaHruFDylxGac%2Fbwa0%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/18BDACA6-675C-4EF8-86AA-D9495064837F.jpg"
   },
   {
     "uid": "92962c89-94e3-4274-ab03-56f954b25ed0",
@@ -2053,7 +2053,7 @@
     "total_minutes": null,
     "source": "Jamieoliver.com",
     "source_url": "https://www.jamieoliver.com/recipes/vegetables-recipes/the-best-whole-baked-carrots/",
-    "image_url": "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/xtra_med/611_1_1438878402.jpg?tr=w-414,",
+    "image_url": "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/xtra_med/611_1_1438878402.jpg",
     "photo": "d91fc2d1-a81e-41f3-acce-a9b61cef0900.jpg",
     "photo_hash": "54cb7479c6421127931a0befc1f71d6881ff80036efafa493c0a1ae7650e6dce",
     "photo_large": null,
@@ -2070,7 +2070,7 @@
     "created": "2020-02-22 14:15:20",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/d91fc2d1-a81e-41f3-acce-a9b61cef0900.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303688&Signature=ST%2FEQGUd9k2UmUp466y%2B7US9XDw%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/d91fc2d1-a81e-41f3-acce-a9b61cef0900.jpg"
   },
   {
     "uid": "944AEB71-CEA9-4374-85DC-A28EDA9DB012",
@@ -2110,7 +2110,7 @@
     "created": "2026-09-13 12:43:41",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/DA593DAE-9B90-458C-88FC-AB51CEFB51CD.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303688&Signature=v%2BUcAGC%2BRJaSwimX8gpyATTp4W4%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/DA593DAE-9B90-458C-88FC-AB51CEFB51CD.jpg"
   },
   {
     "uid": "9B4399CB-969B-423A-9C2D-86C8F8E63580",
@@ -2132,7 +2132,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/potato-topped-chicken-pie",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/ChickenPie_Marble.jpg?v=1609240343",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/ChickenPie_Marble.jpg",
     "photo": "86A4350C-63FC-477C-9E69-9F3F9D453549.jpg",
     "photo_hash": "6C9BEE6529267A7AE2E6EC5FDBA1DF598D6CFAF8DD2418A6B62CCC1409934FC8",
     "photo_large": "86A4350C-63FC-477C-9E69-9F3F9D453549.jpg",
@@ -2150,7 +2150,7 @@
     "created": "2026-09-13 12:30:37",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/86A4350C-63FC-477C-9E69-9F3F9D453549.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303688&Signature=Ww5L9j%2B3uODdgDVnfawfDEaejkU%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/86A4350C-63FC-477C-9E69-9F3F9D453549.jpg"
   },
   {
     "uid": "9C36415C-A87B-4F99-96BF-A9FF9602C58D",
@@ -2172,7 +2172,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/fod-field-green-risotto",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FODRisotto_1_1.jpg?v=1693399030",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FODRisotto_1_1.jpg",
     "photo": "2E316151-C53E-4E29-B5CF-0E9C699B92CD.jpg",
     "photo_hash": "F89317EBBDC04DD538858130B8696018975325477DA3003C30A1BE037D5EAD9F",
     "photo_large": "2E316151-C53E-4E29-B5CF-0E9C699B92CD.jpg",
@@ -2190,7 +2190,7 @@
     "created": "2026-09-13 12:30:37",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/2E316151-C53E-4E29-B5CF-0E9C699B92CD.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303688&Signature=7umHKO9hmVsuQWB%2FdfrAp2ylcL4%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/2E316151-C53E-4E29-B5CF-0E9C699B92CD.jpg"
   },
   {
     "uid": "9DC174CD-7A1A-4318-92E6-E9AE17B07C70",
@@ -2212,7 +2212,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/teriyaki-salmon",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/TeriyakiSalmon_Marble.jpg?v=1609246137",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/TeriyakiSalmon_Marble.jpg",
     "photo": "8B0AEF01-71BB-4FF9-8EF3-31DC45908D10.jpg",
     "photo_hash": "F3A655467D198834ED9FD284B09FD1106EFDF8204BFAC585E71E95A643354631",
     "photo_large": "BE66AF84-D067-49E7-846C-DA45573BBFE1.jpg",
@@ -2230,7 +2230,7 @@
     "created": "2026-09-13 12:30:38",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/8B0AEF01-71BB-4FF9-8EF3-31DC45908D10.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303688&Signature=cwLytqPMFQJYcRMDWg5gygz3HJU%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/8B0AEF01-71BB-4FF9-8EF3-31DC45908D10.jpg"
   },
   {
     "uid": "a1336bd3-824e-416f-a979-c8c430ca0c6e",
@@ -2269,7 +2269,7 @@
     "created": "2018-12-21 11:35:25",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/f070e7d5-3afc-479b-b929-306a3f07df60.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303688&Signature=4tNfy1sOItLcHPZ%2FdL2s9lc%2Ff%2BA%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/f070e7d5-3afc-479b-b929-306a3f07df60.jpg"
   },
   {
     "uid": "A2C60984-3BD4-4B31-B5B9-B92D243AD720",
@@ -2291,7 +2291,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/aubergine-teriyaki",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/TeriyakiTofu.jpg?v=1641470458",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/TeriyakiTofu.jpg",
     "photo": "C6B53194-5EBC-43B4-B91B-CD3540176F7F.jpg",
     "photo_hash": "F25B6F4047711E46D19C35B6C781A067C65175147F651BB369A1D08D8004F79B",
     "photo_large": "C6B53194-5EBC-43B4-B91B-CD3540176F7F.jpg",
@@ -2309,7 +2309,7 @@
     "created": "2026-09-13 12:30:38",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/C6B53194-5EBC-43B4-B91B-CD3540176F7F.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303688&Signature=GS2%2BupERe7t9kkECW50Axmt4qCQ%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/C6B53194-5EBC-43B4-B91B-CD3540176F7F.jpg"
   },
   {
     "uid": "A39B77CB-1723-45D1-B84B-91BE873EA963",
@@ -2331,7 +2331,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/provencal-vegetable-pasta",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/red_pesto-2.png?v=1760638520",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/red_pesto-2.png",
     "photo": "9018CC45-FC51-49CE-9A01-BADFD445DB33.jpg",
     "photo_hash": "03FB52AF14B1B5270F75210CEF6DB0C57C7546B655BA7A0F480B9F613B2DC062",
     "photo_large": "9018CC45-FC51-49CE-9A01-BADFD445DB33.jpg",
@@ -2349,7 +2349,7 @@
     "created": "2026-09-13 12:30:39",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/9018CC45-FC51-49CE-9A01-BADFD445DB33.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303688&Signature=FYmLdjk%2BNvHCiCLU5bi4lruc7PI%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/9018CC45-FC51-49CE-9A01-BADFD445DB33.jpg"
   },
   {
     "uid": "A5E06BEE-EE4A-4FFB-9AD9-D1B36A3B96B9",
@@ -2371,7 +2371,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/chicken-paella",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FMChickenPaella.jpg?v=1694619105",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FMChickenPaella.jpg",
     "photo": "30160E57-E3AE-4EFB-B6E1-51BDDEFC79A2.jpg",
     "photo_hash": "F8F89DE48EF547F83C4CE6CB8B748230EE0A96EEF7A6A2464B00F10644FA27F8",
     "photo_large": "30160E57-E3AE-4EFB-B6E1-51BDDEFC79A2.jpg",
@@ -2389,7 +2389,7 @@
     "created": "2026-09-13 12:30:39",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/30160E57-E3AE-4EFB-B6E1-51BDDEFC79A2.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303689&Signature=sxOrw8J%2BRwbcXyHhn4ZXJ1Bm7vI%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/30160E57-E3AE-4EFB-B6E1-51BDDEFC79A2.jpg"
   },
   {
     "uid": "A628E586-15D2-4475-A021-C61A657AC5A9",
@@ -2411,7 +2411,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/smokey-chipotle-meatballs",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/awards-09.png?v=1632832302",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/awards-09.png",
     "photo": "985C2C92-9BB5-485B-8683-6E8AB1179294.jpg",
     "photo_hash": "3606850EC2AE415721A29FE72745D8D4B86A0DEB6ABC4383D4110E88E141EBA4",
     "photo_large": "985C2C92-9BB5-485B-8683-6E8AB1179294.jpg",
@@ -2429,7 +2429,7 @@
     "created": "2026-09-13 12:30:39",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/985C2C92-9BB5-485B-8683-6E8AB1179294.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303689&Signature=0FXgVk6%2BD9Oq75J%2F3q2TZ0TyC1Q%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/985C2C92-9BB5-485B-8683-6E8AB1179294.jpg"
   },
   {
     "uid": "A72D6AE2-07B2-4873-8AD0-E5FF37E38527",
@@ -2451,7 +2451,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/mac-cheese",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/MacandCheesesq.png?v=1663149100",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/MacandCheesesq.png",
     "photo": "58B6C01E-67B4-4569-9334-B60FB50F23B0.jpg",
     "photo_hash": "4D30CEA3A5027F1EF9A4167CB437EF58653ED5EE19C5F4EC24556A1DF0A18F6F",
     "photo_large": "58B6C01E-67B4-4569-9334-B60FB50F23B0.jpg",
@@ -2469,7 +2469,7 @@
     "created": "2026-09-13 12:30:40",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/58B6C01E-67B4-4569-9334-B60FB50F23B0.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303689&Signature=PMdjlmUt49%2FbaQ3COzUViKudtdA%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/58B6C01E-67B4-4569-9334-B60FB50F23B0.jpg"
   },
   {
     "uid": "a78d2881-fb5a-432c-986d-615cf8a52ad1",
@@ -2509,7 +2509,7 @@
     "created": "2017-08-26 09:06:27",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/b0ba8e71-f90f-4b45-8425-b8c37d807572.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303689&Signature=zPb4g3tJVQ9zMee4ToEUCjJFYvc%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/b0ba8e71-f90f-4b45-8425-b8c37d807572.jpg"
   },
   {
     "uid": "a82c8417-4a2a-498c-8e13-f05a8f5fa623",
@@ -2549,7 +2549,7 @@
     "created": "2026-08-23 15:42:23",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/35af2e8b-b145-432b-9f15-4a706d2d6126.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303689&Signature=1Z9LVRDcFwEo6maEKDxEjPx%2Ft8o%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/35af2e8b-b145-432b-9f15-4a706d2d6126.jpg"
   },
   {
     "uid": "a84ac4e1-08ab-4c8d-98e2-70ea2ec15c3b",
@@ -2589,7 +2589,7 @@
     "created": "2018-11-23 23:16:40",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/e507974e-20fd-45d6-a768-c1c1ebd221b2.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303689&Signature=X99ecrpsZqzb4zaz0Xw94NWBSa4%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/e507974e-20fd-45d6-a768-c1c1ebd221b2.jpg"
   },
   {
     "uid": "AAB8D023-C116-4402-A957-5BFF00C2DF39",
@@ -2629,7 +2629,7 @@
     "created": "2023-03-09 19:49:20",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/9123CA94-2B1E-4E14-9C2D-04A62889F316.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303689&Signature=uT%2Bx29fQGG6NkLsxpJLsUIA%2FQDM%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/9123CA94-2B1E-4E14-9C2D-04A62889F316.jpg"
   },
   {
     "uid": "aac5862d-7ac5-45c9-9a54-05a9a626b188",
@@ -2651,7 +2651,7 @@
     "total_minutes": null,
     "source": "Bbcgoodfood.com",
     "source_url": "https://www.bbcgoodfood.com/recipes/gluten-free-lemon-drizzle-cake",
-    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-363662_11-2f88b3c.jpg?quality=90&resize=440,400",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-363662_11-2f88b3c.jpg",
     "photo": "e54727d4-aa70-4f7d-a1dc-b95aeb426548.jpg",
     "photo_hash": "e0e34f644e9015c7020784313c2ac46e4540c70b75f549dac3adce4fe4bb30ba",
     "photo_large": null,
@@ -2668,7 +2668,7 @@
     "created": "2024-09-14 13:56:06",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/e54727d4-aa70-4f7d-a1dc-b95aeb426548.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303689&Signature=H1BCY%2Fpm3sXKB8sHCt4MtXsmq4c%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/e54727d4-aa70-4f7d-a1dc-b95aeb426548.jpg"
   },
   {
     "uid": "AAE2812C-F09C-4707-9943-DCB3599C4A66",
@@ -2708,7 +2708,7 @@
     "created": "2026-09-13 12:43:38",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/83C6D91B-E4F7-4F07-B7CE-74A5DA9E532C.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303690&Signature=1B84NWrce%2Bf0owhEG8T69pDVFRA%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/83C6D91B-E4F7-4F07-B7CE-74A5DA9E532C.jpg"
   },
   {
     "uid": "b116e8e8-25c9-4eb2-b154-a888dda41c89",
@@ -2747,7 +2747,7 @@
     "created": "2016-12-03 20:03:42",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/fde8d230-5738-4461-9064-4c84a80a01c1.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303690&Signature=zdVroITLbADtfIxfH01owpwKaZ4%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/fde8d230-5738-4461-9064-4c84a80a01c1.jpg"
   },
   {
     "uid": "b404c1b6-7235-4bd5-809b-aece42884eed",
@@ -2787,7 +2787,7 @@
     "created": "2019-07-21 19:50:12",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/06c2dbef-461f-425a-a74f-cd2b0554c76a.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303690&Signature=L0JSJxEo4veazr82aDcmxWQt8yQ%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/06c2dbef-461f-425a-a74f-cd2b0554c76a.jpg"
   },
   {
     "uid": "b60001ca-706a-4ac6-8ed3-60013dc2b552",
@@ -2827,7 +2827,7 @@
     "created": "2019-03-16 11:08:14",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/80cc8cb9-76ec-4eb4-a649-7053000a439c.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303690&Signature=9zPwEv631H56YIZ15cvo8gg%2FYFE%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/80cc8cb9-76ec-4eb4-a649-7053000a439c.jpg"
   },
   {
     "uid": "B7A0C22C-577B-481B-AF69-28FAF466D2F1",
@@ -2849,7 +2849,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/fish-pie-low-fodmap",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FishPie_1.jpg?v=1701865728",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FishPie_1.jpg",
     "photo": "FA6B1547-7341-4551-B7F6-D31D85734616.jpg",
     "photo_hash": "3D8E9CD3F3837C9125CEEE8656677B6A431448FB3796B1D9362A8C6282D8A218",
     "photo_large": "FA6B1547-7341-4551-B7F6-D31D85734616.jpg",
@@ -2867,7 +2867,7 @@
     "created": "2026-09-13 12:30:41",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/FA6B1547-7341-4551-B7F6-D31D85734616.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303690&Signature=1d2sEu3%2FD9gCOB%2BCzE7kqK2E1L8%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/FA6B1547-7341-4551-B7F6-D31D85734616.jpg"
   },
   {
     "uid": "bb1b3ddd-3f70-41fc-ada9-dd3a4c75ebba",
@@ -2909,7 +2909,7 @@
     "created": "2025-01-10 15:59:45",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/92766e98-78bc-4d7c-a6d2-b4346995a22c.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303690&Signature=KHlAre5PCUnTUtT%2BReD2hzFb7yU%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/92766e98-78bc-4d7c-a6d2-b4346995a22c.jpg"
   },
   {
     "uid": "C261839C-A66A-4AC6-8907-B73ED9526D8A",
@@ -2931,7 +2931,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/chilli-con-carne",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/ChilliConCarneLF.jpg?v=1675933499",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/ChilliConCarneLF.jpg",
     "photo": "63081F4F-F224-4622-8243-A0BB31DE4918.jpg",
     "photo_hash": "D0F36DC4F246B2994CEE351FF90D2253CEC7C9F4C11B9244868CCDF7421ECFA7",
     "photo_large": "63081F4F-F224-4622-8243-A0BB31DE4918.jpg",
@@ -2949,7 +2949,7 @@
     "created": "2026-09-13 12:30:41",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/63081F4F-F224-4622-8243-A0BB31DE4918.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303690&Signature=dEaEN8U3Git2HeItgjUb%2FLOzU6U%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/63081F4F-F224-4622-8243-A0BB31DE4918.jpg"
   },
   {
     "uid": "c38f05b5-dde4-48ea-a0d2-190736740d9b",
@@ -2988,7 +2988,7 @@
     "created": "2022-01-07 23:36:26",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/3c2f8344-4da7-402b-85a9-7c5fb9451848.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303690&Signature=u1lTXspFwJt0ZeCYX4RM6EcWiTQ%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/3c2f8344-4da7-402b-85a9-7c5fb9451848.jpg"
   },
   {
     "uid": "c55c21c4-1cb4-4857-a455-8b7448d9d7ad",
@@ -3010,7 +3010,7 @@
     "total_minutes": null,
     "source": "Cooklowfodmap.com",
     "source_url": "https://cooklowfodmap.com/low-fodmap-veggie-chilli/",
-    "image_url": "https://i0.wp.com/cooklowfodmap.com/wp-content/uploads/2015/01/veggie-chilli.jpg?w=800&ssl=1",
+    "image_url": "https://i0.wp.com/cooklowfodmap.com/wp-content/uploads/2015/01/veggie-chilli.jpg",
     "photo": "1bfa5153-b3a8-493c-be7e-251b81ebc263.jpg",
     "photo_hash": "8bff5b693fa1976303714d2c09273336dbc44e7fa513a020499341a1ca3ac4b2",
     "photo_large": null,
@@ -3030,7 +3030,7 @@
     "created": "2023-12-09 15:21:28",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/1bfa5153-b3a8-493c-be7e-251b81ebc263.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303691&Signature=iBuseFIKnQBByPs75BADdq%2BqdFQ%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/1bfa5153-b3a8-493c-be7e-251b81ebc263.jpg"
   },
   {
     "uid": "CA7A0E87-31B6-4DA8-A80F-E2584EA973DB",
@@ -3052,7 +3052,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/coq-au-vin",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/CoqauVin.jpg?v=1643022916",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/CoqauVin.jpg",
     "photo": "6AFEEB9D-E12E-4F20-90B1-40C05DCB9133.jpg",
     "photo_hash": "434B5D471043ED2E4C8968F2DE0D81BA6E747451B953FC2D942F9508F3933039",
     "photo_large": "6AFEEB9D-E12E-4F20-90B1-40C05DCB9133.jpg",
@@ -3070,7 +3070,7 @@
     "created": "2026-09-13 12:30:42",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/6AFEEB9D-E12E-4F20-90B1-40C05DCB9133.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303691&Signature=eUjFWmIizWWSvncJbBj9prLhNgI%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/6AFEEB9D-E12E-4F20-90B1-40C05DCB9133.jpg"
   },
   {
     "uid": "d20e2ed3-4e47-4910-bc3a-6371cafac695",
@@ -3092,7 +3092,7 @@
     "total_minutes": null,
     "source": "Casadesante.com",
     "source_url": "https://casadesante.com/en-eu/blogs/low-fodmap-meal-plans-low-fodmap-recipes/low-fodmap-slow-cooker-instant-pot-vegan-butternut-squash-soup-recipe?utm_source=pinterest&utm_medium=social",
-    "image_url": "https://casadesante.com/cdn/shop/articles/2749857822.jpg?v=1698100282",
+    "image_url": "https://casadesante.com/cdn/shop/articles/2749857822.jpg",
     "photo": "fb4b30b5-59af-4b78-8df0-eb3b22a1be0c.jpg",
     "photo_hash": "e85fbfaaf78adb9acfe9594d9900ec45d8ff48d9d33cecb6714f9e8b04c89b55",
     "photo_large": null,
@@ -3111,7 +3111,7 @@
     "created": "2023-12-09 14:21:49",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/fb4b30b5-59af-4b78-8df0-eb3b22a1be0c.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303691&Signature=f7yNa9Ah4IWcVIaWgA7lL0XVAqs%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/fb4b30b5-59af-4b78-8df0-eb3b22a1be0c.jpg"
   },
   {
     "uid": "da90e979-9194-4cd9-a127-f4ff9912c48e",
@@ -3151,7 +3151,7 @@
     "created": "2024-09-14 14:08:36",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/80c78a2a-21b9-406f-a9e0-9db9e6630d13.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303691&Signature=bQyt20df1cGWMgflf7ikOoZJluw%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/80c78a2a-21b9-406f-a9e0-9db9e6630d13.jpg"
   },
   {
     "uid": "DAB18D1D-E031-4A92-BFD9-8DB4451C4A78",
@@ -3173,7 +3173,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/chicken-tikka-masala-low-fodmap",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/award_winners.png?v=1759245838",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/award_winners.png",
     "photo": "9E92F359-6B75-4C29-A6E7-9D8CA0D23D8F.jpg",
     "photo_hash": "09B2F54462EF5951A7B4ADD7EEA5B24346332A8A2BDD1B0A4C20B28470B7DDAC",
     "photo_large": "9E92F359-6B75-4C29-A6E7-9D8CA0D23D8F.jpg",
@@ -3191,7 +3191,7 @@
     "created": "2026-09-13 12:30:43",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/9E92F359-6B75-4C29-A6E7-9D8CA0D23D8F.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303691&Signature=ephToKvadsrqkdtO8Dw%2B2hOIl5Y%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/9E92F359-6B75-4C29-A6E7-9D8CA0D23D8F.jpg"
   },
   {
     "uid": "e2a221f0-b2b2-4c87-8eb8-a788f87bdac4",
@@ -3213,7 +3213,7 @@
     "total_minutes": null,
     "source": "Fielddoctor.co.uk",
     "source_url": "https://www.fielddoctor.co.uk/collections/low-fodmap/products/beef-ragu-penne?variant=37784841846961",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/Bolognese_Marble_2100x.jpg?v=1609237284",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/Bolognese_Marble_2100x.jpg",
     "photo": "ef2724ba-a9a7-44e8-bd9f-4b8ab0b651f3.jpg",
     "photo_hash": "a115d24a80efab39d8f7570690e4efca39e818a690adc510c015eca42c719ca8",
     "photo_large": null,
@@ -3230,7 +3230,7 @@
     "created": "2026-09-13 13:12:57",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/ef2724ba-a9a7-44e8-bd9f-4b8ab0b651f3.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303691&Signature=Nq3Qlo9zvp0QA5yF0CwbQhDI4ZA%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/ef2724ba-a9a7-44e8-bd9f-4b8ab0b651f3.jpg"
   },
   {
     "uid": "E47DB200-625A-488F-AA9B-1E4A7EBB3178",
@@ -3252,7 +3252,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/beef-ragu-penne",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/Beefragunourishaward.jpg?v=1701872831",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/Beefragunourishaward.jpg",
     "photo": "8F4F6488-6B40-4209-9E0A-E4F5D2A6F023.jpg",
     "photo_hash": "8AF1A87AA23CD0C74724413062AF88BA3A6E46AA1212CFBD45C9621E7A9622B3",
     "photo_large": "8F4F6488-6B40-4209-9E0A-E4F5D2A6F023.jpg",
@@ -3270,7 +3270,7 @@
     "created": "2026-09-13 12:30:43",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/8F4F6488-6B40-4209-9E0A-E4F5D2A6F023.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303691&Signature=GvTB8HOJiEfsgLfT7m9dL0wX9HQ%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/8F4F6488-6B40-4209-9E0A-E4F5D2A6F023.jpg"
   },
   {
     "uid": "E95A0A23-E6CE-4107-89ED-ECF0176134D9",
@@ -3292,7 +3292,7 @@
     "total_minutes": null,
     "source": "Soulfulvegancooking.com",
     "source_url": "https://soulfulvegancooking.com/2024/02/11/zucchini-and-carrot-fritters/",
-    "image_url": "https://soulfulvegancooking.com/wp-content/uploads/2024/01/img_5828.jpg?w=225",
+    "image_url": "https://soulfulvegancooking.com/wp-content/uploads/2024/01/img_5828.jpg",
     "photo": "C269140D-E921-456B-AF01-91C895D68FF6.jpg",
     "photo_hash": "84D6CECBB6B5D90DA2EA575322D6C95EF0E5B70966ABFF74FE6F233594AB10C3",
     "photo_large": null,
@@ -3309,7 +3309,7 @@
     "created": "2025-08-04 11:47:05",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/C269140D-E921-456B-AF01-91C895D68FF6.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303692&Signature=ekup2oQ13oHzlQsj1CQtf5kParQ%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/C269140D-E921-456B-AF01-91C895D68FF6.jpg"
   },
   {
     "uid": "ea3fb612-bc83-4e83-8457-b9ef84806721",
@@ -3349,7 +3349,7 @@
     "created": "2018-12-16 20:20:55",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/a788e876-f207-4853-827a-27975f2dce64.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303692&Signature=16sEL6nFdap%2BZqtfpNSK5DlonKk%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/a788e876-f207-4853-827a-27975f2dce64.jpg"
   },
   {
     "uid": "eee3e8e0-77c7-42d6-af0a-902dc6003f02",
@@ -3390,7 +3390,7 @@
     "created": "2025-01-10 16:01:50",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/f3d46300-9d49-4fff-a0e8-cbc3c8685ea5.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303692&Signature=HbXKV802BWrqGAMAnnsdMpAj6mc%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/f3d46300-9d49-4fff-a0e8-cbc3c8685ea5.jpg"
   },
   {
     "uid": "EEF79EB8-B646-4A53-9CFE-DF6B130FDCB7",
@@ -3412,7 +3412,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/chicken-pad-thai",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/PadThai.jpg?v=1620980377",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/PadThai.jpg",
     "photo": "066BEF82-D60B-4E64-84D8-27380CB4F865.jpg",
     "photo_hash": "650FF7F83CBA84B79D9123A1A3D2DD402095A2A9AECF1DA287F2428FFF447F9F",
     "photo_large": "066BEF82-D60B-4E64-84D8-27380CB4F865.jpg",
@@ -3430,7 +3430,7 @@
     "created": "2026-09-13 12:30:44",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/066BEF82-D60B-4E64-84D8-27380CB4F865.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303692&Signature=Kw7MRvPcGkoW6dKJlMfehhptoDs%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/066BEF82-D60B-4E64-84D8-27380CB4F865.jpg"
   },
   {
     "uid": "F082C41D-6265-442F-84F9-A313BF57161F-320-000000B35E431483",
@@ -3469,7 +3469,7 @@
     "created": "2017-03-18 21:00:52",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/4929AFDF-8416-4706-8861-032FF7875C55-320-000000B35E44B8D1.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303692&Signature=NHHCV0RNCvcPpCcO9u2M%2BpwRCyM%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/4929AFDF-8416-4706-8861-032FF7875C55-320-000000B35E44B8D1.jpg"
   },
   {
     "uid": "f102bf23-5972-4a35-b97b-81be6bbc4766",
@@ -3509,7 +3509,7 @@
     "created": "2024-09-14 14:25:44",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/c7d112b5-1b54-436c-8d37-741f5ae27adf.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303692&Signature=z0y5C2cKGhpyEfXCN9R6%2F0v07Yc%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/c7d112b5-1b54-436c-8d37-741f5ae27adf.jpg"
   },
   {
     "uid": "f69e94f3-64b4-4983-84ee-7c6ce010f095",
@@ -3550,7 +3550,7 @@
     "created": "2023-12-09 14:26:38",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/29bab3de-2970-44d3-9d1a-45ecc0cbec17.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303692&Signature=5HXtoMcKqrBgb7prMtFXw3snVH0%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/29bab3de-2970-44d3-9d1a-45ecc0cbec17.jpg"
   },
   {
     "uid": "f6b19d96-ff01-4de0-8855-be85ffa146d2",
@@ -3590,7 +3590,7 @@
     "created": "2024-09-14 14:12:58",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/36f26947-6ea1-40c5-a533-961b67f2d6c4.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303692&Signature=SRxJju55Fe8e4MXdMjH8iFAlpUQ%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/36f26947-6ea1-40c5-a533-961b67f2d6c4.jpg"
   },
   {
     "uid": "f94fcc6d-0170-441d-bc75-20974b38bf87",
@@ -3631,7 +3631,7 @@
     "created": "2024-09-14 14:06:02",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/5ff76c7a-b006-494b-b942-3424757f0f5e.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303693&Signature=4FuMFNAW0tE3Ah%2F5x8KH57N%2BkCA%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/5ff76c7a-b006-494b-b942-3424757f0f5e.jpg"
   },
   {
     "uid": "fcbb3aee-8912-4037-aa49-c37bfd4f773b",
@@ -3668,7 +3668,7 @@
     "created": "2026-05-03 10:37:20",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/227adf6f-8533-4262-991f-0015b4c3f506.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303693&Signature=Yl6f7lusfGMghTxWZLXUnzTMOms%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/227adf6f-8533-4262-991f-0015b4c3f506.jpg"
   },
   {
     "uid": "FFFAA87E-280F-45E4-9D43-F1BC3D0FFE0F",
@@ -3690,7 +3690,7 @@
     "total_minutes": null,
     "source": "Field Doctor (inspired recreation)",
     "source_url": "https://www.fielddoctor.co.uk/products/chickpea-masala-curry-low-fodmap",
-    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FOD_ChickpeaMasalaCurry.jpg?v=1756369571",
+    "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/FOD_ChickpeaMasalaCurry.jpg",
     "photo": "166D63D9-1622-4501-824D-432A6801DFA5.jpg",
     "photo_hash": "F8A8EED3CB0DF94706E7E3F6748FD314FE7A28ABCF4B9331AE7B002DB403D3B2",
     "photo_large": "166D63D9-1622-4501-824D-432A6801DFA5.jpg",
@@ -3708,6 +3708,6 @@
     "created": "2026-09-13 12:30:45",
     "cookbook_uid": null,
     "metadata_version": null,
-    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/166D63D9-1622-4501-824D-432A6801DFA5.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303693&Signature=n%2BbXUOUhkrhaci8Q6ZK9lWlWJaU%3D"
+    "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/166D63D9-1622-4501-824D-432A6801DFA5.jpg"
   }
 ]

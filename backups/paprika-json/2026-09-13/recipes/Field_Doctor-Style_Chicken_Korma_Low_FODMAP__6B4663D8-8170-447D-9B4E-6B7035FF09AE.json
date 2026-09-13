@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Field Doctor (inspired recreation)",
   "source_url": "https://www.fielddoctor.co.uk/products/aromatic-chicken-curry",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/ChickenCurrygreen.jpg?v=1662015577",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/ChickenCurrygreen.jpg",
   "photo": "FFE3EF5C-534B-4D4B-81D0-8B88E59AAFBE.jpg",
   "photo_hash": "BE5E2E89379AB01C91BBDE349F2BC5F79E9A2BA0ACF97BD64C93BEC87CBDD33F",
   "photo_large": "FFE3EF5C-534B-4D4B-81D0-8B88E59AAFBE.jpg",
@@ -36,5 +36,5 @@
   "created": "2026-09-13 12:30:35",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/FFE3EF5C-534B-4D4B-81D0-8B88E59AAFBE.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303686&Signature=HRBEhgowdyZq9PvmkTa4HVwcpEI%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/FFE3EF5C-534B-4D4B-81D0-8B88E59AAFBE.jpg"
 }

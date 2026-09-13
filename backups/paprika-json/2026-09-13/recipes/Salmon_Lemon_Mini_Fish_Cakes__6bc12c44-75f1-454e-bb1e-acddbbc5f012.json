@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Bbcgoodfood.com",
   "source_url": "https://www.bbcgoodfood.com/recipes/salmon-lemon-mini-fish-cakes",
-  "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-4451_12-235a9b1.jpg?quality=90&resize=440,400",
+  "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-4451_12-235a9b1.jpg",
   "photo": "e72c87e3-9171-4573-bd87-0d582390f9cf.jpg",
   "photo_hash": "eeab502b7342371a025fd1216adb1da396e88c2072e38090d4f81dc79dae736c",
   "photo_large": null,
@@ -37,5 +37,5 @@
   "created": "2024-09-14 13:49:09",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/e72c87e3-9171-4573-bd87-0d582390f9cf.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303686&Signature=KnRYeWcBVJcf0lk%2FjPNLMw8t78U%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/e72c87e3-9171-4573-bd87-0d582390f9cf.jpg"
 }

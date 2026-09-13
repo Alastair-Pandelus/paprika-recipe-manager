@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Field Doctor (inspired recreation)",
   "source_url": "https://www.fielddoctor.co.uk/products/aubergine-teriyaki",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/TeriyakiTofu.jpg?v=1641470458",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/TeriyakiTofu.jpg",
   "photo": "C6B53194-5EBC-43B4-B91B-CD3540176F7F.jpg",
   "photo_hash": "F25B6F4047711E46D19C35B6C781A067C65175147F651BB369A1D08D8004F79B",
   "photo_large": "C6B53194-5EBC-43B4-B91B-CD3540176F7F.jpg",
@@ -36,5 +36,5 @@
   "created": "2026-09-13 12:30:38",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/C6B53194-5EBC-43B4-B91B-CD3540176F7F.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303688&Signature=GS2%2BupERe7t9kkECW50Axmt4qCQ%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/C6B53194-5EBC-43B4-B91B-CD3540176F7F.jpg"
 }

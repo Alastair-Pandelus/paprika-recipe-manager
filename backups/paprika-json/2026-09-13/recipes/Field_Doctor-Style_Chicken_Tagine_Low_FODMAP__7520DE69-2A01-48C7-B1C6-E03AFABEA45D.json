@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Field Doctor (inspired recreation)",
   "source_url": "https://www.fielddoctor.co.uk/products/aromatic-chicken-tagine",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/chicken_tagine_NN-2.png?v=1739274215",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/files/chicken_tagine_NN-2.png",
   "photo": "3F81FD65-7D7D-40DD-96AB-BCD02A5674C7.jpg",
   "photo_hash": "12A0D47351BCEA5D5783CAFF7E8B1CA117F2A1DFEB99EEBAC5841573D52A858B",
   "photo_large": "3F81FD65-7D7D-40DD-96AB-BCD02A5674C7.jpg",
@@ -36,5 +36,5 @@
   "created": "2026-09-13 12:30:36",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/3F81FD65-7D7D-40DD-96AB-BCD02A5674C7.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303686&Signature=H0qcJds%2BrVPEZmpfB08Ka%2BBbyRM%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/3F81FD65-7D7D-40DD-96AB-BCD02A5674C7.jpg"
 }

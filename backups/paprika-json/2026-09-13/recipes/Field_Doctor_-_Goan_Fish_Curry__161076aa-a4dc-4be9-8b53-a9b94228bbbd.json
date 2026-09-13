@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Fielddoctor.co.uk",
   "source_url": "https://www.fielddoctor.co.uk/products/goan-fish-curry?utm_source=google&utm_medium=cpc&utm_campaign=&utm_keyword=&gclid=EAIaIQobChMIt_iC9JnB9gIVEgeRCh0-8QyJEAAYASAAEgIbePD_BwE&variant=37784871469233",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/awards-06_2100x.png?v=1632835672",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/awards-06_2100x.png",
   "photo": "925be853-5b16-4b4b-b129-7c9cd060bd63.jpg",
   "photo_hash": "c9c5cc49dde58e2419de4c590cd47b16f017474377197d840305e5ef20f20a7d",
   "photo_large": null,
@@ -35,5 +35,5 @@
   "created": "2022-03-12 18:29:39",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/925be853-5b16-4b4b-b129-7c9cd060bd63.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303682&Signature=hP0eZppYDSW5HoTlcuPYYeuh1qQ%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/925be853-5b16-4b4b-b129-7c9cd060bd63.jpg"
 }

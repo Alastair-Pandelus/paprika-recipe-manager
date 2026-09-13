@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Fielddoctor.co.uk",
   "source_url": "https://www.fielddoctor.co.uk/products/seafood-spinach-paella?variant=42174917050623",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/SeafoodRisottoPlated_2100x.jpg?v=1641475494",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/SeafoodRisottoPlated_2100x.jpg",
   "photo": "b961add4-106f-40d9-a0e5-3b3daa4ed5e2.jpg",
   "photo_hash": "d137acfc46299bd25c197211cd99bb913c4e9b9bf633143b31ecdc9464377fa6",
   "photo_large": null,
@@ -35,5 +35,5 @@
   "created": "2022-04-18 16:14:33",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/b961add4-106f-40d9-a0e5-3b3daa4ed5e2.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303684&Signature=2iH7BtbYOM5fgycNJSj%2FRppwaIc%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/b961add4-106f-40d9-a0e5-3b3daa4ed5e2.jpg"
 }

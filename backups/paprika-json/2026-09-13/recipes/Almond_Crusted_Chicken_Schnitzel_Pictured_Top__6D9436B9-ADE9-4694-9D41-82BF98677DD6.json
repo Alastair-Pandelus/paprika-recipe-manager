@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Theguardian.com",
   "source_url": "https://www.theguardian.com/food/2025/oct/27/harissa-baked-hake-chicken-schnitzel-recipes-ravinder-bhogal",
-  "image_url": "https://i.guim.co.uk/img/media/e0f4ff106ecd59f3b2eaefc41a9ed40d6666ab04/67_409_3673_4586/master/3673.jpg?width=465&dpr=1&s=none&crop=none",
+  "image_url": "https://i.guim.co.uk/img/media/e0f4ff106ecd59f3b2eaefc41a9ed40d6666ab04/67_409_3673_4586/master/3673.jpg",
   "photo": "4AD8DD2F-4F65-4F40-8DD7-D785E82C64AA.jpg",
   "photo_hash": "052499A74C019CA9AC9A207080FB7F816C8A6DFC20119C144E642F8062C308F0",
   "photo_large": null,
@@ -33,5 +33,5 @@
   "created": "2025-10-27 16:16:57",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/4AD8DD2F-4F65-4F40-8DD7-D785E82C64AA.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303686&Signature=PEx4QiSEEvYbBEbmuC%2FreHiOC1U%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/212797/4AD8DD2F-4F65-4F40-8DD7-D785E82C64AA.jpg"
 }

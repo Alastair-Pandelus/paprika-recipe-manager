@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Field Doctor (inspired recreation)",
   "source_url": "https://www.fielddoctor.co.uk/products/peri-peri-chicken",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/PiriPiriChicken.jpg?v=1663313279",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/PiriPiriChicken.jpg",
   "photo": "1BA35CB8-AA12-4381-BB7F-C8EAA2B28992.jpg",
   "photo_hash": "70DDFED3FF6472ED8EB1583BC8E28ADD95CD999951C2FF67D01468B5DF269F6A",
   "photo_large": "1BA35CB8-AA12-4381-BB7F-C8EAA2B28992.jpg",
@@ -36,5 +36,5 @@
   "created": "2026-09-13 12:30:33",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/1BA35CB8-AA12-4381-BB7F-C8EAA2B28992.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303684&Signature=PJbVfrDztQM8mliV398E03UWftc%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/1BA35CB8-AA12-4381-BB7F-C8EAA2B28992.jpg"
 }

@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Field Doctor (inspired recreation)",
   "source_url": "https://www.fielddoctor.co.uk/products/chicken-pad-thai",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/PadThai.jpg?v=1620980377",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/PadThai.jpg",
   "photo": "066BEF82-D60B-4E64-84D8-27380CB4F865.jpg",
   "photo_hash": "650FF7F83CBA84B79D9123A1A3D2DD402095A2A9AECF1DA287F2428FFF447F9F",
   "photo_large": "066BEF82-D60B-4E64-84D8-27380CB4F865.jpg",
@@ -36,5 +36,5 @@
   "created": "2026-09-13 12:30:44",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/066BEF82-D60B-4E64-84D8-27380CB4F865.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303692&Signature=Kw7MRvPcGkoW6dKJlMfehhptoDs%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/066BEF82-D60B-4E64-84D8-27380CB4F865.jpg"
 }

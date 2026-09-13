@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Field Doctor (inspired recreation)",
   "source_url": "https://www.fielddoctor.co.uk/products/chickpea-tagine",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/AromacticChickpea.jpg?v=1636985187",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/AromacticChickpea.jpg",
   "photo": "4D7E8B2B-66A5-4981-8D36-FFF883350997.jpg",
   "photo_hash": "A203A61702424BB5C548F324F6C2198D9D3D18BBC0A4D87D7CEBF8B8A463C153",
   "photo_large": "4D7E8B2B-66A5-4981-8D36-FFF883350997.jpg",
@@ -36,5 +36,5 @@
   "created": "2026-09-13 12:30:33",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/4D7E8B2B-66A5-4981-8D36-FFF883350997.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303684&Signature=ZI5%2FmOUGwnQ6fRLTCmzI0qUSoNY%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/4D7E8B2B-66A5-4981-8D36-FFF883350997.jpg"
 }

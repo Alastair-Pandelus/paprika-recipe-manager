@@ -18,7 +18,7 @@
   "total_minutes": null,
   "source": "Field Doctor (inspired recreation)",
   "source_url": "https://www.fielddoctor.co.uk/products/coq-au-vin",
-  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/CoqauVin.jpg?v=1643022916",
+  "image_url": "https://cdn.shopify.com/s/files/1/0271/2662/8450/products/CoqauVin.jpg",
   "photo": "6AFEEB9D-E12E-4F20-90B1-40C05DCB9133.jpg",
   "photo_hash": "434B5D471043ED2E4C8968F2DE0D81BA6E747451B953FC2D942F9508F3933039",
   "photo_large": "6AFEEB9D-E12E-4F20-90B1-40C05DCB9133.jpg",
@@ -36,5 +36,5 @@
   "created": "2026-09-13 12:30:42",
   "cookbook_uid": null,
   "metadata_version": null,
-  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/6AFEEB9D-E12E-4F20-90B1-40C05DCB9133.jpg?AWSAccessKeyId=AKIAQ656ARCHKEP3RMYH&Expires=1789303691&Signature=eUjFWmIizWWSvncJbBj9prLhNgI%3D"
+  "photo_url": "http://s3.amazonaws.com/uploads.paprikaapp.com/6b7dfb47-cd0c-488c-97df-1fd6ed4a6ed5/6AFEEB9D-E12E-4F20-90B1-40C05DCB9133.jpg"
 }
