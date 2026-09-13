@@ -1,0 +1,21 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Optional: uncomment if JSON dumps get too large for GitHub
+# backups/paprika-json/**/recipes_all.json
+# backups/paprika-json/**/recipes/

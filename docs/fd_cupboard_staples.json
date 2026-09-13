@@ -1,0 +1,700 @@
+{
+  "recipe_count": 34,
+  "items": [
+    {
+      "key": "tapioca flour / starch",
+      "category": "Thickeners & flours",
+      "count": 21,
+      "recipes": [
+        "Beef Bolognese + Penne",
+        "Chicken Korma",
+        "Chicken Paella",
+        "Chicken Tikka Masala",
+        "Chickpea Masala Curry",
+        "Chilli Con Carne",
+        "Coq au Vin",
+        "Cottage Pie",
+        "Field Green Risotto",
+        "Fish Pie",
+        "Italian Beef Meatballs",
+        "Low FODMAP Mac + Cheese",
+        "Moroccan Chickpea Tagine",
+        "Piri Piri Chicken",
+        "Potato Topped Chicken Pie",
+        "Red Pesto + Roasted Vegetable Penne",
+        "Smokey Chipotle Meatballs",
+        "Teriyaki Salmon + Whole Grain Rice",
+        "Teriyaki Tofu",
+        "Vegetable Korma",
+        "Veggie Bean Chilli"
+      ],
+      "labels": [
+        "Tapioca Starch"
+      ]
+    },
+    {
+      "key": "sea salt",
+      "category": "Salt & pepper",
+      "count": 17,
+      "recipes": [
+        "Beef Bolognese + Penne",
+        "Cherry + Chocolate Porridge",
+        "Chicken Korma",
+        "Chickpea Masala Curry",
+        "Chilli Con Carne",
+        "Cinnamon Porridge",
+        "Cottage Pie",
+        "Field Green Risotto",
+        "Fish Pie",
+        "Italian Beef Meatballs",
+        "Moroccan Chickpea Tagine",
+        "No Sugar Banana Porridge",
+        "Original Porridge",
+        "Red Pesto + Roasted Vegetable Penne",
+        "Smokey Chipotle Meatballs",
+        "Vegetable Korma",
+        "Veggie Bean Chilli"
+      ],
+      "labels": [
+        "Sea Salt"
+      ]
+    },
+    {
+      "key": "tomato puree",
+      "category": "Condiments & sauces",
+      "count": 15,
+      "recipes": [
+        "Beef Bolognese + Penne",
+        "Chicken Paella",
+        "Chicken Tagine",
+        "Chicken Tikka Masala",
+        "Chickpea Masala Curry",
+        "Chilli Con Carne",
+        "Coq au Vin",
+        "Cottage Pie",
+        "Italian Beef Meatballs",
+        "Moroccan Chickpea Tagine",
+        "Piri Piri Chicken",
+        "Red Pesto + Roasted Vegetable Penne",
+        "Smokey Chipotle Meatballs",
+        "Vegetable Korma",
+        "Veggie Bean Chilli"
+      ],
+      "labels": [
+        "Tomato Puree"
+      ]
+    },
+    {
+      "key": "chives (fresh pack)",
+      "category": "Herbs (fresh / pack)",
+      "count": 15,
+      "recipes": [
+        "Beef Bolognese + Penne",
+        "Chicken + Green Vegetable Risotto",
+        "Chicken Pad Thai",
+        "Cottage Pie",
+        "Field Green Risotto",
+        "Fish Pie",
+        "Italian Beef Meatballs",
+        "Low FODMAP Mac + Cheese",
+        "Moroccan Chickpea Tagine",
+        "Red Pesto + Roasted Vegetable Penne",
+        "Smokey Chipotle Meatballs",
+        "Teriyaki Salmon + Whole Grain Rice",
+        "Teriyaki Tofu",
+        "Thai Green Chicken Curry",
+        "Veggie Bean Chilli"
+      ],
+      "labels": [
+        "Chives"
+      ]
+    },
+    {
+      "key": "mixed herbs",
+      "category": "Herbs (dried)",
+      "count": 12,
+      "recipes": [
+        "Beef Bolognese + Penne",
+        "Chicken Paella",
+        "Chilli Con Carne",
+        "Cottage Pie",
+        "Field Green Risotto",
+        "Fish Pie",
+        "Italian Beef Meatballs",
+        "Low FODMAP Mac + Cheese",
+        "Piri Piri Chicken",
+        "Potato Topped Chicken Pie",
+        "Red Pesto + Roasted Vegetable Penne",
+        "Smokey Chipotle Meatballs"
+      ],
+      "labels": [
+        "Mixed Herbs"
+      ]
+    },
+    {
+      "key": "paprika (smoked / sweet noble)",
+      "category": "Spices",
+      "count": 12,
+      "recipes": [
+        "Beef Bolognese + Penne",
+        "Chicken Korma",
+        "Chicken Tikka Masala",
+        "Chickpea Masala Curry",
+        "Chilli Con Carne",
+        "Italian Beef Meatballs",
+        "Low FODMAP Mac + Cheese",
+        "Moroccan Chickpea Tagine",
+        "Piri Piri Chicken",
+        "Red Pesto + Roasted Vegetable Penne",
+        "Smokey Chipotle Meatballs",
+        "Veggie Bean Chilli"
+      ],
+      "labels": [
+        "Smoked Paprika",
+        "Sweet Noble Paprika"
+      ]
+    },
+    {
+      "key": "brown sugar",
+      "category": "Sweeteners",
+      "count": 12,
+      "recipes": [
+        "Cherry + Chocolate Porridge",
+        "Chicken Korma",
+        "Chicken Pad Thai",
+        "Chicken Tikka Masala",
+        "Chickpea Masala Curry",
+        "Cinnamon Porridge",
+        "Original Porridge",
+        "Piri Piri Chicken",
+        "Teriyaki Salmon + Whole Grain Rice",
+        "Teriyaki Tofu",
+        "Vegetable Korma",
+        "Veggie Bean Chilli"
+      ],
+      "labels": [
+        "Brown Sugar"
+      ]
+    },
+    {
+      "key": "tamari / soy sauce",
+      "category": "Condiments & sauces",
+      "count": 10,
+      "recipes": [
+        "Beef Bolognese + Penne",
+        "Chilli Con Carne",
+        "Coq au Vin",
+        "Cottage Pie",
+        "Italian Beef Meatballs",
+        "Moroccan Chickpea Tagine",
+        "Smokey Chipotle Meatballs",
+        "Teriyaki Salmon + Whole Grain Rice",
+        "Teriyaki Tofu",
+        "Veggie Bean Chilli"
+      ],
+      "labels": [
+        "Tamari"
+      ]
+    },
+    {
+      "key": "soy milk",
+      "category": "Plant milks & liquids",
+      "count": 8,
+      "recipes": [
+        "Chicken Korma",
+        "Chicken Tikka Masala",
+        "Field Green Risotto",
+        "Fish Pie",
+        "Low FODMAP Mac + Cheese",
+        "Potato Topped Chicken Pie",
+        "Thai Green Chicken Curry",
+        "Vegetable Korma"
+      ],
+      "labels": [
+        "Soy Milk"
+      ]
+    },
+    {
+      "key": "coriander (ground)",
+      "category": "Spices",
+      "count": 8,
+      "recipes": [
+        "Chicken Korma",
+        "Chicken Pad Thai",
+        "Chicken Tikka Masala",
+        "Chickpea Masala Curry",
+        "Chilli Con Carne",
+        "Moroccan Chickpea Tagine",
+        "Vegetable Korma",
+        "Veggie Bean Chilli"
+      ],
+      "labels": [
+        "Coriander"
+      ]
+    },
+    {
+      "key": "ginger (ground)",
+      "category": "Spices",
+      "count": 8,
+      "recipes": [
+        "Chicken Korma",
+        "Chicken Pad Thai",
+        "Chicken Tikka Masala",
+        "Chickpea Masala Curry",
+        "Teriyaki Salmon + Whole Grain Rice",
+        "Teriyaki Tofu",
+        "Thai Green Chicken Curry",
+        "Vegetable Korma"
+      ],
+      "labels": [
+        "Ginger"
+      ]
+    },
+    {
+      "key": "parmesan / parmigiano",
+      "category": "Cheese (hard)",
+      "count": 7,
+      "recipes": [
+        "Beef Bolognese + Penne",
+        "Chicken + Green Vegetable Risotto",
+        "Field Green Risotto",
+        "Italian Beef Meatballs",
+        "Low FODMAP Mac + Cheese",
+        "Red Pesto + Roasted Vegetable Penne",
+        "Smokey Chipotle Meatballs"
+      ],
+      "labels": [
+        "Parmigiano (MILK)"
+      ]
+    },
+    {
+      "key": "red wine vinegar",
+      "category": "Condiments & sauces",
+      "count": 7,
+      "recipes": [
+        "Beef Bolognese + Penne",
+        "Cottage Pie",
+        "Italian Beef Meatballs",
+        "Piri Piri Chicken",
+        "Smokey Chipotle Meatballs",
+        "Teriyaki Salmon + Whole Grain Rice",
+        "Teriyaki Tofu"
+      ],
+      "labels": [
+        "Red Wine Vinegar"
+      ]
+    },
+    {
+      "key": "black pepper",
+      "category": "Salt & pepper",
+      "count": 7,
+      "recipes": [
+        "Beef Bolognese + Penne",
+        "Cottage Pie",
+        "Fish Pie",
+        "Italian Beef Meatballs",
+        "Low FODMAP Mac + Cheese",
+        "Red Pesto + Roasted Vegetable Penne",
+        "Smokey Chipotle Meatballs"
+      ],
+      "labels": [
+        "Black Pepper"
+      ]
+    },
+    {
+      "key": "extra virgin olive oil",
+      "category": "Oils",
+      "count": 6,
+      "recipes": [
+        "Chicken Pad Thai",
+        "Chicken Paella",
+        "Coq au Vin",
+        "Field Green Risotto",
+        "Red Pesto + Roasted Vegetable Penne",
+        "Thai Green Chicken Curry"
+      ],
+      "labels": [
+        "Extra Virgin Olive Oil"
+      ]
+    },
+    {
+      "key": "coconut milk",
+      "category": "Plant milks & liquids",
+      "count": 6,
+      "recipes": [
+        "Chicken Korma",
+        "Chicken Pad Thai",
+        "Chicken Tikka Masala",
+        "Chickpea Masala Curry",
+        "Thai Green Chicken Curry",
+        "Vegetable Korma"
+      ],
+      "labels": [
+        "Coconut Milk"
+      ]
+    },
+    {
+      "key": "himalayan / smoked salt",
+      "category": "Salt & pepper",
+      "count": 5,
+      "recipes": [
+        "Banana Peanut Butter Bar",
+        "Double Chocolate Bar",
+        "Hazelnut Mocha Bar",
+        "Low FODMAP Mac + Cheese",
+        "Peanut Choc Chunk Bar"
+      ],
+      "labels": [
+        "Himalayan Salt",
+        "Smoked Sea Salt"
+      ]
+    },
+    {
+      "key": "brown rice syrup",
+      "category": "Sweeteners",
+      "count": 5,
+      "recipes": [
+        "Banana Peanut Butter Bar",
+        "Double Chocolate Bar",
+        "Hazelnut Mocha Bar",
+        "Lemon Coconut Bar",
+        "Peanut Choc Chunk Bar"
+      ],
+      "labels": [
+        "Organic Brown Rice Syrup"
+      ]
+    },
+    {
+      "key": "oregano (dried)",
+      "category": "Herbs (dried)",
+      "count": 4,
+      "recipes": [
+        "Chilli Con Carne",
+        "Italian Beef Meatballs",
+        "Smokey Chipotle Meatballs",
+        "Veggie Bean Chilli"
+      ],
+      "labels": [
+        "Oregano"
+      ]
+    },
+    {
+      "key": "celery salt",
+      "category": "Salt & pepper",
+      "count": 4,
+      "recipes": [
+        "Chilli Con Carne",
+        "Field Green Risotto",
+        "Italian Beef Meatballs",
+        "Smokey Chipotle Meatballs"
+      ],
+      "labels": [
+        "Celery Salt (CELERY)"
+      ]
+    },
+    {
+      "key": "cinnamon (ground)",
+      "category": "Spices",
+      "count": 4,
+      "recipes": [
+        "Chilli Con Carne",
+        "No Sugar Banana Porridge",
+        "Vegetable Korma",
+        "Veggie Bean Chilli"
+      ],
+      "labels": [
+        "Cinnamon Ground"
+      ]
+    },
+    {
+      "key": "cumin (ground)",
+      "category": "Spices",
+      "count": 4,
+      "recipes": [
+        "Chilli Con Carne",
+        "Smokey Chipotle Meatballs",
+        "Vegetable Korma",
+        "Veggie Bean Chilli"
+      ],
+      "labels": [
+        "Cumin Ground"
+      ]
+    },
+    {
+      "key": "oat flour (GF)",
+      "category": "Thickeners & flours",
+      "count": 4,
+      "recipes": [
+        "Cherry + Chocolate Porridge",
+        "Cinnamon Porridge",
+        "No Sugar Banana Porridge",
+        "Original Porridge"
+      ],
+      "labels": [
+        "Oat Flour (GLUTEN FREE)"
+      ]
+    },
+    {
+      "key": "cocoa powder",
+      "category": "Baking / bar extras",
+      "count": 3,
+      "recipes": [
+        "Cherry + Chocolate Porridge",
+        "Double Chocolate Bar",
+        "Hazelnut Mocha Bar"
+      ],
+      "labels": [
+        "Cocoa Powder",
+        "Cocoa low fat"
+      ]
+    },
+    {
+      "key": "vanilla (powder / extract)",
+      "category": "Baking / bar extras",
+      "count": 3,
+      "recipes": [
+        "Cherry + Chocolate Porridge",
+        "No Sugar Banana Porridge",
+        "Peanut Choc Chunk Bar"
+      ],
+      "labels": [
+        "Pure Vanilla Extract",
+        "Vanilla Powder"
+      ]
+    },
+    {
+      "key": "white miso",
+      "category": "Condiments & sauces",
+      "count": 3,
+      "recipes": [
+        "Fish Pie",
+        "Potato Topped Chicken Pie",
+        "Teriyaki Tofu"
+      ],
+      "labels": [
+        "White Miso"
+      ]
+    },
+    {
+      "key": "chipotle chilli",
+      "category": "Spices",
+      "count": 3,
+      "recipes": [
+        "Chilli Con Carne",
+        "Smokey Chipotle Meatballs",
+        "Veggie Bean Chilli"
+      ],
+      "labels": [
+        "Chipotle chilli"
+      ]
+    },
+    {
+      "key": "fennel (ground)",
+      "category": "Spices",
+      "count": 3,
+      "recipes": [
+        "Italian Beef Meatballs",
+        "Red Pesto + Roasted Vegetable Penne",
+        "Vegetable Korma"
+      ],
+      "labels": [
+        "Fennel Ground"
+      ]
+    },
+    {
+      "key": "nutmeg (ground)",
+      "category": "Spices",
+      "count": 3,
+      "recipes": [
+        "Cottage Pie",
+        "Fish Pie",
+        "Vegetable Korma"
+      ],
+      "labels": [
+        "Nutmeg Ground"
+      ]
+    },
+    {
+      "key": "turmeric",
+      "category": "Spices",
+      "count": 3,
+      "recipes": [
+        "Chicken Korma",
+        "Chickpea Masala Curry",
+        "Vegetable Korma"
+      ],
+      "labels": [
+        "Turmeric",
+        "Turmeric Blend"
+      ]
+    },
+    {
+      "key": "banana powder / oil",
+      "category": "Baking / bar extras",
+      "count": 2,
+      "recipes": [
+        "Banana Peanut Butter Bar",
+        "No Sugar Banana Porridge"
+      ],
+      "labels": [
+        "Banana Powder",
+        "Pure Banana Oil"
+      ]
+    },
+    {
+      "key": "quinoa flour",
+      "category": "Thickeners & flours",
+      "count": 2,
+      "recipes": [
+        "Italian Beef Meatballs",
+        "Smokey Chipotle Meatballs"
+      ],
+      "labels": [
+        "Quinoa Flour"
+      ]
+    },
+    {
+      "key": "coffee powder",
+      "category": "Baking / bar extras",
+      "count": 1,
+      "recipes": [
+        "Hazelnut Mocha Bar"
+      ],
+      "labels": [
+        "Coffee Powder"
+      ]
+    },
+    {
+      "key": "lemongrass",
+      "category": "Condiments & sauces",
+      "count": 1,
+      "recipes": [
+        "Chicken Pad Thai"
+      ],
+      "labels": [
+        "Lemongrass"
+      ]
+    },
+    {
+      "key": "tamarind extract",
+      "category": "Condiments & sauces",
+      "count": 1,
+      "recipes": [
+        "Chicken Pad Thai"
+      ],
+      "labels": [
+        "Tamarind Extract"
+      ]
+    },
+    {
+      "key": "yeast extract",
+      "category": "Condiments & sauces",
+      "count": 1,
+      "recipes": [
+        "Low FODMAP Mac + Cheese"
+      ],
+      "labels": [
+        "Yeast Extract"
+      ]
+    },
+    {
+      "key": "basil (dried / fresh)",
+      "category": "Herbs (dried)",
+      "count": 1,
+      "recipes": [
+        "Field Green Risotto"
+      ],
+      "labels": [
+        "Basil"
+      ]
+    },
+    {
+      "key": "curry leaves",
+      "category": "Herbs (dried)",
+      "count": 1,
+      "recipes": [
+        "Chickpea Masala Curry"
+      ],
+      "labels": [
+        "Curry Leaves"
+      ]
+    },
+    {
+      "key": "coconut milk powder",
+      "category": "Plant milks & liquids",
+      "count": 1,
+      "recipes": [
+        "Hazelnut Mocha Bar"
+      ],
+      "labels": [
+        "Organic Coconut Milk Powder (Coconut Milk, Maltodextrin)"
+      ]
+    },
+    {
+      "key": "cardamom (ground)",
+      "category": "Spices",
+      "count": 1,
+      "recipes": [
+        "Vegetable Korma"
+      ],
+      "labels": [
+        "Green Cardamon Ground"
+      ]
+    },
+    {
+      "key": "chilli powder",
+      "category": "Spices",
+      "count": 1,
+      "recipes": [
+        "Chickpea Masala Curry"
+      ],
+      "labels": [
+        "Chilli Powder"
+      ]
+    },
+    {
+      "key": "cumin seeds (whole)",
+      "category": "Spices",
+      "count": 1,
+      "recipes": [
+        "Chickpea Masala Curry"
+      ],
+      "labels": [
+        "Cumin seeds (whole)"
+      ]
+    },
+    {
+      "key": "fenugreek (ground)",
+      "category": "Spices",
+      "count": 1,
+      "recipes": [
+        "Vegetable Korma"
+      ],
+      "labels": [
+        "Dried Fenugreek Ground"
+      ]
+    },
+    {
+      "key": "garam masala",
+      "category": "Spices",
+      "count": 1,
+      "recipes": [
+        "Chickpea Masala Curry"
+      ],
+      "labels": [
+        "Garam Masala"
+      ]
+    },
+    {
+      "key": "saffron",
+      "category": "Spices",
+      "count": 1,
+      "recipes": [
+        "Vegetable Korma"
+      ],
+      "labels": [
+        "Saffron"
+      ]
+    }
+  ]
+}

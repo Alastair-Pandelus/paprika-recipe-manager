@@ -1,0 +1,121 @@
+Scanned 34 Field Doctor-Style recipes
+Cupboard staples found: 45
+
+## Salt & pepper
+  17x  sea salt
+      meals: Beef Bolognese + Penne, Cherry + Chocolate Porridge, Chicken Korma, Chickpea Masala Curry, Chilli Con Carne, Cinnamon Porridge, Cottage Pie, Field Green Risotto, Fish Pie, Italian Beef Meatballs, Moroccan Chickpea Tagine, No Sugar Banana Porridge, Original Porridge, Red Pesto + Roasted Vegetable Penne, Smokey Chipotle Meatballs, Vegetable Korma, Veggie Bean Chilli
+   7x  black pepper
+      meals: Beef Bolognese + Penne, Cottage Pie, Fish Pie, Italian Beef Meatballs, Low FODMAP Mac + Cheese, Red Pesto + Roasted Vegetable Penne, Smokey Chipotle Meatballs
+   5x  himalayan / smoked salt
+      meals: Banana Peanut Butter Bar, Double Chocolate Bar, Hazelnut Mocha Bar, Low FODMAP Mac + Cheese, Peanut Choc Chunk Bar
+   4x  celery salt
+      meals: Chilli Con Carne, Field Green Risotto, Italian Beef Meatballs, Smokey Chipotle Meatballs
+
+## Spices
+  12x  paprika (smoked / sweet noble)
+      meals: Beef Bolognese + Penne, Chicken Korma, Chicken Tikka Masala, Chickpea Masala Curry, Chilli Con Carne, Italian Beef Meatballs, Low FODMAP Mac + Cheese, Moroccan Chickpea Tagine, Piri Piri Chicken, Red Pesto + Roasted Vegetable Penne, Smokey Chipotle Meatballs, Veggie Bean Chilli
+   8x  coriander (ground)
+      meals: Chicken Korma, Chicken Pad Thai, Chicken Tikka Masala, Chickpea Masala Curry, Chilli Con Carne, Moroccan Chickpea Tagine, Vegetable Korma, Veggie Bean Chilli
+   8x  ginger (ground)
+      meals: Chicken Korma, Chicken Pad Thai, Chicken Tikka Masala, Chickpea Masala Curry, Teriyaki Salmon + Whole Grain Rice, Teriyaki Tofu, Thai Green Chicken Curry, Vegetable Korma
+   4x  cinnamon (ground)
+      meals: Chilli Con Carne, No Sugar Banana Porridge, Vegetable Korma, Veggie Bean Chilli
+   4x  cumin (ground)
+      meals: Chilli Con Carne, Smokey Chipotle Meatballs, Vegetable Korma, Veggie Bean Chilli
+   3x  chipotle chilli
+      meals: Chilli Con Carne, Smokey Chipotle Meatballs, Veggie Bean Chilli
+   3x  fennel (ground)
+      meals: Italian Beef Meatballs, Red Pesto + Roasted Vegetable Penne, Vegetable Korma
+   3x  nutmeg (ground)
+      meals: Cottage Pie, Fish Pie, Vegetable Korma
+   3x  turmeric
+      meals: Chicken Korma, Chickpea Masala Curry, Vegetable Korma
+   1x  cardamom (ground)
+      meals: Vegetable Korma
+   1x  chilli powder
+      meals: Chickpea Masala Curry
+   1x  cumin seeds (whole)
+      meals: Chickpea Masala Curry
+   1x  fenugreek (ground)
+      meals: Vegetable Korma
+   1x  garam masala
+      meals: Chickpea Masala Curry
+   1x  saffron
+      meals: Vegetable Korma
+
+## Herbs (dried)
+  12x  mixed herbs
+      meals: Beef Bolognese + Penne, Chicken Paella, Chilli Con Carne, Cottage Pie, Field Green Risotto, Fish Pie, Italian Beef Meatballs, Low FODMAP Mac + Cheese, Piri Piri Chicken, Potato Topped Chicken Pie, Red Pesto + Roasted Vegetable Penne, Smokey Chipotle Meatballs
+   4x  oregano (dried)
+      meals: Chilli Con Carne, Italian Beef Meatballs, Smokey Chipotle Meatballs, Veggie Bean Chilli
+   1x  basil (dried / fresh)
+      meals: Field Green Risotto
+   1x  curry leaves
+      meals: Chickpea Masala Curry
+
+## Herbs (fresh / pack)
+  15x  chives (fresh pack)
+      meals: Beef Bolognese + Penne, Chicken + Green Vegetable Risotto, Chicken Pad Thai, Cottage Pie, Field Green Risotto, Fish Pie, Italian Beef Meatballs, Low FODMAP Mac + Cheese, Moroccan Chickpea Tagine, Red Pesto + Roasted Vegetable Penne, Smokey Chipotle Meatballs, Teriyaki Salmon + Whole Grain Rice, Teriyaki Tofu, Thai Green Chicken Curry, Veggie Bean Chilli
+
+## Thickeners & flours
+  21x  tapioca flour / starch
+      meals: Beef Bolognese + Penne, Chicken Korma, Chicken Paella, Chicken Tikka Masala, Chickpea Masala Curry, Chilli Con Carne, Coq au Vin, Cottage Pie, Field Green Risotto, Fish Pie, Italian Beef Meatballs, Low FODMAP Mac + Cheese, Moroccan Chickpea Tagine, Piri Piri Chicken, Potato Topped Chicken Pie, Red Pesto + Roasted Vegetable Penne, Smokey Chipotle Meatballs, Teriyaki Salmon + Whole Grain Rice, Teriyaki Tofu, Vegetable Korma, Veggie Bean Chilli
+   4x  oat flour (GF)
+      meals: Cherry + Chocolate Porridge, Cinnamon Porridge, No Sugar Banana Porridge, Original Porridge
+   2x  quinoa flour
+      meals: Italian Beef Meatballs, Smokey Chipotle Meatballs
+
+## Condiments & sauces
+  15x  tomato puree
+      meals: Beef Bolognese + Penne, Chicken Paella, Chicken Tagine, Chicken Tikka Masala, Chickpea Masala Curry, Chilli Con Carne, Coq au Vin, Cottage Pie, Italian Beef Meatballs, Moroccan Chickpea Tagine, Piri Piri Chicken, Red Pesto + Roasted Vegetable Penne, Smokey Chipotle Meatballs, Vegetable Korma, Veggie Bean Chilli
+  10x  tamari / soy sauce
+      meals: Beef Bolognese + Penne, Chilli Con Carne, Coq au Vin, Cottage Pie, Italian Beef Meatballs, Moroccan Chickpea Tagine, Smokey Chipotle Meatballs, Teriyaki Salmon + Whole Grain Rice, Teriyaki Tofu, Veggie Bean Chilli
+   7x  red wine vinegar
+      meals: Beef Bolognese + Penne, Cottage Pie, Italian Beef Meatballs, Piri Piri Chicken, Smokey Chipotle Meatballs, Teriyaki Salmon + Whole Grain Rice, Teriyaki Tofu
+   3x  white miso
+      meals: Fish Pie, Potato Topped Chicken Pie, Teriyaki Tofu
+   1x  lemongrass
+      meals: Chicken Pad Thai
+   1x  tamarind extract
+      meals: Chicken Pad Thai
+   1x  yeast extract
+      meals: Low FODMAP Mac + Cheese
+
+## Oils
+   6x  extra virgin olive oil
+      meals: Chicken Pad Thai, Chicken Paella, Coq au Vin, Field Green Risotto, Red Pesto + Roasted Vegetable Penne, Thai Green Chicken Curry
+
+## Plant milks & liquids
+   8x  soy milk
+      meals: Chicken Korma, Chicken Tikka Masala, Field Green Risotto, Fish Pie, Low FODMAP Mac + Cheese, Potato Topped Chicken Pie, Thai Green Chicken Curry, Vegetable Korma
+   6x  coconut milk
+      meals: Chicken Korma, Chicken Pad Thai, Chicken Tikka Masala, Chickpea Masala Curry, Thai Green Chicken Curry, Vegetable Korma
+   1x  coconut milk powder
+      meals: Hazelnut Mocha Bar
+
+## Sweeteners
+  12x  brown sugar
+      meals: Cherry + Chocolate Porridge, Chicken Korma, Chicken Pad Thai, Chicken Tikka Masala, Chickpea Masala Curry, Cinnamon Porridge, Original Porridge, Piri Piri Chicken, Teriyaki Salmon + Whole Grain Rice, Teriyaki Tofu, Vegetable Korma, Veggie Bean Chilli
+   5x  brown rice syrup
+      meals: Banana Peanut Butter Bar, Double Chocolate Bar, Hazelnut Mocha Bar, Lemon Coconut Bar, Peanut Choc Chunk Bar
+
+## Baking / bar extras
+   3x  cocoa powder
+      meals: Cherry + Chocolate Porridge, Double Chocolate Bar, Hazelnut Mocha Bar
+   3x  vanilla (powder / extract)
+      meals: Cherry + Chocolate Porridge, No Sugar Banana Porridge, Peanut Choc Chunk Bar
+   2x  banana powder / oil
+      meals: Banana Peanut Butter Bar, No Sugar Banana Porridge
+   1x  coffee powder
+      meals: Hazelnut Mocha Bar
+
+## Cheese (hard)
+   7x  parmesan / parmigiano
+      meals: Beef Bolognese + Penne, Chicken + Green Vegetable Risotto, Field Green Risotto, Italian Beef Meatballs, Low FODMAP Mac + Cheese, Red Pesto + Roasted Vegetable Penne, Smokey Chipotle Meatballs
+
+## Other spice-like (review / not auto-merged)
+   1x  dried cherrie  → Cherry + Chocolate Porridge
+   1x  persian spice mix  → Moroccan Chickpea Tagine
+   1x  pinch of cinnamon ground  → Cinnamon Porridge
+   1x  pinch of himalayan salt  → Lemon Coconut Bar
+   1x  pinch of pure lemon oil  → Lemon Coconut Bar
