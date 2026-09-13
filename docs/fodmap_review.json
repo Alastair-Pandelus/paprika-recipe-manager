@@ -1,0 +1,1153 @@
+{
+  "scanned_active_recipes": 87,
+  "flagged": 50,
+  "clear": 31,
+  "likely": 2,
+  "check": 17,
+  "findings": [
+    {
+      "name": "Jamie’s Classic Family Lasagne",
+      "uid": "3d9f14b3-0cf2-4ece-9ffa-39c1904d983f",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 5,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "1 onions"
+        },
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "150g mature Cheddar cheese"
+        },
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "2 medium leeks"
+        },
+        {
+          "rule": "wheat",
+          "reason": "Wheat/spelt/barley/rye (fructans)",
+          "line": "4 tablespoons plain flour"
+        },
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "1 litre semi-skimmed milk"
+        }
+      ],
+      "categories": [
+        "441fec91-3076-4672-b037-319706dc3673",
+        "73ce9907-7062-4bf9-8b96-e3a0051866e4"
+      ]
+    },
+    {
+      "name": "Quite Possibly the Best Gluten Free Pizza Base | Restaurant Style",
+      "uid": "0E0562D1-9C27-466B-915A-DDD12722E741",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 4,
+      "hits": [
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "20g lard (melted)(you can also use butter or olive oil, but lard works best in my experience!)"
+        },
+        {
+          "rule": "garlic",
+          "reason": "Garlic (fructans)",
+          "line": "Seasonings of your choice (I often use a mixture of oregano, basil, cayenne pepper and garlic powder)"
+        },
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "Extra mature cheddar"
+        },
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "Shredded mozzarella"
+        }
+      ],
+      "categories": [
+        "66073f95-e722-4d0b-a611-939cf68f89fb",
+        "73ce9907-7062-4bf9-8b96-e3a0051866e4",
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10"
+      ]
+    },
+    {
+      "name": "Vegan Chilli",
+      "uid": "0FE58699-53B9-4138-BD4A-EC46F454445E",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 4,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "1 onion, chopped"
+        },
+        {
+          "rule": "garlic",
+          "reason": "Garlic (fructans)",
+          "line": "2 garlic cloves, crushed"
+        },
+        {
+          "rule": "beans",
+          "reason": "Legumes (GOS) — Low FODMAP only in limited serves",
+          "line": "400g can black beans, drained"
+        },
+        {
+          "rule": "beans",
+          "reason": "Legumes (GOS) — Low FODMAP only in limited serves",
+          "line": "400g can kidney beans, drained"
+        }
+      ],
+      "categories": [
+        "b2fcbe3b-512d-4080-8e11-d1c3c48fc156",
+        "BACC51F2-B47F-4EA3-BACA-89268FB98A6D"
+      ]
+    },
+    {
+      "name": "Farro and Roasted Red Pepper Salad I Ottolenghi Recipes",
+      "uid": "0eeddf3e-f9f7-4e8e-8d12-46028bd5144f",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 3,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "3 spring onions, thinly sliced"
+        },
+        {
+          "rule": "honey",
+          "reason": "Honey (fructose)",
+          "line": "1 tbsp honey"
+        },
+        {
+          "rule": "garlic",
+          "reason": "Garlic (fructans)",
+          "line": "½ garlic clove, crushed"
+        }
+      ],
+      "categories": [
+        "73ce9907-7062-4bf9-8b96-e3a0051866e4",
+        "e8086323-a7c8-48d0-82ff-180f922f958a"
+      ]
+    },
+    {
+      "name": "Lamb with Spinach - Madhur Jaffrey",
+      "uid": "b404c1b6-7235-4bd5-809b-aece42884eed",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 3,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "1 large onion, finely chopped"
+        },
+        {
+          "rule": "garlic",
+          "reason": "Garlic (fructans)",
+          "line": "6 garlic cloves, finely chopped"
+        },
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "5 tbsp natural yoghurt, well beaten"
+        }
+      ],
+      "categories": [
+        "441fec91-3076-4672-b037-319706dc3673",
+        "6342165f-4c3d-4638-9d58-d8714e72b457"
+      ]
+    },
+    {
+      "name": "Low FODMAP Trail Mix",
+      "uid": "a82c8417-4a2a-498c-8e13-f05a8f5fa623",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": true,
+      "hit_count": 3,
+      "hits": [
+        {
+          "rule": "honey",
+          "reason": "Honey (fructose)",
+          "line": "200 g roasted salted peanuts (plain, no honey or chilli)"
+        },
+        {
+          "rule": "honey",
+          "reason": "Honey (fructose)",
+          "line": "80 g gluten-free corn flakes or certified GF puffed rice (corn or rice, sugar and salt only — no honey, inulin, or barley malt)"
+        },
+        {
+          "rule": "inulin",
+          "reason": "Inulin/FOS (fructans)",
+          "line": "80 g gluten-free corn flakes or certified GF puffed rice (corn or rice, sugar and salt only — no honey, inulin, or barley malt)"
+        }
+      ],
+      "categories": [
+        "135ca4fa-5ab8-46ee-9593-cf4e83248c43",
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10"
+      ]
+    },
+    {
+      "name": "Slow-Cooker Pulled Pork with Chipotle, Honey and Lime",
+      "uid": "a78d2881-fb5a-432c-986d-615cf8a52ad1",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 3,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "medium onions, quartered"
+        },
+        {
+          "rule": "honey",
+          "reason": "Honey (fructose)",
+          "line": "tablespoons honey"
+        },
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "tablespoons butter, melted"
+        }
+      ],
+      "categories": [
+        "441fec91-3076-4672-b037-319706dc3673",
+        "b2fcbe3b-512d-4080-8e11-d1c3c48fc156"
+      ]
+    },
+    {
+      "name": "Spaghetti with Pistachio Pesto",
+      "uid": "a84ac4e1-08ab-4c8d-98e2-70ea2ec15c3b",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 3,
+      "hits": [
+        {
+          "rule": "pistachio",
+          "reason": "Pistachios (GOS)",
+          "line": "150g raw pistachios"
+        },
+        {
+          "rule": "garlic",
+          "reason": "Garlic (fructans)",
+          "line": "1 garlic clove"
+        },
+        {
+          "rule": "pistachio",
+          "reason": "Pistachios (GOS)",
+          "line": "handful or roughly chopped raw pistachios to serve"
+        }
+      ],
+      "categories": [
+        "73ce9907-7062-4bf9-8b96-e3a0051866e4",
+        "f81f8b98-cd5c-4c82-8077-4c6a776d7997"
+      ]
+    },
+    {
+      "name": "Tomato Sauce",
+      "uid": "b116e8e8-25c9-4eb2-b154-a888dda41c89",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 3,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "1 large onion, finely diced"
+        },
+        {
+          "rule": "cherry",
+          "reason": "Cherry (polyols) — check serve size",
+          "line": "1 packet of cherry tomatoes"
+        },
+        {
+          "rule": "garlic",
+          "reason": "Garlic (fructans)",
+          "line": "3 large cloves garlic, minced"
+        }
+      ],
+      "categories": [
+        "f81f8b98-cd5c-4c82-8077-4c6a776d7997"
+      ]
+    },
+    {
+      "name": "5-Ingredient Gluten Free Butternut Squash Soup Recipe (Vegan + Low Fodmap)",
+      "uid": "6631f671-e6c1-41f3-8fee-7f4b92a85d36",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": true,
+      "hit_count": 2,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "1/4 tsp mild curry powder (Sainsbury's Korma Curry Powder has no onion/garlic in it FYI)"
+        },
+        {
+          "rule": "garlic",
+          "reason": "Garlic (fructans)",
+          "line": "1/4 tsp mild curry powder (Sainsbury's Korma Curry Powder has no onion/garlic in it FYI)"
+        }
+      ],
+      "categories": [
+        "54b307f3-fcbe-4e89-84be-13d31f9d04e5",
+        "BACC51F2-B47F-4EA3-BACA-89268FB98A6D",
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10"
+      ]
+    },
+    {
+      "name": "Almond Crusted Chicken Schnitzel (Pictured Top)",
+      "uid": "6D9436B9-ADE9-4694-9D41-82BF98677DD6",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 2,
+      "hits": [
+        {
+          "rule": "garlic",
+          "reason": "Garlic (fructans)",
+          "line": "4 garlic cloves, peeled and finely chopped"
+        },
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "125g buffalo mozzarella"
+        }
+      ],
+      "categories": []
+    },
+    {
+      "name": "Amal Chicken And Preserved Lemon Tajine",
+      "uid": "6D5A76FF-7A66-4FD7-BE3B-656C6069E3BA-2523-000002A20DC7DFE9",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 2,
+      "hits": [
+        {
+          "rule": "garlic",
+          "reason": "Garlic (fructans)",
+          "line": "4 garlic cloves minced"
+        },
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "1 small onion finely chopped"
+        }
+      ],
+      "categories": [
+        "441fec91-3076-4672-b037-319706dc3673",
+        "5240736c-342a-4d71-ad96-2e826cf4b636"
+      ]
+    },
+    {
+      "name": "Arancini with Meat Ragù",
+      "uid": "ea3fb612-bc83-4e83-8457-b9ef84806721",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 2,
+      "hits": [
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "60-100 grams of butter"
+        },
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "½ onion"
+        }
+      ],
+      "categories": [
+        "73ce9907-7062-4bf9-8b96-e3a0051866e4",
+        "dc9bfd82-a7fd-4455-ba73-e1d3ad72c590"
+      ]
+    },
+    {
+      "name": "Field Doctor-Style Chickpea Masala Curry (Low FODMAP)",
+      "uid": "FFFAA87E-280F-45E4-9D43-F1BC3D0FFE0F",
+      "severity": "clear",
+      "field_doctor": true,
+      "name_claims_low_fodmap": true,
+      "hit_count": 2,
+      "hits": [
+        {
+          "rule": "beans",
+          "reason": "Legumes (GOS) — Low FODMAP only in limited serves",
+          "line": "215 g Chickpeas"
+        },
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "3/4 tbsp Black Onion (Nigella) Seeds"
+        }
+      ],
+      "categories": [
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10",
+        "DFD7AB80-DB1E-4257-A6E9-7E9AA44E548C"
+      ]
+    },
+    {
+      "name": "Gluten-Free Lemon Drizzle Cake",
+      "uid": "aac5862d-7ac5-45c9-9a54-05a9a626b188",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 2,
+      "hits": [
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "200g butter, softened"
+        },
+        {
+          "rule": "wheat",
+          "reason": "Wheat/spelt/barley/rye (fructans)",
+          "line": "175g ground almond (switch for polenta or wheat-free flour to make this recipe nut-free)"
+        }
+      ],
+      "categories": [
+        "ebf0f451-e43e-40c5-842c-a6241e21ff6a"
+      ]
+    },
+    {
+      "name": "Jamie Oliver's Fish Pie",
+      "uid": "459CBDFB-58B6-4CA5-88F0-96E2B375F79C-4096-00000D0E2BBD1B2E",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 2,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "bunch spring onion"
+        },
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "150 g Cheddar cheese"
+        }
+      ],
+      "categories": [
+        "441fec91-3076-4672-b037-319706dc3673",
+        "9f78ec70-aa4b-42ca-a999-b5acf6084b4d"
+      ]
+    },
+    {
+      "name": "Low Fodmap Veggie Chilli",
+      "uid": "c55c21c4-1cb4-4857-a455-8b7448d9d7ad",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": true,
+      "hit_count": 2,
+      "hits": [
+        {
+          "rule": "garlic",
+          "reason": "Garlic (fructans)",
+          "line": "1 tablespoon of garlic flavoured olive oil (plus a little extra to finish)"
+        },
+        {
+          "rule": "beans",
+          "reason": "Legumes (GOS) — Low FODMAP only in limited serves",
+          "line": "210g (small) tin of chickpeas (drained weight 130g), thoroughly drained and rinsed to reduce levels of GOS"
+        }
+      ],
+      "categories": [
+        "441fec91-3076-4672-b037-319706dc3673",
+        "BACC51F2-B47F-4EA3-BACA-89268FB98A6D",
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10",
+        "b2fcbe3b-512d-4080-8e11-d1c3c48fc156"
+      ]
+    },
+    {
+      "name": "Quick and Easy Pickled Red Cabbage",
+      "uid": "1EA96FBB-84BD-4F80-B623-4B0524DE76C9",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 2,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "2 teaspoons Black Onion seeds"
+        },
+        {
+          "rule": "garlic",
+          "reason": "Garlic (fructans)",
+          "line": "2 cloves garlic, sliced"
+        }
+      ],
+      "categories": [
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10"
+      ]
+    },
+    {
+      "name": "Shortbread - Mum's Recipe",
+      "uid": "8927bb63-4bed-4cf3-8c32-bf017880275a",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 2,
+      "hits": [
+        {
+          "rule": "wheat",
+          "reason": "Wheat/spelt/barley/rye (fructans)",
+          "line": "200g Plain Flour"
+        },
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "100g Butter"
+        }
+      ],
+      "categories": [
+        "ebf0f451-e43e-40c5-842c-a6241e21ff6a"
+      ]
+    },
+    {
+      "name": "Spanish Spinach with Chickpeas",
+      "uid": "8CAD27E8-C642-4CA8-B114-5FFA77100B13",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 2,
+      "hits": [
+        {
+          "rule": "garlic",
+          "reason": "Garlic (fructans)",
+          "line": "1 head of garlic (12 cloves)"
+        },
+        {
+          "rule": "beans",
+          "reason": "Legumes (GOS) — Low FODMAP only in limited serves",
+          "line": "3 ½ cups cooked chickpeas (650 g)"
+        }
+      ],
+      "categories": [
+        "1db95fce-ff65-4027-b1a6-a99bdac8afc1"
+      ]
+    },
+    {
+      "name": "Zucchini & Carrot Fritters",
+      "uid": "E95A0A23-E6CE-4107-89ED-ECF0176134D9",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 2,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "1/2 Red or Brown Onion OR 1 Spring Onion, chopped"
+        },
+        {
+          "rule": "garlic",
+          "reason": "Garlic (fructans)",
+          "line": "1/2 tsp Garlic powder"
+        }
+      ],
+      "categories": [
+        "BACC51F2-B47F-4EA3-BACA-89268FB98A6D"
+      ]
+    },
+    {
+      "name": "Linguine with orange pesto and aubergine",
+      "uid": "4144fbfc-9f4b-48e6-a222-c1774d7c3160",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "garlic",
+          "reason": "Garlic (fructans)",
+          "line": "1 clove garlic, peeled and cut in half"
+        }
+      ],
+      "categories": [
+        "73ce9907-7062-4bf9-8b96-e3a0051866e4",
+        "f81f8b98-cd5c-4c82-8077-4c6a776d7997"
+      ]
+    },
+    {
+      "name": "Monash - Shepherd's Pie",
+      "uid": "7ba544a2-0b50-4c6e-b4b0-563971f4e81e",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "8 spring onions, green tops"
+        }
+      ],
+      "categories": [
+        "441fec91-3076-4672-b037-319706dc3673"
+      ]
+    },
+    {
+      "name": "Monash - Spanakopita",
+      "uid": "f94fcc6d-0170-441d-bc75-20974b38bf87",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "2 cups leek greens, roughly chopped"
+        }
+      ],
+      "categories": [
+        "1db95fce-ff65-4027-b1a6-a99bdac8afc1",
+        "441fec91-3076-4672-b037-319706dc3673",
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10"
+      ]
+    },
+    {
+      "name": "Moroccan Style Salmon with Olives and Preserved Lemon",
+      "uid": "7a17bd10-e8fc-4935-a596-3de7f205af2d",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "1 Medium Yellow Onion, Diced"
+        }
+      ],
+      "categories": [
+        "441fec91-3076-4672-b037-319706dc3673",
+        "5240736c-342a-4d71-ad96-2e826cf4b636",
+        "9f78ec70-aa4b-42ca-a999-b5acf6084b4d"
+      ]
+    },
+    {
+      "name": "Sausage Rolls",
+      "uid": "787982A8-0FF0-4B4D-B408-E9BEFD152E3E",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "1 red onion , peeled and finely sliced"
+        }
+      ],
+      "categories": [
+        "75c83cc9-d83d-494e-8ebc-1929e9c9d99b",
+        "ebf0f451-e43e-40c5-842c-a6241e21ff6a"
+      ]
+    },
+    {
+      "name": "Simon's Chicken Curry",
+      "uid": "2513f53f-25e1-4af1-8b7e-f00ec295ad2b",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "1 medium onion- chopped"
+        }
+      ],
+      "categories": [
+        "441fec91-3076-4672-b037-319706dc3673",
+        "6342165f-4c3d-4638-9d58-d8714e72b457"
+      ]
+    },
+    {
+      "name": "Spanakopita",
+      "uid": "eee3e8e0-77c7-42d6-af0a-902dc6003f02",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "2 cups leek greens, roughly chopped"
+        }
+      ],
+      "categories": [
+        "1db95fce-ff65-4027-b1a6-a99bdac8afc1",
+        "441fec91-3076-4672-b037-319706dc3673",
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10"
+      ]
+    },
+    {
+      "name": "The Best Whole-Baked Carrots",
+      "uid": "92962c89-94e3-4274-ab03-56f954b25ed0",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "garlic",
+          "reason": "Garlic (fructans)",
+          "line": "3 cloves garlic , crushed"
+        }
+      ],
+      "categories": [
+        "1db95fce-ff65-4027-b1a6-a99bdac8afc1"
+      ]
+    },
+    {
+      "name": "Tuna & Sweet Potato Patties",
+      "uid": "8ccf2b57-b774-47a2-a747-83c4860a34aa",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "onion",
+          "reason": "Onion/shallot/leek (fructans)",
+          "line": "2 spring onions, green tops only, finely sliced"
+        }
+      ],
+      "categories": [
+        "1db95fce-ff65-4027-b1a6-a99bdac8afc1",
+        "441fec91-3076-4672-b037-319706dc3673"
+      ]
+    },
+    {
+      "name": "Yummy Scrummy Carrot Cake",
+      "uid": "712e215e-a90a-4e72-99a1-b5e2bf1947f7",
+      "severity": "clear",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "wheat",
+          "reason": "Wheat/spelt/barley/rye (fructans)",
+          "line": "175g self-raising flour"
+        }
+      ],
+      "categories": [
+        "ebf0f451-e43e-40c5-842c-a6241e21ff6a"
+      ]
+    },
+    {
+      "name": "Low FODMAP Peanut Lime Sauce",
+      "uid": "AAB8D023-C116-4402-A957-5BFF00C2DF39",
+      "severity": "likely",
+      "field_doctor": false,
+      "name_claims_low_fodmap": true,
+      "hit_count": 2,
+      "hits": [
+        {
+          "rule": "apple",
+          "reason": "Apple (fructose/polyols)",
+          "line": "½ cup (120 ml) apple cider or rice vinegar"
+        },
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "½ cup (134 g) smooth peanut butter, either natural or no-stir style"
+        }
+      ],
+      "categories": [
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10",
+        "f81f8b98-cd5c-4c82-8077-4c6a776d7997"
+      ]
+    },
+    {
+      "name": "Torta Di Grano Saraceno (Authentic Italian Buckwheat Cake)",
+      "uid": "fcbb3aee-8912-4037-aa49-c37bfd4f773b",
+      "severity": "likely",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 2,
+      "hits": [
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "150 g unsalted butter ⅔ cup, at room temperature"
+        },
+        {
+          "rule": "apple",
+          "reason": "Apple (fructose/polyols)",
+          "line": "1 apple"
+        }
+      ],
+      "categories": []
+    },
+    {
+      "name": "Low FODMAP Vegan Shepherd's Pie",
+      "uid": "f69e94f3-64b4-4983-84ee-7c6ce010f095",
+      "severity": "check",
+      "field_doctor": false,
+      "name_claims_low_fodmap": true,
+      "hit_count": 4,
+      "hits": [
+        {
+          "rule": "beans",
+          "reason": "Legumes (GOS) — Low FODMAP only in limited serves",
+          "line": "For the lentil filling:"
+        },
+        {
+          "rule": "beans",
+          "reason": "Legumes (GOS) — Low FODMAP only in limited serves",
+          "line": "280 g canned lentils (drain & rinse after measuring)*"
+        },
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "50 g (¼ cup) peanut butter"
+        },
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "40-50 g vegan butter"
+        }
+      ],
+      "categories": [
+        "441fec91-3076-4672-b037-319706dc3673",
+        "BACC51F2-B47F-4EA3-BACA-89268FB98A6D",
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10"
+      ]
+    },
+    {
+      "name": "Monash - Chicken Broccoli Pasta Bake",
+      "uid": "da90e979-9194-4cd9-a127-f4ff9912c48e",
+      "severity": "check",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 2,
+      "hits": [
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "1/4 cup butter"
+        },
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "1 cup mozzarella, shredded"
+        }
+      ],
+      "categories": [
+        "441fec91-3076-4672-b037-319706dc3673",
+        "73ce9907-7062-4bf9-8b96-e3a0051866e4"
+      ]
+    },
+    {
+      "name": "Dark Chocolate Hemp Energy Bites",
+      "uid": "F082C41D-6265-442F-84F9-A313BF57161F-320-000000B35E431483",
+      "severity": "check",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "3 Tbsp (48 g) creamy almond butter (or other nut or seed butter)"
+        }
+      ],
+      "categories": [
+        "ebf0f451-e43e-40c5-842c-a6241e21ff6a"
+      ]
+    },
+    {
+      "name": "Field Doctor - Seafood Paella",
+      "uid": "53be6f49-3f12-444f-894f-213e1871ae09",
+      "severity": "check",
+      "field_doctor": true,
+      "name_claims_low_fodmap": false,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "beans",
+          "reason": "Legumes (GOS) — Low FODMAP only in limited serves",
+          "line": "40g Chickpeas"
+        }
+      ],
+      "categories": [
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10"
+      ]
+    },
+    {
+      "name": "Field Doctor-Style Chicken Tikka Masala (Low FODMAP)",
+      "uid": "DAB18D1D-E031-4A92-BFD9-8DB4451C4A78",
+      "severity": "check",
+      "field_doctor": true,
+      "name_claims_low_fodmap": true,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "beans",
+          "reason": "Legumes (GOS) — Low FODMAP only in limited serves",
+          "line": "160 g Chickpeas"
+        }
+      ],
+      "categories": [
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10",
+        "DFD7AB80-DB1E-4257-A6E9-7E9AA44E548C"
+      ]
+    },
+    {
+      "name": "Field Doctor-Style Chilli Con Carne (Low FODMAP)",
+      "uid": "C261839C-A66A-4AC6-8907-B73ED9526D8A",
+      "severity": "check",
+      "field_doctor": true,
+      "name_claims_low_fodmap": true,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "beans",
+          "reason": "Legumes (GOS) — Low FODMAP only in limited serves",
+          "line": "240 g Black Beans"
+        }
+      ],
+      "categories": [
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10",
+        "DFD7AB80-DB1E-4257-A6E9-7E9AA44E548C"
+      ]
+    },
+    {
+      "name": "Field Doctor-Style Cottage Pie (Low FODMAP)",
+      "uid": "68E63E6C-51E1-448C-8CE0-72DC96316691",
+      "severity": "check",
+      "field_doctor": true,
+      "name_claims_low_fodmap": true,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "mushroom",
+          "reason": "Common mushrooms (mannitol) — oyster often OK",
+          "line": "3.7 g Shiitake Mushrooms"
+        }
+      ],
+      "categories": [
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10",
+        "DFD7AB80-DB1E-4257-A6E9-7E9AA44E548C"
+      ]
+    },
+    {
+      "name": "Field Doctor-Style Double Chocolate Bar (Low FODMAP)",
+      "uid": "4565F0A3-CF24-4090-8303-33AF2595E432",
+      "severity": "check",
+      "field_doctor": true,
+      "name_claims_low_fodmap": true,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "3 1/2 tbsp Vegan Dark Chocolate (Cocoa Butter, Cocoa Powder, Coconut Sugar)"
+        }
+      ],
+      "categories": [
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10",
+        "1DFE7F9B-D3F0-43C2-A640-62D290352F61"
+      ]
+    },
+    {
+      "name": "Field Doctor-Style Hazelnut Mocha Bar (Low FODMAP)",
+      "uid": "703F4FDA-3D2D-425C-8066-B42B128124EC",
+      "severity": "check",
+      "field_doctor": true,
+      "name_claims_low_fodmap": true,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "3 tbsp Dark Chocolate (Cocoa Solids [65%], Sugar, Cocoa Butter, Cocoa Powder)"
+        }
+      ],
+      "categories": [
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10",
+        "1DFE7F9B-D3F0-43C2-A640-62D290352F61"
+      ]
+    },
+    {
+      "name": "Field Doctor-Style Moroccan Chickpea Tagine (Low FODMAP)",
+      "uid": "4E19DB85-F6E6-4755-8724-AE8CA9DF0E6C",
+      "severity": "check",
+      "field_doctor": true,
+      "name_claims_low_fodmap": true,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "beans",
+          "reason": "Legumes (GOS) — Low FODMAP only in limited serves",
+          "line": "200 g Chickpeas"
+        }
+      ],
+      "categories": [
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10",
+        "DFD7AB80-DB1E-4257-A6E9-7E9AA44E548C"
+      ]
+    },
+    {
+      "name": "Field Doctor-Style Peanut Choc Chunk Bar (Low FODMAP)",
+      "uid": "215446C1-14A8-40AF-BF03-EEA2DCE9F5B0",
+      "severity": "check",
+      "field_doctor": true,
+      "name_claims_low_fodmap": true,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "5 tbsp Vegan Dark Chocolate (Cocoa Butter, Cocoa Powder, Coconut Sugar)"
+        }
+      ],
+      "categories": [
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10",
+        "1DFE7F9B-D3F0-43C2-A640-62D290352F61"
+      ]
+    },
+    {
+      "name": "Field Doctor-Style Potato Topped Chicken Pie (Low FODMAP)",
+      "uid": "9B4399CB-969B-423A-9C2D-86C8F8E63580",
+      "severity": "check",
+      "field_doctor": true,
+      "name_claims_low_fodmap": true,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "mushroom",
+          "reason": "Common mushrooms (mannitol) — oyster often OK",
+          "line": "pinch of Chicken Stock (Chicken Extract, Chicken Fat, Salt], Forest Mix Mushrooms, Parsley Flat, Sea Salt, Chive Rings, Black Pepper"
+        }
+      ],
+      "categories": [
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10",
+        "DFD7AB80-DB1E-4257-A6E9-7E9AA44E548C"
+      ]
+    },
+    {
+      "name": "Field Doctor-Style Veggie Bean Chilli (Low FODMAP)",
+      "uid": "1542D475-6205-4FCB-A5F7-576DCC792A1F",
+      "severity": "check",
+      "field_doctor": true,
+      "name_claims_low_fodmap": true,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "beans",
+          "reason": "Legumes (GOS) — Low FODMAP only in limited serves",
+          "line": "480 g Red Kidney Beans"
+        }
+      ],
+      "categories": [
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10",
+        "DFD7AB80-DB1E-4257-A6E9-7E9AA44E548C"
+      ]
+    },
+    {
+      "name": "Lemon Polenta Cake",
+      "uid": "63DC2F87-A023-4C7B-99BE-6BFC46DA8083",
+      "severity": "check",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "140g butter, softened, plus extra for the tin"
+        }
+      ],
+      "categories": [
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10",
+        "ebf0f451-e43e-40c5-842c-a6241e21ff6a"
+      ]
+    },
+    {
+      "name": "Low Fodmap Granola Bars with Peanut Butter",
+      "uid": "5F9B1CEE-64D0-41DA-8B6F-B6854B436792",
+      "severity": "check",
+      "field_doctor": false,
+      "name_claims_low_fodmap": true,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "3 tbsp (75 gram) smooth peanut butter"
+        }
+      ],
+      "categories": [
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10",
+        "ebf0f451-e43e-40c5-842c-a6241e21ff6a"
+      ]
+    },
+    {
+      "name": "Monash - Slow Cooked Lamb Casserole",
+      "uid": "03630b33-89a9-4d7d-b058-eea780665117",
+      "severity": "check",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "beans",
+          "reason": "Legumes (GOS) — Low FODMAP only in limited serves",
+          "line": "1 tin canned lentils, drained, rinsed"
+        }
+      ],
+      "categories": [
+        "441fec91-3076-4672-b037-319706dc3673",
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10"
+      ]
+    },
+    {
+      "name": "Rice Paper Rolls with Peanut Dipping Sauce",
+      "uid": "bb1b3ddd-3f70-41fc-ada9-dd3a4c75ebba",
+      "severity": "check",
+      "field_doctor": false,
+      "name_claims_low_fodmap": false,
+      "hit_count": 1,
+      "hits": [
+        {
+          "rule": "milk",
+          "reason": "Dairy lactose (check type/amount)",
+          "line": "1/3 cup peanut butter"
+        }
+      ],
+      "categories": [
+        "1db95fce-ff65-4027-b1a6-a99bdac8afc1",
+        "441fec91-3076-4672-b037-319706dc3673",
+        "6342165f-4c3d-4638-9d58-d8714e72b457",
+        "a1747733-a5ed-47b8-8d7d-db33fcb19a10"
+      ]
+    }
+  ],
+  "note": "Review only — nothing deleted. 'clear' = classic high-FODMAP ingredients (onion/garlic/wheat/honey etc). 'likely' = usually high. 'check' = often serve-size dependent (legumes, lactose dairy, cherries)."
+}
