@@ -1,8 +1,6 @@
-# Parika Recipe Manager
+# Paprika Recipe Manager
 
 Versioned workspace for **Paprika Recipe Manager** backups and **Field Doctor Low FODMAP** reverse-engineering scripts.
-
-> Folder name keeps your existing path (`Parika`). Paprika product spelling is still *Paprika*.
 
 ## What's in here
 
@@ -25,7 +23,7 @@ Do **not** commit passwords.
 ## Setup
 
 ```powershell
-cd "C:\dev\Github\Parika Recipe Manager"
+cd "C:\dev\Github\Paprika Recipe Manager"
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -77,12 +75,12 @@ Recipes are home-cooking recreations inspired by Field Doctor products, not offi
 
 ## GitHub
 
+Private repo: https://github.com/Alastair-Pandelus/paprika-recipe-manager
+
 ```powershell
-cd "C:\dev\Github\Parika Recipe Manager"
-git init
+cd "C:\dev\Github\Paprika Recipe Manager"
 git add .
 git status   # confirm .env is NOT listed
-git commit -m "Initial Paprika backups and Field Doctor tooling"
+git commit -m "Your message"
+git push
 ```
-
-Then create a GitHub repo and push. Current local + JSON backups are ~tens of MB (fine for GitHub without LFS).
