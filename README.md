@@ -8,10 +8,13 @@ Versioned workspace for **Paprika Recipe Manager** backups and **Field Doctor Lo
 | --- | --- |
 | `backups/paprika-local/<date>/` | Copy of Windows Paprika **1.x** `Data` folder (`Paprika.sqlite` + photos) |
 | `backups/paprika-json/<date>/` | Full cloud API dump (all recipes + categories as JSON) |
+| `db/schema.sql` | Postgres mirror schema (Paprika cloud = master) |
+| `docker-compose.yml` | Local Postgres for the mirror |
+| `scripts/db/` | `init_db.py` + hash-based `sync_from_paprika.py` |
 | `scripts/field_doctor/` | Main Field Doctor import / rescale / photo / cupboard tools |
 | `scripts/archive/` | Earlier one-off scripts preserved as-is |
 | `scripts/tools/` | Backup helpers |
-| `docs/` | Cupboard-staple scan outputs |
+| `docs/` | Cupboard-staple scan outputs + Postgres mirror notes |
 
 ## Credentials
 
@@ -72,6 +75,19 @@ High-value entry points:
 - `find_dupes.py` / `dupes_verdict.py` — manual vs Style duplicates
 
 Recipes are home-cooking recreations inspired by Field Doctor products, not official Field Doctor recipes.
+
+## Local Postgres mirror
+
+Paprika cloud stays the master. Sync a queryable copy into Docker Postgres (hash-based; Paprika has no last-touched date):
+
+```powershell
+docker compose up -d
+pip install -r requirements.txt
+python scripts\db\init_db.py          # if schema was not applied on first boot
+python scripts\db\sync_from_paprika.py
+```
+
+Details: `docs/postgres-mirror.md`
 
 ## GitHub
 

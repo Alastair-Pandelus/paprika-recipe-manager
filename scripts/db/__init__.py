@@ -1,0 +1,1 @@
+"""Paprika → Postgres sync package."""

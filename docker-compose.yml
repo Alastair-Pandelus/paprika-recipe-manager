@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: paprika-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: paprika
+      POSTGRES_PASSWORD: paprika
+      POSTGRES_DB: paprika
+    ports:
+      - "5432:5432"
+    volumes:
+      - paprika_pg_data:/var/lib/postgresql/data
+      - ./db/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U paprika -d paprika"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  paprika_pg_data:

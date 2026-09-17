@@ -16,6 +16,13 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Tool run logs / caches (do not commit)
+scripts/tools/*_log.txt
+scripts/tools/*.log
+scripts/tools/.*_progress.json
+scripts/tools/.recipe_names_cache.json
+scripts/tools/.boost_fd_portions.log
+
 # Optional: uncomment if JSON dumps get too large for GitHub
 # backups/paprika-json/**/recipes_all.json
 # backups/paprika-json/**/recipes/
