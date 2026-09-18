@@ -26,3 +26,14 @@ scripts/tools/.boost_fd_portions.log
 # Optional: uncomment if JSON dumps get too large for GitHub
 # backups/paprika-json/**/recipes_all.json
 # backups/paprika-json/**/recipes/
+
+# Tool dry-run / probe artifacts
+scripts/tools/.*_dryrun/
+scripts/tools/.soups_*
+scripts/tools/_probe_*.py
+scripts/tools/_dump_*.py
+scripts/tools/_v.py
+scripts/tools/_fix_*.py
+scripts/tools/_final_*.py
+scripts/tools/_verify_*.py
+scripts/tools/_patch_*.py

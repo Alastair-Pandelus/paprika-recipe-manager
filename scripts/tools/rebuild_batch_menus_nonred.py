@@ -1,9 +1,10 @@
-"""Create 10 Paprika Menus named Batch 1..10, each with 2 recipes on Day 1."""
+"""Rebuild Batch 1–10 menus using only non-🔴 FODMAP-scored recipes."""
 from __future__ import annotations
 
 import asyncio
 import gzip
 import json
+import sqlite3
 import sys
 import uuid
 from pathlib import Path
@@ -17,48 +18,59 @@ sys.path.insert(0, str(ROOT / "scripts" / "tools"))
 from lib import PAPRIKA_API, paprika_credentials  # noqa: E402
 from normalize_ingredient_units import RateLimiter, api_json, safe_print  # noqa: E402
 
-PLAN: list[tuple[str, str, str, int]] = [
-    # Non-🔴 only (meal FODMAP title emoji). Servings are 1-serve; scale in menu to 8.
-    ("main", "Field Doctor Chicken Korma (Low FODMAP)", "6B4663D8-8170-447D-9B4E-6B7035FF09AE", 1),
-    ("soup", "Low FODMAP roasted pumpkin soup", "56C43E8E-9443-4E49-81D4-DB2267415E31", 1),
-    ("main", "Field Doctor Fish Pie (Low FODMAP)", "B7A0C22C-577B-481B-AF69-28FAF466D2F1", 1),
-    ("snack", "Low FODMAP granola bars with buckwheat", "FB74E794-E7A0-4587-9B12-57C239553B64", 1),
-    ("main", "Field Doctor Chicken + Green Vegetable Risotto (Low FODMAP)", "065E4E92-601B-4E00-8186-C613ECCC2C88", 1),
-    ("soup", "Low FODMAP chicken noodle soup", "1167B5C0-7F5F-4AE4-A9E1-4077C327D1C0", 1),
-    ("main", "Field Doctor Vegetable Korma (Low FODMAP)", "42F32E0E-66B0-4716-BD29-B0EA9E1F93B2", 1),
-    ("snack", "Low FODMAP Rocher Energy balls", "8A8FE02A-4677-4A55-823B-FA8303BA1BFD", 1),
-    ("main", "Field Doctor Thai Green Chicken Curry (Low FODMAP)", "4370C7A0-FB7E-4A3C-BA46-1C27C3471561", 1),
-    ("soup", "Pumpkin sweet potato soup (low FODMAP)", "830FB55B-F0A6-413D-9858-23051A2BAEDA", 1),
-    ("main", "Field Doctor Low FODMAP Mac + Cheese (Low FODMAP)", "A72D6AE2-07B2-4873-8AD0-E5FF37E38527", 1),
-    ("main", "Low FODMAP Pesto Turkey Meatballs", "D53A7884-BF0F-426C-A83A-6FB36FE2BB5A", 1),
-    ("snack", "Low FODMAP Dark Chocolate Blueberry Mac Nut Clusters", "8D5F56EC-9072-4D29-B846-741EE0A2713B", 1),
-    ("soup", "Low FODMAP Greek Lemon Chicken Soup", "26951C68-2A1F-4ACD-9320-2CAFE66E14F3", 1),
-    ("main", "Low FODMAP pulled pork from the slow cooker", "1524DEAC-32A6-47D3-99CD-757FEA633CDC", 1),
-    ("soup", "Low FODMAP pumpkin tomato soup", "47308319-1209-410F-9493-9B68B06D4690", 1),
-    ("main", "Low FODMAP fish tacos", "20DA0490-06DF-4C2B-A92B-96AC5BE41A9F", 1),
-    ("snack", "5-Minute Buttery Low FODMAP Popcorn", "370B6FCD-E8D5-40F7-AEF8-D755BC96F98A", 1),
-    ("main", "Monash - Slow Cooked Lamb Casserole", "03630b33-89a9-4d7d-b058-eea780665117", 1),
-    ("soup", "Low FODMAP vegetable soup", "6566090F-8185-4DEE-A2E3-7AEE39B2B881", 1),
+LOCAL_DB = Path(
+    r"C:\Users\Pandelus\AppData\Local\Paprika Recipe Manager 3\Database\Paprika.sqlite"
+)
+
+# kind, uid — names loaded live; exclude 🔴 meal scores only
+PLAN_UIDS: list[tuple[str, str]] = [
+    # Batch 1
+    ("main", "6B4663D8-8170-447D-9B4E-6B7035FF09AE"),  # FD Chicken Korma
+    ("soup", "56C43E8E-9443-4E49-81D4-DB2267415E31"),  # roasted pumpkin soup
+    # Batch 2
+    ("main", "B7A0C22C-577B-481B-AF69-28FAF466D2F1"),  # FD Fish Pie
+    ("snack", "FB74E794-E7A0-4587-9B12-57C239553B64"),  # granola bars buckwheat
+    # Batch 3
+    ("main", "065E4E92-601B-4E00-8186-C613ECCC2C88"),  # FD Chicken Green Veg Risotto
+    ("soup", "1167B5C0-7F5F-4AE4-A9E1-4077C327D1C0"),  # chicken noodle soup
+    # Batch 4
+    ("main", "42F32E0E-66B0-4716-BD29-B0EA9E1F93B2"),  # FD Vegetable Korma
+    ("snack", "8A8FE02A-4677-4A55-823B-FA8303BA1BFD"),  # Rocher energy balls
+    # Batch 5
+    ("main", "4370C7A0-FB7E-4A3C-BA46-1C27C3471561"),  # FD Thai Green Chicken Curry
+    ("soup", "830FB55B-F0A6-413D-9858-23051A2BAEDA"),  # pumpkin sweet potato soup
+    # Batch 6
+    ("main", "A72D6AE2-07B2-4873-8AD0-E5FF37E38527"),  # FD Mac + Cheese
+    ("main", "D53A7884-BF0F-426C-A83A-6FB36FE2BB5A"),  # Pesto Turkey Meatballs
+    # Batch 7
+    ("main", "8D5F56EC-9072-4D29-B846-741EE0A2713B"),  # chocolate blueberry clusters (snack type)
+    ("soup", "26951C68-2A1F-4ACD-9320-2CAFE66E14F3"),  # Greek Lemon Chicken Soup
+    # Batch 8
+    ("main", "1524DEAC-32A6-47D3-99CD-757FEA633CDC"),  # pulled pork
+    ("soup", "47308319-1209-410F-9493-9B68B06D4690"),  # pumpkin tomato soup
+    # Batch 9
+    ("main", "20DA0490-06DF-4C2B-A92B-96AC5BE41A9F"),  # fish tacos
+    ("snack", "370B6FCD-E8D5-40F7-AEF8-D755BC96F98A"),  # popcorn
+    # Batch 10
+    ("main", "03630b33-89a9-4d7d-b058-eea780665117"),  # Monash Slow Cooked Lamb
+    ("soup", "6566090F-8185-4DEE-A2E3-7AEE39B2B881"),  # vegetable soup
 ]
 
+# Fix batch 7: first item should be snack type for clusters
+PLAN_UIDS[12] = ("snack", "8D5F56EC-9072-4D29-B846-741EE0A2713B")
+
 BATCH_COUNT = 10
-# Paprika UI shows Day 1..N headings when days >= 1; use 7 so Day 1 is visible like a normal menu
 MENU_DAYS = 7
+BATCH_SCALE = 8  # cook at 8 portions from 1-serve recipes
 MENU_NOTES = (
     "Only recipes scored 🟢🟡🟠 (no 🔴). "
-    "Cook both at 8 portions from 1-serve recipes (listed under Day 1). "
-    "Lunch + dinner from freezer; breakfast separate."
+    f"Scale each to {BATCH_SCALE} portions (recipes are 1-serve). "
+    "Both dishes under Day 1. Lunch + dinner from freezer; breakfast separate."
 )
 
 
 def gzip_obj(obj) -> bytes:
     return gzip.compress(json.dumps(obj, separators=(",", ":")).encode())
-
-
-def scale_for(base_servings: int) -> str | None:
-    if base_servings == 8:
-        return None
-    return f"8/{base_servings}"
 
 
 def is_our_menu(name: str) -> bool:
@@ -68,6 +80,33 @@ def is_our_menu(name: str) -> bool:
     if n.startswith("Batch ") and len(n) > 6 and n[6:].split()[0].isdigit():
         return True
     return False
+
+
+def load_plan() -> list[tuple[str, str, str, int]]:
+    con = sqlite3.connect(LOCAL_DB)
+    con.row_factory = sqlite3.Row
+    out = []
+    for kind, uid in PLAN_UIDS:
+        r = con.execute(
+            "select name, servings from recipes where uid=? and coalesce(in_trash,0)=0",
+            (uid,),
+        ).fetchone()
+        if not r:
+            raise SystemExit(f"Missing recipe {uid}")
+        name = r["name"] or ""
+        if name.startswith("🔴"):
+            raise SystemExit(f"Recipe is 🔴 (excluded): {name}")
+        servings = 1
+        try:
+            import re
+
+            m = re.search(r"(\d+)", str(r["servings"] or "1"))
+            servings = int(m.group(1)) if m else 1
+        except Exception:
+            servings = 1
+        out.append((kind, name, uid, servings))
+    con.close()
+    return out
 
 
 async def post_entities(session, limiter, headers, endpoint: str, items: list[dict]) -> bool:
@@ -90,8 +129,9 @@ async def post_entities(session, limiter, headers, endpoint: str, items: list[di
 
 
 async def main() -> None:
-    if len(PLAN) != BATCH_COUNT * 2:
-        raise SystemExit(f"PLAN must have {BATCH_COUNT * 2} recipes, got {len(PLAN)}")
+    plan = load_plan()
+    if len(plan) != BATCH_COUNT * 2:
+        raise SystemExit(f"Need {BATCH_COUNT * 2} recipes, got {len(plan)}")
 
     user, pw = paprika_credentials()
     limiter = RateLimiter(0.4)
@@ -128,7 +168,6 @@ async def main() -> None:
             m for m in menus if not m.get("deleted") and is_our_menu(m.get("name") or "")
         ]
         drop_uids = {(m.get("uid") or "").upper() for m in to_drop_menus}
-        # Also drop ANY items pointing at those menus, including already-deleted ones we re-touch
         to_drop_items = [
             it
             for it in items_all
@@ -156,7 +195,7 @@ async def main() -> None:
         new_items: list[dict] = []
         for batch in range(1, BATCH_COUNT + 1):
             menu_uid = str(uuid.uuid4()).upper()
-            pair = PLAN[(batch - 1) * 2 : batch * 2]
+            pair = plan[(batch - 1) * 2 : batch * 2]
             names = [p[1] for p in pair]
             new_menus.append(
                 {
@@ -173,25 +212,23 @@ async def main() -> None:
                     "menu_uid": menu_uid,
                     "recipe_uid": recipe_uid,
                     "name": name,
-                    "day": 1,  # Day 1 in Paprika Windows UI (0 does not render)
+                    "day": 1,
                     "order_flag": slot,
                     "type_uid": type_for[kind],
                     "is_ingredient": False,
                 }
-                sc = scale_for(servings)
-                if sc is not None:
-                    item["scale"] = sc
+                if servings != BATCH_SCALE:
+                    item["scale"] = f"{BATCH_SCALE}/{servings}"
                 new_items.append(item)
-            safe_print(f"Batch {batch}: {names[0]} | {names[1]}")
+            safe_print(f"Batch {batch}: {names[0][:50]} | {names[1][:50]}")
 
         if not await post_entities(s, limiter, H, "/v2/sync/menus/", new_menus):
             raise SystemExit("Failed to create menus")
-        # Post menu items in small batches to avoid 429 / dropouts
         chunk = 5
         for i in range(0, len(new_items), chunk):
             part = new_items[i : i + chunk]
             if not await post_entities(s, limiter, H, "/v2/sync/menuitems/", part):
-                raise SystemExit(f"Failed to create menu items chunk {i}")
+                raise SystemExit(f"Failed menu items chunk {i}")
             safe_print(f"  posted items {i + 1}-{i + len(part)}")
 
         await limiter.wait_turn()

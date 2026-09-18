@@ -435,7 +435,12 @@ def is_olive_oil(name: str) -> bool:
 
 # Keep oil as a listed ingredient when it's a substantial part of the finished dish
 # (~120 g / 8 portions ≈ 9 tbsp, or pesto-style sauce oil).
-OIL_KEEP_MIN_G_PER_BATCH = 120.0
+# Threshold scales with `portions` so 1-serve rebuilds keep the same relative rule.
+OIL_KEEP_MIN_G_PER_BATCH_AT_8 = 120.0
+
+
+def oil_keep_min_g(portions: int) -> float:
+    return OIL_KEEP_MIN_G_PER_BATCH_AT_8 * max(portions, 1) / 8.0
 
 
 def should_keep_olive_oil(
@@ -447,7 +452,7 @@ def should_keep_olive_oil(
         return True
     if it.pct is not None and it.pct >= 4.0:
         return True
-    return g >= OIL_KEEP_MIN_G_PER_BATCH
+    return g >= oil_keep_min_g(portions)
 
 
 HOME_LIQUID_TIP = (
@@ -909,6 +914,12 @@ def merge_recipe_notes(existing: str, scaling_notes: str, source_raw: str) -> st
         flags=re.S,
     )
     notes = re.sub(r"\n*Source ingredients:.*", "", notes, flags=re.S)
+    # Drop portion-boost audit lines from the earlier ×8/6 / ×8/7 pass
+    notes = re.sub(
+        r"(?im)^.*Portion boost:\s*meat/fish.*$\n?",
+        "",
+        notes,
+    )
     notes = notes.strip()
     parts = []
     if notes:
