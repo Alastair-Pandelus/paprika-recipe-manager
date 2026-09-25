@@ -1,6 +1,6 @@
 """
 Nest website source folders under Low Fodmap / Websites.
-Leaves By type and Diet as direct children of Low Fodmap.
+Leaves Type and Diet as direct children of Low Fodmap.
 """
 from __future__ import annotations
 

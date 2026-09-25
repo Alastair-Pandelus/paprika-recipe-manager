@@ -1,7 +1,7 @@
 """
 Reclassify Low Fodmap recipes with dual categories:
   - keep existing website/source folders
-  - add By type / <9 types>
+  - add Type / <9 types>
   - add Diet / Vegan only when title explicitly says vegan or plant-based
 """
 from __future__ import annotations
@@ -24,7 +24,7 @@ from lib import PAPRIKA_API, paprika_credentials  # noqa: E402
 
 LF = "a1747733-a5ed-47b8-8d7d-db33fcb19a10"
 
-BY_TYPE = "By type"
+BY_TYPE = "Type"
 DIET = "Diet"
 VEGAN = "Vegan"
 UNCATEGORISED = "Uncategorised"
@@ -366,7 +366,7 @@ async def main() -> None:
                 vegan_n += 1
 
             old_cats = [str(c) for c in (rec.get("categories") or [])]
-            # Keep source folders; drop previous By type / Diet tags then re-add
+            # Keep source folders; drop previous Type / Diet tags then re-add
             kept = [
                 c
                 for c in old_cats

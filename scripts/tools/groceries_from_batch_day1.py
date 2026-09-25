@@ -183,7 +183,7 @@ async def main() -> None:
                         "name": name,
                         "ingredient": ing,
                         "quantity": qty,
-                        "aisle": "Other",
+                        "aisle": "Miscellaneous",
                         "aisle_uid": None,
                         "purchased": False,
                         "recipe": recipe_label,

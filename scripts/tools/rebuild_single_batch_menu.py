@@ -42,7 +42,7 @@ LOCAL_DB = Path(
 MENU_NAME = "Batch"
 MENU_DAYS = 10
 MENU_NOTES = (
-    "Low FODMAP batch cook (✅⚠️ only — no ❌). "
+    "Low FODMAP batch cook (✅ℹ️ only — no ❌). "
     "One menu, days 1–10, two meals per day. "
     "Mix ~60% Field Doctor mains / 20% soups / 10% bars / 10% baking. "
     f"Scale each recipe to {BATCH_SCALE} portions (recipes are 1-serve). "

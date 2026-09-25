@@ -2,203 +2,374 @@
   {
     "id": "brown-rice-pasta",
     "name": "Brown rice / GF pasta",
-    "match_keys": ["brown rice pasta", "rice pasta", "penne", "fettuccine", "fettucine", "linguine", "spaghetti", "pasta", "noodle"],
+    "match_keys": [
+      "brown rice pasta",
+      "rice pasta",
+      "penne",
+      "fettuccine",
+      "fettucine",
+      "linguine",
+      "spaghetti",
+      "pasta",
+      "noodle"
+    ],
     "fodmap_type": "FRT",
     "green_g": 150,
     "no_upper_limit": false,
-    "notes": "Proxy green serve — confirm variety in Monash app",
-    "source": "proxy",
+    "notes": "Proxy cooked brown-rice pasta ~150 g; amber ~3 cups / 422 g fructans.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19",
+    "amber_g": 422
   },
   {
     "id": "quinoa",
     "name": "Quinoa",
-    "match_keys": ["quinoa"],
+    "match_keys": [
+      "quinoa"
+    ],
     "fodmap_type": "FRT",
     "green_g": 155,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy cooked quinoa ~155 g / 1 cup. Confirm upper limit in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "brown-rice",
     "name": "Brown rice",
-    "match_keys": ["brown rice", "whole grain rice", "wholegrain rice"],
-    "fodmap_type": "FRT",
+    "match_keys": [
+      "brown rice",
+      "whole grain rice",
+      "wholegrain rice"
+    ],
+    "fodmap_type": null,
     "green_g": 180,
-    "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "no_upper_limit": true,
+    "notes": "Brown rice cooked — Monash remains low to ~500 g. Blank tag / no stack.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19",
+    "amber_g": null,
+    "red_g": null
   },
   {
     "id": "rice",
     "name": "White rice",
-    "match_keys": ["rice"],
-    "fodmap_type": "FRT",
+    "match_keys": [
+      "rice"
+    ],
+    "fodmap_type": null,
     "green_g": 190,
-    "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "no_upper_limit": true,
+    "notes": "White / basmati / arborio cooked rice — Monash remains low to ~500 g. Blank tag / no stack.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19",
+    "amber_g": null,
+    "red_g": null
   },
   {
     "id": "oats",
     "name": "Oats",
-    "match_keys": ["oat", "rolled oat"],
+    "match_keys": [
+      "oat",
+      "rolled oat"
+    ],
     "fodmap_type": "FRT",
-    "green_g": 60,
+    "green_g": 52,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy rolled oats dry ~52 g green (fructans/GOS); stack as Fructans.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19",
+    "amber_g": 78,
+    "red_g": 104
   },
   {
     "id": "wheat",
     "name": "Wheat / couscous / bulgur",
-    "match_keys": ["wheat", "couscous", "bulgur", "semolina"],
+    "match_keys": [
+      "wheat",
+      "couscous",
+      "bulgur",
+      "semolina"
+    ],
     "fodmap_type": "FRT",
     "green_g": 15,
     "no_upper_limit": false,
-    "notes": "Proxy — typically high fructans even in small serves",
-    "source": "proxy",
+    "notes": "Proxy wheat/couscous/bulgur — small green. Confirm variety.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "flour",
     "name": "Flour (generic)",
-    "match_keys": ["flour"],
+    "match_keys": [
+      "flour"
+    ],
     "fodmap_type": "FRT",
     "green_g": 50,
     "no_upper_limit": false,
-    "notes": "Proxy — depends on grain; prefer GF flour entries when known",
-    "source": "proxy",
+    "notes": "Proxy generic flour — prefer GF/rice when known.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "sundried-tomato",
     "name": "Sundried tomato",
-    "match_keys": ["sundried tomato", "sun-dried tomato", "sun dried tomato"],
+    "match_keys": [
+      "sundried tomato",
+      "sun-dried tomato",
+      "sun dried tomato"
+    ],
     "fodmap_type": "FRU",
-    "green_g": 8,
+    "green_g": 13,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy ~13 g green fructose (was 8 g). Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "tomato-paste",
     "name": "Tomato puree / paste",
-    "match_keys": ["tomato puree", "tomato paste"],
-    "fodmap_type": "FRU",
+    "match_keys": [
+      "tomato puree",
+      "tomato paste"
+    ],
+    "fodmap_type": "FRT",
     "green_g": 28,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy ~28 g green; larger serves fructans (amber ~81 g). Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19",
+    "amber_g": 81,
+    "red_g": 85
   },
   {
     "id": "canned-tomato",
     "name": "Canned / plum tomato",
-    "match_keys": ["plum tomato", "chopped tomato", "canned tomato", "tinned tomato", "passata"],
+    "match_keys": [
+      "plum tomato",
+      "chopped tomato",
+      "canned tomato",
+      "tinned tomato"
+    ],
     "fodmap_type": "FRU",
     "green_g": 100,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy canned/chopped ~100 g fructose. Passata separate.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
+  },
+  {
+    "id": "passata",
+    "name": "Passata / sieved tomato",
+    "match_keys": [
+      "passata"
+    ],
+    "fodmap_type": "FRU",
+    "green_g": 72,
+    "no_upper_limit": false,
+    "notes": "Proxy passata ~72 g fructose. Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
+    "source_url": null,
+    "verified_at": "2026-09-19"
   },
   {
     "id": "tomato",
-    "name": "Tomato / cherry tomato",
-    "match_keys": ["cherry tomato", "tomato"],
+    "name": "Tomato (common / round)",
+    "match_keys": [
+      "tomato"
+    ],
     "fodmap_type": "FRU",
-    "green_g": 75,
+    "green_g": 65,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy common tomato ~65 g fructose. Cherry/roma are separate.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
+  },
+  {
+    "id": "cherry-tomato",
+    "name": "Cherry tomato",
+    "match_keys": [
+      "cherry tomato",
+      "cherry tomatoes"
+    ],
+    "fodmap_type": "FRU",
+    "green_g": 45,
+    "amber_g": 60,
+    "red_g": 75,
+    "no_upper_limit": false,
+    "notes": "Proxy ~45 g / ~5 cherries fructose. Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
+    "source_url": null,
+    "verified_at": "2026-09-19"
+  },
+  {
+    "id": "roma-tomato",
+    "name": "Roma / plum tomato (fresh)",
+    "match_keys": [
+      "roma tomato",
+      "roma tomatoes"
+    ],
+    "fodmap_type": "FRU",
+    "green_g": 48,
+    "no_upper_limit": false,
+    "notes": "Proxy fresh roma ~48 g fructose. Canned plum stays under canned-tomato.",
+    "source": "secondary_audit_2026-09-19",
+    "source_url": null,
+    "verified_at": "2026-09-19"
   },
   {
     "id": "apple",
     "name": "Apple",
-    "match_keys": ["apple"],
+    "match_keys": [
+      "apple"
+    ],
     "fodmap_type": "FRU",
     "green_g": 20,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy — also sorbitol; primary stack Fructose. Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "mango",
     "name": "Mango",
-    "match_keys": ["mango"],
+    "match_keys": [
+      "mango"
+    ],
     "fodmap_type": "FRU",
     "green_g": 40,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy excess fructose. Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
+  },
+  {
+    "id": "pineapple",
+    "name": "Pineapple (fresh)",
+    "match_keys": ["pineapple"],
+    "fodmap_type": "FRT",
+    "green_g": 140,
+    "no_upper_limit": false,
+    "notes": "Proxy Monash fresh chopped ~140 g / 1 cup green; larger serves fructans. Dried/canned differ. Confirm in app.",
+    "source": "secondary_audit_2026-09-22",
+    "source_url": null,
+    "verified_at": "2026-09-22"
   },
   {
     "id": "honey",
     "name": "Honey",
-    "match_keys": ["honey"],
+    "match_keys": [
+      "honey"
+    ],
     "fodmap_type": "FRU",
     "green_g": 7,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy tiny green / high fructose — confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "agave",
     "name": "Agave",
-    "match_keys": ["agave"],
+    "match_keys": [
+      "agave"
+    ],
     "fodmap_type": "FRU",
     "green_g": 5,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy. Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "green-pepper",
     "name": "Green bell pepper",
-    "match_keys": ["green pepper", "green bell"],
-    "fodmap_type": "FRU",
+    "match_keys": [
+      "green pepper",
+      "green bell",
+      "green bell pepper"
+    ],
+    "fodmap_type": "FRT",
     "green_g": 75,
+    "amber_g": 250,
+    "red_g": 310,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
+    "notes": "Proxy — Monash green ~75 g fructans (not fructose). Confirm in app.",
     "source": "proxy",
     "source_url": null,
     "verified_at": null
   },
   {
     "id": "red-pepper",
-    "name": "Red / yellow / orange bell pepper",
-    "match_keys": ["red pepper", "yellow pepper", "orange pepper", "bell pepper", "capsicum"],
+    "name": "Red bell pepper",
+    "match_keys": [
+      "red pepper",
+      "red bell",
+      "red bell pepper",
+      "bell pepper",
+      "capsicum"
+    ],
     "fodmap_type": "FRU",
     "green_g": 43,
+    "amber_g": 57,
+    "red_g": 75,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
+    "notes": "Proxy — Monash green ~43 g; ambiguous unspecified bell → red. Confirm in app.",
+    "source": "proxy",
+    "source_url": null,
+    "verified_at": null
+  },
+  {
+    "id": "yellow-pepper",
+    "name": "Yellow bell pepper",
+    "match_keys": [
+      "yellow or orange bell pepper",
+      "orange or yellow bell pepper",
+      "yellow or orange",
+      "orange or yellow",
+      "yellow pepper",
+      "yellow bell pepper",
+      "yellow bell"
+    ],
+    "fodmap_type": "FRU",
+    "green_g": 35,
+    "amber_g": 47,
+    "red_g": 75,
+    "no_upper_limit": false,
+    "notes": "Proxy — Monash green ~35 g (strictest ripe colour). Ambiguous yellow/orange → yellow. Confirm in app.",
+    "source": "proxy",
+    "source_url": null,
+    "verified_at": null
+  },
+  {
+    "id": "orange-pepper",
+    "name": "Orange bell pepper",
+    "match_keys": [
+      "orange pepper",
+      "orange bell",
+      "orange bell pepper"
+    ],
+    "fodmap_type": "FRU",
+    "green_g": 38,
+    "amber_g": 51,
+    "red_g": 75,
+    "no_upper_limit": false,
+    "notes": "Proxy — Monash green ~38 g. Confirm in app.",
     "source": "proxy",
     "source_url": null,
     "verified_at": null
@@ -206,26 +377,31 @@
   {
     "id": "garlic",
     "name": "Garlic",
-    "match_keys": ["garlic"],
+    "match_keys": [
+      "garlic"
+    ],
     "fodmap_type": "FRT",
     "green_g": 1,
     "no_upper_limit": false,
-    "notes": "Proxy — tiny green serve; garlic-infused oil is separate (not matched)",
-    "source": "proxy",
+    "notes": "Proxy tiny; garlic-infused oil not matched.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "onion",
     "name": "Onion / shallot (bulb)",
-    "match_keys": ["onion", "shallot"],
+    "match_keys": [
+      "onion",
+      "shallot"
+    ],
     "fodmap_type": "FRT",
     "green_g": 10,
     "no_upper_limit": false,
-    "notes": "Proxy bulb; green tops of spring onion/scallion are a separate food",
-    "source": "proxy",
+    "notes": "Proxy bulb; spring onion greens separate.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "spring_onion_greens",
@@ -252,7 +428,9 @@
   {
     "id": "leek",
     "name": "Leek (white bulb)",
-    "match_keys": ["leek"],
+    "match_keys": [
+      "leek"
+    ],
     "fodmap_type": "FRT",
     "green_g": 14,
     "no_upper_limit": false,
@@ -284,35 +462,68 @@
   {
     "id": "fennel",
     "name": "Fennel",
-    "match_keys": ["fennel"],
+    "match_keys": [
+      "fennel"
+    ],
     "fodmap_type": "FRT",
     "green_g": 48,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy fennel bulb ~48 g fructans. Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "cabbage",
     "name": "Cabbage",
-    "match_keys": ["cabbage"],
+    "match_keys": [
+      "cabbage"
+    ],
     "fodmap_type": "FRT",
     "green_g": 75,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm variety in Monash app",
+    "notes": "Proxy common/red cabbage ~75 g; amber ~>150 g fructans.",
+    "source": "secondary_audit_2026-09-19",
+    "source_url": null,
+    "verified_at": "2026-09-19",
+    "amber_g": 150,
+    "red_g": 180
+  },
+  {
+    "id": "broccoli",
+    "name": "Broccoli (heads / whole)",
+    "match_keys": [
+      "broccoli florets",
+      "broccoli floret",
+      "broccoli heads",
+      "broccoli head",
+      "broccoli"
+    ],
+    "fodmap_type": "FRU",
+    "green_g": 75,
+    "amber_g": 208,
+    "red_g": 279,
+    "no_upper_limit": false,
+    "notes": "Proxy — Monash heads/whole ~75 g excess fructose (fructans low). Confirm in app.",
     "source": "proxy",
     "source_url": null,
     "verified_at": null
   },
   {
-    "id": "broccoli",
-    "name": "Broccoli",
-    "match_keys": ["broccoli"],
-    "fodmap_type": "FRT",
+    "id": "broccoli-stalks",
+    "name": "Broccoli stalks",
+    "match_keys": [
+      "broccoli stalks",
+      "broccoli stalk",
+      "broccoli stems",
+      "broccoli stem"
+    ],
+    "fodmap_type": "FRU",
     "green_g": 45,
+    "amber_g": 57,
+    "red_g": 75,
     "no_upper_limit": false,
-    "notes": "Proxy — heads vs stems differ — confirm in app",
+    "notes": "Proxy — Monash stalks ~45 g excess fructose. Confirm in app.",
     "source": "proxy",
     "source_url": null,
     "verified_at": null
@@ -320,67 +531,123 @@
   {
     "id": "cauliflower",
     "name": "Cauliflower",
-    "match_keys": ["cauliflower"],
-    "fodmap_type": "MAN",
-    "green_g": 15,
+    "match_keys": [
+      "cauliflower"
+    ],
+    "fodmap_type": "FRT",
+    "green_g": 75,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy May-2025 retest ~75 g green; larger serves fructans (was mannitol 15 g). Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19",
+    "amber_g": null,
+    "red_g": null
   },
   {
     "id": "mushroom",
-    "name": "Mushroom",
-    "match_keys": ["mushroom", "shiitake"],
+    "name": "Mushroom (button / portobello / generic)",
+    "match_keys": [
+      "button mushroom",
+      "portobello",
+      "portabella",
+      "champignon",
+      "mushroom"
+    ],
     "fodmap_type": "MAN",
-    "green_g": 47,
+    "green_g": 7,
     "no_upper_limit": false,
-    "notes": "Proxy — oyster often freer; confirm variety in app",
-    "source": "proxy",
+    "notes": "Proxy button ~7 g mannitol. Oyster/shiitake separate. Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19",
+    "amber_g": 11,
+    "red_g": 75
+  },
+  {
+    "id": "oyster-mushroom",
+    "name": "Oyster mushroom",
+    "match_keys": [
+      "oyster mushroom",
+      "oyster mushrooms"
+    ],
+    "fodmap_type": null,
+    "green_g": 75,
+    "no_upper_limit": true,
+    "notes": "Proxy oyster ~75 g green with no listed upper — blank tag.",
+    "source": "secondary_audit_2026-09-19",
+    "source_url": null,
+    "verified_at": "2026-09-19"
+  },
+  {
+    "id": "shiitake",
+    "name": "Shiitake mushroom (fresh)",
+    "match_keys": [
+      "shiitake"
+    ],
+    "fodmap_type": "MAN",
+    "green_g": 7,
+    "amber_g": 17,
+    "no_upper_limit": false,
+    "notes": "Proxy fresh shiitake ~7 g mannitol. Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
+    "source_url": null,
+    "verified_at": "2026-09-19"
   },
   {
     "id": "sweet-potato",
     "name": "Sweet potato",
-    "match_keys": ["sweet potato"],
+    "match_keys": [
+      "sweet potato"
+    ],
     "fodmap_type": "MAN",
-    "green_g": 70,
+    "green_g": 75,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Monash blog ~75 g green mannitol; amber ~>100 g; red ~>112 g.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19",
+    "amber_g": 100,
+    "red_g": 112
   },
   {
     "id": "avocado",
     "name": "Avocado",
-    "match_keys": ["avocado"],
+    "match_keys": [
+      "avocado"
+    ],
     "fodmap_type": "SOR",
-    "green_g": 30,
+    "green_g": 60,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy 2024 retest ~60 g green; polyol perseitol stacked as Sorbitol in our 6-type model.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19",
+    "amber_g": null,
+    "red_g": null
   },
   {
     "id": "celery",
     "name": "Celery",
-    "match_keys": ["celery"],
+    "match_keys": [
+      "celery"
+    ],
     "fodmap_type": "MAN",
-    "green_g": 10,
+    "green_g": 51,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy May-2025 retest ~51 g green mannitol (was ~10 g). Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19",
+    "amber_g": 75,
+    "red_g": 78
   },
   {
     "id": "carrot",
     "name": "Carrot (orange)",
-    "match_keys": ["carrot"],
+    "match_keys": [
+      "carrot"
+    ],
     "fodmap_type": null,
     "green_g": 75,
     "amber_g": null,
@@ -394,199 +661,346 @@
   {
     "id": "spinach",
     "name": "Spinach",
-    "match_keys": ["spinach"],
-    "fodmap_type": "FRT",
+    "match_keys": [
+      "spinach"
+    ],
+    "fodmap_type": null,
     "green_g": 150,
-    "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "no_upper_limit": true,
+    "notes": "Spinach — Monash remains low in large serves (~500 g). Blank tag / no stack.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19",
+    "amber_g": null,
+    "red_g": null
   },
   {
     "id": "courgette",
     "name": "Courgette / zucchini",
-    "match_keys": ["courgette", "zucchini"],
+    "match_keys": [
+      "courgette",
+      "zucchini"
+    ],
     "fodmap_type": "FRT",
-    "green_g": 66,
+    "green_g": 65,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy ~65 g green fructans. Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "aubergine",
     "name": "Aubergine / eggplant",
-    "match_keys": ["aubergine", "eggplant"],
-    "fodmap_type": "FRT",
+    "match_keys": [
+      "aubergine",
+      "eggplant"
+    ],
+    "fodmap_type": "SOR",
     "green_g": 75,
     "no_upper_limit": false,
-    "notes": "Proxy — larger serves may rise (sorbitol) — confirm in app",
-    "source": "proxy",
+    "notes": "Proxy ~75 g green; larger serves sorbitol (not fructans). Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "potato",
     "name": "Potato",
-    "match_keys": ["potato"],
+    "match_keys": [
+      "potato"
+    ],
     "fodmap_type": null,
     "green_g": 200,
     "no_upper_limit": true,
-    "notes": "Generally free at typical serves — confirm variety in Monash app",
-    "source": "proxy",
+    "notes": "White potato — Monash remains low in large serves. Blank tag.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "chickpea",
     "name": "Chickpea",
-    "match_keys": ["chickpea", "garbanzo"],
+    "match_keys": [
+      "chickpea",
+      "garbanzo"
+    ],
     "fodmap_type": "GOS",
     "green_g": 42,
     "no_upper_limit": false,
-    "notes": "Proxy — canned/drained often better — confirm in app",
-    "source": "proxy",
+    "notes": "Proxy canned drained ~42 g / ¼ cup GOS.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "lentil",
     "name": "Lentil",
-    "match_keys": ["lentil"],
+    "match_keys": [
+      "lentil"
+    ],
     "fodmap_type": "GOS",
     "green_g": 46,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy canned drained ~46 g / ¼ cup GOS.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "kidney-bean",
     "name": "Kidney bean",
-    "match_keys": ["kidney bean"],
+    "match_keys": [
+      "kidney bean"
+    ],
     "fodmap_type": "GOS",
     "green_g": 40,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy canned drained. Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "black-bean",
     "name": "Black bean",
-    "match_keys": ["black bean"],
+    "match_keys": [
+      "black bean"
+    ],
     "fodmap_type": "GOS",
     "green_g": 40,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy canned drained ~45 g in some lists; keep 40. Confirm.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "edamame",
     "name": "Edamame",
-    "match_keys": ["edamame"],
+    "match_keys": [
+      "edamame"
+    ],
     "fodmap_type": "GOS",
-    "green_g": 42,
+    "green_g": 75,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy shelled edamame ~75 g / ½ cup GOS (was 42 g). Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "beansprout",
     "name": "Bean sprout",
-    "match_keys": ["beansprout", "bean sprout"],
-    "fodmap_type": "GOS",
-    "green_g": 72,
-    "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "match_keys": [
+      "beansprout",
+      "bean sprout"
+    ],
+    "fodmap_type": null,
+    "green_g": 75,
+    "no_upper_limit": true,
+    "notes": "Bean sprouts / shoots — treated as free at typical serves. Blank tag / no stack.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19",
+    "amber_g": null,
+    "red_g": null
   },
   {
     "id": "tofu",
     "name": "Tofu",
-    "match_keys": ["tofu"],
+    "match_keys": [
+      "firm tofu",
+      "tofu"
+    ],
     "fodmap_type": "GOS",
     "green_g": 170,
     "no_upper_limit": false,
-    "notes": "Proxy — firm vs silken differ — confirm in app",
-    "source": "proxy",
+    "notes": "Proxy firm tofu ~170 g; silken is separate (much smaller). Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
+  },
+  {
+    "id": "silken-tofu",
+    "name": "Silken tofu",
+    "match_keys": [
+      "silken tofu",
+      "soft tofu"
+    ],
+    "fodmap_type": "GOS",
+    "green_g": 39,
+    "no_upper_limit": false,
+    "notes": "Proxy silken ~39 g / 2 tbsp GOS (firm is separate).",
+    "source": "secondary_audit_2026-09-19",
+    "source_url": null,
+    "verified_at": "2026-09-19"
   },
   {
     "id": "soy-milk",
     "name": "Soy milk (whole bean)",
-    "match_keys": ["soy milk", "soya milk"],
+    "match_keys": [
+      "soy milk",
+      "soya milk"
+    ],
     "fodmap_type": "GOS",
     "green_g": 40,
     "no_upper_limit": false,
-    "notes": "Proxy — protein isolate often freer — confirm in app",
-    "source": "proxy",
+    "notes": "Proxy whole-bean soy milk small green; protein-isolate often free at 250 ml — not auto-detected.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
+  },
+  {
+    "id": "almond-milk",
+    "name": "Almond milk",
+    "match_keys": ["almond milk"],
+    "fodmap_type": null,
+    "green_g": 240,
+    "no_upper_limit": true,
+    "notes": "Proxy Monash ~240 ml green; typically free of lactose. Blank tag / no stack.",
+    "source": "secondary_audit_2026-09-22",
+    "source_url": null,
+    "verified_at": "2026-09-22"
+  },
+  {
+    "id": "oat-milk",
+    "name": "Oat milk",
+    "match_keys": ["oat milk"],
+    "fodmap_type": "FRT",
+    "green_g": 104,
+    "amber_g": 121,
+    "no_upper_limit": false,
+    "notes": "Proxy Monash ~104 ml green; larger serves fructans/GOS. Stack as Fructans.",
+    "source": "secondary_audit_2026-09-22",
+    "source_url": null,
+    "verified_at": "2026-09-22"
+  },
+  {
+    "id": "rice-milk",
+    "name": "Rice milk",
+    "match_keys": ["rice milk", "coconut-rice milk", "coconut rice milk"],
+    "fodmap_type": "FRT",
+    "green_g": 200,
+    "no_upper_limit": false,
+    "notes": "Proxy Monash ~200 ml green; very large serves may have fructans. Not lactose.",
+    "source": "secondary_audit_2026-09-22",
+    "source_url": null,
+    "verified_at": "2026-09-22"
+  },
+  {
+    "id": "hemp-milk",
+    "name": "Hemp / macadamia milk",
+    "match_keys": ["hemp milk", "macadamia milk"],
+    "fodmap_type": null,
+    "green_g": 240,
+    "no_upper_limit": true,
+    "notes": "Proxy — typically low/free at a cup; not lactose. Confirm brand in app.",
+    "source": "secondary_audit_2026-09-22",
+    "source_url": null,
+    "verified_at": "2026-09-22"
+  },
+  {
+    "id": "plant-milk",
+    "name": "Plant-based / non-dairy milk (generic)",
+    "match_keys": [
+      "plant-based milk",
+      "plant based milk",
+      "non-dairy milk",
+      "nondairy milk",
+      "dairy-free milk",
+      "dairy free milk",
+      "vegetable milk"
+    ],
+    "fodmap_type": null,
+    "green_g": 200,
+    "no_upper_limit": true,
+    "notes": "Generic plant milk — not lactose. Prefer specific almond/oat/rice/soy when named. Blank tag.",
+    "source": "secondary_audit_2026-09-22",
+    "source_url": null,
+    "verified_at": "2026-09-22"
   },
   {
     "id": "milk",
     "name": "Cow's milk",
-    "match_keys": ["milk"],
+    "match_keys": [
+      "condensed milk",
+      "evaporated milk",
+      "cow's milk",
+      "cows milk",
+      "whole milk",
+      "skimmed milk",
+      "skim milk",
+      "semi-skimmed milk",
+      "semi skimmed milk",
+      "full-fat milk",
+      "full fat milk",
+      "dairy milk",
+      "buttermilk",
+      "milk"
+    ],
     "fodmap_type": "LAC",
     "green_g": 40,
     "no_upper_limit": false,
-    "notes": "Proxy — lactose-free milk should not match if labelled; confirm",
-    "source": "proxy",
+    "notes": "Proxy cow milk lactose. Plant milks and lactose-free are matched separately / skipped. Allergen-only (MILK) labels on cheese ignored by matcher.",
+    "source": "secondary_audit_2026-09-22",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-22"
   },
   {
     "id": "yoghurt",
     "name": "Yoghurt",
-    "match_keys": ["yoghurt", "yogurt"],
+    "match_keys": [
+      "yoghurt",
+      "yogurt"
+    ],
     "fodmap_type": "LAC",
     "green_g": 40,
     "no_upper_limit": false,
-    "notes": "Proxy — lactose-free / hard Greek differ — confirm in app",
-    "source": "proxy",
+    "notes": "Proxy. Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "cream",
     "name": "Cream",
-    "match_keys": ["cream"],
+    "match_keys": [
+      "cream"
+    ],
     "fodmap_type": "LAC",
     "green_g": 40,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy. Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "soft-cheese",
     "name": "Soft cheese",
-    "match_keys": ["soft cheese", "ricotta", "cottage cheese"],
+    "match_keys": [
+      "soft cheese",
+      "ricotta",
+      "cottage cheese"
+    ],
     "fodmap_type": "LAC",
     "green_g": 40,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy ricotta/cottage. Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "parmesan",
     "name": "Parmesan / Parmigiano / hard cheese",
-    "match_keys": ["parmesan", "parmigiano", "hard cheese", "cheddar"],
+    "match_keys": [
+      "parmesan",
+      "parmigiano",
+      "hard cheese",
+      "cheddar"
+    ],
     "fodmap_type": null,
     "green_g": 40,
     "amber_g": null,
@@ -600,25 +1014,32 @@
   {
     "id": "coconut-milk",
     "name": "Coconut milk",
-    "match_keys": ["coconut milk"],
+    "match_keys": [
+      "coconut milk"
+    ],
     "fodmap_type": "SOR",
     "green_g": 60,
     "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "notes": "Proxy canned coconut milk ~60 ml/g range; UHT drinking may differ. Confirm in app.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19"
   },
   {
     "id": "olive",
     "name": "Olive",
-    "match_keys": ["kalamata olive", "olive"],
-    "fodmap_type": "FRU",
+    "match_keys": [
+      "kalamata olive",
+      "olive"
+    ],
+    "fodmap_type": null,
     "green_g": 30,
-    "no_upper_limit": false,
-    "notes": "Proxy — confirm in Monash app",
-    "source": "proxy",
+    "no_upper_limit": true,
+    "notes": "Olives — Monash remains low in large serves (~500 g). Blank tag / no stack.",
+    "source": "secondary_audit_2026-09-19",
     "source_url": null,
-    "verified_at": null
+    "verified_at": "2026-09-19",
+    "amber_g": null,
+    "red_g": null
   }
 ]

@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from lib import BACKUPS_DIR, PAPRIKA_API, paprika_credentials  # noqa: E402
+from paprika_grocery_aisles import normalize_aisle  # noqa: E402
 
 # Clean supermarket-facing pantry names + aisle (Paprika aisle strings).
 # Sourced from docs/fd_cupboard_staples.json across 34 Field Doctor-Style recipes.
@@ -145,19 +146,32 @@ async def main() -> None:
                 print(f"After retry clear: {len(remaining)} items")
 
         # Create Field Doctor pantry
+        async with session.get(
+            f"{PAPRIKA_API}/v2/sync/groceryaisles/", headers=headers
+        ) as r:
+            aisle_by_name = {
+                (a.get("name") or ""): a.get("uid")
+                for a in (await r.json()).get("result") or []
+                if not a.get("deleted") and a.get("name")
+            }
+        misc_uid = aisle_by_name.get("Miscellaneous")
+
         new_items = []
         for name, aisle in PANTRY_ITEMS:
+            aname = normalize_aisle(aisle)
+            if aname not in aisle_by_name:
+                aname = "Miscellaneous"
             new_items.append(
                 {
                     "uid": str(uuid.uuid4()),
                     "ingredient": name,
-                    "aisle": aisle,
+                    "aisle": aname,
                     "expiration_date": None,
                     "has_expiration": False,
                     "in_stock": True,
                     "purchase_date": None,
                     "quantity": None,
-                    "aisle_uid": None,
+                    "aisle_uid": aisle_by_name.get(aname) or misc_uid,
                     "location_uid": None,
                     "notes": "Field Doctor Low FODMAP cupboard staple",
                 }

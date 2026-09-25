@@ -55,7 +55,7 @@ CAT = {
 }
 
 MENU_NOTES = (
-    "Low FODMAP batch cook (✅⚠️ only — no ❌). "
+    "Low FODMAP batch cook (✅ℹ️ only — no ❌). "
     "Mix ~60% mains / 20% soups / 10% bars / 10% baking. "
     f"Scale each recipe to {BATCH_SCALE} portions (recipes are 1-serve). "
     "Both dishes under Day 1. Lunch + dinner from freezer; breakfast separate."

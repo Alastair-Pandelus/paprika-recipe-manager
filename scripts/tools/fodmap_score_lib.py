@@ -56,6 +56,8 @@ DENSITY_TSP: list[tuple[str, float]] = [
 # Whole-item estimates (g)
 ITEM_G = {
     "red pepper": 160.0,
+    "yellow pepper": 160.0,
+    "orange pepper": 160.0,
     "green pepper": 160.0,
     "pepper": 160.0,  # bell, when not black/white pepper
     "carrot": 60.0,
@@ -77,54 +79,69 @@ TIN_G = 400.0
 _FALLBACK_FOODS: list[tuple[list[str], float | None, str | None, bool]] = [
     (["brown rice pasta", "rice pasta", "penne", "fettuccine", "fettucine", "linguine", "spaghetti", "pasta", "noodle"], 150, "FRT", False),
     (["quinoa"], 155, "FRT", False),
-    (["brown rice", "whole grain rice", "wholegrain rice"], 180, "FRT", False),
-    (["rice"], 190, "FRT", False),
-    (["oat", "rolled oat"], 60, "FRT", False),
+    (["brown rice", "whole grain rice", "wholegrain rice"], 180, None, True),
+    (["rice"], 190, None, True),
+    (["oat", "rolled oat"], 52, "FRT", False),
     (["wheat", "couscous", "bulgur", "semolina"], 15, "FRT", False),
     (["flour"], 50, "FRT", False),
-    (["sundried tomato", "sun-dried tomato", "sun dried tomato"], 8, "FRU", False),
-    (["tomato puree", "tomato paste"], 28, "FRU", False),
-    (["plum tomato", "chopped tomato", "canned tomato", "tinned tomato", "passata"], 100, "FRU", False),
-    (["cherry tomato", "tomato"], 75, "FRU", False),
+    (["sundried tomato", "sun-dried tomato", "sun dried tomato"], 13, "FRU", False),
+    (["tomato puree", "tomato paste"], 28, "FRT", False),
+    (["plum tomato", "chopped tomato", "canned tomato", "tinned tomato"], 100, "FRU", False),
+    (["passata"], 72, "FRU", False),
+    (["tomato"], 65, "FRU", False),
+    (["cherry tomato", "cherry tomatoes"], 45, "FRU", False),
+    (["roma tomato", "roma tomatoes"], 48, "FRU", False),
     (["apple"], 20, "FRU", False),
     (["mango"], 40, "FRU", False),
+    (["pineapple"], 140, "FRT", False),
     (["honey"], 7, "FRU", False),
     (["agave"], 5, "FRU", False),
-    (["green pepper", "green bell"], 75, "FRU", False),
-    (["red pepper", "yellow pepper", "orange pepper", "bell pepper", "capsicum"], 43, "FRU", False),
+    (["green pepper", "green bell", "green bell pepper"], 75, "FRT", False),
+    (["red pepper", "red bell", "red bell pepper", "bell pepper", "capsicum"], 43, "FRU", False),
+    (["yellow or orange bell pepper", "orange or yellow bell pepper", "yellow or orange", "orange or yellow", "yellow pepper", "yellow bell pepper", "yellow bell"], 35, "FRU", False),
+    (["orange pepper", "orange bell", "orange bell pepper"], 38, "FRU", False),
     (["garlic"], 1, "FRT", False),
     (["onion", "shallot"], 10, "FRT", False),
-    (["spring onion green tops", "spring onion greens", "scallion greens", "scallion green tops"], 75, "FRU", False),
-    (["leek, green tops", "leek green tops", "leek greens", "leek leaves"], None, None, True),
+    (["spring onion green tops", "spring onion greens", "spring onion tops", "scallion green tops", "scallion greens", "green onion green tops", "green onion tops", "green onion greens"], 75, "FRU", False),
     (["leek"], 14, "FRT", False),
+    (["leek, green tops", "leek green tops", "leek greens", "leek leaves", "green part of 1 leek", "green part of leek", "green tops of leek"], None, None, True),
     (["fennel"], 48, "FRT", False),
     (["cabbage"], 75, "FRT", False),
-    (["broccoli"], 45, "FRT", False),
-    (["cauliflower"], 15, "MAN", False),
-    (["mushroom", "shiitake"], 47, "MAN", False),
-    (["sweet potato"], 70, "MAN", False),
-    (["avocado"], 30, "SOR", False),
-    (["celery"], 10, "MAN", False),
+    (["broccoli florets", "broccoli floret", "broccoli heads", "broccoli head", "broccoli"], 75, "FRU", False),
+    (["broccoli stalks", "broccoli stalk", "broccoli stems", "broccoli stem"], 45, "FRU", False),
+    (["cauliflower"], 75, "FRT", False),
+    (["button mushroom", "portobello", "portabella", "champignon", "mushroom"], 7, "MAN", False),
+    (["oyster mushroom", "oyster mushrooms"], 75, None, True),
+    (["shiitake"], 7, "MAN", False),
+    (["sweet potato"], 75, "MAN", False),
+    (["avocado"], 60, "SOR", False),
+    (["celery"], 51, "MAN", False),
     (["carrot"], 75, None, True),
-    (["spinach"], 150, "FRT", False),
-    (["courgette", "zucchini"], 66, "FRT", False),
-    (["aubergine", "eggplant"], 75, "FRT", False),
+    (["spinach"], 150, None, True),
+    (["courgette", "zucchini"], 65, "FRT", False),
+    (["aubergine", "eggplant"], 75, "SOR", False),
     (["potato"], 200, None, True),
     (["chickpea", "garbanzo"], 42, "GOS", False),
     (["lentil"], 46, "GOS", False),
     (["kidney bean"], 40, "GOS", False),
     (["black bean"], 40, "GOS", False),
-    (["edamame"], 42, "GOS", False),
-    (["beansprout", "bean sprout"], 72, "GOS", False),
-    (["tofu"], 170, "GOS", False),
+    (["edamame"], 75, "GOS", False),
+    (["beansprout", "bean sprout"], 75, None, True),
+    (["firm tofu", "tofu"], 170, "GOS", False),
+    (["silken tofu", "soft tofu"], 39, "GOS", False),
     (["soy milk", "soya milk"], 40, "GOS", False),
-    (["milk"], 40, "LAC", False),
+    (["almond milk"], 240, None, True),
+    (["oat milk"], 104, "FRT", False),
+    (["rice milk", "coconut-rice milk", "coconut rice milk"], 200, "FRT", False),
+    (["hemp milk", "macadamia milk"], 240, None, True),
+    (["plant-based milk", "plant based milk", "non-dairy milk", "nondairy milk", "dairy-free milk", "dairy free milk", "vegetable milk"], 200, None, True),
+    (["condensed milk", "evaporated milk", "cow's milk", "cows milk", "whole milk", "skimmed milk", "skim milk", "semi-skimmed milk", "semi skimmed milk", "full-fat milk", "full fat milk", "dairy milk", "buttermilk", "milk"], 40, "LAC", False),
     (["yoghurt", "yogurt"], 40, "LAC", False),
     (["cream"], 40, "LAC", False),
     (["soft cheese", "ricotta", "cottage cheese"], 40, "LAC", False),
     (["parmesan", "parmigiano", "hard cheese", "cheddar"], 40, None, True),
     (["coconut milk"], 60, "SOR", False),
-    (["kalamata olive", "olive"], 30, "FRU", False),
+    (["kalamata olive", "olive"], 30, None, True),
 ]
 
 
@@ -196,12 +213,12 @@ def meal_emoji(ratio: float) -> str:
 def title_meal_emoji(ratio: float) -> str:
     """Monochrome-friendly 3-step title markers (Windows list greys out coloured circles).
 
-    ✅ ≤50% (good) · ⚠️ ≤150% (yellow+orange middle) · ❌ >150% (bad)
+    ✅ ≤50% (good) · ℹ️ ≤150% (yellow+orange middle) · ❌ >150% (bad)
     """
     if ratio <= 0.5:
         return "✅"
     if ratio <= 1.5:
-        return "⚠️"
+        return "ℹ️"
     return "❌"
 
 
@@ -435,6 +452,18 @@ def to_grams(p: ParsedLine) -> float | None:
 
 def match_food(rest: str) -> FoodHit | None:
     n = rest.lower()
+    # Normalize compact qualifiers before stripping notes:
+    # "(vegetable) milk" / "(almond) milk" → "vegetable milk"
+    n_norm = re.sub(
+        r"\((vegetable|plant|almond|oat|soy|soya|rice|coconut|hemp|macadamia|"
+        r"non[-\s]?dairy|dairy[-\s]?free)\)\s*(milks?)",
+        r"\1 \2",
+        n,
+    )
+    # Ignore other parenthetical notes for food identity
+    # ("I used coconut-rice milk", "skip if the pineapple is frozen")
+    n_keys = re.sub(r"\([^)]*\)", " ", n_norm)
+    n_keys = re.sub(r"\s+", " ", n_keys).strip()
     # Garlic-infused oil is low-FODMAP (flavour only) — do not score as garlic
     garlic_infused = bool(
         re.search(r"garlic[-\s]?infused", n)
@@ -524,38 +553,63 @@ def match_food(rest: str) -> FoodHit | None:
     best: tuple[int, FoodHit] | None = None
     for keys, green, ftype, no_lim in load_foods():
         for key in keys:
-            if key in n:
-                # black/white pepper spice vs capsicum
-                if key in {"pepper", "red pepper"} and (
-                    "black pepper" in n or "white pepper" in n
-                ):
-                    continue
-                if key == "garlic" and garlic_negated:
-                    continue
-                if key in {"onion", "shallot"} and (
-                    onion_negated or allium_greens
-                ):
-                    continue
-                # plain "leek" key must not win over greens (handled above)
-                if key == "leek" and allium_greens:
-                    continue
-                # olive oil is not olives (but olives packed in oil still count)
-                if (
-                    key in {"olive", "kalamata olive"}
-                    and "olive oil" in n
-                    and "olives" not in n
-                ):
-                    continue
-                # herb mixes mentioning fennel seed/bulb in a list are not a fennel serve
-                if key == "fennel" and "herb" in n:
-                    continue
-                # lactose-free dairy is not a lactose load
-                if ftype == "LAC" and lactose_free:
-                    continue
-                hit = FoodHit(green_g=green, ftype=ftype, no_upper_limit=bool(no_lim))
-                score = len(key)
-                if best is None or score > best[0]:
-                    best = (score, hit)
+            # Word-boundary match so "apple" does not hit "pineapple", etc.
+            if not re.search(rf"(?<![a-z0-9]){re.escape(key)}(?![a-z0-9])", n_keys):
+                continue
+            # black/white pepper spice vs capsicum
+            if key in {"pepper", "red pepper", "yellow pepper", "orange pepper"} and (
+                "black pepper" in n or "white pepper" in n
+            ):
+                continue
+            if key == "garlic" and garlic_negated:
+                continue
+            if key in {"onion", "shallot"} and (
+                onion_negated or allium_greens
+            ):
+                continue
+            # plain "leek" key must not win over greens (handled above)
+            if key == "leek" and allium_greens:
+                continue
+            # olive oil is not olives (but olives packed in oil still count)
+            if (
+                key in {"olive", "kalamata olive"}
+                and "olive oil" in n
+                and "olives" not in n
+            ):
+                continue
+            # herb mixes mentioning fennel seed/bulb in a list are not a fennel serve
+            if key == "fennel" and "herb" in n:
+                continue
+            # lactose-free dairy is not a lactose load
+            if ftype == "LAC" and lactose_free:
+                continue
+            # plant / non-dairy milks are never cow-milk lactose (longer keys preferred)
+            if key == "milk" and re.search(
+                r"\b(almond|oat|soy|soya|rice|coconut|hemp|cashew|pea|macadamia|hazelnut|walnut|"
+                r"plant[-\s]?based|non[-\s]?dairy|dairy[-\s]?free|vegetable)\b",
+                n_keys,
+            ):
+                continue
+            # milk chocolate is confectionery, not a milk drink serve
+            if key == "milk" and re.search(r"\bmilk\s+chocolate\b|\bchocolate\s+milk\b", n_keys):
+                continue
+            # allergen-only MILK in cheese labels: "Parmigiano (MILK) [MILK Salt...]"
+            if key == "milk" and (
+                re.search(r"\b(parmesan|parmigiano|pecorino|cheddar|hard cheese)\b", n_keys)
+                or (
+                    re.search(r"\([^)]*\bmilk\b[^)]*\)|\[[^\]]*\bmilk\b[^\]]*\]", n)
+                    and not re.search(
+                        r"\b(cup|ml|l|tbsp|tsp|pint|gallon|litre|liter)\b.*\bmilk\b|"
+                        r"\bmilk\b.*\b(cup|ml|l|tbsp|tsp)\b",
+                        n_keys,
+                    )
+                )
+            ):
+                continue
+            hit = FoodHit(green_g=green, ftype=ftype, no_upper_limit=bool(no_lim))
+            score = len(key)
+            if best is None or score > best[0]:
+                best = (score, hit)
     return best[1] if best else None
 
 

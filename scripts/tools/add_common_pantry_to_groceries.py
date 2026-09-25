@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from lib import PAPRIKA_API, paprika_credentials  # noqa: E402
+from paprika_grocery_aisles import normalize_aisle  # noqa: E402
 
 # Confirmed via Waitrose online search (product pages / Cooks' Ingredients / Bart etc.)
 WAITROSE_AVAILABLE: set[str] = {
@@ -120,7 +121,7 @@ async def main() -> None:
             if count is None or count < 3:
                 continue
             name = base_name(raw)
-            aisle = item.get("aisle") or "Other"
+            aisle = normalize_aisle(item.get("aisle") or "Miscellaneous")
             display = f"{name} (Waitrose)" if name in WAITROSE_AVAILABLE else name
             selected.append((display, aisle))
 
@@ -129,15 +130,26 @@ async def main() -> None:
         for name, aisle in selected:
             print(f"  [{aisle}] {name}")
 
+        async with session.get(
+            f"{PAPRIKA_API}/v2/sync/groceryaisles/", headers=headers
+        ) as r:
+            aisle_by_name = {
+                (a.get("name") or ""): a.get("uid")
+                for a in (await r.json()).get("result") or []
+                if not a.get("deleted") and a.get("name")
+            }
+        misc_uid = aisle_by_name.get("Miscellaneous")
+
         groceries = []
         for i, (name, aisle) in enumerate(selected):
+            aname = aisle if aisle in aisle_by_name else "Miscellaneous"
             groceries.append(
                 {
                     "uid": str(uuid.uuid4()).upper(),
                     "name": name,
                     "ingredient": name,
-                    "aisle": aisle,
-                    "aisle_uid": None,
+                    "aisle": aname,
+                    "aisle_uid": aisle_by_name.get(aname) or misc_uid,
                     "quantity": None,
                     "purchased": False,
                     "recipe": "",

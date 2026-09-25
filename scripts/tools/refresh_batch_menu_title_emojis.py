@@ -1,4 +1,4 @@
-"""Refresh Batch menu item names + notes to current recipe title markers (✅⚠️❌).
+"""Refresh Batch menu item names + notes to current recipe title markers (✅ℹ️❌).
 
 Keeps existing recipe picks; only rewrites displayed names and menu notes.
 
@@ -31,7 +31,7 @@ LOCAL_DB = Path(
 )
 
 MENU_NOTES = (
-    "Low FODMAP batch cook (✅⚠️ only — no ❌). "
+    "Low FODMAP batch cook (✅ℹ️ only — no ❌). "
     "Mix ~60% main meals / 20% soups / 20% snacks. "
     "Scale each recipe to 8 portions (recipes are 1-serve). "
     "Both dishes under Day 1. Lunch + dinner from freezer; breakfast separate."
