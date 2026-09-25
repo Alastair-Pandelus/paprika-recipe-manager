@@ -1,0 +1,137 @@
+{
+  "_meta": {
+    "unit": "mg dietary cholesterol",
+    "basis": "USDA FoodData Central / typical kitchen proxies for 1-serve meal picking — not medical advice",
+    "meal_tiers_mg": { "low_max": 100, "mid_max": 200 },
+    "ingredient_tiers_mg": { "low_max": 50, "mid_max": 100 },
+    "daily_value_mg": 300,
+    "display": "♡ Cholesterol 133mg (44%) — mg retained; % of daily_value_mg",
+    "icons": { "low": "♡", "mid": "❣", "high": "💔" }
+  },
+  "foods": [
+    {
+      "id": "egg_yolk",
+      "name": "Egg yolk",
+      "match_keys": ["egg yolk", "egg yolks", "yolk"],
+      "mg_per_100g": 1085,
+      "mg_per_count": 185,
+      "count_g": 17
+    },
+    {
+      "id": "egg_whole",
+      "name": "Egg (whole)",
+      "match_keys": ["whole egg", "large egg", "medium egg", "eggs", "egg"],
+      "mg_per_100g": 372,
+      "mg_per_count": 186,
+      "count_g": 50
+    },
+    {
+      "id": "prawn",
+      "name": "Prawns / shrimp",
+      "match_keys": ["prawns", "prawn", "shrimp", "king prawn"],
+      "mg_per_100g": 189
+    },
+    {
+      "id": "shrimp_generic",
+      "name": "Shellfish mix",
+      "match_keys": ["seafood", "shellfish", "mussels", "mussel", "clams", "clam", "scallop", "scallops"],
+      "mg_per_100g": 150
+    },
+    {
+      "id": "salmon",
+      "name": "Salmon",
+      "match_keys": ["salmon"],
+      "mg_per_100g": 55
+    },
+    {
+      "id": "white_fish",
+      "name": "White fish",
+      "match_keys": ["hake", "cod", "haddock", "pollock", "basa", "tilapia", "white fish"],
+      "mg_per_100g": 52
+    },
+    {
+      "id": "fish_generic",
+      "name": "Fish (generic)",
+      "match_keys": ["fish"],
+      "mg_per_100g": 55
+    },
+    {
+      "id": "chicken_breast",
+      "name": "Chicken",
+      "match_keys": ["chicken breast", "chicken thigh", "chicken meat", "cooked chicken", "shredded chicken", "leftover chicken", "chicken"],
+      "mg_per_100g": 85
+    },
+    {
+      "id": "turkey",
+      "name": "Turkey",
+      "match_keys": ["turkey"],
+      "mg_per_100g": 82
+    },
+    {
+      "id": "beef",
+      "name": "Beef",
+      "match_keys": ["extra lean beef", "lean beef", "ground beef", "beef mince", "minced beef", "beef meatball", "beef"],
+      "mg_per_100g": 78
+    },
+    {
+      "id": "lamb",
+      "name": "Lamb",
+      "match_keys": ["lamb"],
+      "mg_per_100g": 97
+    },
+    {
+      "id": "pork",
+      "name": "Pork",
+      "match_keys": ["pork", "bacon", "chorizo", "sausage", "ham"],
+      "mg_per_100g": 80
+    },
+    {
+      "id": "parmigiano",
+      "name": "Parmigiano / Parmesan",
+      "match_keys": ["parmigiano", "parmesan"],
+      "mg_per_100g": 88
+    },
+    {
+      "id": "cheddar",
+      "name": "Cheddar / hard cheese",
+      "match_keys": ["lactose-free cheddar", "cheddar", "hard cheese", "grated cheese", "cheese"],
+      "mg_per_100g": 105
+    },
+    {
+      "id": "cream_cheese",
+      "name": "Cream cheese",
+      "match_keys": ["cream cheese"],
+      "mg_per_100g": 110
+    },
+    {
+      "id": "butter",
+      "name": "Butter",
+      "match_keys": ["butter", "ghee"],
+      "mg_per_100g": 215
+    },
+    {
+      "id": "heavy_cream",
+      "name": "Cream",
+      "match_keys": ["double cream", "heavy cream", "whipping cream", "single cream", "sour cream", "cream"],
+      "mg_per_100g": 110
+    },
+    {
+      "id": "milk_dairy",
+      "name": "Dairy milk",
+      "match_keys": ["whole milk", "semi-skimmed", "skimmed milk", "cow milk", "dairy milk", "lactose-free milk"],
+      "mg_per_100g": 12
+    },
+    {
+      "id": "yogurt",
+      "name": "Yogurt",
+      "match_keys": ["greek yogurt", "yoghurt", "yogurt"],
+      "mg_per_100g": 13
+    },
+    {
+      "id": "mayonnaise",
+      "name": "Mayonnaise",
+      "match_keys": ["mayonnaise", "mayo"],
+      "mg_per_100g": 50
+    }
+  ]
+}

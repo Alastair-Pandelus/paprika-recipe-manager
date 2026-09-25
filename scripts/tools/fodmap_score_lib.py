@@ -246,6 +246,20 @@ def strip_notes_block(notes: str) -> str:
     return notes.strip()
 
 
+_DESC_CHOL_RE = re.compile(
+    r"\n*(?:♡|❣|◐|💔|♥)\s+Cholesterol\s+\d+mg(?:\s*\(\d+%\))?\s*$"
+)
+
+
+def split_desc_chol(desc: str) -> tuple[str, str | None]:
+    """Return (desc_without_chol_line, chol_summary_or_None)."""
+    desc = (desc or "").rstrip()
+    m = _DESC_CHOL_RE.search(desc)
+    if not m:
+        return desc, None
+    return desc[: m.start()].rstrip(), m.group(0).strip()
+
+
 def strip_desc_fodmap(desc: str) -> str:
     desc = (desc or "").rstrip()
     desc = re.sub(r"\n*FODMAP:[^\n]*\s*$", "", desc)
@@ -274,14 +288,48 @@ def strip_inline_fodmap(line: str) -> str:
     return line.rstrip()
 
 
-# Title: new set + legacy coloured circles (so re-score replaces either)
-_TITLE_EMOJI_RE = re.compile(r"^(?:✅|ℹ️|⚠️|❌|🟢|🟡|🟠|🔴)\s*")
+_CHOL_SUFFIX_RE = re.compile(
+    r"(\s+(?:♡|❣|◐|💔|♥)\s+Cholesterol\s+\d+mg(?:\s*\(\d+%\))?)\s*$"
+)
+
+
+def split_chol_suffix(line: str) -> tuple[str, str]:
+    """Split trailing cholesterol tag so FODMAP re-score can preserve it."""
+    m = _CHOL_SUFFIX_RE.search(line or "")
+    if not m:
+        return (line or "").rstrip(), ""
+    return line[: m.start()].rstrip(), m.group(1)
+
+
+# Title: FODMAP marker first, optional cholesterol second (♡ ❣ 💔; legacy ◐ ♥).
+# Re-score replaces FODMAP only and preserves cholesterol.
+_TITLE_FODMAP_RE = re.compile(r"^(?:✅|ℹ️|⚠️|❌|🟢|🟡|🟠|🔴)\s*")
+_TITLE_CHOL_RE = re.compile(r"^(?:♡|❣|◐|💔|♥)\s*")
 
 
 def set_title_meal_emoji(name: str, emoji: str) -> str:
-    base = _TITLE_EMOJI_RE.sub("", (name or "").strip())
-    return f"{emoji} {base}"
-
+    """Set FODMAP title marker; preserve trailing cholesterol ♡/❣/💔 if present."""
+    s = (name or "").strip()
+    chol = None
+    # Strip FODMAP (may repeat legacy)
+    while _TITLE_FODMAP_RE.match(s):
+        s = _TITLE_FODMAP_RE.sub("", s, count=1).strip()
+    if _TITLE_CHOL_RE.match(s):
+        m = _TITLE_CHOL_RE.match(s)
+        assert m is not None
+        chol = m.group(0).strip()
+        s = _TITLE_CHOL_RE.sub("", s, count=1).strip()
+    # Also strip a chol that somehow sat before FODMAP was removed twice
+    while _TITLE_CHOL_RE.match(s):
+        m = _TITLE_CHOL_RE.match(s)
+        assert m is not None
+        chol = m.group(0).strip()
+        s = _TITLE_CHOL_RE.sub("", s, count=1).strip()
+    parts = [emoji]
+    if chol:
+        parts.append(chol)
+    parts.append(s)
+    return " ".join(parts)
 
 def parse_number_token(tok: str) -> float | None:
     tok = tok.strip()
@@ -615,9 +663,10 @@ def match_food(rest: str) -> FoodHit | None:
 
 def score_ingredient_line(
     line: str,
-) -> tuple[str, float, float | None, str | None, bool] | None:
-    """Return (clean, grams, green_g, ftype, no_upper_limit) or None."""
-    clean = strip_inline_fodmap(line)
+) -> tuple[str, float, float | None, str | None, bool, str] | None:
+    """Return (clean, grams, green_g, ftype, no_upper_limit, chol_suffix) or None."""
+    base, chol_suf = split_chol_suffix(line)
+    clean = strip_inline_fodmap(base)
     p = parse_line(clean)
     if not p:
         return None
@@ -627,7 +676,7 @@ def score_ingredient_line(
     grams = to_grams(p)
     if grams is None or grams <= 0:
         return None
-    return clean, grams, food.green_g, food.ftype, food.no_upper_limit
+    return clean, grams, food.green_g, food.ftype, food.no_upper_limit, chol_suf
 
 
 def annotate_ingredients(ingredients: str) -> tuple[str, dict[str, float]]:
@@ -639,16 +688,17 @@ def annotate_ingredients(ingredients: str) -> tuple[str, dict[str, float]]:
         scored = score_ingredient_line(line)
         if not scored:
             # Untracked — no DB entry (protein, salt, most oils/spices)
-            out.append(strip_inline_fodmap(line))
+            base, chol_suf = split_chol_suffix(line)
+            out.append(strip_inline_fodmap(base) + chol_suf)
             continue
-        clean, grams, green, ftype, no_lim = scored
+        clean, grams, green, ftype, no_lim, chol_suf = scored
         if no_lim or not ftype or not green or green <= 0:
             # Monash no-upper-limit / free food — leave blank (not a stacking budget)
-            out.append(clean)
+            out.append(clean + chol_suf)
             continue
         ratio = grams / green
         stacks[ftype] = stacks.get(ftype, 0.0) + ratio
-        out.append(f"{clean}  {format_tag(ftype, ratio)}")
+        out.append(f"{clean}  {format_tag(ftype, ratio)}{chol_suf}")
     text = "\n".join(out).rstrip() + ("\n" if out else "")
     return text, stacks
 
@@ -685,12 +735,17 @@ def transform_recipe(
     meal_em = meal_score_emoji(stacks)
     new_name = set_title_meal_emoji(name, meal_em)
     new_notes = strip_notes_block(notes)
-    desc_base = strip_desc_fodmap(description)
+    desc_no_chol, chol_line = split_desc_chol(description)
+    desc_base = strip_desc_fodmap(desc_no_chol)
     summary = build_desc_summary(stacks)
+    parts: list[str] = []
+    if desc_base:
+        parts.append(desc_base)
     if summary:
-        new_desc = (desc_base + "\n\n" + summary).strip() + "\n" if desc_base else summary + "\n"
-    else:
-        new_desc = (desc_base + "\n").lstrip("\n") if desc_base else ""
+        parts.append(summary)
+    if chol_line:
+        parts.append(chol_line)
+    new_desc = ("\n\n".join(parts).strip() + "\n") if parts else ""
     return {
         "name": new_name,
         "ingredients": new_ings,
