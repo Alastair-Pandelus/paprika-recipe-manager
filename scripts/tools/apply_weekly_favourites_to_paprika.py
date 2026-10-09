@@ -93,6 +93,52 @@ async def post_entities(session, limiter, headers, endpoint: str, items: list) -
         return ok
 
 
+# Cupboard staples — never add to grocery list (assume always in stock).
+# Optional qty + unit before the staple name (e.g. "2 tsp sea salt", "3/8 cup hot water").
+_QTY = r"(?:\d+[\/\d]*|\d*\.\d+)\s*"
+_UNIT = r"(?:tsp|tbsp|teaspoons?|tablespoons?|cups?|ml|l|g|pinch(?:es)?(?:\s+of)?)\s+"
+CUPBOARD_STAPLE_RE = re.compile(
+    rf"^(?:{_QTY})?(?:{_UNIT})?"
+    r"(?:"
+    r"salt(?:\s+and\s+pepper)?|"
+    r"sea\s+salt|"
+    r"(?:black\s+|white\s+|ground\s+)?pepper|"
+    r"(?:hot\s+|cold\s+|boiling\s+|tap\s+)?water"
+    r")"
+    r"(?:\s|,|$|to\s+taste|as\s+needed|for\s+cooking)",
+    re.I,
+)
+
+
+def is_cupboard_staple_line(line: str) -> bool:
+    """Salt / pepper / water — pantry defaults, not shopping items."""
+    s = strip_inline_fodmap(line or "")
+    s = re.sub(r"\s*[♡❣💔♥].*$", "", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    if not s:
+        return False
+    # Keep real products that merely mention water/salt in the name
+    low = s.lower()
+    if any(
+        x in low
+        for x in (
+            "sardine",
+            "coconut water",
+            "sparkling",
+            "tonic",
+            "rosewater",
+            "salted butter",
+            "celery salt",
+            "garlic salt",
+            "stock",
+            "broth",
+            "soda water",
+        )
+    ):
+        return False
+    return bool(CUPBOARD_STAPLE_RE.match(s))
+
+
 def clean_ingredient_line(line: str) -> str | None:
     s = strip_inline_fodmap(line or "")
     s = re.sub(r"\[recipe:([^\]]+)\]", r"\1", s)
@@ -103,6 +149,8 @@ def clean_ingredient_line(line: str) -> str | None:
     if s.isupper() or SECTION_SKIP.match(s):
         return None
     if len(s) < 3:
+        return None
+    if is_cupboard_staple_line(s):
         return None
     return s
 
@@ -135,7 +183,7 @@ def load_staples_recipe() -> Recipe | None:
 
     con = sqlite3.connect(LOCAL_DB)
     con.row_factory = sqlite3.Row
-    row = con.execute(
+    rows = con.execute(
         """
         SELECT r.uid, r.name, r.ingredients
         FROM recipes r
@@ -144,12 +192,14 @@ def load_staples_recipe() -> Recipe | None:
         WHERE coalesce(r.in_trash, 0) = 0
           AND c.parent_uid = ?
           AND c.name = ?
-          AND replace(replace(r.name, '✅ ', ''), 'ℹ️ ', '') = ?
-        LIMIT 1
         """,
-        (FAV_PARENT, STAPLES_FOLDER, "Staples"),
-    ).fetchone()
+        (FAV_PARENT, STAPLES_FOLDER),
+    ).fetchall()
     con.close()
+    row = next(
+        (r for r in rows if strip_marker(r["name"] or "").casefold() == "staples"),
+        None,
+    )
     if not row:
         return None
     return Recipe(
@@ -161,6 +211,64 @@ def load_staples_recipe() -> Recipe | None:
         is_shop=False,
         prefer_breakfast=False,
     )
+
+
+def staple_product_key(text: str) -> str:
+    """Normalise a grocery/staples line for de-dupe (ignore qty / 'from Staples')."""
+    s = strip_inline_fodmap(text or "")
+    s = re.sub(r"\s*[♡❣💔♥].*$", "", s)
+    s = s.lower()
+    s = re.sub(r"\([^)]*from\s+staples[^)]*\)", " ", s)
+    s = re.sub(r"^\d+(?:[./]\d+)?(?:\s+\d+/\d+)?\s*", " ", s)
+    s = re.sub(r"[–—\-]+", " ", s)
+    s = re.sub(r"[^a-z0-9\s]", " ", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    s = re.sub(r"\boat cakes?\b", "oat cakes", s)
+    s = re.sub(r"\bkallo corn cakes?\b", "kallo corn cakes", s)
+    return s
+
+
+def staples_already_covered(staple_line: str, existing_rows: list[dict]) -> bool:
+    """True if a meal-plan grocery line already covers this staples seed item."""
+    sk = staple_product_key(staple_line)
+    if not sk:
+        return False
+    for row in existing_rows:
+        blob = f"{row.get('name') or ''} {row.get('ingredient') or ''}"
+        ek = staple_product_key(blob)
+        if not ek:
+            continue
+        if sk == ek or sk in ek or ek in sk:
+            return True
+        # token overlap for short staples names (e.g. coffee, bars)
+        sk_toks = set(sk.split())
+        ek_toks = set(ek.split())
+        if len(sk_toks) <= 2 and sk_toks and sk_toks <= ek_toks:
+            return True
+    return False
+
+
+def append_staples_missing_only(rows: list[dict], staples: Recipe) -> None:
+    """Add Staples seed lines only when not already present from planned meals."""
+    for line in (staples.ingredients or "").splitlines():
+        cleaned = clean_ingredient_line(line)
+        if not cleaned:
+            continue
+        if staples_already_covered(cleaned, rows):
+            safe_print(f"Staples skip (already on list): {cleaned}")
+            continue
+        qty, ing = split_qty_name(cleaned)
+        name = f"{qty} {ing}".strip() if qty else ing
+        rows.append(
+            {
+                "name": name,
+                "ingredient": ing,
+                "quantity": qty,
+                "aisle": aisle_for(name, is_pack=False),
+                "recipe": recipe_label(staples.name),
+                "recipe_uid": staples.uid,
+            }
+        )
 
 
 def append_recipe_grocery_rows(rows: list[dict], r: Recipe) -> None:
@@ -201,7 +309,9 @@ def groceries_from_plan(plan: list[dict]) -> list[dict]:
 
     Same wording (e.g. every recipe uses ``1 lemon slice``) collapses to one
     shopping line with ×N and a joined recipe list for provenance.
-    Staples (Crisps, Coffee, Bars, …) are always included once per week.
+    Staples seed items are added **only if not already covered** by a planned
+    meal ingredient (e.g. skip Staples oat cakes when Oatcakes with Cheese is on
+    the plan).
     """
     rows: list[dict] = []
     for day in plan:
@@ -209,7 +319,7 @@ def groceries_from_plan(plan: list[dict]) -> list[dict]:
             append_recipe_grocery_rows(rows, day[key])
     staples = load_staples_recipe()
     if staples:
-        append_recipe_grocery_rows(rows, staples)
+        append_staples_missing_only(rows, staples)
     else:
         safe_print("WARN: Favourites/Staples recipe not found — skip staples seed")
     return aggregate_grocery_rows(rows)
@@ -220,6 +330,7 @@ def aggregate_grocery_rows(rows: list[dict]) -> list[dict]:
 
     Special cases:
     - ``1 lemon slice`` → whole lemons at 4 slices per lemon (ceil).
+    - ``1/2 grapefruit`` → whole grapefruits (ceil of halves / 2).
     - ``N egg`` / ``N eggs`` → sum to a single ``M eggs`` line.
     """
     groups: dict[str, list[dict]] = defaultdict(list)
@@ -228,9 +339,11 @@ def aggregate_grocery_rows(rows: list[dict]) -> list[dict]:
         key = (row.get("name") or "").strip().lower()
         if not key:
             continue
-        # Normalise lemon-slice / egg variants onto one key before grouping
+        # Normalise lemon-slice / grapefruit-half / egg variants onto one key
         if re.match(r"^(\d+)\s+lemon\s+slices?$", key):
             key = "__lemon_slice__"
+        elif re.match(r"^(?:1\/2|½)\s+grapefruit$", key):
+            key = "__grapefruit_half__"
         elif re.match(r"^(\d+)\s+eggs?$", key):
             key = "__eggs__"
         if key not in groups:
@@ -285,6 +398,29 @@ def aggregate_grocery_rows(rows: list[dict]) -> list[dict]:
             )
             continue
 
+        if key == "__grapefruit_half__":
+            halves = len(items)
+            wholes = (halves + 1) // 2  # ceil(halves / 2)
+            name = "1 grapefruit" if wholes == 1 else f"{wholes} grapefruits"
+            out.append(
+                {
+                    "uid": str(uuid.uuid4()).upper(),
+                    "name": name,
+                    "ingredient": "grapefruit" if wholes == 1 else "grapefruits",
+                    "quantity": str(wholes),
+                    "aisle": "Fruit and Veg",
+                    "aisle_uid": None,
+                    "purchased": False,
+                    "recipe": recipe_label_joined,
+                    "recipe_uid": recipe_uid,
+                    "instruction": f"{halves} halves (use within ~2 days of cutting)",
+                    "separate": False,
+                    "list_uid": None,
+                    "order_flag": i,
+                }
+            )
+            continue
+
         if key == "__eggs__":
             total = 0
             for it in items:
@@ -316,14 +452,27 @@ def aggregate_grocery_rows(rows: list[dict]) -> list[dict]:
 
         n = len(items)
         name = base["name"]
+        qty = base.get("quantity")
+        ing = base.get("ingredient")
+        # Paprika Amount uses ``quantity``. When the same line appears N times,
+        # multiply a plain leading count (e.g. 1 fillet ×2 → Amount 2). Do not
+        # multiply ranges like ``80–100 g`` / ``1–2 tbsp`` — keep ``×N`` in name.
         if n > 1:
-            name = f"{name}  ×{n}"
+            qm = re.match(r"^(\d+)\s*(.*)$", str(qty or "").strip())
+            rest = (qm.group(2) or "").strip() if qm else ""
+            is_range = bool(qm and re.match(r"^[-–—]\s*\d", rest))
+            if qm and not is_range:
+                total = int(qm.group(1)) * n
+                qty = f"{total} {rest}".strip() if rest else str(total)
+                name = f"{qty} {ing}".strip() if ing else qty
+            else:
+                name = f"{name}  ×{n}"
         out.append(
             {
                 "uid": str(uuid.uuid4()).upper(),
                 "name": name,
-                "ingredient": base.get("ingredient"),
-                "quantity": base.get("quantity"),
+                "ingredient": ing,
+                "quantity": qty,
                 "aisle": normalize_aisle(base.get("aisle")),
                 "aisle_uid": None,
                 "purchased": False,

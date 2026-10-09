@@ -259,7 +259,9 @@
   {
     "id": "pineapple",
     "name": "Pineapple (fresh)",
-    "match_keys": ["pineapple"],
+    "match_keys": [
+      "pineapple"
+    ],
     "fodmap_type": "FRT",
     "green_g": 140,
     "no_upper_limit": false,
@@ -398,7 +400,7 @@
     "fodmap_type": "FRT",
     "green_g": 10,
     "no_upper_limit": false,
-    "notes": "Proxy bulb; spring onion greens separate.",
+    "notes": "Proxy bulb. Shallot green tops and spring onion greens are separate.",
     "source": "secondary_audit_2026-09-19",
     "source_url": null,
     "verified_at": "2026-09-19"
@@ -457,6 +459,26 @@
     "notes": "Monash via FODMAP Everyday: green leaves tested high with no moderate/high listed (no stacking ceiling). Blank tag.",
     "source": "secondary_fodmapeveryday",
     "source_url": "https://www.fodmapeveryday.com/ingredients/leeks/",
+    "verified_at": null
+  },
+  {
+    "id": "shallot_greens",
+    "name": "Shallot (green tops only)",
+    "match_keys": [
+      "shallot green tops",
+      "shallot greens",
+      "shallot leaves",
+      "green part of the shallot",
+      "green part of shallot",
+      "green tops of shallot",
+      "shallot, green tops"
+    ],
+    "fodmap_type": null,
+    "green_g": null,
+    "no_upper_limit": true,
+    "notes": "Green tops only, bulb discarded. Leaf proxy aligned with leek greens (no stacking ceiling). Not a separate Monash shallot-leaf test; confirm in the app. The bulb stays on the onion/shallot row.",
+    "source": "proxy_leek_greens",
+    "source_url": null,
     "verified_at": null
   },
   {
@@ -557,7 +579,7 @@
     "fodmap_type": "MAN",
     "green_g": 7,
     "no_upper_limit": false,
-    "notes": "Proxy button ~7 g mannitol. Oyster/shiitake separate. Confirm in app.",
+    "notes": "Proxy button ~7 g mannitol. Oyster free; fresh shiitake ~11 g (separate). Confirm in app.",
     "source": "secondary_audit_2026-09-19",
     "source_url": null,
     "verified_at": "2026-09-19",
@@ -583,16 +605,36 @@
     "id": "shiitake",
     "name": "Shiitake mushroom (fresh)",
     "match_keys": [
+      "fresh shiitake",
+      "shiitake mushroom",
       "shiitake"
     ],
     "fodmap_type": "MAN",
-    "green_g": 7,
+    "green_g": 11,
     "amber_g": 17,
+    "red_g": 75,
     "no_upper_limit": false,
-    "notes": "Proxy fresh shiitake ~7 g mannitol. Confirm in app.",
-    "source": "secondary_audit_2026-09-19",
+    "notes": "Monash app (secondary write-ups 2025–2026): fresh green ~11 g, amber ~17 g, red ~75 g mannitol. Slightly more generous than button (~7 g); still a small-gram swap, not free like oyster.",
+    "source": "secondary_monash_app_writeups",
     "source_url": null,
-    "verified_at": "2026-09-19"
+    "verified_at": "2026-09-26"
+  },
+  {
+    "id": "shiitake-dried",
+    "name": "Shiitake mushroom (dried)",
+    "match_keys": [
+      "dried shiitake",
+      "shiitake dried"
+    ],
+    "fodmap_type": "MAN",
+    "green_g": 8,
+    "amber_g": 13,
+    "red_g": 15,
+    "no_upper_limit": false,
+    "notes": "Monash app (secondary): dried green ~8 g, amber ~13 g, red ~15 g mannitol. Prefer fresh keys when unspecified.",
+    "source": "secondary_monash_app_writeups",
+    "source_url": null,
+    "verified_at": "2026-09-26"
   },
   {
     "id": "sweet-potato",
@@ -854,7 +896,9 @@
   {
     "id": "almond-milk",
     "name": "Almond milk",
-    "match_keys": ["almond milk"],
+    "match_keys": [
+      "almond milk"
+    ],
     "fodmap_type": null,
     "green_g": 240,
     "no_upper_limit": true,
@@ -866,7 +910,9 @@
   {
     "id": "oat-milk",
     "name": "Oat milk",
-    "match_keys": ["oat milk"],
+    "match_keys": [
+      "oat milk"
+    ],
     "fodmap_type": "FRT",
     "green_g": 104,
     "amber_g": 121,
@@ -879,7 +925,11 @@
   {
     "id": "rice-milk",
     "name": "Rice milk",
-    "match_keys": ["rice milk", "coconut-rice milk", "coconut rice milk"],
+    "match_keys": [
+      "rice milk",
+      "coconut-rice milk",
+      "coconut rice milk"
+    ],
     "fodmap_type": "FRT",
     "green_g": 200,
     "no_upper_limit": false,
@@ -891,7 +941,10 @@
   {
     "id": "hemp-milk",
     "name": "Hemp / macadamia milk",
-    "match_keys": ["hemp milk", "macadamia milk"],
+    "match_keys": [
+      "hemp milk",
+      "macadamia milk"
+    ],
     "fodmap_type": null,
     "green_g": 240,
     "no_upper_limit": true,
@@ -1029,7 +1082,10 @@
     "id": "olive",
     "name": "Olive",
     "match_keys": [
+      "kalamata olives",
       "kalamata olive",
+      "black olives",
+      "olives",
       "olive"
     ],
     "fodmap_type": null,

@@ -164,6 +164,7 @@ async def main() -> None:
                 local["ingredients"] or "",
                 local["description"] or "",
                 local["notes"] or "",
+                servings=local.get("servings") or 1,
             )
             did = (
                 t["name"] != (local["name"] or "")
@@ -177,16 +178,17 @@ async def main() -> None:
                     "uid": local["uid"],
                     "name": t["name"],
                     "meal_emoji": t["meal_emoji"],
-                    "total_mg": t["total_mg"],
+                    "total_g": t.get("total_g", t.get("total_mg")),
                     "pct_daily": t["pct_daily"],
                     "drivers": t["drivers"],
                     "changed": did,
                 }
             )
+            tg = t.get("total_g", t.get("total_mg") or 0)
             safe_print(
-                f"{t['meal_emoji']} {t['total_mg']:3d}mg ({t['pct_daily']:3d}%)  {t['name']}"
+                f"{t['meal_emoji']} {tg:5.1f}g ({t['pct_daily']:3d}%)  {t['name']}"
                 + (
-                    f"  [{', '.join(d['name'] + ' ' + str(d['mg']) for d in t['drivers'])}]"
+                    f"  [{', '.join(d['name'] + ' ' + str(d.get('g', d.get('mg'))) for d in t['drivers'])}]"
                     if t["drivers"]
                     else "  [no tracked drivers]"
                 )
@@ -210,6 +212,7 @@ async def main() -> None:
                     rec.get("ingredients") or "",
                     rec.get("description") or "",
                     rec.get("notes") or "",
+                    servings=rec.get("servings") or local.get("servings") or 1,
                 )
                 rec["name"] = t2["name"]
                 rec["ingredients"] = t2["ingredients"]

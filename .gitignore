@@ -29,6 +29,8 @@ scripts/tools/.boost_fd_portions.log
 
 # Tool dry-run / probe artifacts
 scripts/tools/.*_dryrun/
+scripts/tools/.*_dryrun.json
+scripts/tools/.prep_bowl_review.json
 scripts/tools/.soups_*
 scripts/tools/_probe_*.py
 scripts/tools/_dump_*.py
@@ -37,3 +39,5 @@ scripts/tools/_fix_*.py
 scripts/tools/_final_*.py
 scripts/tools/_verify_*.py
 scripts/tools/_patch_*.py
+scripts/tools/_scan_*.py
+scripts/tools/_test_*.py

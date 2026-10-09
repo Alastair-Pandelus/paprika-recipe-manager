@@ -1,8 +1,14 @@
-"""Dietary-cholesterol proxy scoring for Paprika recipes (1-serve assumed).
+"""Blood-lipid proxy scoring for Paprika recipes.
 
-Title icons (after FODMAP marker): ♡ low · ❣ mid · 💔 high
-Quantified as mg dietary cholesterol from data/cholesterol_seed.json.
-Proxy for meal picking — not medical advice / blood-lipid guidance.
+Scores are **per portion**: amounts are divided by the recipe `servings`
+field (default 1), same as the FODMAP scorer.
+
+Tilted toward **saturated fat** (primary driver of blood LDL for typical adults).
+Title / description icons: ♡ low · ❣ mid · 💔 high
+Ingredient low icon: ♥ (filled — outline ♡ does not bold/read well in Paprika).
+Display: Sat fat g + % of ~20 g/day kitchen reference.
+Strips legacy dietary-cholesterol tags on re-score.
+Proxy for meal picking — not medical advice.
 """
 from __future__ import annotations
 
@@ -13,6 +19,7 @@ from pathlib import Path
 
 from fodmap_score_lib import (  # noqa: E402
     parse_line,
+    parse_servings,
     strip_inline_fodmap,
     to_grams,
 )
@@ -21,57 +28,63 @@ ROOT = Path(__file__).resolve().parents[2]
 SEED_PATH = ROOT / "data" / "cholesterol_seed.json"
 
 CHOL_LOW = "♡"
+CHOL_LOW_ING = "♥"  # filled heart on ingredient lines only (visibility)
 CHOL_MID = "❣"
 CHOL_HIGH = "💔"
-# Include legacy ◐ / ♥ so re-score replaces previous mid/high markers
-CHOL_MARKERS = (CHOL_LOW, CHOL_MID, CHOL_HIGH, "◐", "♥")
-CHOL_ICON_CLASS = rf"(?:{CHOL_LOW}|{CHOL_MID}|{CHOL_HIGH}|◐|♥)"
+CHOL_MARKERS = (CHOL_LOW, CHOL_LOW_ING, CHOL_MID, CHOL_HIGH, "◐")
+CHOL_ICON_CLASS = rf"(?:{CHOL_LOW}|{CHOL_LOW_ING}|{CHOL_MID}|{CHOL_HIGH}|◐)"
 
 FODMAP_MARKERS = ("✅", "ℹ️", "⚠️", "❌", "🟢", "🟡", "🟠", "🔴")
 
-# Meal total (1 serve) vs ~300 mg/day kitchen reference (classic Daily Value)
-DAILY_VALUE_MG = 300
-MEAL_LOW_MAX = 100
-MEAL_MID_MAX = 200
-# Per-ingredient contribution
-ING_LOW_MAX = 50
-ING_MID_MAX = 100
+# ~20 g/day adult kitchen reference (conservative UK-style sat-fat day budget)
+DAILY_VALUE_G = 20.0
+MEAL_LOW_MAX = 5.0
+MEAL_MID_MAX = 10.0
+ING_LOW_MAX = 2.0
+ING_MID_MAX = 4.0
 
-# Tag shape: ♡ Cholesterol 133mg (44%)  — mg retained; % of DAILY_VALUE_MG
-_CHOL_TAG_BODY = r"Cholesterol\s+\d+mg(?:\s*\(\d+%\))?"
+# Current + legacy tag bodies
+_TAG_BODY = (
+    r"(?:Sat\s+fat\s+\d+(?:\.\d+)?g(?:\s*\(\d+%\))?"
+    r"|Cholesterol\s+\d+mg(?:\s*\(\d+%\))?)"
+)
 _DESC_CHOL_RE = re.compile(
-    rf"\n*{CHOL_ICON_CLASS}\s+{_CHOL_TAG_BODY}\s*$",
+    rf"\n*{CHOL_ICON_CLASS}\s+{_TAG_BODY}\s*$",
     re.M,
 )
 _INLINE_CHOL_RE = re.compile(
-    rf"\s+{CHOL_ICON_CLASS}\s+{_CHOL_TAG_BODY}\s*$"
+    rf"\s+{CHOL_ICON_CLASS}\s+{_TAG_BODY}\s*$"
 )
 _TITLE_MARKER_RE = re.compile(
     r"^(?P<m>(?:✅|ℹ️|⚠️|❌|🟢|🟡|🟠|🔴|♡|❣|◐|💔|♥))\s*"
 )
 
 
-def pct_of_daily(mg: float) -> int:
-    return int(round(100.0 * mg / DAILY_VALUE_MG))
+def pct_of_daily(grams: float) -> int:
+    return int(round(100.0 * grams / DAILY_VALUE_G))
 
 
-def format_chol_tag(icon: str, mg: float) -> str:
-    mg_i = int(round(mg))
-    return f"{icon} Cholesterol {mg_i}mg ({pct_of_daily(mg)}%)"
+def format_sat_tag(icon: str, grams: float) -> str:
+    g = round(grams, 1)
+    if abs(g - round(g)) < 0.05:
+        g_s = str(int(round(g)))
+    else:
+        g_s = f"{g:.1f}"
+    return f"{icon} Sat fat {g_s}g ({pct_of_daily(grams)}%)"
 
 
-def chol_emoji_meal(mg: float) -> str:
-    if mg <= MEAL_LOW_MAX:
+def chol_emoji_meal(grams: float) -> str:
+    if grams <= MEAL_LOW_MAX:
         return CHOL_LOW
-    if mg <= MEAL_MID_MAX:
+    if grams <= MEAL_MID_MAX:
         return CHOL_MID
     return CHOL_HIGH
 
 
-def chol_emoji_ingredient(mg: float) -> str:
-    if mg <= ING_LOW_MAX:
-        return CHOL_LOW
-    if mg <= ING_MID_MAX:
+def chol_emoji_ingredient(grams: float) -> str:
+    if grams <= ING_LOW_MAX:
+        return CHOL_LOW_ING
+    if grams <= ING_MID_MAX:
         return CHOL_MID
     return CHOL_HIGH
 
@@ -83,18 +96,16 @@ def strip_inline_chol(line: str) -> str:
 def strip_desc_chol(desc: str) -> str:
     desc = (desc or "").rstrip()
     desc = _DESC_CHOL_RE.sub("", desc)
-    # Legacy: icon + mg without %, or bare "Cholesterol Nmg"
     desc = re.sub(
-        rf"\n*{CHOL_ICON_CLASS}\s+Cholesterol\s+\d+mg\s*$",
+        rf"\n*{CHOL_ICON_CLASS}\s+(?:Sat\s+fat|Cholesterol)[^\n]*\s*$",
         "",
         desc,
     )
-    desc = re.sub(r"\n*Cholesterol\s+\d+mg(?:\s*\(\d+%\))?\s*$", "", desc)
+    desc = re.sub(r"\n*(?:Sat\s+fat\s+\d+(?:\.\d+)?g|Cholesterol\s+\d+mg)[^\n]*\s*$", "", desc)
     return desc.rstrip()
 
 
 def split_title_markers(name: str) -> tuple[str | None, str | None, str]:
-    """Return (fodmap_marker, chol_marker, bare_name)."""
     fodmap = None
     chol = None
     base = (name or "").strip()
@@ -104,10 +115,7 @@ def split_title_markers(name: str) -> tuple[str | None, str | None, str]:
             break
         tok = m.group("m")
         if tok in FODMAP_MARKERS:
-            fodmap = tok if tok in ("✅", "ℹ️", "❌", "⚠️") else fodmap or tok
-            # Collapse coloured legacy to nothing special — keep last FODMAP-ish
             if tok in ("🟢", "🟡", "🟠", "🔴", "⚠️"):
-                # leave fodmap as prior ✅/ℹ️/❌ if any; else map roughly
                 if fodmap in (None, "🟢", "🟡", "🟠", "🔴", "⚠️"):
                     fodmap = {"🟢": "✅", "🟡": "ℹ️", "🟠": "ℹ️", "🔴": "❌", "⚠️": "ℹ️"}.get(
                         tok, fodmap
@@ -121,90 +129,90 @@ def split_title_markers(name: str) -> tuple[str | None, str | None, str]:
 
 
 def set_title_chol_emoji(name: str, emoji: str) -> str:
-    """Set cholesterol marker; preserve leading FODMAP marker if present."""
     old_f, _old_c, base = split_title_markers(name)
     parts = []
     if old_f in ("✅", "ℹ️", "❌", "⚠️"):
         parts.append(old_f)
     elif old_f in ("🟢", "🟡", "🟠", "🔴"):
-        parts.append(
-            {"🟢": "✅", "🟡": "ℹ️", "🟠": "ℹ️", "🔴": "❌"}[old_f]
-        )
+        parts.append({"🟢": "✅", "🟡": "ℹ️", "🟠": "ℹ️", "🔴": "❌"}[old_f])
     parts.append(emoji)
     parts.append(base)
     return " ".join(parts)
 
+
 @lru_cache(maxsize=1)
-def load_foods() -> list[dict]:
+def load_foods() -> list[tuple[str, dict]]:
     data = json.loads(SEED_PATH.read_text(encoding="utf-8"))
-    foods = data["foods"]
-    # longest match_keys first across all foods
     keyed: list[tuple[str, dict]] = []
-    for f in foods:
+    for f in data["foods"]:
         for k in f.get("match_keys") or []:
             keyed.append((k.lower(), f))
     keyed.sort(key=lambda x: len(x[0]), reverse=True)
-    return keyed  # type: ignore[return-value]
+    return keyed
 
 
 def _clean_rest(rest: str) -> str:
     n = strip_inline_fodmap(strip_inline_chol(rest)).lower()
+    n = re.sub(r"\[recipe:([^\]]+)\]", r"\1", n)
     n = re.sub(r"\[[^\]]*\]", " ", n)
     n = re.sub(r"\([^)]*\)", " ", n)
     n = re.sub(r"\s+", " ", n).strip()
     return n
 
 
-def match_chol_food(rest: str) -> dict | None:
+def match_sat_food(rest: str) -> dict | None:
     n = _clean_rest(rest)
     if not n:
         return None
-    # Stocks/broths: skip (chicken stock ≠ chicken meat)
     if re.search(r"\b(stock|broth)\b", n):
         return None
     for key, food in load_foods():
-        # word-aware: require key as substring with non-letter boundaries
         if not re.search(rf"(?<![a-z]){re.escape(key)}(?![a-z])", n):
             continue
         if key in {"egg", "eggs"} and re.search(r"eggplant|aubergine", n):
             continue
         if key == "cream" and re.search(
-            r"cream\s+of|ice\s+cream|non[-\s]?dairy|coconut\s+cream|soy\s+cream", n
+            r"cream\s+of|ice\s+cream|non[-\s]?dairy|soy\s+cream", n
         ):
             continue
         if key == "cheese" and re.search(r"dairy[-\s]?free|vegan\s+cheese", n):
             continue
+        if key == "milk" and re.search(
+            r"\b(oat|almond|soy|soya|rice|coconut|plant|non[-\s]?dairy)\b", n
+        ):
+            continue
         if key == "fish" and re.search(r"fish\s+sauce", n):
+            continue
+        if key == "chocolate" and re.search(r"chocolate\s+chip", n):
             continue
         return food
     return None
 
-def line_cholesterol_mg(line: str) -> tuple[str, float | None, dict | None]:
-    """Return (clean_line, mg_or_None, food)."""
-    clean = strip_inline_chol(strip_inline_fodmap(line)).rstrip()
-    # keep FODMAP tags on output — strip only for parse, then re-attach from original
-    # Better: strip chol only for clean base, preserve fodmap tags from original line
-    base_for_parse = strip_inline_chol(line)
+
+def line_sat_fat_g(line: str) -> tuple[str, float | None, dict | None]:
     clean_out = strip_inline_chol(line).rstrip()  # keeps FODMAP tags
     p = parse_line(strip_inline_fodmap(strip_inline_chol(line)))
     if not p:
         return clean_out, None, None
-    food = match_chol_food(p.rest)
+    food = match_sat_food(p.rest)
     if not food:
         return clean_out, None, None
-    mg = None
-    if p.unit == "count" and food.get("mg_per_count") is not None:
-        mg = p.value * float(food["mg_per_count"])
+    grams_sat = None
+    if p.unit == "count" and food.get("sat_fat_g_per_count") is not None:
+        grams_sat = p.value * float(food["sat_fat_g_per_count"])
     else:
-        grams = to_grams(p)
-        if grams is None and p.unit == "count" and food.get("count_g"):
-            grams = p.value * float(food["count_g"])
-        if grams is not None and food.get("mg_per_100g") is not None:
-            mg = grams * float(food["mg_per_100g"]) / 100.0
-    return clean_out, mg, food
+        mass = to_grams(p)
+        if mass is None and p.unit == "count" and food.get("count_g"):
+            mass = p.value * float(food["count_g"])
+        if mass is not None and food.get("sat_fat_g_per_100g") is not None:
+            grams_sat = mass * float(food["sat_fat_g_per_100g"]) / 100.0
+    return clean_out, grams_sat, food
 
 
-def annotate_ingredients(ingredients: str) -> tuple[str, float, list[dict]]:
+def annotate_ingredients(
+    ingredients: str, servings: float | str | int | None = 1.0
+) -> tuple[str, float, list[dict]]:
+    servings_n = parse_servings(servings)
     total = 0.0
     drivers: list[dict] = []
     out: list[str] = []
@@ -212,20 +220,25 @@ def annotate_ingredients(ingredients: str) -> tuple[str, float, list[dict]]:
         if not raw.strip():
             out.append(raw)
             continue
-        clean, mg, food = line_cholesterol_mg(raw)
-        if mg is None or mg <= 0 or food is None:
+        clean, g, food = line_sat_fat_g(raw)
+        if g is None or g <= 0 or food is None:
             out.append(clean)
             continue
-        mg_i = int(round(mg))
-        if mg_i <= 0:
+        portion_g = g / servings_n
+        if round(portion_g, 1) <= 0:
             out.append(clean)
             continue
-        total += mg
-        icon = chol_emoji_ingredient(mg)
+        total += portion_g
+        icon = chol_emoji_ingredient(portion_g)
         drivers.append(
-            {"food": food["id"], "name": food["name"], "mg": mg_i, "icon": icon}
+            {
+                "food": food["id"],
+                "name": food["name"],
+                "g": round(portion_g, 2),
+                "icon": icon,
+            }
         )
-        out.append(f"{clean}  {format_chol_tag(icon, mg)}")
+        out.append(f"{clean}  {format_sat_tag(icon, portion_g)}")
     text = "\n".join(out)
     if ingredients.endswith("\n") and not text.endswith("\n"):
         text += "\n"
@@ -233,14 +246,17 @@ def annotate_ingredients(ingredients: str) -> tuple[str, float, list[dict]]:
 
 
 def transform_recipe(
-    name: str, ingredients: str, description: str, notes: str
+    name: str,
+    ingredients: str,
+    description: str,
+    notes: str,
+    servings: float | str | int | None = 1.0,
 ) -> dict:
-    new_ings, total_mg, drivers = annotate_ingredients(ingredients)
-    meal_em = chol_emoji_meal(total_mg)
+    new_ings, total_g, drivers = annotate_ingredients(ingredients, servings=servings)
+    meal_em = chol_emoji_meal(total_g)
     new_name = set_title_chol_emoji(name, meal_em)
     desc_base = strip_desc_chol(description)
-    total_i = int(round(total_mg))
-    summary = format_chol_tag(meal_em, total_mg)
+    summary = format_sat_tag(meal_em, total_g)
     if desc_base:
         new_desc = (desc_base.rstrip() + "\n\n" + summary).strip() + "\n"
     else:
@@ -250,8 +266,9 @@ def transform_recipe(
         "ingredients": new_ings,
         "description": new_desc,
         "notes": notes or "",
-        "total_mg": total_i,
-        "pct_daily": pct_of_daily(total_mg),
+        "total_g": round(total_g, 2),
+        "total_mg": round(total_g, 2),  # legacy key for library script prints
+        "pct_daily": pct_of_daily(total_g),
         "meal_emoji": meal_em,
         "drivers": drivers,
     }

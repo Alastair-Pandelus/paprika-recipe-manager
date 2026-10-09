@@ -1,8 +1,8 @@
 """Dry-run 7-day Favourites meal plan + shopping list.
 
 Rules: Favourites only; B/L/D + pudding; rotate; French toast ~4 mornings/week;
-no consecutive bread meals within the same day only; exclude fruit-salad desserts;
-prefer home LF dinners over Waitrose packs.
+no consecutive bread meals within the same day only; exclude fruit-salad-alone desserts;
+prefer Waitrose packs when paired with a home LF twin; front-load packs early in the week.
 """
 from __future__ import annotations
 
@@ -46,10 +46,24 @@ class Recipe:
     is_bread: bool
     is_shop: bool
     prefer_breakfast: bool  # French toast
+    uses_half_grapefruit: bool = False  # cut fruit — pair serves ~2 days apart
 
 
 def strip_marker(name: str) -> str:
-    return re.sub(r"^[✅ℹ️❌🟢🟡🟠🔴⚠️]\s*", "", name or "").strip()
+    """Strip leading FODMAP + sat-fat title icons for matching."""
+    s = name or ""
+    s = re.sub(
+        r"^(?:✅|ℹ️|⚠️|❌|🟢|🟡|🟠|🔴|♡|❣|◐|💔|♥)\s*",
+        "",
+        s,
+    )
+    # May have FODMAP then chol (or reverse on legacy titles)
+    s = re.sub(
+        r"^(?:✅|ℹ️|⚠️|❌|🟢|🟡|🟠|🔴|♡|❣|◐|💔|♥)\s*",
+        "",
+        s,
+    )
+    return s.strip()
 
 
 def load_favourites() -> dict[str, list[Recipe]]:
@@ -81,6 +95,7 @@ def load_favourites() -> dict[str, list[Recipe]]:
             is_bread = bool(BREAD_RE.search(blob))
             is_shop = bool(SHOP_RE.search(strip_marker(name)))
             prefer = "french toast" in name.lower() and "toasty" not in name.lower()
+            uses_gf = bool(re.search(r"\bgrapefruit\b", blob, re.I))
             slots[slot].append(
                 Recipe(
                     uid=r["uid"],
@@ -90,6 +105,7 @@ def load_favourites() -> dict[str, list[Recipe]]:
                     is_bread=is_bread,
                     is_shop=is_shop,
                     prefer_breakfast=prefer,
+                    uses_half_grapefruit=uses_gf,
                 )
             )
     return slots
@@ -169,6 +185,27 @@ def pick(
     return sorted(candidates, key=score)[0]
 
 
+def grapefruit_pair_days(french_days: set[int]) -> tuple[int, int] | None:
+    """Pick (first, second) breakfast indices for half-grapefruit: prefer +2 days."""
+    non_french = [i for i in range(7) if i not in french_days]
+    # Prefer first on a non-French morning with N+2 still in week
+    for first in non_french:
+        follow = first + 2
+        if follow < 7:
+            return first, follow
+    # Else first on non-French with N+1 in week (consecutive — last resort)
+    for first in non_french:
+        follow = first + 1
+        if follow < 7:
+            return first, follow
+    # Else earliest day that still allows +2 (may displace French toast)
+    for first in range(5):  # 0..4 → follow 2..6
+        return first, first + 2
+    if 5 < 7:
+        return 5, 6
+    return None
+
+
 def build_week(start: date, slots: dict[str, list[Recipe]]) -> list[dict]:
     breakfasts = slots["Breakfast"]
     lunches = slots["Lunch"]
@@ -178,6 +215,13 @@ def build_week(start: date, slots: dict[str, list[Recipe]]) -> list[dict]:
     french = next((b for b in breakfasts if b.prefer_breakfast), None)
     other_bfast = [b for b in breakfasts if not b.prefer_breakfast]
     french_days = {0, 2, 4, 5}
+
+    grapefruit = next((b for b in other_bfast if b.uses_half_grapefruit), None)
+    gf_days: set[int] = set()
+    if grapefruit:
+        pair = grapefruit_pair_days(french_days)
+        if pair:
+            gf_days = {pair[0], pair[1]}
 
     shop_dinners = sorted(
         [d for d in dinners if d.is_shop],
@@ -199,25 +243,28 @@ def build_week(start: date, slots: dict[str, list[Recipe]]) -> list[dict]:
     for i in range(7):
         day = start + timedelta(days=i)
 
-        if french and i in french_days:
+        if grapefruit and i in gf_days:
+            b = grapefruit
+        elif french and i in french_days and i not in gf_days:
             b = french
         else:
-            pool_b = other_bfast or breakfasts
+            pool_b = [
+                x
+                for x in (other_bfast or breakfasts)
+                if not (grapefruit and x.uid == grapefruit.uid)
+            ] or other_bfast or breakfasts
+            exclude = set()
+            if french:
+                exclude.add(french.uid)
+            if grapefruit:
+                exclude.add(grapefruit.uid)
             b = pick(
                 pool_b,
                 used_week=used_b,
                 used_yesterday=yday_b,
                 need_not_bread=False,
-                exclude={french.uid} if french else set(),
+                exclude=exclude,
             )
-            if french and b.uid == french.uid and i not in french_days:
-                b = pick(
-                    other_bfast or breakfasts,
-                    used_week=used_b,
-                    used_yesterday=yday_b,
-                    need_not_bread=False,
-                    exclude={french.uid},
-                )
 
         l = pick(
             lunches,

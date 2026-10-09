@@ -1,4 +1,8 @@
-"""FODMAP proxy scoring helpers for Paprika recipes (1-serve assumed).
+"""FODMAP proxy scoring helpers for Paprika recipes.
+
+Scores are **per portion**: ingredient amounts are divided by the recipe
+`servings` field (default 1). A cake that lists a full batch with servings=12
+is scored as one slice, not the whole cake.
 
 Green-serve table lives in data/monash_fodmap.sqlite (upsert via
 scripts/tools/upsert_monash_fodmap.py). Official Monash app data is
@@ -61,6 +65,10 @@ ITEM_G = {
     "green pepper": 160.0,
     "pepper": 160.0,  # bell, when not black/white pepper
     "carrot": 60.0,
+    "celery": 40.0,  # one medium stick
+    "courgette": 200.0,  # one large
+    "zucchini": 200.0,
+    "shiitake": 15.0,  # one fresh mushroom
     "leek": 160.0,  # whole; greens-only overridden in to_grams (~75 g / cup)
     "spring onion": 12.0,  # green tops of one stalk (approx)
     "scallion": 12.0,
@@ -105,6 +113,7 @@ _FALLBACK_FOODS: list[tuple[list[str], float | None, str | None, bool]] = [
     (["spring onion green tops", "spring onion greens", "spring onion tops", "scallion green tops", "scallion greens", "green onion green tops", "green onion tops", "green onion greens"], 75, "FRU", False),
     (["leek"], 14, "FRT", False),
     (["leek, green tops", "leek green tops", "leek greens", "leek leaves", "green part of 1 leek", "green part of leek", "green tops of leek"], None, None, True),
+    (["shallot green tops", "shallot greens", "shallot leaves", "green part of the shallot", "green part of shallot", "green tops of shallot", "shallot, green tops"], None, None, True),
     (["fennel"], 48, "FRT", False),
     (["cabbage"], 75, "FRT", False),
     (["broccoli florets", "broccoli floret", "broccoli heads", "broccoli head", "broccoli"], 75, "FRU", False),
@@ -112,7 +121,8 @@ _FALLBACK_FOODS: list[tuple[list[str], float | None, str | None, bool]] = [
     (["cauliflower"], 75, "FRT", False),
     (["button mushroom", "portobello", "portabella", "champignon", "mushroom"], 7, "MAN", False),
     (["oyster mushroom", "oyster mushrooms"], 75, None, True),
-    (["shiitake"], 7, "MAN", False),
+    (["fresh shiitake", "shiitake mushroom", "shiitake"], 11, "MAN", False),
+    (["dried shiitake", "shiitake dried"], 8, "MAN", False),
     (["sweet potato"], 75, "MAN", False),
     (["avocado"], 60, "SOR", False),
     (["celery"], 51, "MAN", False),
@@ -141,7 +151,7 @@ _FALLBACK_FOODS: list[tuple[list[str], float | None, str | None, bool]] = [
     (["soft cheese", "ricotta", "cottage cheese"], 40, "LAC", False),
     (["parmesan", "parmigiano", "hard cheese", "cheddar"], 40, None, True),
     (["coconut milk"], 60, "SOR", False),
-    (["kalamata olive", "olive"], 30, None, True),
+    (["kalamata olives", "kalamata olive", "black olives", "olives", "olive"], 30, None, True),
 ]
 
 
@@ -247,7 +257,7 @@ def strip_notes_block(notes: str) -> str:
 
 
 _DESC_CHOL_RE = re.compile(
-    r"\n*(?:♡|❣|◐|💔|♥)\s+Cholesterol\s+\d+mg(?:\s*\(\d+%\))?\s*$"
+    r"\n*(?:♡|❣|◐|💔|♥)\s+(?:Sat\s+fat\s+\d+(?:\.\d+)?g|Cholesterol\s+\d+mg)(?:\s*\(\d+%\))?\s*$"
 )
 
 
@@ -289,7 +299,7 @@ def strip_inline_fodmap(line: str) -> str:
 
 
 _CHOL_SUFFIX_RE = re.compile(
-    r"(\s+(?:♡|❣|◐|💔|♥)\s+Cholesterol\s+\d+mg(?:\s*\(\d+%\))?)\s*$"
+    r"(\s+(?:♡|❣|◐|💔|♥)\s+(?:Sat\s+fat\s+\d+(?:\.\d+)?g|Cholesterol\s+\d+mg)(?:\s*\(\d+%\))?)\s*$"
 )
 
 
@@ -538,7 +548,7 @@ def match_food(rest: str) -> FoodHit | None:
         or ("list onion and garlic" in n)
         or ("onion and garlic" in n and "almost always" in n)
     )
-    # Green tops / leaves of alliums — dedicated foods (not bulb onion/leek)
+    # Green tops / leaves of alliums — dedicated foods (not bulb onion/shallot/leek)
     allium_greens = bool(
         re.search(
             r"green\s+(tops?|parts?|leaves)|greens?\s+only|dark\s+green|white\s+base\s+discarded",
@@ -552,6 +562,14 @@ def match_food(rest: str) -> FoodHit | None:
     if allium_greens and re.search(r"\bleeks?\b", n):
         for keys, green, ftype, no_lim in load_foods():
             if no_lim and any("leek" in k for k in keys):
+                return FoodHit(
+                    green_g=green, ftype=ftype, no_upper_limit=True
+                )
+        return FoodHit(green_g=None, ftype=None, no_upper_limit=True)
+
+    if allium_greens and re.search(r"\bshallots?\b", n):
+        for keys, green, ftype, no_lim in load_foods():
+            if no_lim and any("shallot" in k for k in keys):
                 return FoodHit(
                     green_g=green, ftype=ftype, no_upper_limit=True
                 )
@@ -625,8 +643,8 @@ def match_food(rest: str) -> FoodHit | None:
                 and "olives" not in n
             ):
                 continue
-            # herb mixes mentioning fennel seed/bulb in a list are not a fennel serve
-            if key == "fennel" and "herb" in n:
+            # herb mixes / fennel seed spice are not a fennel-bulb serve
+            if key == "fennel" and ("herb" in n or "seed" in n):
                 continue
             # lactose-free dairy is not a lactose load
             if ftype == "LAC" and lactose_free:
@@ -661,6 +679,27 @@ def match_food(rest: str) -> FoodHit | None:
     return best[1] if best else None
 
 
+def parse_servings(value: str | int | float | None) -> float:
+    """Parse Paprika servings into a positive divisor (range → lower bound)."""
+    if value is None or value == "":
+        return 1.0
+    if isinstance(value, (int, float)):
+        return max(float(value), 1.0)
+    text = str(value).strip().lower().replace("×", "x")
+    m = re.search(
+        r"(\d+(?:\.\d+)?)\s*(?:-|–|—|to|x)\s*(\d+(?:\.\d+)?)",
+        text,
+    )
+    if m:
+        a, b = float(m.group(1)), float(m.group(2))
+        # Cautious: smaller divisor → larger per-portion load
+        return max(min(a, b), 1.0)
+    m = re.search(r"(\d+(?:\.\d+)?)", text)
+    if m:
+        return max(float(m.group(1)), 1.0)
+    return 1.0
+
+
 def score_ingredient_line(
     line: str,
 ) -> tuple[str, float, float | None, str | None, bool, str] | None:
@@ -679,7 +718,10 @@ def score_ingredient_line(
     return clean, grams, food.green_g, food.ftype, food.no_upper_limit, chol_suf
 
 
-def annotate_ingredients(ingredients: str) -> tuple[str, dict[str, float]]:
+def annotate_ingredients(
+    ingredients: str, servings: float | str | int | None = 1.0
+) -> tuple[str, dict[str, float]]:
+    servings_n = parse_servings(servings)
     stacks: dict[str, float] = {}
     out: list[str] = []
     for line in (ingredients or "").splitlines():
@@ -692,11 +734,12 @@ def annotate_ingredients(ingredients: str) -> tuple[str, dict[str, float]]:
             out.append(strip_inline_fodmap(base) + chol_suf)
             continue
         clean, grams, green, ftype, no_lim, chol_suf = scored
+        portion_g = grams / servings_n
         if no_lim or not ftype or not green or green <= 0:
             # Monash no-upper-limit / free food — leave blank (not a stacking budget)
             out.append(clean + chol_suf)
             continue
-        ratio = grams / green
+        ratio = portion_g / green
         stacks[ftype] = stacks.get(ftype, 0.0) + ratio
         out.append(f"{clean}  {format_tag(ftype, ratio)}{chol_suf}")
     text = "\n".join(out).rstrip() + ("\n" if out else "")
@@ -729,9 +772,13 @@ def build_desc_summary(stacks: dict[str, float]) -> str | None:
 
 
 def transform_recipe(
-    name: str, ingredients: str, description: str, notes: str
+    name: str,
+    ingredients: str,
+    description: str,
+    notes: str,
+    servings: float | str | int | None = 1.0,
 ) -> dict:
-    new_ings, stacks = annotate_ingredients(ingredients)
+    new_ings, stacks = annotate_ingredients(ingredients, servings=servings)
     meal_em = meal_score_emoji(stacks)
     new_name = set_title_meal_emoji(name, meal_em)
     new_notes = strip_notes_block(notes)

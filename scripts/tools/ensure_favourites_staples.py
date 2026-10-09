@@ -1,4 +1,4 @@
-"""Create Favourites / Staples folder + Staples seed recipe (Crisps, Coffee, Bars)."""
+"""Create Favourites / Staples folder + Staples seed recipe (Potatoes, Coffee, Bars, Oat Cakes)."""
 from __future__ import annotations
 
 import asyncio
@@ -27,7 +27,7 @@ FAV = "01A0427C-9963-4D6B-ACAF-5EA469E6ED1C"
 LF = "a1747733-a5ed-47b8-8d7d-db33fcb19a10"
 FOLDER = "Staples"
 RECIPE_NAME = "Staples"
-INGS = "Crisps\nCoffee\nBars\n"
+INGS = "Potatoes\nKallo Corn Cakes (salted wholegrain, low fat)\nCoffee\nBars\nOat Cakes\n"
 DIRS = (
     "**Weekly staples:** Not a meal — pantry items always added to the "
     "shopping list when the Favourites week plan is applied.\n"
@@ -150,7 +150,7 @@ async def main() -> None:
         recipe["ingredients"] = INGS
         recipe["directions"] = DIRS
         recipe["description"] = (
-            "Ingredients: crisps, coffee, bars\n\n"
+            "Ingredients: potatoes, kallo corn cakes, coffee, bars, oat cakes\n\n"
             "Weekly shopping-list seed (not a meal). Always included when the "
             "Favourites week plan groceries are applied."
         )

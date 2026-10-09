@@ -8,11 +8,12 @@ from __future__ import annotations
 
 import re
 
-# Live aisle names as of 2026-09-25 (order_flag ascending). Keep in sync with Paprika.
+# Live aisle names as of 2026-09-29 (order_flag ascending). Keep in sync with Paprika.
 EXPECTED_AISLES: tuple[str, ...] = (
     "Fruit and Veg",
     "Meat",
     "Seafood",
+    "Ready Meals",
     "Dairy",
     "Frozen Foods",
     "Canned and Jar Goods, Pasta and Rice",
@@ -37,7 +38,8 @@ AISLE_ALIASES: dict[str, str] = {
     "Oils and Dressings": "Oils, Dressings, Spices and Seasonings",
     "Spices and Seasonings": "Oils, Dressings, Spices and Seasonings",
     "International Cuisine": "Frozen Foods",
-    "Ready meals": "Frozen Foods",
+    "Ready meals": "Ready Meals",
+    "Ready Meals": "Ready Meals",
     "Meat & fish": "Meat",
     "Dairy & eggs": "Dairy",
     "Dry goods": "Canned and Jar Goods, Pasta and Rice",
@@ -65,9 +67,23 @@ def normalize_aisle(name: str | None) -> str:
 
 def aisle_for(ingredient: str, *, is_pack: bool = False) -> str:
     """Heuristic keyword → Paprika grocery aisle (exact live name)."""
-    if is_pack:
-        return "Frozen Foods"  # chilled/ready packs; no separate Ready Meals aisle
+    if is_pack or re.search(r"\bwaitrose\b", (ingredient or ""), re.I):
+        return "Ready Meals"
     low = (ingredient or "").lower()
+
+    # Choice-of produce lines (often mention "tinned" as an option) → Fruit and Veg first
+    if re.search(r"\bany\s+\d+\s+of\s*:", low):
+        return "Fruit and Veg"
+
+    # UK: olives are sold in jars
+    if re.search(r"\bolives?\b", low) and "oil" not in low:
+        return "Canned and Jar Goods, Pasta and Rice"
+
+    # UK: tinned sardines (olive oil / spring water) are canned goods, not fresh seafood
+    if re.search(r"\bsardines?\b", low) and re.search(
+        r"\b(tin|tinned|canned)\b", low
+    ):
+        return "Canned and Jar Goods, Pasta and Rice"
 
     if "frozen" in low or "oven chips" in low:
         return "Frozen Foods"
@@ -75,7 +91,12 @@ def aisle_for(ingredient: str, *, is_pack: bool = False) -> str:
         r"\b(drink|beverage)s?\b", low
     ):
         return "Beverages"
-    if re.search(r"\bcrisps?\b", low) or re.search(r"\bbars?\b", low):
+    if (
+        re.search(r"\bcrisps?\b", low)
+        or re.search(r"\bbars?\b", low)
+        or re.search(r"\bcorn\s*cakes?\b", low)
+        or "kallo" in low
+    ):
         return "Snacks"
     if any(k in low for k in ("salmon", "fish", "sardine", "seafood", "cod", "haddock")):
         return "Seafood"
@@ -138,15 +159,18 @@ def aisle_for(ingredient: str, *, is_pack: bool = False) -> str:
             "dressing",
             "spice",
             "seasoning",
-            "pepper",
-            "salt",
             "paprika",
             "cumin",
             "ginger",
+            "salt",
         )
+    ) or re.search(r"\b(black|white|ground)\s+pepper\b", low) or re.search(
+        r"\bpepper\b.*\b(to taste|pinch)\b", low
     ):
         # fresh ginger stays Fruit and Veg below if matched earlier — keep spices here
         if "fresh ginger" in low or re.search(r"\bginger,?\s*grated\b", low):
+            return "Fruit and Veg"
+        if re.search(r"\b(green|red|bell|sweet)\s+peppers?\b", low):
             return "Fruit and Veg"
         return "Oils, Dressings, Spices and Seasonings"
     if any(k in low for k in ("nut", "seed", "snack", "peanut")):
@@ -174,7 +198,6 @@ def aisle_for(ingredient: str, *, is_pack: bool = False) -> str:
             "bean sprout",
             "courgette",
             "rocket",
-            "olive",
             "banana",
             "berry",
             "strawberr",
@@ -184,6 +207,18 @@ def aisle_for(ingredient: str, *, is_pack: bool = False) -> str:
             "fruit",
             "any 3 of",
             "any 1 of",
+            "parsnip",
+            "mushroom",
+            "oyster mushroom",
+            "shallot",
+            "spring onion",
+            "green onion",
+            "swede",
+            "celeriac",
+            "fennel",
+            "bell pepper",
+            "green pepper",
+            "red pepper",
         )
     ):
         return "Fruit and Veg"

@@ -64,6 +64,7 @@ def list_recipes(limit: int = 0, name_substr: str = "") -> list[dict]:
             ORDER BY name COLLATE NOCASE
             """
         ).fetchall()
+    # servings column already selected above (both branches)
     con.close()
     out = [dict(r) for r in rows]
     if limit > 0:
@@ -150,6 +151,7 @@ async def main() -> None:
                 local["ingredients"] or "",
                 local["description"] or "",
                 local["notes"] or "",
+                servings=local.get("servings") or 1,
             )
             did = (
                 t["name"] != (local["name"] or "")
@@ -188,6 +190,7 @@ async def main() -> None:
                     rec.get("ingredients") or "",
                     rec.get("description") or "",
                     rec.get("notes") or "",
+                    servings=rec.get("servings") or local.get("servings") or 1,
                 )
                 rec["name"] = t2["name"]
                 rec["ingredients"] = t2["ingredients"]
