@@ -1,15 +1,14 @@
-"""Apply Favourites week plan to Paprika Meals + grocery list.
+"""Apply Favourites + freezer week plan to Paprika **Meals** calendar only.
 
-Writes the calendar **Meals** planner (Meals → Week/Day) and recipe-linked
-**groceries**. Does **not** create Paprika Menus.
+Writes the calendar **Meals** planner (Meals → Week/Day). Does **not** create
+Paprika Menus. Does **not** edit pantry (read-only for planning) or rewrite
+the grocery list unless ``--groceries`` is passed explicitly.
 
-On apply: clear existing Meals on the plan date range, then post new ones;
-clear the grocery list, then recreate it from planned recipes.
+On apply: clear existing Meals on the plan date range, then post new ones.
 
-  python scripts/tools/apply_weekly_favourites_to_paprika.py --start 2026-09-23
-  python scripts/tools/apply_weekly_favourites_to_paprika.py --start 2026-09-23 --apply
-  python scripts/tools/apply_weekly_favourites_to_paprika.py --start 2026-09-23 --apply --meals-only
-  python scripts/tools/apply_weekly_favourites_to_paprika.py --start 2026-09-23 --apply --groceries-only
+  python scripts/tools/apply_weekly_favourites_to_paprika.py --start 2026-10-10
+  python scripts/tools/apply_weekly_favourites_to_paprika.py --start 2026-10-10 --apply
+  python scripts/tools/apply_weekly_favourites_to_paprika.py --start 2026-10-10 --apply --groceries
 """
 from __future__ import annotations
 
@@ -315,8 +314,15 @@ def groceries_from_plan(plan: list[dict]) -> list[dict]:
     """
     rows: list[dict] = []
     for day in plan:
-        for key in SLOT_ORDER:
-            append_recipe_grocery_rows(rows, day[key])
+        for key in (*SLOT_ORDER, "lunch_snack", "soup"):
+            r = day.get(key)
+            if not r:
+                continue
+            if getattr(r, "from_freezer", False):
+                continue
+            # Baked potato when bolognese came from freezer: still shop potato meal,
+            # but pantry_uses already skipped remaking FD bolognese as its own recipe.
+            append_recipe_grocery_rows(rows, r)
     staples = load_staples_recipe()
     if staples:
         append_staples_missing_only(rows, staples)
@@ -488,23 +494,30 @@ def aggregate_grocery_rows(rows: list[dict]) -> list[dict]:
 
 
 def meals_from_plan(plan: list[dict], types_by_slot: dict[str, dict]) -> list[dict]:
-    """Paprika Meals calendar entries (B/L/D/pudding per day)."""
+    """Paprika Meals calendar entries (B/L/D/pudding + optional snack/soup)."""
     rows: list[dict] = []
     for day in plan:
         day_str = day["date"].strftime("%Y-%m-%d 00:00:00")
-        for order, key in enumerate(SLOT_ORDER, start=1):
-            r: Recipe = day[key]
-            mt = types_by_slot[key]
-            # Built-ins use original_type 0–3. Custom types (Dessert) often have
-            # original_type 0/null — use order_flag / slot fallback so they are
-            # not mistaken for Breakfast.
+        order = 1
+        extras = [
+            ("breakfast", day.get("breakfast"), "breakfast"),
+            ("lunch", day.get("lunch"), "lunch"),
+            ("lunch", day.get("lunch_snack"), "lunch"),  # snack as Lunch type
+            ("dinner", day.get("dinner"), "dinner"),
+            ("dinner", day.get("soup"), "dinner"),  # soup as Dinner type
+            ("pudding", day.get("pudding"), "pudding"),
+        ]
+        for slot_key, r, type_key in extras:
+            if not r:
+                continue
+            mt = types_by_slot[type_key]
             type_int = mt.get("original_type")
-            if key == "pudding" or type_int is None or (
+            if type_key == "pudding" or type_int is None or (
                 mt.get("name") == "Dessert" and type_int == 0
             ):
                 type_int = mt.get("order_flag")
                 if type_int is None:
-                    type_int = SLOT_TO_TYPE_INT[key]
+                    type_int = SLOT_TO_TYPE_INT[type_key]
             rows.append(
                 {
                     "uid": str(uuid.uuid4()).upper(),
@@ -519,7 +532,97 @@ def meals_from_plan(plan: list[dict], types_by_slot: dict[str, dict]) -> list[di
                     "deleted": False,
                 }
             )
+            order += 1
     return rows
+
+
+def pantry_drawdown_from_plan(plan: list[dict]) -> dict[str, int]:
+    """Aggregate pantry uid → portions used across the week."""
+    uses: dict[str, int] = defaultdict(int)
+    for day in plan:
+        for uid, n in (day.get("pantry_uses") or {}).items():
+            uses[uid] += int(n)
+    return dict(uses)
+
+
+async def apply_pantry_drawdown(session, limiter, headers, uses: dict[str, int]) -> None:
+    """Decrement freezer pantry quantities for portions eaten; drop at zero."""
+    if not uses:
+        return
+    st, body = await api_json(
+        session, limiter, "GET", f"{PAPRIKA_API}/v2/sync/pantry/", headers=headers
+    )
+    items = [g for g in (body.get("result") or []) if not g.get("deleted")]
+    # Map recipe uid → pantry rows by matching ingredient to recipe name
+    import sqlite3
+
+    con = sqlite3.connect(LOCAL_DB)
+    names = {
+        r[0]: r[1]
+        for r in con.execute(
+            "SELECT uid, name FROM recipes WHERE coalesce(in_trash,0)=0"
+        )
+    }
+    con.close()
+
+    from weekly_favourites_meal_plan import strip_marker  # local import
+
+    remaining_need = dict(uses)
+    updates = []
+    deletes = []
+    for it in items:
+        if not remaining_need:
+            break
+        ing = strip_marker(it.get("ingredient") or "")
+        matched = None
+        for uid, need in list(remaining_need.items()):
+            if need <= 0:
+                continue
+            rn = strip_marker(names.get(uid, ""))
+            if not rn:
+                continue
+            if rn.lower() == ing.lower() or rn.lower() in ing.lower() or ing.lower() in rn.lower():
+                matched = uid
+                break
+        if not matched:
+            continue
+        need = remaining_need[matched]
+        try:
+            qty = int(str(it.get("quantity") or "0").strip() or "0")
+        except ValueError:
+            qty = 0
+        new_qty = max(0, qty - need)
+        used = qty - new_qty
+        remaining_need[matched] = need - used
+        row = dict(it)
+        if new_qty <= 0:
+            row["deleted"] = True
+            row["in_stock"] = False
+            row["quantity"] = "0"
+            deletes.append(row)
+        else:
+            row["quantity"] = str(new_qty)
+            row["in_stock"] = True
+            updates.append(row)
+
+    chunk = updates + deletes
+    if chunk:
+        if not await post_entities(session, limiter, headers, "/v2/sync/pantry/", chunk):
+            raise SystemExit("pantry drawdown failed")
+        safe_print(f"Pantry drawdown: updated {len(updates)}, removed {len(deletes)}")
+
+    # Mirror local
+    con = sqlite3.connect(LOCAL_DB)
+    for it in chunk:
+        if it.get("deleted"):
+            con.execute("DELETE FROM pantry_items WHERE uid=?", (it["uid"],))
+        else:
+            con.execute(
+                "UPDATE pantry_items SET quantity=?, in_stock=1, status=? WHERE uid=?",
+                (it["quantity"], "modified", it["uid"]),
+            )
+    con.commit()
+    con.close()
 
 
 def meal_date_key(raw: str | None) -> str:
@@ -534,6 +637,11 @@ async def main() -> None:
     ap.add_argument("--start", default=None, help="YYYY-MM-DD (default: tomorrow)")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument(
+        "--groceries",
+        action="store_true",
+        help="Also clear/recreate the grocery list (off by default)",
+    )
+    ap.add_argument(
         "--groceries-only",
         action="store_true",
         help="Refresh grocery list only; leave Meals as-is",
@@ -541,16 +649,16 @@ async def main() -> None:
     ap.add_argument(
         "--meals-only",
         action="store_true",
-        help="Write Meals calendar only; leave groceries as-is",
+        help="Deprecated: Meals-only is already the default",
     )
     args = ap.parse_args()
     apply = bool(args.apply)
     groceries_only = bool(args.groceries_only)
-    meals_only = bool(args.meals_only)
-    skip_groceries = meals_only
+    # Default: Meals calendar only — never touch pantry; groceries only if asked
+    skip_groceries = not (bool(args.groceries) or groceries_only)
     skip_meals = groceries_only
-    if groceries_only and meals_only:
-        raise SystemExit("Use only one of --groceries-only / --meals-only")
+    if groceries_only and args.groceries:
+        raise SystemExit("Use only one of --groceries / --groceries-only")
 
     start = (
         date.fromisoformat(args.start) if args.start else date.today() + timedelta(days=1)
@@ -565,8 +673,16 @@ async def main() -> None:
     safe_print(f"Plan: {plan_label} ({len(plan)} days) → Meals + groceries (no Menus)")
     for day in plan:
         d = day["date"].strftime("%a %d %b")
-        names = " | ".join(strip_marker(day[k].name)[:36] for k in SLOT_ORDER)
-        safe_print(f"  {d}: {names}")
+        bits = []
+        for k in SLOT_ORDER:
+            r = day[k]
+            mark = "🧊" if getattr(r, "from_freezer", False) else ""
+            bits.append(strip_marker(r.name)[:28] + mark)
+        if day.get("lunch_snack"):
+            bits[1] += "+snack🧊" if day["lunch_snack"].from_freezer else "+snack"
+        if day.get("soup"):
+            bits[2] += "+soup"
+        safe_print(f"  {d}: {' | '.join(bits)}")
 
     by_recipe: dict[str, int] = defaultdict(int)
     for g in grocery_rows:
@@ -574,7 +690,18 @@ async def main() -> None:
     safe_print(f"Grocery lines: {len(grocery_rows)} (linked to {len(by_recipe)} recipes)")
     for name, n in sorted(by_recipe.items(), key=lambda x: (-x[1], x[0].lower()))[:12]:
         safe_print(f"  {n:3d}  ← {name[:50]}")
-    safe_print(f"Meals calendar entries: {len(plan) * len(SLOT_ORDER)}")
+    meal_rows_preview = meals_from_plan(plan, {
+        "breakfast": {"uid": "x", "original_type": 0, "name": "Breakfast"},
+        "lunch": {"uid": "x", "original_type": 1, "name": "Lunch"},
+        "dinner": {"uid": "x", "original_type": 2, "name": "Dinner"},
+        "pudding": {"uid": "x", "original_type": 4, "name": "Dessert", "order_flag": 4},
+    })
+    safe_print(f"Meals calendar entries: {len(meal_rows_preview)}")
+    uses = pantry_drawdown_from_plan(plan)
+    if uses:
+        safe_print(f"Pantry used for plan (read-only, not written): {uses}")
+    if skip_groceries:
+        safe_print("Groceries: left unchanged")
 
     if not apply:
         safe_print("Dry-run only. Pass --apply to write.")
@@ -647,7 +774,9 @@ async def main() -> None:
                     raise SystemExit(f"meals add failed at {i}")
                 safe_print(f"  posted meals {i + 1}-{i + len(part)}")
 
-        # --- Groceries: clear then add with recipe provenance ---
+        # Pantry is never written here — user maintains freezer stock manually.
+
+        # --- Groceries: only when --groceries / --groceries-only ---
         if not skip_groceries:
             st, body = await api_json(
                 s, limiter, "GET", f"{PAPRIKA_API}/v2/sync/grocerylists/", headers=H
