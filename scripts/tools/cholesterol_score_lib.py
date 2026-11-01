@@ -5,7 +5,8 @@ field (default 1), same as the FODMAP scorer.
 
 Tilted toward **saturated fat** (primary driver of blood LDL for typical adults).
 Title / description icons: ♡ low · ❣ mid · 💔 high
-Ingredient low icon: ♥ (filled — outline ♡ does not bold/read well in Paprika).
+Ingredient low icon: 💚 (outline ♡ does not read well in Paprika; the legacy filled ♥
+looked alarming, so it is replaced on re-score).
 Display: Sat fat g + % of ~20 g/day kitchen reference.
 Strips legacy dietary-cholesterol tags on re-score.
 Proxy for meal picking — not medical advice.
@@ -17,7 +18,12 @@ import re
 from functools import lru_cache
 from pathlib import Path
 
+from collections.abc import Callable
+
 from fodmap_score_lib import (  # noqa: E402
+    MAX_LINK_DEPTH,
+    linked_recipe,
+    linked_servings,
     parse_line,
     parse_servings,
     strip_inline_fodmap,
@@ -28,11 +34,12 @@ ROOT = Path(__file__).resolve().parents[2]
 SEED_PATH = ROOT / "data" / "cholesterol_seed.json"
 
 CHOL_LOW = "♡"
-CHOL_LOW_ING = "♥"  # filled heart on ingredient lines only (visibility)
+CHOL_LOW_ING = "💚"  # green heart on ingredient lines only (visibility)
+CHOL_LOW_ING_LEGACY = "♥"
 CHOL_MID = "❣"
 CHOL_HIGH = "💔"
-CHOL_MARKERS = (CHOL_LOW, CHOL_LOW_ING, CHOL_MID, CHOL_HIGH, "◐")
-CHOL_ICON_CLASS = rf"(?:{CHOL_LOW}|{CHOL_LOW_ING}|{CHOL_MID}|{CHOL_HIGH}|◐)"
+CHOL_MARKERS = (CHOL_LOW, CHOL_LOW_ING, CHOL_LOW_ING_LEGACY, CHOL_MID, CHOL_HIGH, "◐")
+CHOL_ICON_CLASS = rf"(?:{CHOL_LOW}|{CHOL_LOW_ING}|{CHOL_LOW_ING_LEGACY}|{CHOL_MID}|{CHOL_HIGH}|◐)"
 
 FODMAP_MARKERS = ("✅", "ℹ️", "⚠️", "❌", "🟢", "🟡", "🟠", "🔴")
 
@@ -56,7 +63,7 @@ _INLINE_CHOL_RE = re.compile(
     rf"\s+{CHOL_ICON_CLASS}\s+{_TAG_BODY}\s*$"
 )
 _TITLE_MARKER_RE = re.compile(
-    r"^(?P<m>(?:✅|ℹ️|⚠️|❌|🟢|🟡|🟠|🔴|♡|❣|◐|💔|♥))\s*"
+    r"^(?P<m>(?:✅|ℹ️|⚠️|❌|🟢|🟡|🟠|🔴|♡|❣|◐|💔|♥|💚))\s*"
 )
 
 
@@ -166,9 +173,15 @@ def match_sat_food(rest: str) -> dict | None:
         return None
     if re.search(r"\b(stock|broth)\b", n):
         return None
+    # The first food named wins ("sour cream or coconut cream" is sour cream), and of
+    # keys starting at the same place the longest ("low fat cheese" over "cheese").
+    best: tuple[int, int, dict] | None = None
     for key, food in load_foods():
-        if not re.search(rf"(?<![a-z]){re.escape(key)}(?![a-z])", n):
+        m = re.search(rf"(?<![a-z]){re.escape(key)}(?![a-z])", n)
+        if not m:
             continue
+        if re.search(r"cream$", key) and re.match(r"\s*cheese", n[m.end():]):
+            continue  # "lactose-free cream cheese" is cream cheese, not cream
         if key in {"egg", "eggs"} and re.search(r"eggplant|aubergine", n):
             continue
         if key == "cream" and re.search(
@@ -185,12 +198,17 @@ def match_sat_food(rest: str) -> dict | None:
             continue
         if key == "chocolate" and re.search(r"chocolate\s+chip", n):
             continue
-        return food
-    return None
+        # how far back the match reaches: "lactose-free sour cream" starts before "cream"
+        cand = (m.start(), -len(key), food)
+        if best is None or cand[:2] < best[:2]:
+            best = cand
+    return best[2] if best else None
 
 
 def line_sat_fat_g(line: str) -> tuple[str, float | None, dict | None]:
     clean_out = strip_inline_chol(line).rstrip()  # keeps FODMAP tags
+    if "see that recipe" in line.lower() or "[recipe:" in line:  # a linked recipe is scored on its own
+        return clean_out, None, None
     p = parse_line(strip_inline_fodmap(strip_inline_chol(line)))
     if not p:
         return clean_out, None, None
@@ -210,8 +228,13 @@ def line_sat_fat_g(line: str) -> tuple[str, float | None, dict | None]:
 
 
 def annotate_ingredients(
-    ingredients: str, servings: float | str | int | None = 1.0
+    ingredients: str,
+    servings: float | str | int | None = 1.0,
+    linked: Callable[[str], dict | None] | None = None,
+    _depth: int = 0,
 ) -> tuple[str, float, list[dict]]:
+    """`linked` resolves '[recipe:Name]' lines: the linked recipe's saturated fat per
+    serving is added for the servings the line uses."""
     servings_n = parse_servings(servings)
     total = 0.0
     drivers: list[dict] = []
@@ -219,6 +242,19 @@ def annotate_ingredients(
     for raw in (ingredients or "").splitlines():
         if not raw.strip():
             out.append(raw)
+            continue
+        rec = linked_recipe(raw, linked) if _depth < MAX_LINK_DEPTH else None
+        if rec:
+            clean = strip_inline_chol(raw).rstrip()
+            _, sub, _ = annotate_ingredients(rec.get("ingredients") or "", rec.get("servings"), linked, _depth + 1)
+            portion_g = sub * linked_servings(clean, rec) / servings_n
+            if round(portion_g, 1) <= 0:
+                out.append(clean)
+                continue
+            total += portion_g
+            icon = chol_emoji_ingredient(portion_g)
+            drivers.append({"food": "recipe", "name": rec.get("name"), "g": round(portion_g, 2), "icon": icon})
+            out.append(f"{clean}  {format_sat_tag(icon, portion_g)}")
             continue
         clean, g, food = line_sat_fat_g(raw)
         if g is None or g <= 0 or food is None:
@@ -251,8 +287,9 @@ def transform_recipe(
     description: str,
     notes: str,
     servings: float | str | int | None = 1.0,
+    linked: Callable[[str], dict | None] | None = None,
 ) -> dict:
-    new_ings, total_g, drivers = annotate_ingredients(ingredients, servings=servings)
+    new_ings, total_g, drivers = annotate_ingredients(ingredients, servings=servings, linked=linked)
     meal_em = chol_emoji_meal(total_g)
     new_name = set_title_chol_emoji(name, meal_em)
     desc_base = strip_desc_chol(description)

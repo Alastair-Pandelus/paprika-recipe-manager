@@ -45,9 +45,9 @@ def keep_chol_title(name: str) -> str:
         "",
         (name or "").strip(),
     )
-    if not re.match(r"^[♡❣◐💔♥💗]", s):
+    if not re.match(r"^[♡❣◐💔♥💚💗]", s):
         s = "♡ " + strip_marker(name)
-    s = s.replace("♥", "♡").replace("💗", "❣")
+    s = s.replace("♥", "♡").replace("💚", "♡").replace("💗", "❣")
     return s
 
 

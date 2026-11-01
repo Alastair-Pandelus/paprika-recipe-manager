@@ -40,8 +40,6 @@ from weekly_favourites_meal_plan import (  # noqa: E402
     strip_marker,
 )
 
-FAV_PARENT = "01A0427C-9963-4D6B-ACAF-5EA469E6ED1C"
-STAPLES_FOLDER = "Staples"
 LOCAL_DB = Path(
     r"C:\Users\Pandelus\AppData\Local\Paprika Recipe Manager 3\Database\Paprika.sqlite"
 )
@@ -94,7 +92,7 @@ async def post_entities(session, limiter, headers, endpoint: str, items: list) -
 
 # Cupboard staples — never add to grocery list (assume always in stock).
 # Optional qty + unit before the staple name (e.g. "2 tsp sea salt", "3/8 cup hot water").
-_QTY = r"(?:\d+[\/\d]*|\d*\.\d+)\s*"
+_QTY = r"(?:(?:\d+\s+)?\d+\s*/\s*\d+|\d+\s*[¼½¾⅓⅔]|[¼½¾⅓⅔]|\d+[\/\d]*|\d*\.\d+)\s*"
 _UNIT = r"(?:tsp|tbsp|teaspoons?|tablespoons?|cups?|ml|l|g|pinch(?:es)?(?:\s+of)?)\s+"
 CUPBOARD_STAPLE_RE = re.compile(
     rf"^(?:{_QTY})?(?:{_UNIT})?"
@@ -112,7 +110,7 @@ CUPBOARD_STAPLE_RE = re.compile(
 def is_cupboard_staple_line(line: str) -> bool:
     """Salt / pepper / water — pantry defaults, not shopping items."""
     s = strip_inline_fodmap(line or "")
-    s = re.sub(r"\s*[♡❣💔♥].*$", "", s)
+    s = re.sub(r"\s*[♡❣💔♥💚].*$", "", s)
     s = re.sub(r"\s+", " ", s).strip()
     if not s:
         return False
@@ -163,7 +161,7 @@ def split_qty_name(scaled: str) -> tuple[str | None, str]:
         r"\d+\s+\d+\s*/\s*\d+|\d+(?:\.\d+)?(?:\s+to\s+\d+(?:\.\d+)?)?|"
         r"\d+\s*[-–]\s*\d+)\s*(?:x\s+400\s*g\s*tins?)?"
         r"(?:\s*(?:g|kg|ml|l|tsp|tbsp|cup|cups|medium|large|small|"
-        r"slices?|scoops?|handfuls?|eggs?|egg|pouches?|tins?))?)\s+(.+)$",
+        r"slices?|scoops?|handfuls?|portions?|eggs?|egg|pouches?|tins?))?)\s+(.+)$",
         scaled,
         re.I,
     )
@@ -176,46 +174,92 @@ def recipe_label(name: str) -> str:
     return strip_marker(name)
 
 
-def load_staples_recipe() -> Recipe | None:
-    """Favourites / Staples / Staples — weekly shopping-list seed (not a meal)."""
+STAPLE_PREFIX = "Staple - "
+
+
+def load_pantry_staples() -> list[dict]:
+    """In-stock ``Staple - <item>`` pantry rows (replaces the Staples recipe)."""
     import sqlite3
 
-    con = sqlite3.connect(LOCAL_DB)
+    con = sqlite3.connect(f"file:{LOCAL_DB.as_posix()}?mode=ro", uri=True)
     con.row_factory = sqlite3.Row
     rows = con.execute(
         """
-        SELECT r.uid, r.name, r.ingredients
-        FROM recipes r
-        JOIN recipes_to_categories rtc ON rtc.recipe_uid = r.uid
-        JOIN recipe_categories c ON c.uid = rtc.category_uid
-        WHERE coalesce(r.in_trash, 0) = 0
-          AND c.parent_uid = ?
-          AND c.name = ?
+        SELECT ingredient, quantity, aisle_name
+        FROM pantry_items
+        WHERE ingredient LIKE ? AND coalesce(in_stock, 1) = 1
+        ORDER BY ingredient
         """,
-        (FAV_PARENT, STAPLES_FOLDER),
+        (STAPLE_PREFIX + "%",),
     ).fetchall()
     con.close()
-    row = next(
-        (r for r in rows if strip_marker(r["name"] or "").casefold() == "staples"),
-        None,
-    )
-    if not row:
-        return None
-    return Recipe(
-        uid=row["uid"],
-        name=row["name"] or "Staples",
-        slot="Staples",
-        ingredients=row["ingredients"] or "",
-        is_bread=False,
-        is_shop=False,
-        prefer_breakfast=False,
-    )
+    return [dict(r) for r in rows]
+
+
+STAPLE_ALIASES = {"parmigiano": "parmesan", "reggiano": "parmesan"}
+
+
+def staple_tokens(text: str) -> set[str]:
+    toks = set()
+    for t in staple_product_key(text).split():
+        t = STAPLE_ALIASES.get(t, t)
+        if len(t) > 3 and t.endswith("oes"):
+            t = t[:-2]
+        elif len(t) > 3 and t.endswith("s") and not t.endswith("ss"):
+            t = t[:-1]
+        toks.add(t)
+    return toks
+
+
+def staple_covers(staple: str, row: dict) -> bool:
+    """True if a meal grocery line is the same product as a staple."""
+    blob = f"{row.get('name') or ''} {row.get('ingredient') or ''}".lower()
+    if staple_product_key(staple) == "olives" and re.search(r"\boil\b", blob):
+        return False  # olive oil is not the olives staple
+    if staple_product_key(staple) == "nut and seed mix" and re.search(r"\bmixed nuts?\b", blob):
+        return True  # the user's nut and seed mix is what recipes call mixed nuts
+    if staples_already_covered(staple, [row]):
+        return True
+    if staple_product_key(staple).startswith("waitrose ready meals"):
+        return normalize_aisle(row.get("aisle")) == "Ready Meals"
+    st = staple_tokens(staple)
+    rt = staple_tokens(f"{row.get('name') or ''} {row.get('ingredient') or ''}")
+    return bool(st) and st <= rt
+
+
+def append_pantry_staples(rows: list[dict], staples: list[dict]) -> list[dict]:
+    """Every staple goes on the list at its pantry quantity; the user dismisses
+    what isn't needed. Meal lines a staple covers are dropped, since staples are
+    assumed always present."""
+    names = [s["ingredient"][len(STAPLE_PREFIX):].strip() for s in staples]
+    kept = []
+    for row in rows:
+        covering = next((n for n in names if staple_covers(n, row)), None)
+        if covering:
+            safe_print(f"Staple covers meal line: {row.get('name')} -> {covering}")
+            continue
+        kept.append(row)
+    for s, name in zip(staples, names):
+        qty = (s.get("quantity") or "").strip() or None
+        kept.append(
+            {
+                # Same shape as add_staples_to_groceries.py, so either can run
+                # after the other without duplicating.
+                "name": name,
+                "ingredient": name,
+                "quantity": qty,
+                "aisle": s.get("aisle_name") or aisle_for(name, is_pack=False),
+                "recipe": "Staples",
+                "recipe_uid": None,
+            }
+        )
+    return kept
 
 
 def staple_product_key(text: str) -> str:
     """Normalise a grocery/staples line for de-dupe (ignore qty / 'from Staples')."""
     s = strip_inline_fodmap(text or "")
-    s = re.sub(r"\s*[♡❣💔♥].*$", "", s)
+    s = re.sub(r"\s*[♡❣💔♥💚].*$", "", s)
     s = s.lower()
     s = re.sub(r"\([^)]*from\s+staples[^)]*\)", " ", s)
     s = re.sub(r"^\d+(?:[./]\d+)?(?:\s+\d+/\d+)?\s*", " ", s)
@@ -245,29 +289,6 @@ def staples_already_covered(staple_line: str, existing_rows: list[dict]) -> bool
         if len(sk_toks) <= 2 and sk_toks and sk_toks <= ek_toks:
             return True
     return False
-
-
-def append_staples_missing_only(rows: list[dict], staples: Recipe) -> None:
-    """Add Staples seed lines only when not already present from planned meals."""
-    for line in (staples.ingredients or "").splitlines():
-        cleaned = clean_ingredient_line(line)
-        if not cleaned:
-            continue
-        if staples_already_covered(cleaned, rows):
-            safe_print(f"Staples skip (already on list): {cleaned}")
-            continue
-        qty, ing = split_qty_name(cleaned)
-        name = f"{qty} {ing}".strip() if qty else ing
-        rows.append(
-            {
-                "name": name,
-                "ingredient": ing,
-                "quantity": qty,
-                "aisle": aisle_for(name, is_pack=False),
-                "recipe": recipe_label(staples.name),
-                "recipe_uid": staples.uid,
-            }
-        )
 
 
 def append_recipe_grocery_rows(rows: list[dict], r: Recipe) -> None:
@@ -304,13 +325,12 @@ def append_recipe_grocery_rows(rows: list[dict], r: Recipe) -> None:
 
 
 def groceries_from_plan(plan: list[dict]) -> list[dict]:
-    """Grocery rows from planned recipes + Favourites Staples, then aggregated.
+    """Grocery rows from planned recipes + pantry staples, then aggregated.
 
     Same wording (e.g. every recipe uses ``1 lemon slice``) collapses to one
     shopping line with ×N and a joined recipe list for provenance.
-    Staples seed items are added **only if not already covered** by a planned
-    meal ingredient (e.g. skip Staples oat cakes when Oatcakes with Cheese is on
-    the plan).
+    Every ``Staple - `` pantry item is added at its pantry quantity, and meal
+    lines it covers are dropped (e.g. Oatcakes with Cheese's oat cakes).
     """
     rows: list[dict] = []
     for day in plan:
@@ -323,12 +343,36 @@ def groceries_from_plan(plan: list[dict]) -> list[dict]:
             # Baked potato when bolognese came from freezer: still shop potato meal,
             # but pantry_uses already skipped remaking FD bolognese as its own recipe.
             append_recipe_grocery_rows(rows, r)
-    staples = load_staples_recipe()
+    staples = load_pantry_staples()
     if staples:
-        append_staples_missing_only(rows, staples)
+        rows = append_pantry_staples(rows, staples)
     else:
-        safe_print("WARN: Favourites/Staples recipe not found — skip staples seed")
+        safe_print("WARN: no 'Staple - ' pantry items found — skip staples")
     return aggregate_grocery_rows(rows)
+
+
+def scale_alternatives(text: str, n: int) -> str:
+    """Scale the amounts in an "(or 150 g spinach, a large handful of rocket)"
+    bracket to match a line merged n times."""
+    def fix(m: re.Match) -> str:
+        inner = re.sub(r"\b(\d+)(\s*(?:g|ml)\b)", lambda x: f"{int(x.group(1)) * n}{x.group(2)}", m.group(1))
+        inner = re.sub(r"\ba (large |small )?handful\b", lambda x: f"{n} {x.group(1) or ''}handfuls", inner)
+        return f"(or {inner})"
+    text = re.sub(r"\(or ([^)]*)\)", fix, text)
+    # Counts in brackets: "(about 40)", "(about ½ small, …)" -> scaled by n
+    def count(m: re.Match) -> str:
+        v = {"½": 0.5, "¼": 0.25, "¾": 0.75}.get(m.group(1)) or float(m.group(1))
+        t = v * n
+        return f"about {int(t) if t == int(t) else t:g}"
+    text = re.sub(r"\babout (\d+|[½¼¾])(?=\b|\s|\))", count, text)
+    # "1 portion veg, one of: 75 g broccoli, a large handful of rocket"
+    m = re.search(r"one of:\s*(.*)$", text)
+    if m:
+        inner = m.group(1)
+        inner = re.sub(r"\b(\d+)(\s*(?:g|ml)\b)", lambda x: f"{int(x.group(1)) * n}{x.group(2)}", inner)
+        inner = re.sub(r"\ba (large |small )?handful\b", lambda x: f"{n} {x.group(1) or ''}handfuls", inner)
+        text = text[: m.start(1)] + inner
+    return text
 
 
 def aggregate_grocery_rows(rows: list[dict]) -> list[dict]:
@@ -469,7 +513,10 @@ def aggregate_grocery_rows(rows: list[dict]) -> list[dict]:
             is_range = bool(qm and re.match(r"^[-–—]\s*\d", rest))
             if qm and not is_range:
                 total = int(qm.group(1)) * n
+                if rest == "portion":
+                    rest = "portions"
                 qty = f"{total} {rest}".strip() if rest else str(total)
+                ing = scale_alternatives(ing, n) if ing else ing
                 name = f"{qty} {ing}".strip() if ing else qty
             else:
                 name = f"{name}  ×{n}"

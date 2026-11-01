@@ -158,7 +158,13 @@
       "plum tomato",
       "chopped tomato",
       "canned tomato",
-      "tinned tomato"
+      "tinned tomato",
+      "diced tomato",
+      "peeled tomato",
+      "tomato cubes",
+      "canned diced tomato",
+      "canned peeled tomato",
+      "crushed tomato"
     ],
     "fodmap_type": "FRU",
     "green_g": 100,
@@ -221,12 +227,12 @@
       "roma tomatoes"
     ],
     "fodmap_type": "FRU",
-    "green_g": 48,
+    "green_g": 75,
     "no_upper_limit": false,
-    "notes": "Proxy fresh roma ~48 g fructose. Canned plum stays under canned-tomato.",
-    "source": "secondary_audit_2026-09-19",
+    "notes": "Karlijn's Kitchen (citing Monash): roma low FODMAP up to 75 g per serving; normal tomato 65 g.",
+    "source": "karlijnskitchen_notes_2026-10-13",
     "source_url": null,
-    "verified_at": "2026-09-19"
+    "verified_at": "2026-10-13"
   },
   {
     "id": "apple",
@@ -1097,5 +1103,255 @@
     "verified_at": "2026-09-19",
     "amber_g": null,
     "red_g": null
+  },
+  {
+    "id": "canned-mushroom",
+    "name": "Mushroom, canned (champignons, drained)",
+    "match_keys": [
+      "canned mushroom",
+      "canned mushrooms",
+      "tinned mushroom",
+      "tinned mushrooms",
+      "canned champignons",
+      "mushrooms from a jar",
+      "jarred mushroom",
+      "mushrooms in a jar"
+    ],
+    "fodmap_type": "MAN",
+    "green_g": 110,
+    "no_upper_limit": false,
+    "notes": "Canned, drained button mushrooms are far lower in mannitol than fresh. Karlijn's Kitchen notes (citing Monash): low FODMAP up to 110 g per portion.",
+    "source": "karlijnskitchen_notes_2026-10-13",
+    "source_url": null,
+    "verified_at": "2026-10-13"
+  },
+  {
+    "id": "gf-couscous",
+    "name": "Gluten-free couscous (corn / rice)",
+    "match_keys": [
+      "gluten-free couscous",
+      "gluten free couscous",
+      "gf couscous",
+      "corn couscous",
+      "rice couscous"
+    ],
+    "fodmap_type": "FRT",
+    "green_g": 150,
+    "no_upper_limit": false,
+    "notes": "Corn/rice couscous treated like gluten-free pasta, not wheat couscous.",
+    "source": "proxy_gf_pasta_2026-10-13",
+    "source_url": null,
+    "verified_at": "2026-10-13"
+  },
+  {
+    "id": "blueberries",
+    "name": "Blueberries",
+    "match_keys": [
+      "blueberries",
+      "blueberry"
+    ],
+    "fodmap_type": "FRU",
+    "green_g": 125,
+    "no_upper_limit": false,
+    "notes": "Monash retest: low FODMAP at 125 g (older 40 g). Check the app.",
+    "source": "secondary_audit_2026-10-14",
+    "source_url": "https://rachelpaulsfood.com/dr-rachels-fodmap-facts-are-blueberries-low-fodmap/",
+    "verified_at": "2026-10-14",
+    "amber_g": null
+  },
+  {
+    "id": "strawberries",
+    "name": "Strawberries",
+    "match_keys": [
+      "strawberries",
+      "strawberry"
+    ],
+    "fodmap_type": "FRU",
+    "green_g": 65,
+    "no_upper_limit": false,
+    "notes": "Monash 2022 retest: 65 g (about 5 medium); excess fructose.",
+    "source": "secondary_audit_2026-10-14",
+    "source_url": "https://www.fodmapeveryday.com/ingredients/strawberries/",
+    "verified_at": "2026-10-14",
+    "amber_g": null
+  },
+  {
+    "id": "raspberries",
+    "name": "Raspberries",
+    "match_keys": [
+      "raspberries",
+      "raspberry"
+    ],
+    "fodmap_type": "FRU",
+    "green_g": 60,
+    "no_upper_limit": false,
+    "notes": "Monash 60 g (about 30 berries). Limiting FODMAP reported as polyol by some sources; stacked as fructose (conservative, other berries).",
+    "source": "secondary_audit_2026-10-14",
+    "source_url": "https://theibsdietitian.com/blog/are-raspberries-low-fodmap-ultimate-guide-to-raspberry-fodmap-content",
+    "verified_at": "2026-10-14",
+    "amber_g": null
+  },
+  {
+    "id": "kiwi",
+    "name": "Kiwifruit (green or gold)",
+    "match_keys": [
+      "kiwi",
+      "kiwis",
+      "kiwifruit"
+    ],
+    "fodmap_type": "FRT",
+    "green_g": 150,
+    "no_upper_limit": false,
+    "notes": "Monash 150 g (2 small peeled); fructans rise above that.",
+    "source": "secondary_audit_2026-10-14",
+    "source_url": "https://www.fodmapeveryday.com/ingredients/kiwi/",
+    "verified_at": "2026-10-14",
+    "amber_g": null
+  },
+  {
+    "id": "banana-firm",
+    "name": "Banana, firm (unripe)",
+    "match_keys": [
+      "firm banana",
+      "firm bananas",
+      "firm yellow banana",
+      "firm-yellow banana",
+      "firm-yellow bananas",
+      "green banana",
+      "just-ripe banana",
+      "slightly green banana",
+      "small firm-yellow banana",
+      "unripe banana",
+      "unripe bananas"
+    ],
+    "fodmap_type": "FRT",
+    "green_g": 95,
+    "no_upper_limit": false,
+    "notes": "Monash firm common banana now 95 g (was 100 g); ripe banana only 35 g.",
+    "source": "secondary_audit_2026-10-14",
+    "source_url": "https://www.fodmapeveryday.com/are-bananas-low-fodmap/",
+    "verified_at": "2026-10-14",
+    "amber_g": null
+  },
+  {
+    "id": "banana-ripe",
+    "name": "Banana, ripe",
+    "match_keys": [
+      "ripe banana",
+      "banana",
+      "bananas"
+    ],
+    "fodmap_type": "FRT",
+    "green_g": 35,
+    "no_upper_limit": false,
+    "notes": "Monash ripe common banana 35 g (fructans rise as it ripens).",
+    "source": "secondary_audit_2026-10-14",
+    "source_url": "https://www.fodmapeveryday.com/are-bananas-low-fodmap/",
+    "verified_at": "2026-10-14",
+    "amber_g": null
+  },
+  {
+    "id": "low-fodmap-milk",
+    "name": "Low FODMAP milk (lactose-free, almond or soy-protein soy)",
+    "match_keys": [
+      "low fodmap milk",
+      "lactose-free milk",
+      "lactose free milk",
+      "soy protein milk",
+      "soy-protein soy milk"
+    ],
+    "fodmap_type": null,
+    "green_g": 240,
+    "no_upper_limit": false,
+    "notes": "Lactose-free cow's milk is low FODMAP; unsweetened almond milk and soy milk made from soy protein are low at about 250 ml. Whole-bean soy milk is high in GOS (see soy-milk).",
+    "source": "secondary_audit_2026-10-14",
+    "source_url": "https://www.monashfodmap.com/blog/milk-and-milk-alternatives/",
+    "verified_at": "2026-10-14",
+    "amber_g": null
+  },
+  {
+    "id": "almonds",
+    "name": "Almonds (whole, flaked, toasted)",
+    "match_keys": [
+      "almond flakes",
+      "flaked almonds",
+      "toasted almonds",
+      "toasted almond",
+      "almonds"
+    ],
+    "fodmap_type": "GOS",
+    "green_g": 12,
+    "amber_g": 24,
+    "no_upper_limit": false,
+    "notes": "Proxy Monash almonds: low at 10 nuts (~12 g), moderate GOS at 20 nuts (~24 g). Confirm in app.",
+    "source": "secondary_audit_2026-10-29",
+    "source_url": null,
+    "verified_at": "2026-10-29"
+  },
+  {
+    "id": "almond-meal",
+    "name": "Ground almonds / almond meal",
+    "match_keys": [
+      "ground almonds",
+      "almond meal",
+      "almond flour"
+    ],
+    "fodmap_type": "GOS",
+    "green_g": 24,
+    "no_upper_limit": false,
+    "notes": "Proxy Monash almond meal: low at 1/4 cup (~24 g), GOS above. Confirm in app.",
+    "source": "secondary_audit_2026-10-29",
+    "source_url": null,
+    "verified_at": "2026-10-29"
+  },
+  {
+    "id": "coconut-desiccated",
+    "name": "Coconut, desiccated / flakes",
+    "match_keys": [
+      "coconut flakes",
+      "toasted coconut",
+      "desiccated coconut",
+      "shredded coconut",
+      "flaked coconut"
+    ],
+    "fodmap_type": "SOR",
+    "green_g": 18,
+    "no_upper_limit": false,
+    "notes": "Proxy Monash desiccated coconut: low at 1/4 cup (~18 g), sorbitol above. Confirm in app.",
+    "source": "secondary_audit_2026-10-29",
+    "source_url": null,
+    "verified_at": "2026-10-29"
+  },
+  {
+    "id": "tempeh",
+    "name": "Tempeh (plain)",
+    "match_keys": [
+      "tempeh"
+    ],
+    "fodmap_type": "GOS",
+    "green_g": 100,
+    "no_upper_limit": false,
+    "notes": "Proxy Monash plain tempeh: low at 100 g; GOS above. Confirm in app.",
+    "source": "secondary_audit_2026-10-29",
+    "source_url": null,
+    "verified_at": "2026-10-29"
+  },
+  {
+    "id": "green-beans",
+    "name": "Green beans",
+    "match_keys": [
+      "green beans",
+      "green bean",
+      "french beans",
+      "fine beans"
+    ],
+    "fodmap_type": "SOR",
+    "green_g": 75,
+    "amber_g": 125,
+    "no_upper_limit": false,
+    "notes": "Proxy Monash green beans: low at 75 g (15 beans), moderate sorbitol at ~125 g. Confirm in app.",
+    "source": "secondary_audit_2026-10-29",
+    "source_url": null,
+    "verified_at": "2026-10-29"
   }
 ]

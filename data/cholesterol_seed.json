@@ -3,107 +3,175 @@
     "unit": "g saturated fat",
     "basis": "USDA / typical kitchen proxies for 1-serve meal picking aimed at blood LDL via sat fat — not medical advice",
     "daily_value_g": 20,
-    "meal_tiers_g": { "low_max": 5, "mid_max": 10 },
-    "ingredient_tiers_g": { "low_max": 2, "mid_max": 4 },
+    "meal_tiers_g": {
+      "low_max": 5,
+      "mid_max": 10
+    },
+    "ingredient_tiers_g": {
+      "low_max": 2,
+      "mid_max": 4
+    },
     "display": "❣ Sat fat 8.0g (40%) — g retained; % of daily_value_g (~20 g/day adult kitchen ref)",
-    "icons": { "low": "♡", "mid": "❣", "high": "💔" },
-    "notes": "Replaces dietary-cholesterol scoring. Hyper-responders to dietary cholesterol are uncommon; sat fat is the primary meal icon driver."
+    "icons": {
+      "low": "♡",
+      "mid": "❣",
+      "high": "💔"
+    },
+    "notes": "Replaces dietary-cholesterol scoring. Hyper-responders to dietary cholesterol are uncommon; sat fat is the primary meal icon driver. Dairy is split by fat level (21 Oct 2026, the user): double, whipping, single and soured cream, crème fraîche and half-fat crème fraîche, plant-based (oat/soy) cream, light cream cheese, reduced-fat cheese and low-fat yoghurt each have their own entry, so a lighter product scores lighter. Longest matching key wins; plain 'cream' falls back to 20 g/100 g."
   },
   "foods": [
     {
       "id": "coconut_cream",
       "name": "Coconut cream",
-      "match_keys": ["coconut cream"],
+      "match_keys": [
+        "coconut cream"
+      ],
       "sat_fat_g_per_100g": 29
     },
     {
       "id": "coconut_milk",
       "name": "Coconut milk (canned)",
-      "match_keys": ["coconut milk", "canned coconut milk"],
+      "match_keys": [
+        "coconut milk",
+        "canned coconut milk"
+      ],
       "sat_fat_g_per_100g": 19
     },
     {
       "id": "coconut_milk_light",
       "name": "Light coconut milk",
-      "match_keys": ["light coconut milk", "reduced-fat coconut milk"],
+      "match_keys": [
+        "light coconut milk",
+        "reduced-fat coconut milk"
+      ],
       "sat_fat_g_per_100g": 7
     },
     {
       "id": "coconut_oil",
       "name": "Coconut oil",
-      "match_keys": ["coconut oil"],
+      "match_keys": [
+        "coconut oil"
+      ],
       "sat_fat_g_per_100g": 82
     },
     {
       "id": "butter",
       "name": "Butter",
-      "match_keys": ["butter", "ghee"],
+      "match_keys": [
+        "butter",
+        "ghee"
+      ],
       "sat_fat_g_per_100g": 51
     },
     {
       "id": "heavy_cream",
-      "name": "Cream",
-      "match_keys": ["double cream", "heavy cream", "whipping cream", "single cream", "sour cream", "crème fraîche", "creme fraiche", "cream"],
+      "name": "Cream (unspecified)",
+      "match_keys": [
+        "cream"
+      ],
       "sat_fat_g_per_100g": 20
     },
     {
       "id": "cream_cheese",
       "name": "Cream cheese",
-      "match_keys": ["cream cheese"],
+      "match_keys": [
+        "cream cheese",
+        "lactose-free cream cheese"
+      ],
       "sat_fat_g_per_100g": 20
     },
     {
       "id": "cheddar",
       "name": "Cheddar / hard cheese",
-      "match_keys": ["lactose-free cheddar", "cheddar", "hard cheese", "grated cheese", "cheese"],
+      "match_keys": [
+        "lactose-free cheddar",
+        "cheddar",
+        "hard cheese",
+        "grated cheese",
+        "cheese"
+      ],
       "sat_fat_g_per_100g": 21
     },
     {
       "id": "parmigiano",
       "name": "Parmigiano / Parmesan",
-      "match_keys": ["parmigiano", "parmesan"],
+      "match_keys": [
+        "parmigiano",
+        "parmesan"
+      ],
       "sat_fat_g_per_100g": 16
     },
     {
       "id": "milk_whole",
       "name": "Whole milk",
-      "match_keys": ["whole milk", "full-fat milk"],
+      "match_keys": [
+        "whole milk",
+        "full-fat milk"
+      ],
       "sat_fat_g_per_100g": 2.2
     },
     {
       "id": "milk_semi",
       "name": "Semi-skimmed milk",
-      "match_keys": ["semi-skimmed", "lactose-free milk", "dairy milk", "cow milk", "milk"],
+      "match_keys": [
+        "semi-skimmed",
+        "lactose-free milk",
+        "dairy milk",
+        "cow milk",
+        "milk"
+      ],
       "sat_fat_g_per_100g": 1.0
     },
     {
       "id": "yogurt_full",
       "name": "Yogurt",
-      "match_keys": ["greek yogurt", "yoghurt", "yogurt"],
+      "match_keys": [
+        "greek yogurt",
+        "yoghurt",
+        "yogurt"
+      ],
       "sat_fat_g_per_100g": 3.5
     },
     {
       "id": "mayonnaise",
       "name": "Mayonnaise",
-      "match_keys": ["mayonnaise", "mayo"],
+      "match_keys": [
+        "mayonnaise",
+        "mayo"
+      ],
       "sat_fat_g_per_100g": 12
     },
     {
       "id": "olive_oil",
       "name": "Olive / garlic-infused oil",
-      "match_keys": ["garlic-infused olive oil", "garlic infused olive oil", "extra virgin olive oil", "olive oil"],
+      "match_keys": [
+        "garlic-infused olive oil",
+        "garlic infused olive oil",
+        "extra virgin olive oil",
+        "olive oil"
+      ],
       "sat_fat_g_per_100g": 14
     },
     {
       "id": "vegetable_oil",
       "name": "Cooking oil",
-      "match_keys": ["rapeseed oil", "sunflower oil", "vegetable oil", "canola oil", "sesame oil"],
+      "match_keys": [
+        "rapeseed oil",
+        "sunflower oil",
+        "vegetable oil",
+        "canola oil",
+        "sesame oil"
+      ],
       "sat_fat_g_per_100g": 10
     },
     {
       "id": "egg_yolk",
       "name": "Egg yolk",
-      "match_keys": ["egg yolk", "egg yolks", "yolk"],
+      "match_keys": [
+        "egg yolk",
+        "egg yolks",
+        "yolk"
+      ],
       "sat_fat_g_per_100g": 9.5,
       "sat_fat_g_per_count": 1.6,
       "count_g": 17
@@ -111,7 +179,13 @@
     {
       "id": "egg_whole",
       "name": "Egg (whole)",
-      "match_keys": ["whole egg", "large egg", "medium egg", "eggs", "egg"],
+      "match_keys": [
+        "whole egg",
+        "large egg",
+        "medium egg",
+        "eggs",
+        "egg"
+      ],
       "sat_fat_g_per_100g": 3.1,
       "sat_fat_g_per_count": 1.6,
       "count_g": 50
@@ -119,80 +193,438 @@
     {
       "id": "bacon",
       "name": "Bacon / sausage",
-      "match_keys": ["bacon", "chorizo", "sausage"],
+      "match_keys": [
+        "bacon",
+        "chorizo",
+        "sausage"
+      ],
       "sat_fat_g_per_100g": 12
     },
     {
       "id": "pork",
       "name": "Pork",
-      "match_keys": ["pork", "ham"],
+      "match_keys": [
+        "pork",
+        "ham"
+      ],
       "sat_fat_g_per_100g": 5
     },
     {
       "id": "lamb",
       "name": "Lamb",
-      "match_keys": ["lamb"],
+      "match_keys": [
+        "lamb"
+      ],
       "sat_fat_g_per_100g": 8
     },
     {
       "id": "beef",
       "name": "Beef",
-      "match_keys": ["extra lean beef", "lean beef", "ground beef", "beef mince", "minced beef", "beef meatball", "beef"],
+      "match_keys": [
+        "ground beef",
+        "beef mince",
+        "minced beef",
+        "beef meatball",
+        "beef"
+      ],
       "sat_fat_g_per_100g": 5
     },
     {
       "id": "chicken_thigh",
       "name": "Chicken thigh",
-      "match_keys": ["chicken thigh", "chicken thighs", "thigh fillet", "thigh fillets"],
+      "match_keys": [
+        "chicken thigh",
+        "chicken thighs",
+        "thigh fillet",
+        "thigh fillets"
+      ],
       "sat_fat_g_per_100g": 3.5
     },
     {
       "id": "chicken_breast",
       "name": "Chicken breast / lean chicken",
-      "match_keys": ["chicken breast", "chicken meat", "cooked chicken", "shredded chicken", "leftover chicken", "chicken"],
+      "match_keys": [
+        "chicken breast",
+        "chicken meat",
+        "cooked chicken",
+        "shredded chicken",
+        "leftover chicken",
+        "chicken"
+      ],
       "sat_fat_g_per_100g": 1.0
     },
     {
       "id": "turkey",
       "name": "Turkey",
-      "match_keys": ["turkey"],
+      "match_keys": [
+        "turkey"
+      ],
       "sat_fat_g_per_100g": 1.5
     },
     {
       "id": "salmon",
       "name": "Salmon",
-      "match_keys": ["salmon"],
+      "match_keys": [
+        "salmon"
+      ],
       "sat_fat_g_per_100g": 2.5
     },
     {
       "id": "prawn",
       "name": "Prawns / shrimp",
-      "match_keys": ["prawns", "prawn", "shrimp", "king prawn"],
+      "match_keys": [
+        "prawns",
+        "prawn",
+        "shrimp",
+        "king prawn"
+      ],
       "sat_fat_g_per_100g": 0.2
     },
     {
       "id": "white_fish",
       "name": "White fish",
-      "match_keys": ["hake", "cod", "haddock", "pollock", "basa", "tilapia", "white fish", "fish"],
+      "match_keys": [
+        "hake",
+        "cod",
+        "haddock",
+        "pollock",
+        "basa",
+        "tilapia",
+        "white fish",
+        "fish"
+      ],
       "sat_fat_g_per_100g": 0.3
     },
     {
       "id": "peanut_butter",
       "name": "Peanut / nut butter",
-      "match_keys": ["peanut butter", "almond butter", "nut butter"],
+      "match_keys": [
+        "peanut butter",
+        "almond butter",
+        "nut butter"
+      ],
       "sat_fat_g_per_100g": 10
     },
     {
       "id": "tahini",
       "name": "Tahini",
-      "match_keys": ["tahini"],
+      "match_keys": [
+        "tahini"
+      ],
       "sat_fat_g_per_100g": 7
     },
     {
       "id": "chocolate",
       "name": "Chocolate",
-      "match_keys": ["dark chocolate", "milk chocolate", "chocolate"],
+      "match_keys": [
+        "dark chocolate",
+        "milk chocolate",
+        "chocolate"
+      ],
       "sat_fat_g_per_100g": 18
+    },
+    {
+      "id": "beef_lean",
+      "name": "Lean beef (5% fat mince, trimmed steak)",
+      "match_keys": [
+        "lean beef mince",
+        "extra lean beef",
+        "lean beef steak",
+        "lean beef",
+        "5% fat beef mince"
+      ],
+      "sat_fat_g_per_100g": 2.2
+    },
+    {
+      "id": "pastry",
+      "name": "Pastry (puff or shortcrust, ready-made)",
+      "match_keys": [
+        "puff pastry",
+        "shortcrust pastry",
+        "sheet of gluten free pastry",
+        "gluten free pastry",
+        "pastry sheet",
+        "pastry"
+      ],
+      "sat_fat_g_per_100g": 11
+    },
+    {
+      "id": "mozzarella_light",
+      "name": "Light mozzarella",
+      "match_keys": [
+        "light mozzarella",
+        "reduced-fat mozzarella",
+        "half-fat mozzarella"
+      ],
+      "sat_fat_g_per_100g": 6.5
+    },
+    {
+      "id": "pork_lean",
+      "name": "Lean pork (tenderloin, fillet)",
+      "match_keys": [
+        "pork tenderloin fillet",
+        "pork tenderloin",
+        "lean pork fillet",
+        "pork fillet",
+        "pork loin steak, fat trimmed",
+        "pork loin",
+        "boneless pork loin",
+        "center-cut pork loin",
+        "centre-cut pork loin"
+      ],
+      "sat_fat_g_per_100g": 1.2
+    },
+    {
+      "id": "mozzarella",
+      "name": "Mozzarella",
+      "match_keys": [
+        "mozzarella",
+        "block mozzarella",
+        "buffalo mozzarella"
+      ],
+      "sat_fat_g_per_100g": 12
+    },
+    {
+      "id": "feta",
+      "name": "Feta",
+      "match_keys": [
+        "feta"
+      ],
+      "sat_fat_g_per_100g": 14
+    },
+    {
+      "id": "paneer",
+      "name": "Paneer",
+      "match_keys": [
+        "paneer"
+      ],
+      "sat_fat_g_per_100g": 15
+    },
+    {
+      "id": "halloumi",
+      "name": "Halloumi",
+      "match_keys": [
+        "halloumi"
+      ],
+      "sat_fat_g_per_100g": 17
+    },
+    {
+      "id": "double_cream",
+      "name": "Double / heavy cream",
+      "match_keys": [
+        "double cream",
+        "heavy cream",
+        "clotted cream"
+      ],
+      "sat_fat_g_per_100g": 33
+    },
+    {
+      "id": "whipping_cream",
+      "name": "Whipping cream",
+      "match_keys": [
+        "whipping cream",
+        "whipped cream"
+      ],
+      "sat_fat_g_per_100g": 24
+    },
+    {
+      "id": "single_cream",
+      "name": "Single / cooking cream",
+      "match_keys": [
+        "single cream",
+        "light cream",
+        "cooking cream",
+        "lactose-free cream"
+      ],
+      "sat_fat_g_per_100g": 12
+    },
+    {
+      "id": "sour_cream",
+      "name": "Soured cream",
+      "match_keys": [
+        "sour cream",
+        "soured cream",
+        "lactose-free sour cream"
+      ],
+      "sat_fat_g_per_100g": 11.6
+    },
+    {
+      "id": "sour_cream_light",
+      "name": "Light soured cream",
+      "match_keys": [
+        "light sour cream",
+        "light soured cream",
+        "reduced-fat sour cream",
+        "reduced fat sour cream",
+        "half-fat sour cream",
+        "low-fat sour cream",
+        "low fat sour cream"
+      ],
+      "sat_fat_g_per_100g": 5.5
+    },
+    {
+      "id": "creme_fraiche",
+      "name": "Crème fraîche",
+      "match_keys": [
+        "crème fraîche",
+        "creme fraiche",
+        "crème fraiche",
+        "lactose-free crème fraîche"
+      ],
+      "sat_fat_g_per_100g": 19
+    },
+    {
+      "id": "creme_fraiche_light",
+      "name": "Half-fat crème fraîche",
+      "match_keys": [
+        "half-fat crème fraîche",
+        "half fat crème fraîche",
+        "half-fat creme fraiche",
+        "light crème fraîche",
+        "light creme fraiche",
+        "reduced-fat crème fraîche",
+        "reduced fat creme fraiche",
+        "low-fat crème fraîche"
+      ],
+      "sat_fat_g_per_100g": 9.6
+    },
+    {
+      "id": "plant_cream",
+      "name": "Plant-based cream / sour cream (oat or soy)",
+      "match_keys": [
+        "plant-based sour cream",
+        "plant based sour cream",
+        "vegan sour cream",
+        "plant-based cream",
+        "plant based cream",
+        "vegan cream",
+        "vegan cooking cream",
+        "oat cream",
+        "oat fraiche",
+        "oat fraîche",
+        "oatly",
+        "soy cream",
+        "soya cream"
+      ],
+      "sat_fat_g_per_100g": 1.5
+    },
+    {
+      "id": "cream_cheese_light",
+      "name": "Light cream cheese",
+      "match_keys": [
+        "light cream cheese",
+        "low-fat cream cheese",
+        "low fat cream cheese",
+        "reduced-fat cream cheese",
+        "lighter cream cheese",
+        "extra light cream cheese"
+      ],
+      "sat_fat_g_per_100g": 7.4
+    },
+    {
+      "id": "cheese_reduced",
+      "name": "Reduced-fat hard cheese",
+      "match_keys": [
+        "low fat cheese",
+        "low-fat cheese",
+        "reduced fat cheese",
+        "reduced-fat cheese",
+        "reduced-fat cheddar",
+        "reduced fat cheddar",
+        "light cheddar",
+        "lighter cheddar",
+        "half-fat cheddar",
+        "half fat cheddar",
+        "low fat cheddar",
+        "low-fat cheddar",
+        "light cheese"
+      ],
+      "sat_fat_g_per_100g": 12
+    },
+    {
+      "id": "yogurt_low",
+      "name": "Low-fat / fat-free yoghurt",
+      "match_keys": [
+        "0% fat greek yoghurt",
+        "0% greek yoghurt",
+        "0% yoghurt",
+        "fat-free yoghurt",
+        "fat free yoghurt",
+        "fat-free yogurt",
+        "0% fat greek yogurt",
+        "0% greek yogurt",
+        "low-fat yoghurt",
+        "low fat yoghurt",
+        "low-fat yogurt",
+        "low fat yogurt",
+        "skyr",
+        "quark"
+      ],
+      "sat_fat_g_per_100g": 0.3
+    },
+    {
+      "id": "almond_milk",
+      "name": "Unsweetened almond milk",
+      "match_keys": [
+        "unsweetened almond milk",
+        "almond milk"
+      ],
+      "sat_fat_g_per_100g": 0.1
+    },
+    {
+      "id": "almonds",
+      "name": "Almonds (whole, flaked, ground)",
+      "match_keys": [
+        "almond flakes",
+        "flaked almonds",
+        "toasted almonds",
+        "toasted almond",
+        "ground almonds",
+        "almond meal",
+        "almond flour",
+        "almonds"
+      ],
+      "sat_fat_g_per_100g": 3.8
+    },
+    {
+      "id": "coconut_desiccated",
+      "name": "Coconut, desiccated / flakes",
+      "match_keys": [
+        "coconut flakes",
+        "toasted coconut",
+        "desiccated coconut",
+        "shredded coconut",
+        "flaked coconut"
+      ],
+      "sat_fat_g_per_100g": 56
+    },
+    {
+      "id": "tempeh",
+      "name": "Tempeh",
+      "match_keys": [
+        "tempeh"
+      ],
+      "sat_fat_g_per_100g": 2.2
+    },
+    {
+      "id": "sesame_seeds",
+      "name": "Sesame seeds",
+      "match_keys": [
+        "sesame seeds",
+        "sesame seed"
+      ],
+      "sat_fat_g_per_100g": 7.0
+    },
+    {
+      "id": "vegan_spread",
+      "name": "Vegan / dairy-free spread (light, sunflower or rapeseed)",
+      "match_keys": [
+        "vegan spread",
+        "dairy-free spread",
+        "dairy free spread",
+        "plant-based spread"
+      ],
+      "sat_fat_g_per_100g": 15
     }
   ]
 }

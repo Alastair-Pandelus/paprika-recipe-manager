@@ -1,0 +1,1719 @@
+# Bay's Kitchen recipes: low FODMAP, low saturated fat drafts
+
+## ℹ️ ♡ Bay's Kitchen Katsu Curry – Aromatic Katsu Fish Curry  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Katsu Curry Sauce (home-made, see that recipe)
+300g White fish of your choice  ♥ Sat fat 0.5g (2%)
+100g Rice (dry weight)
+6 Spring onions – green tops only, finely chopped  🟢 Fructose 48% (36 g per serving)
+130g Medium tomatoes  🟠 Fructose 100% (65 g per serving)
+1 Thumb sized piece of ginger, peeled and grated
+1 Lime – half juice and half cut into quarters to garnish
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+To serve:
+Small bunch of coriander – stems and leaves
+
+
+1. Make the home-made Bay's Kitchen Katsu Curry Sauce first (see that recipe), or use a frozen portion.
+
+2. Bring a pan of water to the boil and cook the rice according to pack instructions.
+
+3. Chop the spring onion tops and tomatoes, grate the ginger and chop the coriander leaves and stems, keeping them separate.
+
+4. Cut the fish into bite sized pieces and set to one side.
+
+5. Heat the oil in a pan and fry off the coriander stems, spring onion tops and ginger for 2-3 minutes.
+
+6. Add the tomatoes to the pan and cook for 3-4 minutes, until they have started to break down and their juice has evaporated.
+
+7. Add the jar of Bay’s Kitchen Katsu Curry Stir-in Sauce to the pan. Fill half the jar with water, replace the lid and give the jar a shake to loosen the remaining sauce then add to the pan and stir.
+
+8. Bring the sauce to a simmer and then add your fish pieces. Cook for around 5 minutes or until your fish is cooked through – take a piece out of the sauce and cut through to check. Avoid stirring too much or you’ll break up the fish.
+
+9. Squeeze in the juice of half a lime, stir and take off the heat.
+
+10. Divide the curry evenly between the bowls and serve with the rice, chopped coriander and lime quarters.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/aromatic-katsu-fish-curry), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Katsu Curry Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): :; Kcal – 540; Fat – 18g; of which saturates – 9.1g; Carbohydrates – 56g; of which sugars – 12g; Fibre – 4.3g; Protein – 35g; Salt – 1g
+Changed (low saturated fat): ½ Tbsp Oil -> 1 tsp olive oil.
+
+## ℹ️ ♡ Bay's Kitchen Katsu Curry – Crispy Tofu Katsu Curry with Green Beans  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Katsu Curry Sauce (home-made, see that recipe)
+30 g low FODMAP vegetable stock concentrate (no onion or garlic), made up with the water in the recipe
+250ml Water
+200g Firm tofu  🟡 Galacto-oligosaccharides 59% (100 g per serving)
+100g Green beans
+5g Coriander
+1 Red or green chilli*, thinly sliced
+1/2 tsp toasted sesame oil  ♥ Sat fat 0.1g (1%)
+Salt & pepper
+To Serve:
+Jasmine rice
+
+
+1. Make the home-made Bay's Kitchen Katsu Curry Sauce first (see that recipe), or use a frozen portion.
+
+2. Add the Bay’s Kitchen Katsu Curry Stir-in Sauce to a pan over a medium heat.
+
+3. Mix the Bay’s Kitchen Concentrated Vegetable Stock with the water and then stir into the sauce and bring to a gentle simmer for 5 minutes.
+
+4. Cut the green beans in half, add them to the sauce and continue cooking over a medium heat for another 5 minutes, until the beans are cooked and the sauce thickens.
+
+5. While the sauce is cooking, prepare the tofu. Keep the tofu in a block, press with kitchen towel to remove any excess moisture. Season it with salt and pepper on all sides.
+
+6. Heat the sesame oil in a non-stick frying pan over a medium high heat. Put the whole tofu block into the pan, and fry on each edge until crisp, about 3 minutes each side, using tongs to turn it.
+
+7. Once all sides are crisp remove from the pan with tongs, then carefully cut into strips.
+
+8. Serve the curry sauce with the crispy tofu slices arranged on top, coriander, slices of chilli and rice. *Whilst chillies are a low FODMAP ingredient, some people with IBS have higher numbers of chilli pepper pain receptors in the gut, which can cause symptoms. If you’re sensitive to chilli, you can leave it out of this recipe.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/crispy-tofu-katsu-curry-with-green-beans), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Katsu Curry Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 536; Fat – 23g; of which saturates – 9.9g; Carbohydrates – 59g; of which sugars – 11g; Fibre – 5.5g; Protein – 21g; Salt – 2.3g; Please note this calculation includes 75g jasmine rice (dry weight).
+Changed (low saturated fat): 30g Bay’s Kitchen Concentrated Vegetable Stock -> 30 g low FODMAP vegetable stock concentrate (no onion or garlic), made up with the water in the recipe; ½ Tbsp sesame oil -> 1/2 tsp toasted sesame oil.
+
+## ✅ ♡ Bay's Kitchen Katsu Curry – Chicken Katsu Curry Noodle Soup  (Soups, serves 4)
+
+260 g Bay's Kitchen Katsu Curry Sauce (home-made, see that recipe)
+144 g low FODMAP chicken stock concentrate (no onion or garlic), made up with the water in the recipe
+1.2 Litre Water
+250g Carrots
+250g Rice noodles  🟢 Fructans 42% (62 g per serving)
+200g Cooked chicken (approximately 2 breasts), shredded  ♥ Sat fat 0.5g (2%)
+150g Edamame beans  🟢 Galacto-oligosaccharides 50% (38 g per serving)
+To Serve:
+5g Chives, chopped
+1 Red or green chilli*, finely sliced
+
+
+1. Make the home-made Bay's Kitchen Katsu Curry Sauce first (see that recipe), or use a frozen portion.
+
+2. Put the Bay’s Kitchen Katsu Curry Stir-in Sauce into a pan and heat over a medium heat for a few minutes.
+
+3. Mix the Bay’s Kitchen Concentrated Chicken Stock and water in a pan and bring to the boil.
+
+4. Peel the carrots and cut into discs. Add these to the pan and boil for 3 minutes.
+
+5. Add the rice noodles and cook for a further 10 minutes (or according to the packet instructions).
+
+6. Once the noodles are cooked, remove from the heat and stir through the edamame beans and the shredded chicken.
+
+7. Serve and garnish with chopped chives and slices of chilli. *Whilst chillies are a low FODMAP ingredient, some people with IBS have higher numbers of chilli pepper pain receptors in the gut, which can cause symptoms. If you’re sensitive to chilli, you can leave it out of this recipe.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/chicken-katsu-curry-noodle-soup), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Katsu Curry Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 488; Fat – 12g; of which saturates – 5.3g; Carbohydrates – 63g; of which sugars – 9.4g; Fibre – 6g; Protein – 20g; Salt – 2.4g
+Changed (low saturated fat): 144g Bay’s Kitchen Concentrated Chicken Stock -> 144 g low FODMAP chicken stock concentrate (no onion or garlic), made up with the water in the recipe.
+
+## ✅ ♡ Bay's Kitchen Katsu Curry – Chicken Katsu Curry with Cucumber & Chilli Pickle  (Main Meals, serves 2)
+
+For the chicken:
+260 g Bay's Kitchen Katsu Curry Sauce (home-made, see that recipe)
+2 Chicken breasts
+75g Gluten free breadcrumbs
+50g Gluten free plain flour, seasoned with salt and pepper  🟢 Fructans 25% (25 g per serving)
+1 Free-range egg, lightly beaten  ♥ Sat fat 0.8g (4%)
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+For the cucumber and chilli pickle:
+¼ Cucumber, halved lengthways, deseeded and finely sliced
+1 Inch chunk of red chilli*
+2 Tbsp White wine vinegar
+½ Tsp Sugar
+Sea salt and black pepper
+To serve:
+Rice
+Salad
+
+
+1. Make the home-made Bay's Kitchen Katsu Curry Sauce first (see that recipe), or use a frozen portion.
+
+2. To make the pickle, toss all of the ingredients together in a bowl and set aside until ready to serve.
+
+3. To prepare the chicken, lay the seasoned flour, egg and breadcrumbs out on separate plates/containers/on a tray. Coat the chicken breasts in the flour, then dip into the egg and finally into the breadcrumbs, using your hands to encourage the breadcrumbs to stick. We want the chicken to be crispy!
+
+4. Heat the oil in a frying pan and carefully fry the breaded chicken breasts for 5 minutes on each side, or until golden and cooked through. Remove from the pan with a slotted spoon and leave to drain on kitchen paper.
+
+5. To heat the stir-in sauce, pour into a saucepan and cook gently for a couple of minutes until warmed through and bubbling.
+
+6. To serve, plate up the rice and salad and a few spoonfuls of the pickle. Slice the chicken in strips diagonally and place on top of the rice. Drizzle over your sauce. *Whilst chillis are a low FODMAP ingredient, some people with IBS have higher numbers of chilli pepper pain receptors in the gut, which can cause symptoms. If you’re sensitive to chilli, you can leave it out of this recipe. Recipe created by cook and author Emma Hatcher (www.shecanteatwhat.com).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/chicken-katsu-curry-with-cucumber-chilli-pickle), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Katsu Curry Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): Kcal – 819; Fat – 43g; of which saturates – 11g; Carbohydrates – 64g; of which sugars – 12g; Fibre – 4g; Protein – 43g; Salt – 1.8g
+Changed (low saturated fat): 50ml Vegetable oil -> 1 tsp olive oil.
+
+## ✅ ♡ Bay's Kitchen Katsu Curry – Tofu Katsu Curry with Carrot & Radish Pickle  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Katsu Curry Sauce (home-made, see that recipe)
+1 200g Block of extra-firm tofu, drained and pressed
+50g Dried gluten free breadcrumbs
+1 Tbsp cornflour
+Sea salt and freshly ground black pepper
+Vegetable oil, for frying
+For the carrot and radish pickle:
+2 Medium carrots
+1 Small bunch of radishes
+2 Tbsp White wine vinegar
+1 Tsp Caster sugar
+Sea salt and black pepper
+To serve :
+Fluffy White rice
+2-3 Spring onions, green tops only, finely sliced  🟢 Fructose 20% (15 g per serving)
+Small bunch of coriander
+
+
+1. Make the home-made Bay's Kitchen Katsu Curry Sauce first (see that recipe), or use a frozen portion.
+
+2. To make the carrot and radish pickle, toss all of the ingredients together in a bowl and allow to marinate for 15 minutes. Drain and set aside until ready to serve.
+
+3. To prepare the tofu, slice the block into two rectangular pieces and pat off any excess moisture. Add the cornflour to a small bowl and combine with 4 tablespoons of boiling water. Allow to sit for a few minutes until it thickens. Meanwhile, add the breadcrumbs to another bowl and season generously with salt and pepper.
+
+4. Coat the tofu in the cornflour mix, followed by the seasoned breadcrumbs, using your hands to encourage the breadcrumbs to stick. Repeat the process again, placing the breaded tofu in the cornflour mix and then the breadcrumbs once more.
+
+5. Heat a shallow layer of oil in a frying pan and when hot, add the breaded tofu. Cook on a medium-low heat for 5-6 minutes on each side, or until crisp and golden on the outside and piping hot throughout. Make sure the oil’s not so hot that it burns the breadcrumbs before the tofu is cooked. Remove the tofu from the pan and let rest on some kitchen paper.
+
+6. Empty the Stir-in Katsu Curry Sauce into a saucepan and place over a medium heat. Simmer for a couple of minutes until piping hot.
+
+7. To serve, plate up rice and a few spoonfuls of the pickle. Slice the tofu in strips diagonally and place on top of the rice. Drizzle over the katsu sauce, sprinkle some spring onion and scatter over some coriander. Recipe created by Cook and Author Emma Hatcher (www.shecanteatwhat.com).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/tofu-katsu-curry-with-carrot-radish-pickle), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Katsu Curry Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+
+## ℹ️ ♡ Bay's Kitchen Korma – Spinach & Paneer Korma with Gluten Free Chapatis  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Korma Curry Sauce (home-made, see that recipe)
+150g Spinach
+40 g Paneer  ❣ Sat fat 3g (15%)
+80g Aubergine  🟡 Sorbitol 53% (40 g per serving)
+1 tsp garlic-infused olive oil  ♥ Sat fat 0.3g (2%)
+5g Coriander
+For the chapatis:
+125g Gluten free plain flour  🟡 Fructans 62% (62 g per serving)
+70ml Water
+
+
+1. Make the home-made Bay's Kitchen Korma Curry Sauce first (see that recipe), or use a frozen portion.
+
+2. Mix together the plain flour and water in a large bowl to form a dough.
+
+3. Half the mixture and roll out the dough into a thin circle on a lightly floured surface.
+
+4. Slice the paneer and aubergine into cubes. Heat garlic-infused oil in a large pan, and fry the aubergine and paneer until slightly browned.
+
+5. Add the Bay’s Kitchen Mild Korma Stir-in Sauce and the spinach and stir well. Leave to simmer for 5 minutes or until the spinach has cooked through.
+
+6. While the korma cooks heat a little oil in a large frying pan until it begins to smoke and gently heat the chapati dough. Cook for a minute or so on each side, before repeating with the remaining dough.
+
+7. Serve the Spinach & Paneer Korma with the chapatis on the side, and sprinkle with coriander. Alice Nicholson Recipe created by Alice Nicholson from @lowfodmapinspiration.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/spinach-paneer-korma-with-gluten-free-chapatis), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Korma Curry Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+Changed (low saturated fat): 80g Paneer -> 40 g Paneer (halved, saturated fat); 1 Tbsp Garlic-infused oil -> 1 tsp garlic-infused olive oil.
+
+## ✅ ♡ Bay's Kitchen Korma – Aubergine, Chicken & Spinach Korma  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Korma Curry Sauce (home-made, see that recipe)
+1 Small Aubergine
+400 g skinless chicken breast  ♥ Sat fat 2g (10%)
+200g Baby spinach leaves
+10 g Toasted coconut flakes
+20g Toasted almonds
+15g Coriander
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+To Serve:
+Basmati rice or gluten free Indian bread (or pittas / flatbread or similar)
+
+
+1. Make the home-made Bay's Kitchen Korma Curry Sauce first (see that recipe), or use a frozen portion.
+
+2. Heat oil in a pan, add chopped chicken breast cook for 10 minutes.
+
+3. Dice the aubergine, add to the pan and cook until soft (approx. another 10 minutes), then add spinach leaves and cook for 3 minutes.
+
+4. Add the Bay’s Kitchen Mild Korma Stir-in Sauce and heat for a further 2 minutes.
+
+5. Take off heat, add coriander and season to taste.
+
+6. Sprinkle the toasted almonds and coconut flakes on top.
+
+7. Serve with rice or gluten free Indian bread (or pittas / flatbread or similar).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/aubergine-chicken-spinach-korma), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Korma Curry Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): Kcal – 636; Fat – 43g; of which saturates – 18g; Carbohydrates – 16g; of which sugars – 9.5g; Fibre – 6g; Protein – 44g; Salt – 2.2g; Please note this calculation does not include the rice or gluten free Indian bread (or pittas / flatbread or similar) to serve.
+Changed (low saturated fat): 4 Chicken thighs -> 400 g skinless chicken breast (leaner); 20g Toasted coconut flakes -> 10 g Toasted coconut flakes (halved); 1 Tbsp Vegetable oil -> 1 tsp olive oil.
+
+## ✅ ♡ Bay's Kitchen Korma – Baked Cod Korma  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Korma Curry Sauce (home-made, see that recipe)
+2 Cod fillets
+200g Spinach leaves baby
+15 g Toasted coconut flakes
+25g Toasted almond flakes
+15g Coriander
+To Serve:
+Basmati rice or gluten free Indian bread (or pittas / flatbread or similar)
+
+
+1. Make the home-made Bay's Kitchen Korma Curry Sauce first (see that recipe), or use a frozen portion.
+
+2. Marinate cod in Bay’s Kitchen Mild Korma Stir-in Sauce overnight.
+
+3. Add a pinch of sea salt flakes and bake in the oven at 180°C / 160°C fan for 18-20 minutes (until fish is opaque and flakes easily with a fork).
+
+4. Take out of the oven and sprinkle over spinach leaves.
+
+5. Add chopped coriander, toasted almond and coconut flakes to serve.
+
+6. Serve with rice or gluten free Indian bread (or pittas / flatbread or similar).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/baked-cod-korma), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Korma Curry Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 473; Fat – 32g; of which saturates – 18g; Carbohydrates – 14g; of which sugars – 7.5g; Fibre – 4.9g; Protein – 30g; Salt – 2.2g
+Changed (low saturated fat): 30g Toasted coconut flakes -> 15 g Toasted coconut flakes (halved).
+
+## ✅ ❣ Bay's Kitchen Korma – Paneer Korma  (Main Meals, serves 4)
+
+260 g Bay's Kitchen Korma Curry Sauce (home-made, see that recipe)
+300 ml low FODMAP vegetable stock (no onion or garlic)
+112 g Block Paneer cheese, cut into 2cm cubes  💔 Sat fat 5.9g (29%)
+1 Large Leek (green part), finely sliced
+150g Spinach
+100ml light coconut milk  🟢 Sorbitol 42% (25 g per serving)  ♥ Sat fat 1.8g (9%)
+75g Ground almonds
+1 tsp olive oil  ♥ Sat fat 0.2g (1%)
+3cm Sized Piece of ginger, peeled, minced
+1 Tsp Ground cardamom
+
+
+1. Make the home-made Bay's Kitchen Korma Curry Sauce first (see that recipe), or use a frozen portion.
+
+2. Heat 1 tsp of oil in a large deep sided frying pan set over a medium heat. Add the paneer cubes and fry for 5 mins turning regularly so each side is golden brown. Once cooked remove from the pan and place on kitchen paper.
+
+3. Add the remaining 2 tsp oil then the leek tops and ginger to the pan and cook for 5-6 minutes until soft adding a splash of water halfway through .
+
+4. Add the cardamom then fry for another 30 seconds then add the Bay's Kitchen Mild Korma Stir-in Sauce and cook for 5 minutes. Stir in the ground almonds and fry for 1 minute more to create a thick paste.
+
+5. Mix 3 tbsp Bay's Kitchen Vegetable Stock with 300ml boiled water. Add this stock into the korma and bring to a simmer then cook for 5 minutes until it has reduced a little. Throw the spinach in the pan and cook for 5 minutes stirring to wilt.
+
+6. Stir in the light coconut milk and the paneer then check for seasoning adding little salt if needed. Cook for 2 minutes.
+
+7. Garnish with coriander and serves with basmati rice.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/paneer-korma), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Korma Curry Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): ist Rob Hobson from @robhobsonnutritionist; Copyright of Bay’s Kitchen. Please do not reprint without permission.; Stir, Simmer & Serve; More recipes; you can rely on; Prep time: 10mins; —Cook time: 25mins; One Pot Beef Pasta; Prep time: 5mins; —Cook time: 30mins; Paneer Korma; Prep time: 5mins; —Cook time: 15mins; Pasta Arrabbiata with Roasted Red Pep...; Prep time: 10mins; —Cook time: 25mins; Pork & Pineapple Teriyaki Skewers wit...; Prep time: 5mins; —Cook time: 15mins; Prawn & Pepper Tikka Masala Curry; Prep time: 5mins; —Cook time: 15mins; Prawn & Pineapple Thai Massaman Curry; Prep time: 20mins; —Cook time: 1mins; Roast Beef with Crispy Rosemary Roast...; Prep time: 5mins; —Cook time: 10mins; Roasted Tikka Masala Hake; Not sure; where to start?; Tell us what you’re cooking and how much heat you like. We’ll do the rest.; Contact us; Contact us; Still Label Checking?; How long does it take to process an order?; Orders are usually processed within 1–2 business days. You’ll receive a confirmation email once your order is fully prepared and ready to ship.; Do you ship internationally?; Yes, we ship to most countries worldwide. Shipping times and rates vary by location, and all available options will be shown at checkout.; What is your return policy?; We accept returns within 30 days of purchase. Items must be unworn, unwashed, and in original condition with tags attached for a full refund.; What are your sizing options?; We offer a full range of sizes from XS to XL. Refer to our detailed size chart for accurate measurements to find your perfect fit.; Free delivery; When you Subscribe & Save 10%; Payment 100% secured; Multiple payment options offered.; Customer service; Monday-Friday: 9am-5pm; Bring the joy back to your inbox.; Email; Sign up; You have already subscribed!; By subscribing you agree to the Terms of Use & Privacy Policy .; About Bay's Kitchen; Our Story; Recipes; Find Bay's Kitchen Near You; Shop; All Sauces; Curry Sauces; Pasta Sauces; Stocks; Bundles; Need a Hand?; Take the Quiz; Delivery; Returns; FAQs; Ingredients & Allergens; Contact Us; Terms & Conditions; See what's on the menu.; @bayskitchenuk; Facebook; Instagram; TikTok; Pinterest; LinkedIn; Open region and language selector; GBP; Search; Country/Region; No results found; Afghanistan; AFN; ؋; Åland Islands; EUR; €; Albania; ALL; L; Algeria; DZD; د.ج; Andorra; EUR; €; Angola; GBP; £; Anguilla; XCD; $; Antigua & Barbuda; XCD; $; Argentina; GBP; £; Armenia; AMD; դր.; Aruba; AWG; ƒ; Ascension Island; SHP; £; Australia; AUD; $; Austria; EUR; €; Azerbaijan; AZN; ₼; Bahamas; BSD; $; Bahrain; GBP; £; Bangladesh; BDT; ৳; Barbados; BBD; $; Belarus; GBP; £; Belgium; EUR; €; Belize; BZD; $; Benin; XOF; Fr; Bermuda; USD; $; Bhutan; GBP; £; Bolivia; BOB; Bs.; Bosnia & Herzegovina; BAM; КМ; Botswana; BWP; P; Brazil; GBP; £; British Indian Ocean Territory; USD; $; British Virgin Islands; USD; $; Brunei; BND; $; Bulgaria; EUR; €; Burkina Faso; XOF; Fr; Burundi; BIF; Fr; Cambodia; KHR; ៛; Cameroon; XAF; CFA; Canada; CAD; $; Cape Verde; CVE; $; Caribbean Netherlands; USD; $; Cayman Islands; KYD; $; Central African Republic; XAF; CFA; Chad; XAF; CFA; Chile; GBP; £; China; CNY; ¥; Christmas Island; AUD; $; Cocos (Keeling) Islands; AUD; $; Colombia; GBP; £; Comoros; KMF; Fr; Congo - Brazzaville; XAF; CFA; Congo - Kinshasa; CDF; Fr; Cook Islands; NZD; $; Costa Rica; CRC; ₡; Côte d’Ivoire; XOF; Fr; Croatia; EUR; €; Curaçao; ANG; ƒ; Cyprus; EUR; €; Czechia; CZK; Kč; Denmark; DKK; kr.; Djibouti; DJF; Fdj; Dominica; XCD; $; Dominican Republic; DOP; $; Ecuador; USD; $; Egypt; EGP; ج.م; El Salvador; USD; $; Equatorial Guinea; XAF; CFA; Eritrea; GBP; £; Estonia; EUR; €; Eswatini; GBP; £; Ethiopia; ETB; Br; Falkland Islands; FKP; £; Faroe Islands; DKK; kr.; Fiji; FJD; $; Finland; EUR; €; France; EUR; €; French Guiana; EUR; €; French Polynesia; XPF; Fr; French Southern Territories; EUR; €; Gabon; XOF; Fr; Gambia; GMD; D; Georgia; GBP; £; Germany; EUR; €; Ghana; GBP; £; Gibraltar; GBP; £; Greece; EUR; €; Greenland; DKK; kr.; Grenada; XCD; $; Guadeloupe; EUR; €; Guatemala; GTQ; Q; Guernsey; GBP; £; Guinea; GNF; Fr; Guinea-Bissau; XOF; Fr; Guyana; GYD; $; Haiti; GBP; £; Honduras; HNL; L; Hong Kong SAR; HKD; $; Hungary; HUF; Ft; Iceland; ISK; kr; India; INR; ₹; Indonesia; IDR; Rp; Iraq; GBP; £; Ireland; EUR; €; Isle of Man; GBP; £; Israel; ILS; ₪; Italy; EUR; €; Jamaica; JMD; $; Japan; JPY; ¥; Jersey; GBP; £; Jordan; GBP; £; Kazakhstan; KZT; ₸; Kenya; KES; KSh; Kiribati; GBP; £; Kosovo; EUR; €; Kuwait; GBP; £; Kyrgyzstan; KGS; som; Laos; LAK; ₭; Latvia; EUR; €; Lebanon; LBP; ل.ل; Lesotho; GBP; £; Liberia; GBP; £; Libya; GBP; £; Liechtenstein; CHF; CHF; Lithuania; EUR; €; Luxembourg; EUR; €; Macao SAR; MOP; P; Madagascar; GBP; £; Malawi; MWK; MK; Malaysia; MYR; RM; Maldives; MVR; MVR; Mali; XOF; Fr; Malta; EUR; €; Martinique; EUR; €; Mauritania; GBP; £; Mauritius; MUR; ₨; Mayotte; EUR; €; Mexico; GBP; £; Moldova; MDL; L; Monaco; EUR; €; Mongolia; MNT; ₮; Montenegro; EUR; €; Montserrat; XCD; $; Morocco; MAD; د.م.; Mozambique; GBP; £; Myanmar (Burma); MMK; K; Namibia; GBP; £; Nauru; AUD; $; Nepal; NPR; Rs.; Netherlands; EUR; €; New Caledonia; XPF; Fr; New Zealand; NZD; $; Nicaragua; NIO; C$; Niger; XOF; Fr; Nigeria; NGN; ₦; Niue; NZD; $; Norfolk Island; AUD; $; North Macedonia; MKD; ден; Norway; GBP; £; Oman; GBP; £; Pakistan; PKR; ₨; Palestinian Territories; ILS; ₪; Panama; USD; $; Papua New Guinea; PGK; K; Paraguay; PYG; ₲; Peru; PEN; S/; Philippines; PHP; ₱; Pitcairn Islands; NZD; $; Poland; PLN; zł; Portugal; EUR; €; Qatar; QAR; ر.ق; Réunion; EUR; €; Romania; RON; Lei; Russia; GBP; £; Rwanda; RWF; FRw; Samoa; WST; T; San Marino; EUR; €; São Tomé & Príncipe; STD; Db; Saudi Arabia; SAR; ر.س; Senegal; XOF; Fr; Serbia; RSD; РСД; Seychelles; GBP; £; Sierra Leone; SLL; Le; Singapore; SGD; $; Sint Maarten; ANG; ƒ; Slovakia; EUR; €; Slovenia; EUR; €; Solomon Islands; SBD; $; Somalia; GBP; £; South Africa; GBP; £; South Georgia & South Sandwich Islands; GBP; £; South Korea; KRW; ₩; South Sudan; GBP; £; Spain; EUR; €; Sri Lanka; LKR; ₨; St. Barthélemy; EUR; €; St. Helena; SHP; £; St. Kitts & Nevis; XCD; $; St. Lucia; XCD; $; St. Martin; EUR; €; St. Pierre & Miquelon; EUR; €; St. Vincent & Grenadines; XCD; $; Sudan; GBP; £; Suriname; GBP; £; Svalbard & Jan Mayen; GBP; £; Sweden; SEK; kr; Switzerland; CHF; CHF; Taiwan; TWD; $; Tajikistan; TJS; ЅМ; Tanzania; TZS; Sh; Thailand; THB; ฿; Timor-Leste; USD; $; Togo; XOF; Fr; Tokelau; NZD; $; Tonga; TOP; T$; Trinidad & Tobago; TTD; $; Tristan da Cunha; GBP; £; Tunisia; GBP; £; Türkiye; GBP; £; Turkmenistan; GBP; £; Turks & Caicos Islands; USD; $; Tuvalu; AUD; $; U.S. Outlying Islands; USD; $; Uganda; UGX; USh; Ukraine; UAH; ₴; United Arab Emirates; AED; د.إ; United Kingdom; GBP; £; United States; USD; $; Uruguay; UYU; $U; Uzbekistan; UZS; so'm; Vanuatu; VUV; Vt; Vatican City; EUR; €; Venezuela; USD; $; Vietnam; VND; ₫; Wallis & Futuna; XPF; Fr; Western Sahara; MAD; د.م.; Yemen; YER; ﷼; Zambia; GBP; £; Zimbabwe; USD; $; ©; 2026; Bay's Kitchen , Powered by Shopify; Your cart; Total items in cart: 0; 0; Your cart is empty; Have an account? Log in to check out faster.; Continue shopping; Continue shopping; Cart total; £0.00 GBP; Product image; Product information; Quantity; Product total; Search; Clear; Product title; Regular price; -; Sale price; From £19.99; Regular price; In - stock and ready to ship; View more details; 10% OFF* Your First Order; Save 10% on your first order when you spend £25 or more and get exclusive email offers when you sign up to our Bay's Kitchen newsletter!; *Ts&Cs apply.; Let us help you by telling us your dietary needs: Vegetarian; Vegan; Gluten Free; Low FODMAP; Dairy Free; None; Sign Up; bayskitchenuk; 🚨 Welcome to our brand new series… BIG FLAVOUR IN 20!! 🫡; Struggling for quick and easy meal ideas? We’ve got you covered! 🙌🏻 This series is all about creating delicious, flavour-packed dishes in under 20 minutes, perfect for when you’re short on time but still want something tasty! 👏🏻; We’re kicking things off with our Tomato & Basil Gnocchi, made using our Tomato & Basil Stir-In Sauce.; Want to give it a go? Follow the recipe below and recreate this quick and easy dish at home! 👇; Tomato & Basil Gnocchi 🍅🌿; Ingredients; • 1 Bag Of Potato Gnocchi.; • 1 jar Bay’s Kitchen Tomato & Basil Sauce.; • Olive Oil.; • 1 Red Pepper, diced.; • 20–30g grated Parmesan.; 1. Heat the olive oil in a large frying pan over medium heat. Add the diced pepper and cook for 4–5 minutes until softened.; 2. Cook your Gnocchi according to the packet instructions and drain well.; 3. Add the Bay’s Kitchen sauce to the peppers and simmer gently for 2–3 minutes. For an extra boost of flavour, stir in a sprinkle of Parmesan.; 4. Fold the cooked gnocchi into the sauce and warm through for 1–2 minutes. Season to taste and finish with Parmesan.; #gnocchi #gnocchirecipe #ibs #easyrecipe #quickrecipe; 18 October; bayskitchenuk; 🤧 There seem to be lots of colds going around at the moment, so we thought our chicken broth would be perfect to help kick the cold, while enjoying something warm, comforting and delicious!; Follow the recipe below to make your own at home.🤗; Easy Ginger, Spinach & Chive Chicken Broth 🫚🍲; Ingredients; • 500ml Boiling Water.; • Bay’s Kitchen Low FODMAP Chicken Stock.; • 2 Handfuls Of Baby Spinach.; • 2 Tsp Of Grated Ginger.; • 1 Tbsp Fresh Chives, finely chopped.; • 1 Tbsp Fresh Parsley, chopped.; • A Squeeze Of Fresh Lemon Juice.; • Black Pepper.; • Salt.; Method; 1. Dissolve Bay’s Kitchen Chicken Stock in 500ml of boiling water.; 2. Pour the stock into a saucepan and add the ginger. Bring to a gentle simmer.; 3. Simmer for 5–8 minutes to allow the ginger to infuse the broth.; 4. Add the two handfuls of baby spinach and cook for 1–2 minutes, until just wilted.; 5. Stir in the chopped chives, parsley, lemon juice, black pepper and salt to taste.; 6. Divide between mugs and enjoy your warming, flavourful broth!; #broth #brothrecipe #ibs #noonionnogarlic #chickenbroth; 15 October; bayskitchenuk; 🍂 Serving up an Autumn favourite! Our chicken stock brings all the flavour with zero fuss and perfect for those comforting dishes as the darker nights approach.🍲✨; #ibs #chickenstock #lowfodmapdiet #noonionnogarlic #freefrom; 13 October; bayskitchenuk; We’re rounding off National Curry Week with our much loved Korma Curry Sauce!💜 The perfect sauce to warm up those colder evenings, while keeping things full of flavour and colour!👏🏻; Follow the recipe below and save it for your next cosy, comforting meal! 👇; 🥘 Simple Vegetarian Korma Curry; Ingredients:; • 1 Sweet Potato, peeled and cut into small cubes.; • 1 Red Pepper, sliced.; • 2 Large Handfuls of Green Beans, sliced.; • 60g Tinned Lentils, drained and rinsed.; • 1 Tbsp of Olive Oil.; • 1 Jar Of Bay’s Kitchen Korma Curry Sauce.; • Basmati Rice, to serve.; • Fresh Coriander, optional for garnish.; • Crushed Peanuts, optional for garnish.; • Gluten Free Naan Bread.; Method:; 1. Cook the sweet potato: Boil or steam for about 8–10 minutes, until tender.; 2. Heat the olive oil in a large frying pan.; 3. Add pepper and cook for 3–4 minutes.; 4. Add the green beans and sweet potato and cook for another 3–4 minutes.; 5. Stir in the lentils and korma curry sauce.; 6. Simmer gently for 5–8 minutes, until everything is hot and the vegetables are cooked.; 7. Serve with basmati rice, gluten free naan bread.; 8. Garnish with coriander and crush peanuts if desired.; #curryrecipe #nationalcurryweek #noonionnogarlic #recipe #recipeideas; 11 October; bayskitchenuk; We loved seeing our Managing Director, Hattie, chat with @ellesera.inc on her podcast about the Low FODMAP diet! 👏🏻; It’s a world that many people are still unfamiliar with, and we’re passionate about raising awareness, spreading the word, and showing how Bay’s Kitchen can bring flavour, variety and joy back to mealtimes for those following a Low FODMAP diet.🫡; #lowfodmap #lowfodmapdiet #fodmapfriendly #raisingawareness; 9 October; bayskitchenuk; National Curry Week continues! 🍛 And with the weekend just around the corner we have an easy and delicious recipe for you to try.; Don’t forget to save this recipe for later! ❤️; 🌶️ Your Low-FODMAP Thai Red Curry.; • 1 Jar of Bay’s Kitchen Thai Red Curry Sauce.; • 300g Chicken Breast, sliced.; • Olive Oil.; • 5 Pak Choi Leaves.; • 2 Large Handfuls of Spinach.; • Fresh Coriander.; • A Handful of Roasted Peanuts, roughly crushed for garnish.; • Rice, to serve.; Method; 1. Heat the olive oil in a large frying pan.; 2. Add the chicken and cook for 5–7 minutes until lightly browned and almost cooked through.; 3. Pour in the Bay’s Kitchen Thai Red Curry Sauce with the Pak Choi and Spinach.; 4. Stir and simmer for 5–7 minutes until the chicken is completely cooked and the vegetables have softened.; 5. Serve over rice of your choice, sprinkle with crushed roasted peanuts and coriander.; #recipe #recipeoftheday #ibs #recipeideas #noonionnogarlicrecipes; 8 October; bayskitchenuk; It’s National Curry Week!! 🍛🙌🏼 And of course we had to give our Thai Massaman Sauce a moment in the spotlight! ✨; Our Prawn & Pineapple Thai Massaman Curry is the perfect midweek meal now that the autumn weather is here. This curry is comforting and packed full of flavour. 🍤🍍🌶️; Save this recipe for your next curry night if you’re in need of a little inspiration!; This recipe can also be found directly on our website.🫶🏼; Ingredients:; • 1 Jar of Bay’s Kitchen Thai Massaman Stir-in Sauce.; • 200g Raw King Prawns (fresh or frozen will work).; • 150g Pineapple, roughly chopped.; • 1 Small Sweet Potato (max 150g), scrubbed and roughly chopped.; • 1 Spring Onion, green tops only, roughly chopped.; • 25g Salted Peanuts, roughly chopped.; • 1 tbsp Fish Sauce.; • 1 tbsp Coconut Oil.; • Small bunch of Coriander, roughly chopped.; • Sea Salt and freshly cracked Black Pepper.; To Serve:; • ½ lime, cut into quarters.; • Rice or gluten free naan bread.; Method:; 1. Place a pan over a medium heat and add the coconut oil. When the oil is glossy, add the sweet potato to the pan and fry until softened and a little charred, 3-4 minutes. Stir occasionally.; 2. Add the pineapple and cook for another 1-2 minutes. Season with salt and pepper.; 3. Pour in the jar of Bay’s Kitchen Thai Massaman Stir-in Sauce, rinsing the jar out with a little water and adding that into the pan too. Cook for a couple of minutes, stirring to combine everything together.; 4. Add the prawns and fish sauce and cook for another 3-4 minutes, or until the prawns turn from translucent to opaque and pink, and are cooked through.; 5. Divide the curry between two bowls, sprinkle with the spring onion tops, peanuts and coriander and serve with a wedge of lime.; Step 6. Delicious with rice or gluten free naan bread.; Recipe created by Cook & Author Emma Hatcher @shecanteatwhat; #recipe #recipeshare #recipeideas #ibs #ibsrecipe; 7 October; bayskitchenuk; We’ve recently received some absolutely incredible reviews, and we just had to share them with you all! 🥹; We’re so proud and incredibly grateful for all the love and support you continue to show Bay’s Kitchen. Reading reviews like these means the world to us and reminds us why we do what we do, creating products that make a real difference on the supermarket shelves.👏🏻; #reviews #makingchanges #customerreviews #customerlove #gratefulforyouall; 4 October
+Changed (low saturated fat): 300ml Bay’s Kitchen Vegetable Stock  (3 Tbsp Stock & 300ml of boiling water) -> 300 ml low FODMAP vegetable stock (no onion or garlic); 225g Block Paneer cheese, cut into 2cm cubes -> 112 g Block Paneer cheese, cut into 2cm cubes (halved, saturated fat); 100ml Coconut milk -> 100ml light coconut milk; 3 Tsp Coconut oil -> 1 tsp olive oil.
+
+## ℹ️ ♡ Bay's Kitchen Spicy Arrabbiata – Pasta Arrabbiata with Roasted Red Pepper, Olives & Spinach  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Spicy Arrabbiata Sauce (home-made, see that recipe)
+180g Gluten free penne or rigatoni pasta  🟡 Fructans 60% (90 g per serving)
+80g Red pepper  🟠 Fructose 93% (40 g per serving)
+150g Spinach
+100g Black olives, halved
+25g Walnuts, crushed
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+To Serve:
+10 g Parmesan (optional, don’t use if dairy free or vegan*)  ♥ Sat fat 0.8g (4%)
+
+
+1. Make the home-made Bay's Kitchen Spicy Arrabbiata Sauce first (see that recipe), or use a frozen portion.
+
+2. Finely slice the peppers into thin strips, put into a roasting tray with a drizzle of olive oil and then roast in the oven at 200°C / 180°C fan for 10 minutes until soft.
+
+3. Fill a pan 2/3 full with water and bring to the boil. Add the pasta and cook for 10 minutes (check the packet instructions in case these differ).
+
+4. Once cooked, drain the pasta and take the roasted peppers from the oven. Return the pasta to the pan, add the peppers, spinach, olives and the Bay’s Kitchen Spicy Arrabbiata Stir-in Sauce.
+
+5. Mix everything together for a few minutes over a low heat, until the pasta is fully coated in sauce and the spinach is wilted.
+
+6. Serve with parmesan shavings (if using) and a sprinkling of crushed walnuts. *To make this dish dairy free and vegan, either don’t use parmesan, or use vegan parmesan (please check the ingredients of vegan parmesan, it is typically made with cashews and so could be high FODMAP in larger quantities).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/pasta-arrabbiata-with-roasted-red-pepper-olives-spinach), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Spicy Arrabbiata Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 666; Fat – 27g; of which saturates – 5g; Carbohydrates – 84g; of which sugars – 7.3g; Fibre – 7.4g; Protein – 18g; Salt – 2g
+Changed (low saturated fat): 1/2 Tbsp Olive oil -> 1 tsp olive oil; 20g Parmesan (optional, don’t use if dairy free or vegan*) -> 10 g Parmesan (optional, don’t use if dairy free or vegan*) (halved, saturated fat).
+
+## ℹ️ ♡ Bay's Kitchen Spicy Arrabbiata – Spaghetti Arrabbiata with Prawns & Courgette Ribbons  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Spicy Arrabbiata Sauce (home-made, see that recipe)
+200g Gluten free spaghetti  🟡 Fructans 67% (100 g per serving)
+120g Cooked king prawns  ♥ Sat fat 0.1g (1%)
+100g Courgette  🟠 Fructans 77% (50 g per serving)
+To Serve:
+10g Basil
+Black pepper
+
+
+1. Make the home-made Bay's Kitchen Spicy Arrabbiata Sauce first (see that recipe), or use a frozen portion.
+
+2. Fill a pan 2/3 full with water and bring to the boil. Add the pasta and cook for 10 minutes (check the packet instructions in case these differ).
+
+3. Whilst the pasta is cooking either finely slice the courgette into thin ribbons or cut with a ribbon peeler.
+
+4. Put the jar of sauce into a pan over a medium heat. Add the courgette ribbons and heat for 2 minutes, stirring occasionally, until the sauce is hot and courgettes softened.
+
+5. Once the pasta is cooked, drain and then add to the pan with the sauce. Take off the heat and add the prawns and mix well.
+
+6. Serve with fresh basil and black pepper.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/spaghetti-arrabbiata-with-prawns-courgette-ribbons), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Spicy Arrabbiata Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 481; Fat – 4.8g; of which saturates – 0.7g; Carbohydrates – 89g; of which sugars – 5.3g; Fibre – 4g; Protein – 18g; Salt – 1.6g
+
+## ℹ️ ♡ Bay's Kitchen Spicy Arrabbiata – Spicy Arrabbiata & Cheese Pasta Bake  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Spicy Arrabbiata Sauce (home-made, see that recipe)
+160g Gluten free pasta (such as brown rice pasta)  🟡 Fructans 53% (80 g per serving)
+20 g lactose-free strong cheddar cheese, grated  ❣ Sat fat 2.1g (10%)
+20 g lactose-free mozzarella, torn into chunks  ♥ Sat fat 1.2g (6%)
+Small bunch of basil
+Flaky sea salt
+To Serve:
+Crunchy green salad to serve
+
+
+1. Make the home-made Bay's Kitchen Spicy Arrabbiata Sauce first (see that recipe), or use a frozen portion.
+
+2. Preheat your oven to 200°C / 180°C fan.
+
+3. Fill a pan 2/3 full with water and bring to the boil. Add the pasta and cook for 8-10 minutes (check the packet instructions in case these differ) – make sure that it’s on the al dente side. Save a mug of cooking water and then drain the pasta well.
+
+4. In the same saucepan, pour in your jar of Bay’s Kitchen Spicy Arrabbiata Stir-in Sauce, rinsing the jar out with a little water and adding that into the pan too. Cook gently for a couple of minutes, until warmed through.
+
+5. Gently stir the pasta into the sauce, followed by half of the cheddar and mozzarella. If the sauce feels too thick, add a splash of the cooking water which you set aside earlier.
+
+6. Tip the pasta into a small baking dish and sprinkle over the remaining cheese. Bake for 10 minutes, or until bubbling.
+
+7. Top with fresh basil leaves and a sprinkle of salt and serve with a crunchy green salad. Recipe created by cook and author Emma Hatcher (www.shecanteatwhat.com).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/spicy-arrabbiata-cheese-pasta-bake), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Spicy Arrabbiata Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 493; Fat – 15g; of which saturates – 7.7g; Carbohydrates – 71g; of which sugars – 3.4g; Fibre – 2.5g; Protein – 17g; Salt – 1.8g; Please note this does not include the green salad to serve.
+Changed (low saturated fat): 40g Strong cheddar cheese, grated -> 20 g lactose-free strong cheddar cheese, grated (halved, saturated fat); 40g Mozzarella, torn into chunks -> 20 g lactose-free mozzarella, torn into chunks (halved, saturated fat).
+
+## ℹ️ ♡ Bay's Kitchen Spicy Arrabbiata – Spicy Arrabbiata Gnocchi Bake with Basil Oil  (Main Meals, serves 4)
+
+2 packs gluten-free, low FODMAP gnocchi (Gluten Free & Dairy-free, e.g. potato + rice)
+260 g Bay's Kitchen Spicy Arrabbiata Sauce (home-made, see that recipe)
+150ml light coconut milk (or light coconut milk, reduced, slightly)  🟡 Sorbitol 62% (38 g per serving)  ❣ Sat fat 2.6g (13%)
+Fresh basil
+1 tsp garlic-infused olive oil  ♥ Sat fat 0.2g (1%)
+Salt & pepper
+Add the gnocchi and stir through until everything is evenly coated in the sauce.
+Bake at 200°C for around 20 minutes, until bubbling and lightly golden on top.
+
+
+1. Make the home-made Bay's Kitchen Spicy Arrabbiata Sauce first (see that recipe), or use a frozen portion.
+
+2. Gently heat the Bay's Kitchen Spicy Arrabbiata Stir-in Sauce with light coconut milk to make it silky, smooth, and glossy
+
+3. Add the gnocchi and stir through until everything is evenly coated in the sauce.
+
+4. Bake at 200°C for around 20 minutes, until bubbling and lightly golden on top.
+
+5. Meanwhile, make the basil oil by blitzing basil with garlic-infused oil and a pinch of salt until fresh and vibrant.
+
+6. To serve, spoon the gnocchi hot from the oven, drizzle over the basil oil, and finish with fresh basil leaves.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/spicy-arrabbiata-gnocchi-bake-with-basil-oil), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Spicy Arrabbiata Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+Changed (low saturated fat): 150ml coconut cream (or coconut milk, reduced, slightly) -> 150ml light coconut milk (or light coconut milk, reduced, slightly); 3 tbsp garlic-infused oil -> 1 tsp garlic-infused olive oil.
+
+## ℹ️ ♡ Bay's Kitchen Spicy Arrabbiata – Turkey Chilli with Almond Cream  (Main Meals, serves 6)
+
+260 g Bay's Kitchen Spicy Arrabbiata Sauce (home-made, see that recipe)
+500g turkey breast mince  ♥ Sat fat 1.2g (6%)
+1 x 400g Tin chopped tomatoes  🟡 Fructose 67% (67 g per serving)
+1 Large Sweet potatoes (600g), peeled and cut into 3/4-inch chunks
+1 Large Leek (green part), finely sliced
+150ml Water
+2 Spring onions (green part), finely sliced  🟢 Fructose 5% (4 g per serving)
+1/2 Lime, juiced
+1 Heaped Tsp ground cumin
+1 Heaped Tsp sweet smoked paprika
+1 Heaped Tsp chilli powder
+1/4 Tsp Asafoetida powder
+Extra-virgin olive oil
+Coriander, chopped (optional)
+Sea salt
+For the almond cream:
+100g Almonds (60 almonds)
+100ml Water
+Sea salt
+
+
+1. Make the home-made Bay's Kitchen Spicy Arrabbiata Sauce first (see that recipe), or use a frozen portion.
+
+2. Preheat the oven to 200 degrees. Line a rimmed baking sheet with parchment paper or a silicone liner.
+
+3. Toss the sweet potato chunks with a little oil until well coated, then spread on the baking sheet in a single layer. Sprinkle with a good pinch of the sea salt. Roast for about 20 minutes or until softened, stirring a few times. Let cool.
+
+4. While the potatoes are roasting, heat 2 tablespoons of oil in a large, heavy-bottomed pot over medium heat. Once hot, add the leek then cook for 5 minutes until softened.
+
+5. Add the turkey then break up with a wooden spoon and continue to cook until the meat is cooked through and its moisture has evaporated, which should take about 15 minutes. Keep breaking the meat up as you go.
+
+6. Add the asafoetida, cumin, paprika, chilli powder and a big pinch of salt, stirring to coat and cook for 1 minute more.
+
+7. Add the peppers, tomatoes and the Bay's Kitchen Arrabbiata Stir-in Sauce and a big pinch of salt; increase the heat to high and add 1/2 the bay's kitchen jar of water. Once the mixture comes to a boil, reduce the heat to medium and cook, uncovered, for 10 minutes.
+
+8. Stir in the cooled sweet potatoes and add the lime juice then adjust the seasoning as needed. Cook for another 10 minutes to blend the flavour adding more water if needed.
+
+9. Take the pan off the heat then make the almond cream, by adding the almonds and water to a food processor and blitzing to a cream consistency.
+
+10. Serve in bowls with a dollop of cream, sliced spring onions and coriander.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/turkey-chilli-with-almond-cream), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Spicy Arrabbiata Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): ist Rob Hobson from @robhobsonnutritionist; Copyright of Bay’s Kitchen. Please do not reprint without permission.; Stir, Simmer & Serve; More recipes; you can rely on; Prep time: 10mins; —Cook time: 25mins; Fluffy Quinoa with Pomegranate Seeds; Prep time: 20mins; —Cook time: 5mins; Griddled Vegetable Burger; Prep time: 45mins; —Cook time: 45mins; Homemade Beef Burgers with Crispy Pot...; Prep time: 2mins; —Cook time: 20mins; Homemade Gnocchi With Tomato & Basil ...; Prep time: 20mins; —Cook time: 1mins; Homemade Smoky Baked Bean Jacket Pota...; Prep time: 15mins; —Cook time: 10mins; Homemade Veggie Pizza; Prep time: 5mins; —Cook time: 25mins; Hunter's Chicken; Prep time: 20mins; —Cook time: 1mins; Low FODMAP Boulangère Potatoes; Not sure; where to start?; Tell us what you’re cooking and how much heat you like. We’ll do the rest.; Contact us; Contact us; Still Label Checking?; How long does it take to process an order?; Orders are usually processed within 1–2 business days. You’ll receive a confirmation email once your order is fully prepared and ready to ship.; Do you ship internationally?; Yes, we ship to most countries worldwide. Shipping times and rates vary by location, and all available options will be shown at checkout.; What is your return policy?; We accept returns within 30 days of purchase. Items must be unworn, unwashed, and in original condition with tags attached for a full refund.; What are your sizing options?; We offer a full range of sizes from XS to XL. Refer to our detailed size chart for accurate measurements to find your perfect fit.; Free delivery; When you Subscribe & Save 10%; Payment 100% secured; Multiple payment options offered.; Customer service; Monday-Friday: 9am-5pm; Bring the joy back to your inbox.; Email; Sign up; You have already subscribed!; By subscribing you agree to the Terms of Use & Privacy Policy .; About Bay's Kitchen; Our Story; Recipes; Find Bay's Kitchen Near You; Shop; All Sauces; Curry Sauces; Pasta Sauces; Stocks; Bundles; Need a Hand?; Take the Quiz; Delivery; Returns; FAQs; Ingredients & Allergens; Contact Us; Terms & Conditions; See what's on the menu.; @bayskitchenuk; Facebook; Instagram; TikTok; Pinterest; LinkedIn; Open region and language selector; GBP; Search; Country/Region; No results found; Afghanistan; AFN; ؋; Åland Islands; EUR; €; Albania; ALL; L; Algeria; DZD; د.ج; Andorra; EUR; €; Angola; GBP; £; Anguilla; XCD; $; Antigua & Barbuda; XCD; $; Argentina; GBP; £; Armenia; AMD; դր.; Aruba; AWG; ƒ; Ascension Island; SHP; £; Australia; AUD; $; Austria; EUR; €; Azerbaijan; AZN; ₼; Bahamas; BSD; $; Bahrain; GBP; £; Bangladesh; BDT; ৳; Barbados; BBD; $; Belarus; GBP; £; Belgium; EUR; €; Belize; BZD; $; Benin; XOF; Fr; Bermuda; USD; $; Bhutan; GBP; £; Bolivia; BOB; Bs.; Bosnia & Herzegovina; BAM; КМ; Botswana; BWP; P; Brazil; GBP; £; British Indian Ocean Territory; USD; $; British Virgin Islands; USD; $; Brunei; BND; $; Bulgaria; EUR; €; Burkina Faso; XOF; Fr; Burundi; BIF; Fr; Cambodia; KHR; ៛; Cameroon; XAF; CFA; Canada; CAD; $; Cape Verde; CVE; $; Caribbean Netherlands; USD; $; Cayman Islands; KYD; $; Central African Republic; XAF; CFA; Chad; XAF; CFA; Chile; GBP; £; China; CNY; ¥; Christmas Island; AUD; $; Cocos (Keeling) Islands; AUD; $; Colombia; GBP; £; Comoros; KMF; Fr; Congo - Brazzaville; XAF; CFA; Congo - Kinshasa; CDF; Fr; Cook Islands; NZD; $; Costa Rica; CRC; ₡; Côte d’Ivoire; XOF; Fr; Croatia; EUR; €; Curaçao; ANG; ƒ; Cyprus; EUR; €; Czechia; CZK; Kč; Denmark; DKK; kr.; Djibouti; DJF; Fdj; Dominica; XCD; $; Dominican Republic; DOP; $; Ecuador; USD; $; Egypt; EGP; ج.م; El Salvador; USD; $; Equatorial Guinea; XAF; CFA; Eritrea; GBP; £; Estonia; EUR; €; Eswatini; GBP; £; Ethiopia; ETB; Br; Falkland Islands; FKP; £; Faroe Islands; DKK; kr.; Fiji; FJD; $; Finland; EUR; €; France; EUR; €; French Guiana; EUR; €; French Polynesia; XPF; Fr; French Southern Territories; EUR; €; Gabon; XOF; Fr; Gambia; GMD; D; Georgia; GBP; £; Germany; EUR; €; Ghana; GBP; £; Gibraltar; GBP; £; Greece; EUR; €; Greenland; DKK; kr.; Grenada; XCD; $; Guadeloupe; EUR; €; Guatemala; GTQ; Q; Guernsey; GBP; £; Guinea; GNF; Fr; Guinea-Bissau; XOF; Fr; Guyana; GYD; $; Haiti; GBP; £; Honduras; HNL; L; Hong Kong SAR; HKD; $; Hungary; HUF; Ft; Iceland; ISK; kr; India; INR; ₹; Indonesia; IDR; Rp; Iraq; GBP; £; Ireland; EUR; €; Isle of Man; GBP; £; Israel; ILS; ₪; Italy; EUR; €; Jamaica; JMD; $; Japan; JPY; ¥; Jersey; GBP; £; Jordan; GBP; £; Kazakhstan; KZT; ₸; Kenya; KES; KSh; Kiribati; GBP; £; Kosovo; EUR; €; Kuwait; GBP; £; Kyrgyzstan; KGS; som; Laos; LAK; ₭; Latvia; EUR; €; Lebanon; LBP; ل.ل; Lesotho; GBP; £; Liberia; GBP; £; Libya; GBP; £; Liechtenstein; CHF; CHF; Lithuania; EUR; €; Luxembourg; EUR; €; Macao SAR; MOP; P; Madagascar; GBP; £; Malawi; MWK; MK; Malaysia; MYR; RM; Maldives; MVR; MVR; Mali; XOF; Fr; Malta; EUR; €; Martinique; EUR; €; Mauritania; GBP; £; Mauritius; MUR; ₨; Mayotte; EUR; €; Mexico; GBP; £; Moldova; MDL; L; Monaco; EUR; €; Mongolia; MNT; ₮; Montenegro; EUR; €; Montserrat; XCD; $; Morocco; MAD; د.م.; Mozambique; GBP; £; Myanmar (Burma); MMK; K; Namibia; GBP; £; Nauru; AUD; $; Nepal; NPR; Rs.; Netherlands; EUR; €; New Caledonia; XPF; Fr; New Zealand; NZD; $; Nicaragua; NIO; C$; Niger; XOF; Fr; Nigeria; NGN; ₦; Niue; NZD; $; Norfolk Island; AUD; $; North Macedonia; MKD; ден; Norway; GBP; £; Oman; GBP; £; Pakistan; PKR; ₨; Palestinian Territories; ILS; ₪; Panama; USD; $; Papua New Guinea; PGK; K; Paraguay; PYG; ₲; Peru; PEN; S/; Philippines; PHP; ₱; Pitcairn Islands; NZD; $; Poland; PLN; zł; Portugal; EUR; €; Qatar; QAR; ر.ق; Réunion; EUR; €; Romania; RON; Lei; Russia; GBP; £; Rwanda; RWF; FRw; Samoa; WST; T; San Marino; EUR; €; São Tomé & Príncipe; STD; Db; Saudi Arabia; SAR; ر.س; Senegal; XOF; Fr; Serbia; RSD; РСД; Seychelles; GBP; £; Sierra Leone; SLL; Le; Singapore; SGD; $; Sint Maarten; ANG; ƒ; Slovakia; EUR; €; Slovenia; EUR; €; Solomon Islands; SBD; $; Somalia; GBP; £; South Africa; GBP; £; South Georgia & South Sandwich Islands; GBP; £; South Korea; KRW; ₩; South Sudan; GBP; £; Spain; EUR; €; Sri Lanka; LKR; ₨; St. Barthélemy; EUR; €; St. Helena; SHP; £; St. Kitts & Nevis; XCD; $; St. Lucia; XCD; $; St. Martin; EUR; €; St. Pierre & Miquelon; EUR; €; St. Vincent & Grenadines; XCD; $; Sudan; GBP; £; Suriname; GBP; £; Svalbard & Jan Mayen; GBP; £; Sweden; SEK; kr; Switzerland; CHF; CHF; Taiwan; TWD; $; Tajikistan; TJS; ЅМ; Tanzania; TZS; Sh; Thailand; THB; ฿; Timor-Leste; USD; $; Togo; XOF; Fr; Tokelau; NZD; $; Tonga; TOP; T$; Trinidad & Tobago; TTD; $; Tristan da Cunha; GBP; £; Tunisia; GBP; £; Türkiye; GBP; £; Turkmenistan; GBP; £; Turks & Caicos Islands; USD; $; Tuvalu; AUD; $; U.S. Outlying Islands; USD; $; Uganda; UGX; USh; Ukraine; UAH; ₴; United Arab Emirates; AED; د.إ; United Kingdom; GBP; £; United States; USD; $; Uruguay; UYU; $U; Uzbekistan; UZS; so'm; Vanuatu; VUV; Vt; Vatican City; EUR; €; Venezuela; USD; $; Vietnam; VND; ₫; Wallis & Futuna; XPF; Fr; Western Sahara; MAD; د.م.; Yemen; YER; ﷼; Zambia; GBP; £; Zimbabwe; USD; $; ©; 2026; Bay's Kitchen , Powered by Shopify; Your cart; Total items in cart: 0; 0; Your cart is empty; Have an account? Log in to check out faster.; Continue shopping; Continue shopping; Cart total; £0.00 GBP; Product image; Product information; Quantity; Product total; Search; Clear; Product title; Regular price; -; Sale price; From £19.99; Regular price; In - stock and ready to ship; View more details; 10% OFF* Your First Order; Save 10% on your first order when you spend £25 or more and get exclusive email offers when you sign up to our Bay's Kitchen newsletter!; *Ts&Cs apply.; Let us help you by telling us your dietary needs: Vegetarian; Vegan; Gluten Free; Low FODMAP; Dairy Free; None; Sign Up; bayskitchenuk; 🚨 Welcome to our brand new series… BIG FLAVOUR IN 20!! 🫡; Struggling for quick and easy meal ideas? We’ve got you covered! 🙌🏻 This series is all about creating delicious, flavour-packed dishes in under 20 minutes, perfect for when you’re short on time but still want something tasty! 👏🏻; We’re kicking things off with our Tomato & Basil Gnocchi, made using our Tomato & Basil Stir-In Sauce.; Want to give it a go? Follow the recipe below and recreate this quick and easy dish at home! 👇; Tomato & Basil Gnocchi 🍅🌿; Ingredients; • 1 Bag Of Potato Gnocchi.; • 1 jar Bay’s Kitchen Tomato & Basil Sauce.; • Olive Oil.; • 1 Red Pepper, diced.; • 20–30g grated Parmesan.; 1. Heat the olive oil in a large frying pan over medium heat. Add the diced pepper and cook for 4–5 minutes until softened.; 2. Cook your Gnocchi according to the packet instructions and drain well.; 3. Add the Bay’s Kitchen sauce to the peppers and simmer gently for 2–3 minutes. For an extra boost of flavour, stir in a sprinkle of Parmesan.; 4. Fold the cooked gnocchi into the sauce and warm through for 1–2 minutes. Season to taste and finish with Parmesan.; #gnocchi #gnocchirecipe #ibs #easyrecipe #quickrecipe; 18 October; bayskitchenuk; 🤧 There seem to be lots of colds going around at the moment, so we thought our chicken broth would be perfect to help kick the cold, while enjoying something warm, comforting and delicious!; Follow the recipe below to make your own at home.🤗; Easy Ginger, Spinach & Chive Chicken Broth 🫚🍲; Ingredients; • 500ml Boiling Water.; • Bay’s Kitchen Low FODMAP Chicken Stock.; • 2 Handfuls Of Baby Spinach.; • 2 Tsp Of Grated Ginger.; • 1 Tbsp Fresh Chives, finely chopped.; • 1 Tbsp Fresh Parsley, chopped.; • A Squeeze Of Fresh Lemon Juice.; • Black Pepper.; • Salt.; Method; 1. Dissolve Bay’s Kitchen Chicken Stock in 500ml of boiling water.; 2. Pour the stock into a saucepan and add the ginger. Bring to a gentle simmer.; 3. Simmer for 5–8 minutes to allow the ginger to infuse the broth.; 4. Add the two handfuls of baby spinach and cook for 1–2 minutes, until just wilted.; 5. Stir in the chopped chives, parsley, lemon juice, black pepper and salt to taste.; 6. Divide between mugs and enjoy your warming, flavourful broth!; #broth #brothrecipe #ibs #noonionnogarlic #chickenbroth; 15 October; bayskitchenuk; 🍂 Serving up an Autumn favourite! Our chicken stock brings all the flavour with zero fuss and perfect for those comforting dishes as the darker nights approach.🍲✨; #ibs #chickenstock #lowfodmapdiet #noonionnogarlic #freefrom; 13 October; bayskitchenuk; We’re rounding off National Curry Week with our much loved Korma Curry Sauce!💜 The perfect sauce to warm up those colder evenings, while keeping things full of flavour and colour!👏🏻; Follow the recipe below and save it for your next cosy, comforting meal! 👇; 🥘 Simple Vegetarian Korma Curry; Ingredients:; • 1 Sweet Potato, peeled and cut into small cubes.; • 1 Red Pepper, sliced.; • 2 Large Handfuls of Green Beans, sliced.; • 60g Tinned Lentils, drained and rinsed.; • 1 Tbsp of Olive Oil.; • 1 Jar Of Bay’s Kitchen Korma Curry Sauce.; • Basmati Rice, to serve.; • Fresh Coriander, optional for garnish.; • Crushed Peanuts, optional for garnish.; • Gluten Free Naan Bread.; Method:; 1. Cook the sweet potato: Boil or steam for about 8–10 minutes, until tender.; 2. Heat the olive oil in a large frying pan.; 3. Add pepper and cook for 3–4 minutes.; 4. Add the green beans and sweet potato and cook for another 3–4 minutes.; 5. Stir in the lentils and korma curry sauce.; 6. Simmer gently for 5–8 minutes, until everything is hot and the vegetables are cooked.; 7. Serve with basmati rice, gluten free naan bread.; 8. Garnish with coriander and crush peanuts if desired.; #curryrecipe #nationalcurryweek #noonionnogarlic #recipe #recipeideas; 11 October; bayskitchenuk; We loved seeing our Managing Director, Hattie, chat with @ellesera.inc on her podcast about the Low FODMAP diet! 👏🏻; It’s a world that many people are still unfamiliar with, and we’re passionate about raising awareness, spreading the word, and showing how Bay’s Kitchen can bring flavour, variety and joy back to mealtimes for those following a Low FODMAP diet.🫡; #lowfodmap #lowfodmapdiet #fodmapfriendly #raisingawareness; 9 October; bayskitchenuk; National Curry Week continues! 🍛 And with the weekend just around the corner we have an easy and delicious recipe for you to try.; Don’t forget to save this recipe for later! ❤️; 🌶️ Your Low-FODMAP Thai Red Curry.; • 1 Jar of Bay’s Kitchen Thai Red Curry Sauce.; • 300g Chicken Breast, sliced.; • Olive Oil.; • 5 Pak Choi Leaves.; • 2 Large Handfuls of Spinach.; • Fresh Coriander.; • A Handful of Roasted Peanuts, roughly crushed for garnish.; • Rice, to serve.; Method; 1. Heat the olive oil in a large frying pan.; 2. Add the chicken and cook for 5–7 minutes until lightly browned and almost cooked through.; 3. Pour in the Bay’s Kitchen Thai Red Curry Sauce with the Pak Choi and Spinach.; 4. Stir and simmer for 5–7 minutes until the chicken is completely cooked and the vegetables have softened.; 5. Serve over rice of your choice, sprinkle with crushed roasted peanuts and coriander.; #recipe #recipeoftheday #ibs #recipeideas #noonionnogarlicrecipes; 8 October; bayskitchenuk; It’s National Curry Week!! 🍛🙌🏼 And of course we had to give our Thai Massaman Sauce a moment in the spotlight! ✨; Our Prawn & Pineapple Thai Massaman Curry is the perfect midweek meal now that the autumn weather is here. This curry is comforting and packed full of flavour. 🍤🍍🌶️; Save this recipe for your next curry night if you’re in need of a little inspiration!; This recipe can also be found directly on our website.🫶🏼; Ingredients:; • 1 Jar of Bay’s Kitchen Thai Massaman Stir-in Sauce.; • 200g Raw King Prawns (fresh or frozen will work).; • 150g Pineapple, roughly chopped.; • 1 Small Sweet Potato (max 150g), scrubbed and roughly chopped.; • 1 Spring Onion, green tops only, roughly chopped.; • 25g Salted Peanuts, roughly chopped.; • 1 tbsp Fish Sauce.; • 1 tbsp Coconut Oil.; • Small bunch of Coriander, roughly chopped.; • Sea Salt and freshly cracked Black Pepper.; To Serve:; • ½ lime, cut into quarters.; • Rice or gluten free naan bread.; Method:; 1. Place a pan over a medium heat and add the coconut oil. When the oil is glossy, add the sweet potato to the pan and fry until softened and a little charred, 3-4 minutes. Stir occasionally.; 2. Add the pineapple and cook for another 1-2 minutes. Season with salt and pepper.; 3. Pour in the jar of Bay’s Kitchen Thai Massaman Stir-in Sauce, rinsing the jar out with a little water and adding that into the pan too. Cook for a couple of minutes, stirring to combine everything together.; 4. Add the prawns and fish sauce and cook for another 3-4 minutes, or until the prawns turn from translucent to opaque and pink, and are cooked through.; 5. Divide the curry between two bowls, sprinkle with the spring onion tops, peanuts and coriander and serve with a wedge of lime.; Step 6. Delicious with rice or gluten free naan bread.; Recipe created by Cook & Author Emma Hatcher @shecanteatwhat; #recipe #recipeshare #recipeideas #ibs #ibsrecipe; 7 October; bayskitchenuk; We’ve recently received some absolutely incredible reviews, and we just had to share them with you all! 🥹; We’re so proud and incredibly grateful for all the love and support you continue to show Bay’s Kitchen. Reading reviews like these means the world to us and reminds us why we do what we do, creating products that make a real difference on the supermarket shelves.👏🏻; #reviews #makingchanges #customerreviews #customerlove #gratefulforyouall; 4 October
+Changed (low saturated fat): 500g Ground turkey, preferably dark meat -> 500g turkey breast mince (leaner).
+
+## ℹ️ ❣ Bay's Kitchen Spicy Arrabbiata – One Pot Beef Pasta  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Spicy Arrabbiata Sauce (home-made, see that recipe)
+840ml Water
+500g lean beef mince (5% fat)  💔 Sat fat 5.5g (28%)
+300g Gluten-free pasta  🟠 Fructans 100% (150 g per serving)
+30 g lactose-free mature Cheddar, grated  ❣ Sat fat 3.1g (16%)
+3 Spring onions – diced (only the green parts)  🟢 Fructose 24% (18 g per serving)
+2 Tbsp Lactose free sour cream or Greek yogurt for serving  ♥ Sat fat 0.5g (3%)
+1 tsp garlic-infused olive oil  ♥ Sat fat 0.3g (2%)
+1 Tbsp Chilli powder
+1 1/2 Tsp Cumin
+1 Tsp Oregano
+Salt & pepper according to taste
+Fresh cilantro or parsley for serving (optional)
+
+
+1. Make the home-made Bay's Kitchen Spicy Arrabbiata Sauce first (see that recipe), or use a frozen portion.
+
+2. Preheat oven to 160 degrees C (325 degrees F)
+
+3. Heat a large oven-proof skillet to a medium-high heat. Add garlic-infused olive oil. Once oil is hot, add ground lean beef. Use a wooden spoon to break up the beef. Once the beef is mostly cooked, add green parts of spring onion and 1/4 tsp. salt. Continue to saute for 3-4 minutes until the onion is softened.
+
+4. Add chili powder, cumin, and oregano. Stir to combine and cook for 1 minute. Add Bay’s Kitchen Spicy Arrabbiata Stir-in Sauce, water, pasta, and season with salt & black pepper (according to taste). Bring to a boil and reduce to a simmer. Cover and cook until pasta is al dente, about 10-12 minutes.
+
+5. Once the pasta is al dente sprinkle with cheese and place in the oven just until the cheese has melted, about 2 minutes.
+
+6. Garnish with sour cream or Greek yogurt and chopped parsley or cilantro. Recipe created by Stefani Weiss from @glutenfree_stories
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/one-pot-beef-mexican-pasta), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Spicy Arrabbiata Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+Changed (low saturated fat): 500g Minced beef -> 500g lean beef mince (5% fat) (leaner); 112g Shredded Cheddar cheese -> 56 g lactose-free shredded Cheddar cheese (halved, saturated fat); 1Tbsp Garlic infused olive oil -> 1 tsp garlic-infused olive oil; 56 g lactose-free shredded Cheddar cheese -> 30 g lactose-free mature Cheddar, grated.
+
+## ✅ ♡ Bay's Kitchen Spicy Arrabbiata – Crispy Mozzarella Sticks with Spicy Arrabbiata Sauce  (Snacks & Bars, serves 12)
+
+260 g Bay's Kitchen Spicy Arrabbiata Sauce (home-made, see that recipe)
+250 g lactose-free block mozzarella  ❣ Sat fat 2.5g (12%)
+3 Free-range eggs  ♥ Sat fat 0.4g (2%)
+150g Gluten free dried breadcrumbs
+5 Tbsp Gluten free plain flour  🟢 Fructans 3% (3.3 g per serving)
+1 ½ Tsp Dried mixed herbs
+Vegetable oil, for frying
+Small bunch parsley, roughly chopped
+Sea salt and freshly ground black pepper
+
+
+1. Make the home-made Bay's Kitchen Spicy Arrabbiata Sauce first (see that recipe), or use a frozen portion.
+
+2. Cut the mozzarella into rectangular chunks and then place on some kitchen paper to remove as much moisture from the outside as you can.
+
+3. Put the flour into a bowl and season well with salt and pepper, then crack the eggs into another bowl and whisk to combine. Mix the breadcrumbs and mixed herbs in a final bowl and have all three lined up in front of you. Find a tray or dish that fits in your freezer and line with parchment paper.
+
+4. Dip the mozzarella sticks into the flour, then the egg, then the breadcrumbs. Repeat once more – coating with more flour, egg and breadcrumbs and then place onto your tray. Repeat with the rest of the mozzarella sticks, coating each of them twice. Place into the freezer and once frozen, move to a freezer bag or container.
+
+5. When ready to cook, fill a medium pan with vegetable oil, no more than ⅓ full (oil expands as it heats). Heat the oil to 180C, or until a small piece of bread dropped in, browns in about 30 seconds. Fry the mozzarella sticks in batches, from frozen, for about 3 ½- 4 minutes, or until golden brown and piping hot in the centre. Remove from the oil with a slotted spoon and place on a plate lined with kitchen paper to drain.
+
+6. Empty the jar of Bay’s Kitchen Spicy Arrabbiata sauce into a saucepan and place over a medium heat. Simmer for a couple of minutes until piping hot, then tip out into a bowl. Serve with the mozzarella sticks and finish both with a scattering of parsley. 40g of mozzarella is low FODMAP, so aim for 10g of mozzarella per stick and keep to 4 per serving – or go larger if you’d prefer, just be mindful of portion sizes if you need to be. Makes around 50 mozzarella sticks. Recipe created by cook and author Emma Hatcher (www.shecanteatwhat.com).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/crispy-mozzarella-sticks-with-spicy-arrabbiata-sauce), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Spicy Arrabbiata Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+Changed (low saturated fat): 500g Block mozzarella -> 250 g lactose-free block mozzarella (halved, saturated fat).
+
+## ℹ️ ♡ Bay's Kitchen Sweet & Sour – Sweet & Sour Seabass with a Vibrant Quinoa Salad  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Sweet & Sour Sauce (home-made, see that recipe)
+2 Seabass fillets
+250g Pre-cooked quinoa  🟠 Fructans 81% (125 g per serving)
+200g Oranges, sliced into segments
+150g Pak choy
+150g Carrots
+4 Spring onions (green parts only)  🟢 Fructose 32% (24 g per serving)
+2 Limes
+Handful of fresh coriander
+Handful of fresh mint
+To Serve:
+40 g Feta, crumbled  ❣ Sat fat 2.8g (14%)
+50g Peanuts, chopped
+
+
+1. Make the home-made Bay's Kitchen Sweet & Sour Sauce first (see that recipe), or use a frozen portion.
+
+2. Preheat the oven to 180 degrees. Break the leaves off the pak choy. Peel the carrots and remove the outer layer; continue peeling the carrot into ribbons. Prepare a large piece of tinfoil and disperse the pak choy and carrots evenly.
+
+3. Now add ¾ of the sweet and sour sauce jar, place the sea bass fillets on top and squeeze over a juice of lime. Bring the sides of the tinfoil together so that the fish is covered- bake in the oven for 6-10 minutes.
+
+4. Meanwhile; roughly chop the coriander and mint (removing the stalks from the mint), slice the spring onions and prepare your oranges. Warm your quinoa according to packet instructions. Roughly chop your peanuts.
+
+5. In a large bowl mix the zest and juice of the remaining lime, chopped herbs, quinoa, spring onions, orange segments and the remaining ¼ jar of sauce.
+
+6. To serve; divide the quinoa mixture evenly among two plates and place the fish on top- pour over any juices from the tinfoil.
+
+7. Garnish with crumbled feta and chopped peanuts. This recipe has created by Susie Flory @susieflory and @editsbyps
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/sweet-sour-seabass-with-a-vibrant-quinoa-salad), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Sweet & Sour Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+Changed (low saturated fat): 80g Feta, crumbled -> 40 g Feta, crumbled (halved, saturated fat).
+
+## ℹ️ ♡ Bay's Kitchen Sweet & Sour – Sweet & Sour Sticky Tofu with Wild Rice & Edamame Beans  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Sweet & Sour Sauce (home-made, see that recipe)
+200g Tofu  🟡 Galacto-oligosaccharides 59% (100 g per serving)
+125 g Edamame beans  🟠 Galacto-oligosaccharides 83% (62 g per serving)
+130g Wild or brown rice (dry weight)
+20g Black sesame seeds
+15g Coriander
+1/2 tsp toasted sesame oil  ♥ Sat fat 0.1g (1%)
+1 Lime
+
+
+1. Make the home-made Bay's Kitchen Sweet & Sour Sauce first (see that recipe), or use a frozen portion.
+
+2. Cut tofu into chunks and fry in a pan with oil on both sides to crisp up the tofu (5-10 minutes).
+
+3. Once the tofu is golden on both sides cover in Bay’s Kitchen
+
+4. Sweet & Sour Stir-in Sauce. Whilst the tofu is still warm, thread onto skewers and then roast in oven at 200°C / 180°C fan for 5 minutes.
+
+5. Fill a pan 2⁄3 full with water and bring to the boil. Add the rice and cook for 20 minutes (check the packet instructions in case these differ).
+
+6. Once rice is cooked add the edamame beans, chopped coriander, lime and sesame oil.
+
+7. Once tofu is out of the oven, sprinkle with black sesame seeds and serve with rice and a lime wedge, season to taste.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/sweet-sour-sticky-tofu-with-wild-rice-edamame-beans), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Sweet & Sour Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 720; Fat – 31g; of which saturates – 4.5g; Carbohydrates – 66g; of which sugars – 21g; Fibre – 7.8g; Protein – 29g; Salt – 0.54g
+Changed (low saturated fat): 2 Tbsp Sesame oil -> 1/2 tsp toasted sesame oil.
+Low FODMAP: 150g Edamame beans to 125 g Edamame beans (cut so the FODMAPs that add up stay within the limit).
+
+## ✅ ♡ Bay's Kitchen Sweet & Sour – 15 Minute Sweet & Sour Pork  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Sweet & Sour Sauce (home-made, see that recipe)
+250g Pork fillet, cut into small chunks  ♥ Sat fat 1.5g (8%)
+150g Basmati rice
+100g Pineapple, cut into chunks  🟢 Fructans 36% (50 g per serving)
+100g Spinach
+2 Carrots, cut into chunks at an angle
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+1 Tbsp Toasted sesame seeds
+Small bunch spring onions, green tops only, finely sliced
+Sea salt and freshly ground black pepper
+
+
+1. Make the home-made Bay's Kitchen Sweet & Sour Sauce first (see that recipe), or use a frozen portion.
+
+2. Cook the rice according to packet instructions, keeping warm to one side until ready.
+
+3. Meanwhile, add 2 tablespoons of oil to a wok or frying pan with high sides and place over a medium-high heat. Once the oil is hot and glossy, add in the chunks of pork, seasoning well with salt and pepper. Stir-fry for 2-3 minutes, or until golden brown all over, then remove from the pan into a bowl and place to one side.
+
+4. Heat another tablespoon of oil in the same pan and once hot, add in the carrots. Stir-fry for 2 minutes before adding in the pineapple chunks and half of the spring onions. Cook for a further 2-3 minutes, stirring constantly to prevent anything from sticking to the bottom of the pan.
+
+5. Pour in 1 jar of Bay’s Kitchen Sweet & Sour Stir-in Sauce and let it come to a simmer. Cook for another couple of minutes and once reduced and thickened slightly, add the pork back into the pan, along with the spinach. Stir to make sure the pork and the veg is completely coated in the sweet and tangy sauce and cook for 3-4 more minutes, or until the pork is piping hot, the veg tender and everything is smelling incredibly delicious.
+
+6. Divide the rice between two plates and spoon over the sweet and sour pork. Sprinkle over the remaining spring onion tops and the sesame seeds and serve. Recipe created by cook and author Emma Hatcher (www.shecanteatwhat.com).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/15-minute-sweet-sour-pork), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Sweet & Sour Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+Changed (low saturated fat): 3 Tbsp Oil -> 1 tsp olive oil.
+
+## ✅ ♡ Bay's Kitchen Sweet & Sour – Sweet & Sour Chicken Skewers with Jasmine Rice  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Sweet & Sour Sauce (home-made, see that recipe)
+400 g skinless chicken breast  ♥ Sat fat 2g (10%)
+4 Skewers
+30g Activated cashew nuts*
+15g Coriander
+5g Turmeric
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+To Serve:
+Jasmine rice
+Lime wedges
+
+
+1. Make the home-made Bay's Kitchen Sweet & Sour Sauce first (see that recipe), or use a frozen portion.
+
+2. Dice chicken breast into large chunks and marinate in Bay’s Kitchen Sweet & Sour Stir-in Sauce for 1 – 2 hours (overnight if possible).
+
+3. Cook on a BBQ or in the oven at 200°C / 180°C fan for 20 minutes. Meanwhile, chop the coriander and rub turmeric and oil onto the activated cashew nuts.
+
+4. Roast the cashew nuts in the oven for 6 minutes at 200°C / 180°C fan.
+
+5. Once chicken is cooked, place on a plate and sprinkle with coriander and cashew nuts. Season to taste.
+
+6. Serve with rice and lime wedges. *According to Monash University, activated cashews are low in FODMAPs at a 15g portion size as during the activation process, the nuts are soaked in water which probably allows some of the FODMAPs to leach into the liquid, which is then discarded. Non-activated cashews are not low FODMAP so not permitted during the elimination phase of the low FODMAP diet.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/sweet-sour-chicken-skewers-with-jasmine-rice), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Sweet & Sour Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve); Kcal – 637; Fat – 23g; of which saturates – 4.7g; Carbohydrates – 63g; of which sugars – 21g; Fibre – 2.7g; Protein – 43g; Salt – 0.77g; Please note this recipe was calculated by estimating the chicken thighs at 75g each.
+Changed (low saturated fat): 4 Chicken thighs -> 400 g skinless chicken breast (leaner); 5ml Vegetable oil -> 1 tsp olive oil.
+
+## ✅ ♡ Bay's Kitchen Sweet & Sour – Sweet & Sour Pork Stir-Fry  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Sweet & Sour Sauce (home-made, see that recipe)
+400g Pork tenderloin fillet  ❣ Sat fat 2.4g (12%)
+150g Beansprouts
+100g Gluten free rice noodles  🟢 Fructans 33% (50 g per serving)
+8 Baby corns, halved
+2 Carrots, peeled and chopped
+1 Bok choy
+Fresh ginger, grated
+Fresh Coriander, optional
+Fresh Chilli, optional
+
+
+1. Make the home-made Bay's Kitchen Sweet & Sour Sauce first (see that recipe), or use a frozen portion.
+
+2. Cook the pork tenderloin according to the packaging or butcher’s instructions. Whilst the pork rests, prepare the rest of the dish.
+
+3. Stir fry the grated fresh ginger, beansprouts, and halved baby corn for 2 minutes.
+
+4. Bring a pan of water to a boil for your noodles.
+
+5. Add your chopped carrots and Bok choy to the ginger and beansprouts for a further 2 minutes.
+
+6. Once the water has come to a boil, add your noodles, and cook per the instructions on the package. This is usually only a few minutes.
+
+7. Add your cooked pork loin to the frying pan along with a jar of Bay’s Kitchen Sweet & Sour Stir-in Sauce.
+
+8. Cook for a further 2 minutes, or until all veggies are cooked and your sauce is hot.
+
+9. Add your noodles and stir fry together. Dish up and top with fresh coriander and fresh chilli if desired. Recipe created by Katrina Lander from @fitnessfodmap_
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/sweet-sour-pork-stir-fry), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Sweet & Sour Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+
+## ✅ ♡ Bay's Kitchen Sweet & Sour – Sweet & Sour Prawns  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Sweet & Sour Sauce (home-made, see that recipe)
+150-180g Raw king prawns  ♥ Sat fat 0.2g (1%)
+120g Basmati rice (dry weight)
+Handful of beansprouts (optional)
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+
+
+1. Make the home-made Bay's Kitchen Sweet & Sour Sauce first (see that recipe), or use a frozen portion.
+
+2. Boil the kettle, pour the water into a saucepan and return to the boil.
+
+3. Add the basmati rice to the pan and cook on a medium heat for 10-12 minutes (check packet instructions in case these differ).
+
+4. Meanwhile, add a teaspoon of oil to a frying pan and lightly fry the prawns and beansprouts for 2-3 minutes (make sure you turn the prawns to cook through).
+
+5. Add the Bay’s Kitchen Sweet & Sour Stir-in Sauce and stir in with the prawns and beansprouts.
+
+6. Leave to simmer for 2 minutes.
+
+7. Go back to the rice – drain well, cover and let stand for 3 minutes then lightly fork through the grains.
+
+8. Split the rice evenly between two bowls / plates. Add the Sweet & Sour Prawns and beansprouts (if using) on top to serve.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/sweet-sour-prawns), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Sweet & Sour Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 412; Fat – 5g; of which saturates – 0.8g; Carbohydrates – 69g; of which sugars – 20g; Fibre – 1.4g; Protein – 22g; Salt – 0.94g; Please note this was calculated using 180g King prawns.
+
+## ℹ️ ♡ Bay's Kitchen Teriyaki – Pork & Pineapple Teriyaki Skewers with Quinoa Salad  (Main Meals, serves 4)
+
+130 g Bay's Kitchen Teriyaki Sauce (home-made, see that recipe)
+600g Lean pork fillet, cut into bite sized cubes  ♥ Sat fat 1.8g (9%)
+300g Pineapple chunks  🟡 Fructans 54% (75 g per serving)
+200g Quinoa  🟢 Fructans 32% (50 g per serving)
+1 Green pepper, deseeded and cut into squares  🟡 Fructans 53% (40 g per serving)
+5 Large Spring onions, green tops only cut into pieces  🟢 Fructose 20% (15 g per serving)
+1 tsp olive oil  ♥ Sat fat 0.2g (1%)
+2 Handfuls chopped herbs (coriander, mint, chives)
+Juice of 1 orange
+Pinch Chilli flakes
+
+
+1. Make the home-made Bay's Kitchen Teriyaki Sauce first (see that recipe), or use a frozen portion.
+
+2. If you are using wooden skewers then soak 8 skewers in cold water.
+
+3. Rinse the quinoa in a fine mesh sieve and rinse under cold water for 1 minute, swirling around with a fork. Place the quinoa in a slice pan with 400ml water. Bring to the boil then cover and reduce the heat to a simmer and cook for 15 minutes. Take the pan off the heat and rest for 5 minutes with the lid on then drain off any excess liquid and fluff the quinoa with a fork then set aside to cool.
+
+4. Place the cooled quinoa in a bowl and add the olive oil, orange juice, herbs and chilli flakes then season with sea salt.
+
+5. Build your kebabs by alternating the skewers with pieces of pork, pineapple, green pepper and spring onion tops.
+
+6. Heat the griddle pan or large non-stick frying pan set over a high heat. Griddle the skewers for 2 minutes each side then transfer to a baking sheet and baste with the teriyaki sauce and cook for another 5 minutes turning occasionally so the sauce goes sticky. Transfer to a plate and pour over what is left of the sticky sauce
+
+7. Serves skewers on top of the couscous.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/pork-pineapple-teriyaki-skewers-with-quinoa-salad), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Teriyaki Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): ist Rob Hobson from @robhobsonnutritionist; Copyright of Bay’s Kitchen. Please do not reprint without permission.; Stir, Simmer & Serve; More recipes; you can rely on; Prep time: 5mins; —Cook time: 15mins; 15 Minute Sweet & Sour Pork; 25+ Simple & Fragrant Low FODMAP Curr...; Prep time: 10mins; —Cook time: 55mins; Vegan Shepherd's Pie; Prep time: 40mins; —Cook time: 40mins; Vegetable Wellington with Steamed Gre...; Prep time: 45mins; —Cook time: 50mins; Carrot, Aubergine & Rosemary 'Toad in...; Prep time: 10mins; —Cook time: 20mins; Veggie Chilli, Served with Nachos; Prep time: 10mins; —Cook time: 30mins; Watercress & Feta Risotto; Prep time: 10mins; —Cook time: 30mins; Winter Vegetable Stew; Not sure; where to start?; Tell us what you’re cooking and how much heat you like. We’ll do the rest.; Contact us; Contact us; Still Label Checking?; How long does it take to process an order?; Orders are usually processed within 1–2 business days. You’ll receive a confirmation email once your order is fully prepared and ready to ship.; Do you ship internationally?; Yes, we ship to most countries worldwide. Shipping times and rates vary by location, and all available options will be shown at checkout.; What is your return policy?; We accept returns within 30 days of purchase. Items must be unworn, unwashed, and in original condition with tags attached for a full refund.; What are your sizing options?; We offer a full range of sizes from XS to XL. Refer to our detailed size chart for accurate measurements to find your perfect fit.; Free delivery; When you Subscribe & Save 10%; Payment 100% secured; Multiple payment options offered.; Customer service; Monday-Friday: 9am-5pm; Bring the joy back to your inbox.; Email; Sign up; You have already subscribed!; By subscribing you agree to the Terms of Use & Privacy Policy .; About Bay's Kitchen; Our Story; Recipes; Find Bay's Kitchen Near You; Shop; All Sauces; Curry Sauces; Pasta Sauces; Stocks; Bundles; Need a Hand?; Take the Quiz; Delivery; Returns; FAQs; Ingredients & Allergens; Contact Us; Terms & Conditions; See what's on the menu.; @bayskitchenuk; Facebook; Instagram; TikTok; Pinterest; LinkedIn; Open region and language selector; GBP; Search; Country/Region; No results found; Afghanistan; AFN; ؋; Åland Islands; EUR; €; Albania; ALL; L; Algeria; DZD; د.ج; Andorra; EUR; €; Angola; GBP; £; Anguilla; XCD; $; Antigua & Barbuda; XCD; $; Argentina; GBP; £; Armenia; AMD; դր.; Aruba; AWG; ƒ; Ascension Island; SHP; £; Australia; AUD; $; Austria; EUR; €; Azerbaijan; AZN; ₼; Bahamas; BSD; $; Bahrain; GBP; £; Bangladesh; BDT; ৳; Barbados; BBD; $; Belarus; GBP; £; Belgium; EUR; €; Belize; BZD; $; Benin; XOF; Fr; Bermuda; USD; $; Bhutan; GBP; £; Bolivia; BOB; Bs.; Bosnia & Herzegovina; BAM; КМ; Botswana; BWP; P; Brazil; GBP; £; British Indian Ocean Territory; USD; $; British Virgin Islands; USD; $; Brunei; BND; $; Bulgaria; EUR; €; Burkina Faso; XOF; Fr; Burundi; BIF; Fr; Cambodia; KHR; ៛; Cameroon; XAF; CFA; Canada; CAD; $; Cape Verde; CVE; $; Caribbean Netherlands; USD; $; Cayman Islands; KYD; $; Central African Republic; XAF; CFA; Chad; XAF; CFA; Chile; GBP; £; China; CNY; ¥; Christmas Island; AUD; $; Cocos (Keeling) Islands; AUD; $; Colombia; GBP; £; Comoros; KMF; Fr; Congo - Brazzaville; XAF; CFA; Congo - Kinshasa; CDF; Fr; Cook Islands; NZD; $; Costa Rica; CRC; ₡; Côte d’Ivoire; XOF; Fr; Croatia; EUR; €; Curaçao; ANG; ƒ; Cyprus; EUR; €; Czechia; CZK; Kč; Denmark; DKK; kr.; Djibouti; DJF; Fdj; Dominica; XCD; $; Dominican Republic; DOP; $; Ecuador; USD; $; Egypt; EGP; ج.م; El Salvador; USD; $; Equatorial Guinea; XAF; CFA; Eritrea; GBP; £; Estonia; EUR; €; Eswatini; GBP; £; Ethiopia; ETB; Br; Falkland Islands; FKP; £; Faroe Islands; DKK; kr.; Fiji; FJD; $; Finland; EUR; €; France; EUR; €; French Guiana; EUR; €; French Polynesia; XPF; Fr; French Southern Territories; EUR; €; Gabon; XOF; Fr; Gambia; GMD; D; Georgia; GBP; £; Germany; EUR; €; Ghana; GBP; £; Gibraltar; GBP; £; Greece; EUR; €; Greenland; DKK; kr.; Grenada; XCD; $; Guadeloupe; EUR; €; Guatemala; GTQ; Q; Guernsey; GBP; £; Guinea; GNF; Fr; Guinea-Bissau; XOF; Fr; Guyana; GYD; $; Haiti; GBP; £; Honduras; HNL; L; Hong Kong SAR; HKD; $; Hungary; HUF; Ft; Iceland; ISK; kr; India; INR; ₹; Indonesia; IDR; Rp; Iraq; GBP; £; Ireland; EUR; €; Isle of Man; GBP; £; Israel; ILS; ₪; Italy; EUR; €; Jamaica; JMD; $; Japan; JPY; ¥; Jersey; GBP; £; Jordan; GBP; £; Kazakhstan; KZT; ₸; Kenya; KES; KSh; Kiribati; GBP; £; Kosovo; EUR; €; Kuwait; GBP; £; Kyrgyzstan; KGS; som; Laos; LAK; ₭; Latvia; EUR; €; Lebanon; LBP; ل.ل; Lesotho; GBP; £; Liberia; GBP; £; Libya; GBP; £; Liechtenstein; CHF; CHF; Lithuania; EUR; €; Luxembourg; EUR; €; Macao SAR; MOP; P; Madagascar; GBP; £; Malawi; MWK; MK; Malaysia; MYR; RM; Maldives; MVR; MVR; Mali; XOF; Fr; Malta; EUR; €; Martinique; EUR; €; Mauritania; GBP; £; Mauritius; MUR; ₨; Mayotte; EUR; €; Mexico; GBP; £; Moldova; MDL; L; Monaco; EUR; €; Mongolia; MNT; ₮; Montenegro; EUR; €; Montserrat; XCD; $; Morocco; MAD; د.م.; Mozambique; GBP; £; Myanmar (Burma); MMK; K; Namibia; GBP; £; Nauru; AUD; $; Nepal; NPR; Rs.; Netherlands; EUR; €; New Caledonia; XPF; Fr; New Zealand; NZD; $; Nicaragua; NIO; C$; Niger; XOF; Fr; Nigeria; NGN; ₦; Niue; NZD; $; Norfolk Island; AUD; $; North Macedonia; MKD; ден; Norway; GBP; £; Oman; GBP; £; Pakistan; PKR; ₨; Palestinian Territories; ILS; ₪; Panama; USD; $; Papua New Guinea; PGK; K; Paraguay; PYG; ₲; Peru; PEN; S/; Philippines; PHP; ₱; Pitcairn Islands; NZD; $; Poland; PLN; zł; Portugal; EUR; €; Qatar; QAR; ر.ق; Réunion; EUR; €; Romania; RON; Lei; Russia; GBP; £; Rwanda; RWF; FRw; Samoa; WST; T; San Marino; EUR; €; São Tomé & Príncipe; STD; Db; Saudi Arabia; SAR; ر.س; Senegal; XOF; Fr; Serbia; RSD; РСД; Seychelles; GBP; £; Sierra Leone; SLL; Le; Singapore; SGD; $; Sint Maarten; ANG; ƒ; Slovakia; EUR; €; Slovenia; EUR; €; Solomon Islands; SBD; $; Somalia; GBP; £; South Africa; GBP; £; South Georgia & South Sandwich Islands; GBP; £; South Korea; KRW; ₩; South Sudan; GBP; £; Spain; EUR; €; Sri Lanka; LKR; ₨; St. Barthélemy; EUR; €; St. Helena; SHP; £; St. Kitts & Nevis; XCD; $; St. Lucia; XCD; $; St. Martin; EUR; €; St. Pierre & Miquelon; EUR; €; St. Vincent & Grenadines; XCD; $; Sudan; GBP; £; Suriname; GBP; £; Svalbard & Jan Mayen; GBP; £; Sweden; SEK; kr; Switzerland; CHF; CHF; Taiwan; TWD; $; Tajikistan; TJS; ЅМ; Tanzania; TZS; Sh; Thailand; THB; ฿; Timor-Leste; USD; $; Togo; XOF; Fr; Tokelau; NZD; $; Tonga; TOP; T$; Trinidad & Tobago; TTD; $; Tristan da Cunha; GBP; £; Tunisia; GBP; £; Türkiye; GBP; £; Turkmenistan; GBP; £; Turks & Caicos Islands; USD; $; Tuvalu; AUD; $; U.S. Outlying Islands; USD; $; Uganda; UGX; USh; Ukraine; UAH; ₴; United Arab Emirates; AED; د.إ; United Kingdom; GBP; £; United States; USD; $; Uruguay; UYU; $U; Uzbekistan; UZS; so'm; Vanuatu; VUV; Vt; Vatican City; EUR; €; Venezuela; USD; $; Vietnam; VND; ₫; Wallis & Futuna; XPF; Fr; Western Sahara; MAD; د.م.; Yemen; YER; ﷼; Zambia; GBP; £; Zimbabwe; USD; $; ©; 2026; Bay's Kitchen , Powered by Shopify; Your cart; Total items in cart: 0; 0; Your cart is empty; Have an account? Log in to check out faster.; Continue shopping; Continue shopping; Cart total; £0.00 GBP; Product image; Product information; Quantity; Product total; Search; Clear; Product title; Regular price; -; Sale price; From £19.99; Regular price; In - stock and ready to ship; View more details; 10% OFF* Your First Order; Save 10% on your first order when you spend £25 or more and get exclusive email offers when you sign up to our Bay's Kitchen newsletter!; *Ts&Cs apply.; Let us help you by telling us your dietary needs: Vegetarian; Vegan; Gluten Free; Low FODMAP; Dairy Free; None; Sign Up; bayskitchenuk; 🚨 Welcome to our brand new series… BIG FLAVOUR IN 20!! 🫡; Struggling for quick and easy meal ideas? We’ve got you covered! 🙌🏻 This series is all about creating delicious, flavour-packed dishes in under 20 minutes, perfect for when you’re short on time but still want something tasty! 👏🏻; We’re kicking things off with our Tomato & Basil Gnocchi, made using our Tomato & Basil Stir-In Sauce.; Want to give it a go? Follow the recipe below and recreate this quick and easy dish at home! 👇; Tomato & Basil Gnocchi 🍅🌿; Ingredients; • 1 Bag Of Potato Gnocchi.; • 1 jar Bay’s Kitchen Tomato & Basil Sauce.; • Olive Oil.; • 1 Red Pepper, diced.; • 20–30g grated Parmesan.; 1. Heat the olive oil in a large frying pan over medium heat. Add the diced pepper and cook for 4–5 minutes until softened.; 2. Cook your Gnocchi according to the packet instructions and drain well.; 3. Add the Bay’s Kitchen sauce to the peppers and simmer gently for 2–3 minutes. For an extra boost of flavour, stir in a sprinkle of Parmesan.; 4. Fold the cooked gnocchi into the sauce and warm through for 1–2 minutes. Season to taste and finish with Parmesan.; #gnocchi #gnocchirecipe #ibs #easyrecipe #quickrecipe; 18 October; bayskitchenuk; 🤧 There seem to be lots of colds going around at the moment, so we thought our chicken broth would be perfect to help kick the cold, while enjoying something warm, comforting and delicious!; Follow the recipe below to make your own at home.🤗; Easy Ginger, Spinach & Chive Chicken Broth 🫚🍲; Ingredients; • 500ml Boiling Water.; • Bay’s Kitchen Low FODMAP Chicken Stock.; • 2 Handfuls Of Baby Spinach.; • 2 Tsp Of Grated Ginger.; • 1 Tbsp Fresh Chives, finely chopped.; • 1 Tbsp Fresh Parsley, chopped.; • A Squeeze Of Fresh Lemon Juice.; • Black Pepper.; • Salt.; Method; 1. Dissolve Bay’s Kitchen Chicken Stock in 500ml of boiling water.; 2. Pour the stock into a saucepan and add the ginger. Bring to a gentle simmer.; 3. Simmer for 5–8 minutes to allow the ginger to infuse the broth.; 4. Add the two handfuls of baby spinach and cook for 1–2 minutes, until just wilted.; 5. Stir in the chopped chives, parsley, lemon juice, black pepper and salt to taste.; 6. Divide between mugs and enjoy your warming, flavourful broth!; #broth #brothrecipe #ibs #noonionnogarlic #chickenbroth; 15 October; bayskitchenuk; 🍂 Serving up an Autumn favourite! Our chicken stock brings all the flavour with zero fuss and perfect for those comforting dishes as the darker nights approach.🍲✨; #ibs #chickenstock #lowfodmapdiet #noonionnogarlic #freefrom; 13 October; bayskitchenuk; We’re rounding off National Curry Week with our much loved Korma Curry Sauce!💜 The perfect sauce to warm up those colder evenings, while keeping things full of flavour and colour!👏🏻; Follow the recipe below and save it for your next cosy, comforting meal! 👇; 🥘 Simple Vegetarian Korma Curry; Ingredients:; • 1 Sweet Potato, peeled and cut into small cubes.; • 1 Red Pepper, sliced.; • 2 Large Handfuls of Green Beans, sliced.; • 60g Tinned Lentils, drained and rinsed.; • 1 Tbsp of Olive Oil.; • 1 Jar Of Bay’s Kitchen Korma Curry Sauce.; • Basmati Rice, to serve.; • Fresh Coriander, optional for garnish.; • Crushed Peanuts, optional for garnish.; • Gluten Free Naan Bread.; Method:; 1. Cook the sweet potato: Boil or steam for about 8–10 minutes, until tender.; 2. Heat the olive oil in a large frying pan.; 3. Add pepper and cook for 3–4 minutes.; 4. Add the green beans and sweet potato and cook for another 3–4 minutes.; 5. Stir in the lentils and korma curry sauce.; 6. Simmer gently for 5–8 minutes, until everything is hot and the vegetables are cooked.; 7. Serve with basmati rice, gluten free naan bread.; 8. Garnish with coriander and crush peanuts if desired.; #curryrecipe #nationalcurryweek #noonionnogarlic #recipe #recipeideas; 11 October; bayskitchenuk; We loved seeing our Managing Director, Hattie, chat with @ellesera.inc on her podcast about the Low FODMAP diet! 👏🏻; It’s a world that many people are still unfamiliar with, and we’re passionate about raising awareness, spreading the word, and showing how Bay’s Kitchen can bring flavour, variety and joy back to mealtimes for those following a Low FODMAP diet.🫡; #lowfodmap #lowfodmapdiet #fodmapfriendly #raisingawareness; 9 October; bayskitchenuk; National Curry Week continues! 🍛 And with the weekend just around the corner we have an easy and delicious recipe for you to try.; Don’t forget to save this recipe for later! ❤️; 🌶️ Your Low-FODMAP Thai Red Curry.; • 1 Jar of Bay’s Kitchen Thai Red Curry Sauce.; • 300g Chicken Breast, sliced.; • Olive Oil.; • 5 Pak Choi Leaves.; • 2 Large Handfuls of Spinach.; • Fresh Coriander.; • A Handful of Roasted Peanuts, roughly crushed for garnish.; • Rice, to serve.; Method; 1. Heat the olive oil in a large frying pan.; 2. Add the chicken and cook for 5–7 minutes until lightly browned and almost cooked through.; 3. Pour in the Bay’s Kitchen Thai Red Curry Sauce with the Pak Choi and Spinach.; 4. Stir and simmer for 5–7 minutes until the chicken is completely cooked and the vegetables have softened.; 5. Serve over rice of your choice, sprinkle with crushed roasted peanuts and coriander.; #recipe #recipeoftheday #ibs #recipeideas #noonionnogarlicrecipes; 8 October; bayskitchenuk; It’s National Curry Week!! 🍛🙌🏼 And of course we had to give our Thai Massaman Sauce a moment in the spotlight! ✨; Our Prawn & Pineapple Thai Massaman Curry is the perfect midweek meal now that the autumn weather is here. This curry is comforting and packed full of flavour. 🍤🍍🌶️; Save this recipe for your next curry night if you’re in need of a little inspiration!; This recipe can also be found directly on our website.🫶🏼; Ingredients:; • 1 Jar of Bay’s Kitchen Thai Massaman Stir-in Sauce.; • 200g Raw King Prawns (fresh or frozen will work).; • 150g Pineapple, roughly chopped.; • 1 Small Sweet Potato (max 150g), scrubbed and roughly chopped.; • 1 Spring Onion, green tops only, roughly chopped.; • 25g Salted Peanuts, roughly chopped.; • 1 tbsp Fish Sauce.; • 1 tbsp Coconut Oil.; • Small bunch of Coriander, roughly chopped.; • Sea Salt and freshly cracked Black Pepper.; To Serve:; • ½ lime, cut into quarters.; • Rice or gluten free naan bread.; Method:; 1. Place a pan over a medium heat and add the coconut oil. When the oil is glossy, add the sweet potato to the pan and fry until softened and a little charred, 3-4 minutes. Stir occasionally.; 2. Add the pineapple and cook for another 1-2 minutes. Season with salt and pepper.; 3. Pour in the jar of Bay’s Kitchen Thai Massaman Stir-in Sauce, rinsing the jar out with a little water and adding that into the pan too. Cook for a couple of minutes, stirring to combine everything together.; 4. Add the prawns and fish sauce and cook for another 3-4 minutes, or until the prawns turn from translucent to opaque and pink, and are cooked through.; 5. Divide the curry between two bowls, sprinkle with the spring onion tops, peanuts and coriander and serve with a wedge of lime.; Step 6. Delicious with rice or gluten free naan bread.; Recipe created by Cook & Author Emma Hatcher @shecanteatwhat; #recipe #recipeshare #recipeideas #ibs #ibsrecipe; 7 October; bayskitchenuk; We’ve recently received some absolutely incredible reviews, and we just had to share them with you all! 🥹; We’re so proud and incredibly grateful for all the love and support you continue to show Bay’s Kitchen. Reading reviews like these means the world to us and reminds us why we do what we do, creating products that make a real difference on the supermarket shelves.👏🏻; #reviews #makingchanges #customerreviews #customerlove #gratefulforyouall; 4 October
+Changed (low saturated fat): 1 Tbsp Olive oil -> 1 tsp olive oil.
+
+## ℹ️ ♡ Bay's Kitchen Teriyaki – Teriyaki Salmon with Pineapple Salsa  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Teriyaki Sauce (home-made, see that recipe)
+150g Pak choi, sliced into quarters
+2 Chunky salmon fillets
+150g Wild rice
+For the salsa:
+200g Pineapple  🟡 Fructans 71% (100 g per serving)
+¼ – ½ a red chilli, seeds removed and finely chopped
+½ Tbsp maple syrup
+Squeeze of lime
+Small bunch of coriander, roughly chopped
+Sea salt and freshly ground black pepper
+Extras:
+2 Tbsp sesame seeds, lightly toasted
+2 Spring onions, green tops only, finely chopped  🟢 Fructose 16% (12 g per serving)
+Small bunch coriander, finely chopped
+Lime wedges
+
+
+1. Make the home-made Bay's Kitchen Teriyaki Sauce first (see that recipe), or use a frozen portion.
+
+2. Chop the pineapple into small pieces and add to a bowl, along with the chopped chilli. Squeeze over the lime, drizzle over the maple syrup and scatter over the coriander. Season, then stir to combine and leave to one side.
+
+3. Start cooking the rice according to packet instructions.
+
+4. To cook the pak choi, heat a small amount of oil in a frying pan and add the pak choi. Cook for a minute or so, then add a small amount of water and close the lid. Steam for a few minutes or until just tender. Remove from the pan and keep warm.
+
+5. In the same pan, heat a small amount of oil, and when glossy, add the salmon fillets. Cook for a few minutes on each side. Meanwhile, tip 1 jar Bay’s Kitchen Stir-in Teriyaki Sauce into a small saucepan and place over medium heat. Cook for a couple of minutes until bubbling then pour over the salmon fillets in the pan. Take the pan with salmon and sauce off the heat and cover with a lid.
+
+6. When the rice is cooked, fluff with a fork, divide between two bowls, and top with the salmon fillets, pineapple salsa, and pak choi. Drizzle over any remaining Teriyaki sauce and sprinkle everything with sesame seeds. Serve with extra coriander, green spring onion tops, and lime wedges, if you like. Recipe created by cook and author Emma Hatcher (www.shecanteatwhat.com).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/teriyaki-salmon-with-pineapple-salsa), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Teriyaki Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+
+## ℹ️ ♡ Bay's Kitchen Teriyaki – Teriyaki Vegetable Stir-Fry  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Teriyaki Sauce (home-made, see that recipe)
+~300g Straight to wok gluten free noodles or microwaveable rice
+280g Firm tofu, cubed  🟠 Galacto-oligosaccharides 82% (140 g per serving)
+90g Edamame  🟡 Galacto-oligosaccharides 60% (45 g per serving)
+75g Baby corn
+58g Broccoli heads or broccolini heads*  🟢 Fructose 39% (29 g per serving)
+34g Mangetout
+28g Sugar snap peas
+1 Tbsp Cornflour
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+1/2 tsp toasted sesame oil  ♥ Sat fat 0.1g (1%)
+Garnish with fresh chives and sesame seeds**
+
+
+1. Make the home-made Bay's Kitchen Teriyaki Sauce first (see that recipe), or use a frozen portion.
+
+2. Drain the block of firm tofu, pat dry with kitchen towels and slice into 2cm cubes.
+
+3. In a medium mixing bowl, use a balloon whisk to combine 2 tbsp teriyaki sauce with 1 tbsp cornflour and 1 tbsp olive oil until a thick paste is formed.
+
+4. Pour in the tofu and massage with your hands to coat well. Transfer to a non-stick frying pan or wok and saute on a high heat for 10 minutes, turning with a pair of tongs constantly, until the tofu is golden and crispy. Now set aside in a small bowl.
+
+5. Halve the sugar snap peas and mangetout, halve the baby corn lengthways, remove the stalks from the broccoli and halve, measure out the edamame from a frozen packet.
+
+6. Place 1 tbsp oil of your choice into the pan and bring to a high heat. Add the sugar snaps, mangetout, baby corn and broccoli to saute for 3-5 minutes, turning constantly. Pour in the remaining teriyaki sauce from the jar of Bay’s Kitchen Teriyaki Stir-in Sauce.
+
+7. Stir through the edamame and add in your straight to wok noodles or microwaveable rice pouch. Continue to saute for a further 2 minutes as the noodles and edamame heat.
+
+8. Finally, stir through the tofu and allow it to heat for a minute or so, then divide into portions. Garnish with fresh chopped chives and a sprinkling of sesame seeds and enjoy immediately. Recipe created by Katya from @positivelychronictravels & @katyakozarycontentcreation.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/teriyaki-vegetable-stir-fry), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Teriyaki Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+Changed (low saturated fat): 1 Tbsp Olive oil -> 1 tsp olive oil; 1 Tbsp Olive oil, sesame oil or coconut oil -> 1/2 tsp toasted sesame oil.
+
+## ✅ ♡ Bay's Kitchen Teriyaki – Teriyaki Chicken with Miso Sesame Greens  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Teriyaki Sauce (home-made, see that recipe)
+200 g skinless chicken breast  ♥ Sat fat 1g (5%)
+150g Spring greens, thick stems removed and finely sliced
+1 tsp garlic-infused olive oil  ♥ Sat fat 0.3g (2%)
+2 Tbsp White sesame seeds
+1 Tbsp Miso paste
+1 tsp olive oil (for the greens)  ♥ Sat fat 0.3g (2%)
+2 Spring onions, green tops only, finely sliced  🟢 Fructose 16% (12 g per serving)
+Fluffy rice, to serve
+
+
+1. Make the home-made Bay's Kitchen Teriyaki Sauce first (see that recipe), or use a frozen portion.
+
+2. Place the chicken into a bowl or small dish and tip over 1/4 of the jar of Bay’s Kitchen Stir-In Teriyaki sauce. Cover and leave to marinate for 30 minutes.
+
+3. Place a frying pan over a medium heat and add 1 tablespoon of the garlic-infused oil. When the oil is hot and glossy, add in the chicken breast, leaving any excess marinade behind in the bowl. Turn down the heat to medium-low and leave to cook for 4-5 minutes.
+
+4. Turn the chicken over in the pan and add the remaining 3/4 of the jar of Bay’s Kitchen Stir-In Teriyaki sauce, spooning it up and over the chicken. Turn the heat back up to medium and cook for another 3-4 minutes, or until the chicken is cooked through and the sauce bubbling, thick and reduced. Remove the chicken from the pan onto a chopping board and leave to rest while you quickly cook the greens.
+
+5. Place another pan over a medium heat and add the remaining 1 tablespoon of garlic-infused oil. When hot, add in the spring greens and cook for 1 minute. Add in the miso paste and butter and stir to coat. Cook for a further 1-2 minutes, or until wilted.
+
+6. Slice the chicken breast into strips and serve over a bed of fluffy rice alongside the miso greens. Drizzle any leftover sauce from the pan all over the chicken and sprinkle with sesame seeds and finely sliced green spring onion tops to finish.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/teriyaki-chicken-with-miso-sesame-greens), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Teriyaki Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+Changed (low saturated fat): 2 Large Skinless and boneless chicken thighs -> 200 g skinless chicken breast (leaner); 2 Tbsp Garlic-infused oil -> 1 tsp garlic-infused olive oil; 1 Tbsp Butter -> 1 tsp olive oil (for the greens).
+
+## ℹ️ ♡ Bay's Kitchen Thai Green Curry – Thai Green Bok Choy, Bean Sprouts & Oyster Mushroom Curry with Rice Noodles  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Thai Green Curry Sauce (home-made, see that recipe)
+200g Rice noodles  🟡 Fructans 67% (100 g per serving)
+2 Bok choy heads (150g max to be Low FODMAP)
+100g Beansprouts
+100g Oyster mushrooms
+1/2 tsp toasted sesame oil  ♥ Sat fat 0.1g (1%)
+15g Coriander
+15g Activated cashew nuts*
+1 Lime
+Soy sauce or salt to taste
+
+
+1. Make the home-made Bay's Kitchen Thai Green Curry Sauce first (see that recipe), or use a frozen portion.
+
+2. Add sesame oil to a wok or frying pan and put on a low heat. Add the chopped oyster mushrooms and cook for 5 minutes.
+
+3. Add bok choy and beansprouts followed by Bay’s Kitchen
+
+4. Thai Green Curry Stir-in Sauce and cook for a further 5 minutes.
+
+5. Meanwhile toast the cashew nuts in the oven at 180°C / 160°C fan for 5 minutes.
+
+6. Cook rice noodles as per the packet instructions.
+
+7. Add cooked noodles to the pan, take off the hea and add coriander, lime and season to taste.
+
+8. Sprinkle over chopped cashew nuts to serve. *According to Monash University, activated cashews are low in FODMAPs at a 15g portion size as during the activation process, the nuts are soaked in water which probably allows some of the FODMAPs to leach into the liquid, which is then discarded. Non-activated cashews are not low FODMAP so not permitted during the elimination phase of the low FODMAP diet.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/thai-green-bok-choy-bean-sprouts-oyster-mushroom-curry-with-rice-noodles), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Thai Green Curry Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 554; Fat – 36g; of which saturates – 13g; Carbohydrates – 42g; of which sugars – 6.8g; Fibre – 7.1g; Protein – 12g; Salt – 1.1g
+Changed (low saturated fat): 30ml Sesame oil -> 1/2 tsp toasted sesame oil.
+
+## ℹ️ ♡ Bay's Kitchen Thai Green Curry – Thai Green Curry With Tofu  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Thai Green Curry Sauce (home-made, see that recipe)
+280g Block of extra firm tofu (be sure to buy extra firm to avoid it breaking apart when cooking)  🟠 Galacto-oligosaccharides 82% (140 g per serving)
+140g Green beans
+130 g courgette (1 Small)  🟠 Fructans 100% (65 g per serving)
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+1 Tsp Mix of ground cumin and coriander
+1 Small bunch of coriander, stems and leaves
+1 Lime
+Salt and pepper
+To serve:
+100g Basmati rice to serve (dry weight)
+
+
+1. Make the home-made Bay's Kitchen Thai Green Curry Sauce first (see that recipe), or use a frozen portion.
+
+2. Preheat the oven to 190°C / 170°C fan.
+
+3. Open the tofu and drain away any liquid. Place the block between two plates and stick something heavy on top (like a recipe book!) to squeeze out any excess liquid.
+
+4. Bring a pan of water to the boil and cook your rice according to pack instructions.
+
+5. Prepare your vegetables – cut the courgette in half lengthwise and then slice into semi circles – keep them fairly thin so they cook quickly. Top and tail the green beans and cut into bite sized pieces. Separate the coriander stems from the leaves and chop the stems finely.
+
+6. Put the green beans and courgette into a large bowl. Boil a kettle and pour over the vegetables until they are covered with water. Leave for 4-5 minutes – you want to blanch them so they keep their colour and crunch. Once you’re happy with their texture, drain and refresh with cold water and then set to one side.
+
+7. Meanwhile drain the tofu, pat dry and cut into cubes.
+
+8. Place the cumin and coriander together with a pinch of salt and pepper in a bowl. Add the tofu to the bowl and toss until the tofu cubes are coated in the spices.
+
+9. Heat half the oil in a non-stick pan and fry the tofu for 3-4 minutes until it starts to look golden, then tip onto an overproof plate and place in the oven to crisp up.
+
+10. Heat the remaining oil in the same pan and fry off the coriander stems until fragrant – 1-2 minutes. Add the jar of Bay’s Kitchen Thai Curry Stir-in Sauce to the pan, then quarter fill the jar with water and swirl around to loosen the remainder of the sauce and add that to the pan too. Bring to a simmer and cook for 2 minutes, then tip in the vegetables and stir to heat through for another minute.
+
+11. Finally, remove the tofu from the oven and tip into the pan together with the juice of half the lime. Shake the pan to coat the tofu with the sauce.
+
+12. To serve, drain the rice and divide evenly between the bowls. Top with the curry. Dress with chopped coriander leaves and segments of the remaining lime. This recipe has been created and approved as Low FODMAP by Registered Dietician Laura Tilt @nutritilty, on behalf of Bay’s Kitchen.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/thai-green-curry-with-tofu), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Thai Green Curry Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 596; Fat – 30g; of which saturates – 12g; Carbohydrates – 50g; of which sugars – 6.7g; Fibre – 7.2g; Protein – 28g; Salt – 1g
+Changed (low saturated fat): 1 Tbsp Rapeseed or olive oil -> 1 tsp olive oil.
+
+## ℹ️ ♡ Bay's Kitchen Thai Green Curry – Thai Green Fish Curry Parcels  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Thai Green Curry Sauce (home-made, see that recipe)
+2 Chunky fish fillets, such as cod or hake
+150g Cabbage, core removed and roughly chopped  🟠 Fructans 100% (75 g per serving)
+150g Broccoli heads  🟠 Fructose 100% (75 g per serving)
+150g Rice
+1 Lime, sliced, plus extra to serve
+Small bunch of coriander, leaves picked
+
+
+1. Make the home-made Bay's Kitchen Thai Green Curry Sauce first (see that recipe), or use a frozen portion.
+
+2. Preheat the oven to 200°C, 180°C fan and cut two large squares of foil and two large squares of baking parchment. Scrunch and unscrunch the baking parchment and place one on top of each piece of foil.
+
+3. Divide the chopped cabbage between the parchment paper and place a fish fillet on top. Toss the broccoli on top of the fish and then pour over the Thai Green Curry Sauce, dividing the jar between the two portions. Finish with a few slices of lime and then fold up each parcel tightly.
+
+4. Place the parcels onto a baking tray and bake for 20 minutes, or until the fish and vegetables are cooked through.
+
+5. Meanwhile, cook the rice according to packet instructions and fluff with a fork.
+
+6. Open up each parcel, scatter with coriander and serve with the rice and extra lime slices. Emma Hatcher Recipe created by cook and author Emma Hatcher (www.shecanteatwhat.com).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/thai-green-fish-curry-parcels), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Thai Green Curry Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+
+## ✅ ♡ Bay's Kitchen Thai Green Curry – Thai Green Chicken  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Thai Green Curry Sauce (home-made, see that recipe)
+400 g skinless chicken breast  ♥ Sat fat 2g (10%)
+200g Spinach
+100g Beansprouts
+30g Sesame seeds
+15g Coriander
+1/2 tsp toasted sesame oil  ♥ Sat fat 0.1g (1%)
+1 Lime
+To Serve:
+Gluten free noodles, rice noodles or rice
+
+
+1. Make the home-made Bay's Kitchen Thai Green Curry Sauce first (see that recipe), or use a frozen portion.
+
+2. Heat a wok or frying pan on a low heat and add the sesame oil. Add the diced chicken breast and Bay’s Kitchen Thai Green Curry Stir-in Sauce and cook for 10 minutes.
+
+3. Add spinach and bean sprouts, heat for 5 minutes.
+
+4. Take off the heat and add chopped coriander, lime and toasted sesame seeds.
+
+5. Serve with noodles or rice.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/thai-green-chicken-thighs), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Thai Green Curry Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 527; Fat – 35g; of which saturates – 14g; Carbohydrates – 6.9g; of which sugars – 4.4g; Fibre – 3.5g; Protein – 43g; Salt – 1.3g; Please note the calculation does not include the Gluten Free noodles, rice noodles or rice to serve.
+Changed (low saturated fat): 4 Chicken thighs -> 400 g skinless chicken breast (leaner); 1 Tbsp Sesame oil -> 1/2 tsp toasted sesame oil.
+
+## ℹ️ ♡ Bay's Kitchen Thai Massaman – Butternut Squash & Tempeh Massaman Curry with Spinach & Aubergine  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Thai Massaman Sauce (home-made, see that recipe)
+8 g low FODMAP vegetable stock concentrate (no onion or garlic), made up with the water in the recipe
+120g Aubergine  🟠 Sorbitol 80% (60 g per serving)
+120g Tempeh or firm tofu  🟢 Galacto-oligosaccharides 35% (60 g per serving)
+75 ml light coconut milk  🟡 Sorbitol 62% (38 g per serving)  ❣ Sat fat 2.6g (13%)
+85g Spinach
+80g Butternut squash
+50ml Water
+20g Peanut butter  ♥ Sat fat 1g (5%)
+10g Coriander
+1 Red chilli*, thinly sliced
+Salt & pepper
+To Serve:
+Rice, gluten free naan bread or poppadoms
+
+
+1. Make the home-made Bay's Kitchen Thai Massaman Sauce first (see that recipe), or use a frozen portion.
+
+2. Cut the butternut squash, aubergine and tempeh / tofu into small cubes, cover with half the jar of Bay’s Kitchen Thai Massaman Stir-in Sauce and leave to marinade for a few hours in the fridge.
+
+3. Put a pan on medium high heat and add the squash, aubergine and tempeh / tofu. Fry for a few minutes until some of the edges start to brown.
+
+4. Mix the Bay’s Kitchen Concentrated Vegetable Stock with the water, then add this, the remaining Bay’s Kitchen Thai Massaman Stir-in Sauce and the light coconut milk to the pan.
+
+5. Cover the pan and simmer on a medium heat for 20-25 minutes until the vegetables are cooked.
+
+6. Stir through the peanut butter, and season with salt and pepper to taste.
+
+7. Garnish with red chilli and coriander.
+
+8. Serve with rice, gluten free naan or poppadoms. *Whilst chillies are a low FODMAP ingredient, some people with IBS have higher numbers of chilli pepper pain receptors in the gut, which can cause symptoms. If you’re sensitive to chilli, you can leave it out of this recipe.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/butternut-squash-tempeh-massaman-curry-with-spinach-aubergine), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Thai Massaman Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 428; Fat – 31g; of which saturates – 19g; Carbohydrates – 19g; of which sugars – 7.9g; Fibre – 5.7g; Protein – 15g; Salt – 2.2g; Please note this claculation does not include the rice, gluten free naan bread or poppadoms to serve.
+Changed (low saturated fat): 8g Bay’s Kitchen Concentrated Vegetable Stock -> 8 g low FODMAP vegetable stock concentrate (no onion or garlic), made up with the water in the recipe; 100ml Coconut milk -> 100ml light coconut milk.
+Low FODMAP: 100ml light coconut milk to 75 ml light coconut milk (cut so the FODMAPs that add up stay within the limit).
+
+## ℹ️ ♡ Bay's Kitchen Thai Massaman – Prawn & Pineapple Thai Massaman Curry  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Thai Massaman Sauce (home-made, see that recipe)
+200g Raw king prawns (fresh or frozen will work)  ♥ Sat fat 0.2g (1%)
+150g Pineapple, roughly chopped  🟡 Fructans 54% (75 g per serving)
+1 Small sweet potato (max 150g), scrubbed and roughly chopped
+1 Spring onion, green tops only, roughly chopped  🟢 Fructose 8% (6 g per serving)
+25g Salted peanuts, roughly chopped
+1 Tbsp Fish sauce
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+Small bunch of coriander, roughly chopped
+Sea salt and freshly cracked black pepper
+To Serve:
+½ Lime, cut into quarters
+Rice or gluten free naan bread
+
+
+1. Make the home-made Bay's Kitchen Thai Massaman Sauce first (see that recipe), or use a frozen portion.
+
+2. Place a pan over a medium heat and add the coconut oil. When the oil is glossy, add the sweet potato to the pan and fry until softened and a little charred, 3-4 minutes. Stir occasionally.
+
+3. Add the pineapple and cook for another 1-2 minutes. Season with salt and pepper.
+
+4. Pour in the jar of Bay’s Kitchen Thai Massaman Stir-in Sauce, rinsing the jar out with a little water and adding that into the pan too. Cook for a couple of minutes, stirring to combine everything together.
+
+5. Add the prawns and fish sauce and cook for another 3-4 minutes, or until the prawns turn from translucent to opaque and pink and are cooked throughout.
+
+6. Divide the curry between two bowls, sprinkle with the spring onion tops, peanuts and coriander and serve with a wedge of lime.
+
+7. Delicious with rice or gluten free naan bread. Recipe created by cook and author Emma Hatcher (www.shecanteatwhat.com).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/prawn-pineapple-thai-massaman-curry), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Thai Massaman Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): Kcal – 479; Fat – 26g; of which saturates – 15g; Carbohydrates – 33g; of which sugars – 15g; Fibre – 5.6g; Protein – 25g; Salt – 4.1g; Please note this does not include the rice or gluten-free naan bread to serve.
+Changed (low saturated fat): 1 Tbsp Coconut oil -> 1 tsp olive oil.
+
+## ℹ️ ❣ Bay's Kitchen Thai Massaman – Beef Massaman Curry with Potato, Carrots & Bok Choy  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Thai Massaman Sauce (home-made, see that recipe)
+9 g low FODMAP beef stock concentrate (no onion or garlic), made up with the water in the recipe
+250g lean beef steak (e.g. sirloin), fat trimmed  ❣ Sat fat 2.8g (14%)
+150g New potatoes, skin on and halved
+120g Carrots, cut into discs
+120ml light coconut milk  🟠 Sorbitol 100% (60 g per serving)  💔 Sat fat 4.2g (21%)
+100g Bok choy
+60ml Water
+25g Salted peanuts, roughly chopped
+1 Red chilli*
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+To Serve:
+Rice, gluten free naan bread or poppadoms
+
+
+1. Make the home-made Bay's Kitchen Thai Massaman Sauce first (see that recipe), or use a frozen portion.
+
+2. Preheat the oven to 200°C / 180°C fan.
+
+3. Heat the olive oil in a casserole dish (one that has a lid) over a high heat. Add the lean beef and sear until the beef edges are brown and sealed.
+
+4. Mix the Bay’s Kitchen Concentrated lean beef Stock with the water. Add this, the light coconut milk, potatoes and carrots to the dish and bring to a simmer.
+
+5. Once simmering put the lid on, then place in the oven for 2 hours.
+
+6. Remove from the oven and stir through the bok choy and Bay’s Kitchen Thai Massaman Sauce. Place the lid back on and leave for 5 minutes.
+
+7. Give one final stir before serving. Garnish with the peanuts and slices of red chilli.
+
+8. Serve with rice and naan or poppadoms. *Whilst chillies are a low FODMAP ingredient, some people with IBS have higher numbers of chilli pepper pain receptors in the gut, which can cause symptoms. If you’re sensitive to chilli, you can leave it out of this recipe.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/beef-massaman-curry-with-potato-carrots-bok-choy), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Thai Massaman Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 664; Fat – 43g; of which saturates – 24g; Carbohydrates – 29g; of which sugars – 10g; Fibre – 7.2g; Protein – 36g; Salt – 2g; Please note this has been calculated using lean beef stewing steak and the values do not include rice to serve.
+Changed (low saturated fat): 9g Bay’s Kitchen Concentrated Beef Stock -> 9 g low FODMAP beef stock concentrate (no onion or garlic), made up with the water in the recipe; 250g Cubed beef steak -> 250g lean beef steak (e.g. sirloin), fat trimmed (leaner); 120ml Coconut milk -> 120ml light coconut milk; 1 Tbsp Olive oil -> 1 tsp olive oil.
+
+## ℹ️ ♡ Bay's Kitchen Thai Red Curry – Thai Red Curry Salmon Traybake  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Thai Red Curry Sauce (home-made, see that recipe)
+2 Salmon fillets
+250g New potatoes, halved
+100g Long stemmed broccoli, ends trimmed  🟡 Fructose 67% (50 g per serving)
+2 Carrots, peeled into ribbons
+2 Limes
+4 Tbsp Yogurt (lactose free if needed)  ♥ Sat fat 1.1g (5%)
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+
+
+1. Make the home-made Bay's Kitchen Thai Red Curry Sauce first (see that recipe), or use a frozen portion.
+
+2. Preheat the oven to 200C/180C fan. Fill a saucepan with water and place it over a medium heat. When the water is boiling add a generous pinch of salt along with the potatoes and cook for 7-8 minutes, or until a cutlery knife pierces them easily. Add in the broccoli for the last minute of cooking.
+
+3. Drain the potatoes and broccoli and tip the potatoes into a medium roasting tray, reserving the broccoli to add later. Drizzle over a glug of olive oil, season with salt and place in the oven to bake for 8-10 minutes.
+
+4. Tip a jar of Bay’s Kitchen Thai Red Curry Stir-In Sauce all over the potatoes, tossing to combine. Nestle the carrot ribbons and broccoli around the potatoes and top with the salmon fillets, skin side up. Slice 1 lime into rounds, place them over the salmon and finish everything with a final drizzle of oil and sprinkle of salt.
+
+5. Bake for 10-12 minutes or until the fish is flaky and cooked through.
+
+6. Zest the remaining lime into the yogurt along with a squeeze of juice and a drizzle of extra-virgin olive oil. Season well and serve drizzled over the salmon. Recipe created by cook and author Emma Hatcher (www.shecanteatwhat.com).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/thai-red-curry-salmon-traybake), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Thai Red Curry Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+Changed (low saturated fat): 3 Tbsp Olive oil -> 1 tsp olive oil; 1 Tbsp Extra-virgin olive oil -> 1 tsp olive oil.
+
+## ℹ️ ♡ Bay's Kitchen Tikka Masala – Chicken Tikka Biryani  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Tikka Masala Sauce (home-made, see that recipe)
+400 g skinless chicken breast  ♥ Sat fat 2g (10%)
+200ml Water
+150g Basmati rice
+80g Red pepper  🟠 Fructose 93% (40 g per serving)
+1 Bunch Spring onions, green tops only  🟢 Fructose 8% (6 g per serving)
+30g Bunch coriander, stalks and leaves
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+1 Bay leaf
+A Few Cardamom pods (optional)
+2 Tbsp Greek yogurt to serve (optional – do not use if dairy free)  🟢 Lactose 38% (15 g per serving)  ♥ Sat fat 0.5g (3%)
+
+
+1. Make the home-made Bay's Kitchen Tikka Masala Sauce first (see that recipe), or use a frozen portion.
+
+2. If possible, use a casserole dish / dutch oven to cook your biryani. If you don’t have one, use a deep, non-stick saucepan with a tight-fitting lid.
+
+3. Put the basmati rice in a bowl of warm water and set to one side to soak.
+
+4. Slice the spring onion tops, cut the pepper into bite size chunks and chop the coriander stalks and leaves, keeping them separate.
+
+5. Cut the chicken breast into bite sized pieces.
+
+6. Heat the oil in the pan and fry off the coriander stalks, spring onion tops, bay leaf and cardamom pods until fragrant.
+
+7. Add the chicken and fry until the meat is sealed on all sides.
+
+8. Add the pepper and cook for a further minute.
+
+9. Drain your rice and rinse with cold water until it runs clear. Distribute the rice in an even layer over the top of the chicken and peppers.
+
+10. Pour the jar of Bay’s Kitchen Tikka Masala Stir-in Sauce over the top of the rice. Add 200ml of water to the jar, replace the lid and shake to loosen the remaining sauce, then tip this over the top of the rice too.
+
+11. Cover the pan with a tight-fitting lid, bring to a boil, then simmer for 7 minutes before turning off the heat.
+
+12. Leave for 10 minutes – the heat should steam the rice so it’s perfectly cooked – if not, you can leave it a little longer.
+
+13. Top with the chopped coriander leaves and serve with yoghurt (if using).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/chicken-tikka-biryani), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Tikka Masala Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 487; Fat – 16g; of which saturates – 5.6g; Carbohydrates – 45g; of which sugars – 4.8g; Fibre – 3.1g; Protein – 38g; Salt – 1.1g; Please note this is based on the recipe serving 3 people.; If possible, use a casserole dish / dutch oven to cook your biryani. If you don’t have one, use a deep, non-stick saucepan with a tight-fitting lid.; Put the basmati rice in a bowl of warm water and set to one side to soak.; Slice the spring onion tops, cut the pepper into bite size chunks and chop the coriander stalks and leaves, keeping them separate.; Cut the chicken thighs into bite sized pieces.; Heat the oil in the pan and fry off the coriander stalks, spring onion tops, bay leaf and cardamom pods until fragrant.; Add the chicken and fry until the meat is sealed on all sides.; Add the pepper and cook for a further minute.; Drain your rice and rinse with cold water until it runs clear. Distribute the rice in an even layer over the top of the chicken and peppers.; Pour the jar of Bay’s Kitchen Tikka Masala Stir-in Sauce over the top of the rice. Add 200ml of water to the jar, replace the lid and shake to loosen the remaining sauce, then tip this over the top of the rice too.; Cover the pan with a tight-fitting lid, bring to a boil, then simmer for 7 minutes before turning off the heat.; Leave for 10 minutes – the heat should steam the rice so it’s perfectly cooked – if not, you can leave it a little longer.; Top with the chopped coriander leaves and serve with yoghurt (if using).; This recipe has been written and approved as Low FODMAP by Registered Dietician Laura Tilt @nutritilty, on behalf of Bay’s Kitchen.; Copyright Bay’s Kitchen. Please do not reprint without permission.; Stir, Simmer & Serve; More recipes; you can rely on; Prep time: 1mins; —Cook time: 3mins; Classic Christmas Dinner; Prep time: 15mins; —Cook time: 30mins; Courgette, Sweet Chard Pepper, Tomato...; Prep time: 20mins; —Cook time: 40mins; Cranberry, Pork and Sage Stuffing; Prep time: 30mins; —Cook time: 20mins; Crispy Mozzarella Sticks with Spicy A...; Prep time: 5mins; —Cook time: 15mins; Crispy Tofu Katsu Curry with Green Beans; Prep time: 15mins; —Cook time: 20mins; Farmer’s Market Salad with Maple Must...; Prep time: 10mins; —Cook time: 10mins; Fiery Okra, Tofu and Pumpkin Curry wi...; Prep time: 10mins; —Cook time: 25mins; Fluffy Quinoa with Pomegranate Seeds; Not sure; where to start?; Tell us what you’re cooking and how much heat you like. We’ll do the rest.; Contact us; Contact us; Still Label Checking?; How long does it take to process an order?; Orders are usually processed within 1–2 business days. You’ll receive a confirmation email once your order is fully prepared and ready to ship.; Do you ship internationally?; Yes, we ship to most countries worldwide. Shipping times and rates vary by location, and all available options will be shown at checkout.; What is your return policy?; We accept returns within 30 days of purchase. Items must be unworn, unwashed, and in original condition with tags attached for a full refund.; What are your sizing options?; We offer a full range of sizes from XS to XL. Refer to our detailed size chart for accurate measurements to find your perfect fit.; Free delivery; When you Subscribe & Save 10%; Payment 100% secured; Multiple payment options offered.; Customer service; Monday-Friday: 9am-5pm; Bring the joy back to your inbox.; Email; Sign up; You have already subscribed!; By subscribing you agree to the Terms of Use & Privacy Policy .; About Bay's Kitchen; Our Story; Recipes; Find Bay's Kitchen Near You; Shop; All Sauces; Curry Sauces; Pasta Sauces; Stocks; Bundles; Need a Hand?; Take the Quiz; Delivery; Returns; FAQs; Ingredients & Allergens; Contact Us; Terms & Conditions; See what's on the menu.; @bayskitchenuk; Facebook; Instagram; TikTok; Pinterest; LinkedIn; Open region and language selector; GBP; Search; Country/Region; No results found; Afghanistan; AFN; ؋; Åland Islands; EUR; €; Albania; ALL; L; Algeria; DZD; د.ج; Andorra; EUR; €; Angola; GBP; £; Anguilla; XCD; $; Antigua & Barbuda; XCD; $; Argentina; GBP; £; Armenia; AMD; դր.; Aruba; AWG; ƒ; Ascension Island; SHP; £; Australia; AUD; $; Austria; EUR; €; Azerbaijan; AZN; ₼; Bahamas; BSD; $; Bahrain; GBP; £; Bangladesh; BDT; ৳; Barbados; BBD; $; Belarus; GBP; £; Belgium; EUR; €; Belize; BZD; $; Benin; XOF; Fr; Bermuda; USD; $; Bhutan; GBP; £; Bolivia; BOB; Bs.; Bosnia & Herzegovina; BAM; КМ; Botswana; BWP; P; Brazil; GBP; £; British Indian Ocean Territory; USD; $; British Virgin Islands; USD; $; Brunei; BND; $; Bulgaria; EUR; €; Burkina Faso; XOF; Fr; Burundi; BIF; Fr; Cambodia; KHR; ៛; Cameroon; XAF; CFA; Canada; CAD; $; Cape Verde; CVE; $; Caribbean Netherlands; USD; $; Cayman Islands; KYD; $; Central African Republic; XAF; CFA; Chad; XAF; CFA; Chile; GBP; £; China; CNY; ¥; Christmas Island; AUD; $; Cocos (Keeling) Islands; AUD; $; Colombia; GBP; £; Comoros; KMF; Fr; Congo - Brazzaville; XAF; CFA; Congo - Kinshasa; CDF; Fr; Cook Islands; NZD; $; Costa Rica; CRC; ₡; Côte d’Ivoire; XOF; Fr; Croatia; EUR; €; Curaçao; ANG; ƒ; Cyprus; EUR; €; Czechia; CZK; Kč; Denmark; DKK; kr.; Djibouti; DJF; Fdj; Dominica; XCD; $; Dominican Republic; DOP; $; Ecuador; USD; $; Egypt; EGP; ج.م; El Salvador; USD; $; Equatorial Guinea; XAF; CFA; Eritrea; GBP; £; Estonia; EUR; €; Eswatini; GBP; £; Ethiopia; ETB; Br; Falkland Islands; FKP; £; Faroe Islands; DKK; kr.; Fiji; FJD; $; Finland; EUR; €; France; EUR; €; French Guiana; EUR; €; French Polynesia; XPF; Fr; French Southern Territories; EUR; €; Gabon; XOF; Fr; Gambia; GMD; D; Georgia; GBP; £; Germany; EUR; €; Ghana; GBP; £; Gibraltar; GBP; £; Greece; EUR; €; Greenland; DKK; kr.; Grenada; XCD; $; Guadeloupe; EUR; €; Guatemala; GTQ; Q; Guernsey; GBP; £; Guinea; GNF; Fr; Guinea-Bissau; XOF; Fr; Guyana; GYD; $; Haiti; GBP; £; Honduras; HNL; L; Hong Kong SAR; HKD; $; Hungary; HUF; Ft; Iceland; ISK; kr; India; INR; ₹; Indonesia; IDR; Rp; Iraq; GBP; £; Ireland; EUR; €; Isle of Man; GBP; £; Israel; ILS; ₪; Italy; EUR; €; Jamaica; JMD; $; Japan; JPY; ¥; Jersey; GBP; £; Jordan; GBP; £; Kazakhstan; KZT; ₸; Kenya; KES; KSh; Kiribati; GBP; £; Kosovo; EUR; €; Kuwait; GBP; £; Kyrgyzstan; KGS; som; Laos; LAK; ₭; Latvia; EUR; €; Lebanon; LBP; ل.ل; Lesotho; GBP; £; Liberia; GBP; £; Libya; GBP; £; Liechtenstein; CHF; CHF; Lithuania; EUR; €; Luxembourg; EUR; €; Macao SAR; MOP; P; Madagascar; GBP; £; Malawi; MWK; MK; Malaysia; MYR; RM; Maldives; MVR; MVR; Mali; XOF; Fr; Malta; EUR; €; Martinique; EUR; €; Mauritania; GBP; £; Mauritius; MUR; ₨; Mayotte; EUR; €; Mexico; GBP; £; Moldova; MDL; L; Monaco; EUR; €; Mongolia; MNT; ₮; Montenegro; EUR; €; Montserrat; XCD; $; Morocco; MAD; د.م.; Mozambique; GBP; £; Myanmar (Burma); MMK; K; Namibia; GBP; £; Nauru; AUD; $; Nepal; NPR; Rs.; Netherlands; EUR; €; New Caledonia; XPF; Fr; New Zealand; NZD; $; Nicaragua; NIO; C$; Niger; XOF; Fr; Nigeria; NGN; ₦; Niue; NZD; $; Norfolk Island; AUD; $; North Macedonia; MKD; ден; Norway; GBP; £; Oman; GBP; £; Pakistan; PKR; ₨; Palestinian Territories; ILS; ₪; Panama; USD; $; Papua New Guinea; PGK; K; Paraguay; PYG; ₲; Peru; PEN; S/; Philippines; PHP; ₱; Pitcairn Islands; NZD; $; Poland; PLN; zł; Portugal; EUR; €; Qatar; QAR; ر.ق; Réunion; EUR; €; Romania; RON; Lei; Russia; GBP; £; Rwanda; RWF; FRw; Samoa; WST; T; San Marino; EUR; €; São Tomé & Príncipe; STD; Db; Saudi Arabia; SAR; ر.س; Senegal; XOF; Fr; Serbia; RSD; РСД; Seychelles; GBP; £; Sierra Leone; SLL; Le; Singapore; SGD; $; Sint Maarten; ANG; ƒ; Slovakia; EUR; €; Slovenia; EUR; €; Solomon Islands; SBD; $; Somalia; GBP; £; South Africa; GBP; £; South Georgia & South Sandwich Islands; GBP; £; South Korea; KRW; ₩; South Sudan; GBP; £; Spain; EUR; €; Sri Lanka; LKR; ₨; St. Barthélemy; EUR; €; St. Helena; SHP; £; St. Kitts & Nevis; XCD; $; St. Lucia; XCD; $; St. Martin; EUR; €; St. Pierre & Miquelon; EUR; €; St. Vincent & Grenadines; XCD; $; Sudan; GBP; £; Suriname; GBP; £; Svalbard & Jan Mayen; GBP; £; Sweden; SEK; kr; Switzerland; CHF; CHF; Taiwan; TWD; $; Tajikistan; TJS; ЅМ; Tanzania; TZS; Sh; Thailand; THB; ฿; Timor-Leste; USD; $; Togo; XOF; Fr; Tokelau; NZD; $; Tonga; TOP; T$; Trinidad & Tobago; TTD; $; Tristan da Cunha; GBP; £; Tunisia; GBP; £; Türkiye; GBP; £; Turkmenistan; GBP; £; Turks & Caicos Islands; USD; $; Tuvalu; AUD; $; U.S. Outlying Islands; USD; $; Uganda; UGX; USh; Ukraine; UAH; ₴; United Arab Emirates; AED; د.إ; United Kingdom; GBP; £; United States; USD; $; Uruguay; UYU; $U; Uzbekistan; UZS; so'm; Vanuatu; VUV; Vt; Vatican City; EUR; €; Venezuela; USD; $; Vietnam; VND; ₫; Wallis & Futuna; XPF; Fr; Western Sahara; MAD; د.م.; Yemen; YER; ﷼; Zambia; GBP; £; Zimbabwe; USD; $; ©; 2026; Bay's Kitchen , Powered by Shopify; Your cart; Total items in cart: 0; 0; Your cart is empty; Have an account? Log in to check out faster.; Continue shopping; Continue shopping; Cart total; £0.00 GBP; Product image; Product information; Quantity; Product total; Search; Clear; Product title; Regular price; -; Sale price; From £19.99; Regular price; In - stock and ready to ship; View more details; 10% OFF* Your First Order; Save 10% on your first order when you spend £25 or more and get exclusive email offers when you sign up to our Bay's Kitchen newsletter!; *Ts&Cs apply.; Let us help you by telling us your dietary needs: Vegetarian; Vegan; Gluten Free; Low FODMAP; Dairy Free; None; Sign Up; bayskitchenuk; 🚨 Welcome to our brand new series… BIG FLAVOUR IN 20!! 🫡; Struggling for quick and easy meal ideas? We’ve got you covered! 🙌🏻 This series is all about creating delicious, flavour-packed dishes in under 20 minutes, perfect for when you’re short on time but still want something tasty! 👏🏻; We’re kicking things off with our Tomato & Basil Gnocchi, made using our Tomato & Basil Stir-In Sauce.; Want to give it a go? Follow the recipe below and recreate this quick and easy dish at home! 👇; Tomato & Basil Gnocchi 🍅🌿; Ingredients; • 1 Bag Of Potato Gnocchi.; • 1 jar Bay’s Kitchen Tomato & Basil Sauce.; • Olive Oil.; • 1 Red Pepper, diced.; • 20–30g grated Parmesan.; 1. Heat the olive oil in a large frying pan over medium heat. Add the diced pepper and cook for 4–5 minutes until softened.; 2. Cook your Gnocchi according to the packet instructions and drain well.; 3. Add the Bay’s Kitchen sauce to the peppers and simmer gently for 2–3 minutes. For an extra boost of flavour, stir in a sprinkle of Parmesan.; 4. Fold the cooked gnocchi into the sauce and warm through for 1–2 minutes. Season to taste and finish with Parmesan.; #gnocchi #gnocchirecipe #ibs #easyrecipe #quickrecipe; 18 October; bayskitchenuk; 🤧 There seem to be lots of colds going around at the moment, so we thought our chicken broth would be perfect to help kick the cold, while enjoying something warm, comforting and delicious!; Follow the recipe below to make your own at home.🤗; Easy Ginger, Spinach & Chive Chicken Broth 🫚🍲; Ingredients; • 500ml Boiling Water.; • Bay’s Kitchen Low FODMAP Chicken Stock.; • 2 Handfuls Of Baby Spinach.; • 2 Tsp Of Grated Ginger.; • 1 Tbsp Fresh Chives, finely chopped.; • 1 Tbsp Fresh Parsley, chopped.; • A Squeeze Of Fresh Lemon Juice.; • Black Pepper.; • Salt.; Method; 1. Dissolve Bay’s Kitchen Chicken Stock in 500ml of boiling water.; 2. Pour the stock into a saucepan and add the ginger. Bring to a gentle simmer.; 3. Simmer for 5–8 minutes to allow the ginger to infuse the broth.; 4. Add the two handfuls of baby spinach and cook for 1–2 minutes, until just wilted.; 5. Stir in the chopped chives, parsley, lemon juice, black pepper and salt to taste.; 6. Divide between mugs and enjoy your warming, flavourful broth!; #broth #brothrecipe #ibs #noonionnogarlic #chickenbroth; 15 October; bayskitchenuk; 🍂 Serving up an Autumn favourite! Our chicken stock brings all the flavour with zero fuss and perfect for those comforting dishes as the darker nights approach.🍲✨; #ibs #chickenstock #lowfodmapdiet #noonionnogarlic #freefrom; 13 October; bayskitchenuk; We’re rounding off National Curry Week with our much loved Korma Curry Sauce!💜 The perfect sauce to warm up those colder evenings, while keeping things full of flavour and colour!👏🏻; Follow the recipe below and save it for your next cosy, comforting meal! 👇; 🥘 Simple Vegetarian Korma Curry; Ingredients:; • 1 Sweet Potato, peeled and cut into small cubes.; • 1 Red Pepper, sliced.; • 2 Large Handfuls of Green Beans, sliced.; • 60g Tinned Lentils, drained and rinsed.; • 1 Tbsp of Olive Oil.; • 1 Jar Of Bay’s Kitchen Korma Curry Sauce.; • Basmati Rice, to serve.; • Fresh Coriander, optional for garnish.; • Crushed Peanuts, optional for garnish.; • Gluten Free Naan Bread.; Method:; 1. Cook the sweet potato: Boil or steam for about 8–10 minutes, until tender.; 2. Heat the olive oil in a large frying pan.; 3. Add pepper and cook for 3–4 minutes.; 4. Add the green beans and sweet potato and cook for another 3–4 minutes.; 5. Stir in the lentils and korma curry sauce.; 6. Simmer gently for 5–8 minutes, until everything is hot and the vegetables are cooked.; 7. Serve with basmati rice, gluten free naan bread.; 8. Garnish with coriander and crush peanuts if desired.; #curryrecipe #nationalcurryweek #noonionnogarlic #recipe #recipeideas; 11 October; bayskitchenuk; We loved seeing our Managing Director, Hattie, chat with @ellesera.inc on her podcast about the Low FODMAP diet! 👏🏻; It’s a world that many people are still unfamiliar with, and we’re passionate about raising awareness, spreading the word, and showing how Bay’s Kitchen can bring flavour, variety and joy back to mealtimes for those following a Low FODMAP diet.🫡; #lowfodmap #lowfodmapdiet #fodmapfriendly #raisingawareness; 9 October; bayskitchenuk; National Curry Week continues! 🍛 And with the weekend just around the corner we have an easy and delicious recipe for you to try.; Don’t forget to save this recipe for later! ❤️; 🌶️ Your Low-FODMAP Thai Red Curry.; • 1 Jar of Bay’s Kitchen Thai Red Curry Sauce.; • 300g Chicken Breast, sliced.; • Olive Oil.; • 5 Pak Choi Leaves.; • 2 Large Handfuls of Spinach.; • Fresh Coriander.; • A Handful of Roasted Peanuts, roughly crushed for garnish.; • Rice, to serve.; Method; 1. Heat the olive oil in a large frying pan.; 2. Add the chicken and cook for 5–7 minutes until lightly browned and almost cooked through.; 3. Pour in the Bay’s Kitchen Thai Red Curry Sauce with the Pak Choi and Spinach.; 4. Stir and simmer for 5–7 minutes until the chicken is completely cooked and the vegetables have softened.; 5. Serve over rice of your choice, sprinkle with crushed roasted peanuts and coriander.; #recipe #recipeoftheday #ibs #recipeideas #noonionnogarlicrecipes; 8 October; bayskitchenuk; It’s National Curry Week!! 🍛🙌🏼 And of course we had to give our Thai Massaman Sauce a moment in the spotlight! ✨; Our Prawn & Pineapple Thai Massaman Curry is the perfect midweek meal now that the autumn weather is here. This curry is comforting and packed full of flavour. 🍤🍍🌶️; Save this recipe for your next curry night if you’re in need of a little inspiration!; This recipe can also be found directly on our website.🫶🏼; Ingredients:; • 1 Jar of Bay’s Kitchen Thai Massaman Stir-in Sauce.; • 200g Raw King Prawns (fresh or frozen will work).; • 150g Pineapple, roughly chopped.; • 1 Small Sweet Potato (max 150g), scrubbed and roughly chopped.; • 1 Spring Onion, green tops only, roughly chopped.; • 25g Salted Peanuts, roughly chopped.; • 1 tbsp Fish Sauce.; • 1 tbsp Coconut Oil.; • Small bunch of Coriander, roughly chopped.; • Sea Salt and freshly cracked Black Pepper.; To Serve:; • ½ lime, cut into quarters.; • Rice or gluten free naan bread.; Method:; 1. Place a pan over a medium heat and add the coconut oil. When the oil is glossy, add the sweet potato to the pan and fry until softened and a little charred, 3-4 minutes. Stir occasionally.; 2. Add the pineapple and cook for another 1-2 minutes. Season with salt and pepper.; 3. Pour in the jar of Bay’s Kitchen Thai Massaman Stir-in Sauce, rinsing the jar out with a little water and adding that into the pan too. Cook for a couple of minutes, stirring to combine everything together.; 4. Add the prawns and fish sauce and cook for another 3-4 minutes, or until the prawns turn from translucent to opaque and pink, and are cooked through.; 5. Divide the curry between two bowls, sprinkle with the spring onion tops, peanuts and coriander and serve with a wedge of lime.; Step 6. Delicious with rice or gluten free naan bread.; Recipe created by Cook & Author Emma Hatcher @shecanteatwhat; #recipe #recipeshare #recipeideas #ibs #ibsrecipe; 7 October; bayskitchenuk; We’ve recently received some absolutely incredible reviews, and we just had to share them with you all! 🥹; We’re so proud and incredibly grateful for all the love and support you continue to show Bay’s Kitchen. Reading reviews like these means the world to us and reminds us why we do what we do, creating products that make a real difference on the supermarket shelves.👏🏻; #reviews #makingchanges #customerreviews #customerlove #gratefulforyouall; 4 October
+Changed (low saturated fat): 4 Skinless chicken thighs -> 400 g skinless chicken breast (leaner); 1 Tbsp Olive oil -> 1 tsp olive oil.
+
+## ℹ️ ♡ Bay's Kitchen Tikka Masala – Chicken Tikka Masala Curry  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Tikka Masala Sauce (home-made, see that recipe)
+2 Chicken fillets
+100g Runner beans
+80g Red pepper  🟠 Fructose 93% (40 g per serving)
+60g Canned peas*
+1 Carrot
+15ml Almond milk**
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+¼ Lime
+To Serve:
+Basmati rice
+Gluten free poppadoms
+Carrot, tomato and coriander salad
+Mint dip (check ingredients or make your own to ensure it’s low FODMAP and dairy free)
+
+
+1. Make the home-made Bay's Kitchen Tikka Masala Sauce first (see that recipe), or use a frozen portion.
+
+2. Heat oil in a pan and add your diced chicken and sliced red pepper.
+
+3. Boil your water and cook your runner beans and carrots.
+
+4. Once your peppers have softened and your chicken is cooked through turn down the heat and add your cooked runner beans, carrots and canned peas.
+
+5. Add the Bay’s Kitchen Tikka Masala Stir-in Sauce, along with the juice of a quarter of a lime, and a splash of almond milk (optional).
+
+6. Ensure sauce is heated through.
+
+7. Serve with your basmati rice and a side of gluten free poppadoms (carrot, tomato and coriander salad and / or mint dip also goes well). *Canned peas are lower in FODMAPs than frozen peas and can be tolerated at 60g. If you wish to use frozen peas, use 30 grams, not 60g. **15ml of regular milk is Low FODMAP. However, lactose-free or almond milk will work equally well in this recipe. This recipe has been created by Katrina Lander, from Fitness Fodmap.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/chicken-jalfrezi-curry), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Tikka Masala Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 514; Fat – 9.5g; of which saturates – 1.3g; Carbohydrates – 62g; of which sugars – 10g; Fibre – 7.2g; Protein – 41g; Salt – 1.3g
+Changed (low saturated fat): ½ Tbsp Olive oil -> 1 tsp olive oil.
+
+## ℹ️ ♡ Bay's Kitchen Tikka Masala – Chicken Tikka Masala Rainbow Wrap  (Main Meals, serves 2)
+
+4 tbsp Bay's Kitchen Tikka Masala Sauce (home-made, see that recipe) (2 Tbsp for chicken marinade & 2 Tbsp as a wrap sauce base)
+2 Gluten free tortilla wraps (cornflour wraps are great for this)
+1 Chicken breast (200g)
+100g Carrots, thinly sliced
+80g Red bell pepper, sliced  🟠 Fructose 93% (40 g per serving)
+70g Red cabbage, shredded  🟢 Fructans 47% (35 g per serving)
+Wedge of lime
+
+
+1. Make the home-made Bay's Kitchen Tikka Masala Sauce first (see that recipe), or use a frozen portion.
+
+2. Preheat the oven to 140C (160C fan oven). Glaze the chicken breast with 2 tbsp of Bay’s Kitchen Tikka Masala sauce. Place in a roasting dish and bake for 35 mins (or until the inside temperature of the chicken is 70C).
+
+3. While the chicken is baking, prep your vegetables: slice the carrots, shred the cabbage, and chop the pepper. Cut a wedge of lime and leave aside. If you prefer a warmer wrap, you can warm up the wraps.
+
+4. Once the chicken has baked, let it cool for a few minutes, then slice it into thin strips and start building your wrap – spread 1 tbsp of tikka masala sauce on each wrap, then add the carrots, cabbage, pepper, squeeze some lime juice and top up with chicken.
+
+5. Fold your wrap starting from folding the middle edges inwards, then fold the edge closest to you, slowly rolling away from you, gently pressing to fill in all the space and tucking in any open areas of the wrap until all comes together. It should be tight and snug, if it’s feeling loose, you can start again. It will take a little practice but it’s not as difficult as it sounds! (find the video demonstration).
+
+6. Cut the wrap in half and enjoy! This recipe was created by Catching Peelings photography (www.catchingpeelings.com).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/chicken-tikka-masala-rainbow-wrap), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Tikka Masala Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+
+## ℹ️ ♡ Bay's Kitchen Tikka Masala – Fiery Okra, Tofu and Pumpkin Curry with Black Sesame Seeds  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Tikka Masala Sauce (home-made, see that recipe)
+200g Firm Tofu  🟡 Galacto-oligosaccharides 59% (100 g per serving)
+150g Okra
+70g Butternut squash
+20g Black sesame seeds
+15g Coriander
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+1 Lime
+To serve:
+Rice or gluten free Indian bread (or pittas / flatbread or similar)
+
+
+1. Make the home-made Bay's Kitchen Tikka Masala Sauce first (see that recipe), or use a frozen portion.
+
+2. Cut butternut squash into chunks and season, then roast with a drizzle of oil in the oven at 200°C / 180°C fan for 10 minutes, then add chopped okra and cubed tofu.
+
+3. Cook for a further 10 minutes.
+
+4. Heat Bay’s Kitchen Tikka Masala Stir-in Sauce in a pan and add the roasted vegetables.
+
+5. Once hot take off the heat and add chopped coriander and a squeeze of lime.
+
+6. Sprinkle over sesame seeds and serve with rice or gluten free Indian bread (or pittas / flatbread or similar).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/fiery-jalfrezi-okra-tofu-and-pumpkin-curry-with-black-sesame-seeds), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Tikka Masala Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 327; Fat – 19g; of which saturates – 2.7g; Carbohydrates – 15g; of which sugars – 6.3g; Fibre – 8.1g; Protein – 19g; Salt – 0.98g; Please note the calculation does not include rice or Gluten Free Indian bread (or pittas/flatbread or similar) to serve.
+Changed (low saturated fat): 1 Tbsp Olive oil -> 1 tsp olive oil.
+
+## ℹ️ ♡ Bay's Kitchen Tikka Masala – Tikka Masala Spiced Roast Chicken with Coconut Coriander Rice & Charred Courgettes  (Main Meals, serves 4)
+
+600 g skinless chicken breast  ♥ Sat fat 1.5g (8%)
+260 g Bay's Kitchen Tikka Masala Sauce (home-made, see that recipe)
+2 tbsp unsweetened coconut yoghurt (dairy-free, low FODMAP)  🟢 Lactose 19% (7.5 g per serving)  ♥ Sat fat 0.3g (1%)
+Reduced fat unsweetened light coconut milk for the rice
+250g basmati rice
+1 1/2 courgettes sliced lengthways  🔴 Fructans 115% (75 g per serving)
+1 tsp smoked paprika
+½ tsp turmeric
+Garlic-infused oil
+Fresh coriander
+Lemon wedges
+Salt and pepper
+Roast the chicken in the oven at 200°C for around 35 minutes, until it’s crisp and golden.
+In the final 5 minutes, spoon over the remaining sauce to glaze.
+For the charred courgettes, cook them in garlic-infused oil until smoky and tender.
+Serve with the chicken, rice, fresh coriander and lemon wedges.
+
+
+1. Make the home-made Bay's Kitchen Tikka Masala Sauce first (see that recipe), or use a frozen portion.
+
+2. Reduced fat unsweetened light coconut milk for the rice
+
+3. Marinate the chicken by coating it in half of the Bay's Kitchen Tikka Masala Stir in Sauce, coconut yoghurt, paprika, and turmeric. Set aside to marinate (the longer, the better if you have time).
+
+4. Roast the chicken in the oven at 200°C for around 35 minutes, until it’s crisp and golden.
+
+5. In the final 5 minutes, spoon over the remaining sauce to glaze.
+
+6. Prepare the coconut rice by cooking the rice with light coconut milk, water, and a pinch of salt until light and fluffy.
+
+7. For the charred courgettes, cook them in garlic-infused oil until smoky and tender.
+
+8. Serve with the chicken, rice, fresh coriander and lemon wedges.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/tikka-masala-spiced-roast-chicken-with-coconut-coriander-rice-charred-courgettes), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Tikka Masala Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+Changed (low saturated fat): 8 chicken thighs (skin on) -> 600 g skinless chicken breast (leaner); Reduced fat unsweetened coconut milk for the rice -> Reduced fat unsweetened light coconut milk for the rice.
+Low FODMAP: 2 courgettes sliced lengthways to 1 1/2 courgettes sliced lengthways (cut so the FODMAPs that add up stay within the limit).
+
+## ✅ ♡ Bay's Kitchen Tikka Masala – Chicken Tikka Puff Pastry Parcels  (Snacks & Bars, serves 8)
+
+130 g Bay's Kitchen Tikka Masala Sauce (home-made, see that recipe)
+280g Sheet of gluten free pastry  ❣ Sat fat 3.9g (19%)
+1 Chicken breast
+25g Spinach
+1 Tbsp Dairy free low FODMAP milk
+1 Tsp Nigella seeds
+Handful of coriander
+Gluten free flour, for rolling
+
+
+1. Make the home-made Bay's Kitchen Tikka Masala Sauce first (see that recipe), or use a frozen portion.
+
+2. Chop the chicken into small pieces roughly 1cm and fry over a medium heat with a drizzle of olive oil for 4-5 minutes until coloured all over.
+
+3. Stir the Bay’s Kitchen Tikka Masala stir-in sauce through the chicken along with the coriander and spinach, both finely chopped. Leave to cool.
+
+4. Preheat the oven to 180°C/350°F/gas 4.
+
+5. Roll the pastry on a floured work surface to a rectangle roughly 45cm x 35cm. Cut the pastry sheet into 4 strips lengthways, and then cut each strip in half width ways.
+
+6. Place a small dollop of the chicken filling at the end of each pastry strip, fold one corner over the filling to join the other edge of the pastry, then fold the small filled pocket of pastry over the straight edge. A triangle shape will form- keep folding the filled pastry over itself until you reach the end of the pastry strip.
+
+7. Place the folded and filled parcels onto a lined baking tray. Brush the top of each one with milk, using the milk to stick down any bits of pastry that may be loose. Sprinkle each one with nigella seeds, and bake in the oven for 20-25 minutes until golden brown and crispy. Enjoy with Bay’s Kitchen Mango & Pineapple Chutney for dipping.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/chicken-tikka-puff-pastry-parcels), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Tikka Masala Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+Changed (low saturated fat): left out: Bay’s Kitchen Mango & Pineapple Chutney, for serving (mango is high in fructose).
+
+## ✅ ♡ Bay's Kitchen Tikka Masala – Roasted Tikka Masala Hake  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Tikka Masala Sauce (home-made, see that recipe)
+2 Hake fillets
+30g Activated cashew nuts*
+15g Coriander
+1 Lime
+To Serve:
+Basmati or pilau rice
+
+
+1. Make the home-made Bay's Kitchen Tikka Masala Sauce first (see that recipe), or use a frozen portion.
+
+2. Marinate hake in Bay’s Kitchen Tikka Masala Stir-in Sauce overnight or for a few hours.
+
+3. Put in baking tray, season and cook at 180°C / 160°C for 10-15 minutes (until fish is opaque and easily flakes with a fork).
+
+4. Take out of the oven and add chopped coriander and lime to taste.
+
+5. Serve with activated cashew nuts and rice. *According to Monash University, activated cashews are low in FODMAPs at a 15g portion size as during the activation process, the nuts are soaked in water which probably allows some of the FODMAPs to leach into the liquid, which is then discarded. Non activated cashews are not low FODMAP so not permitted during the elimination phase.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/roasted-tikka-masala-hake), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Tikka Masala Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 293; Fat – 18g; of which saturates – 4.8g; Carbohydrates – 7.8g; of which sugars – 3.8g; Fibre – 2.2g; Protein – 23g; Salt – 1.4g; Please note this calculation does not include the rice to serve.
+
+## ✅ ♡ Bay's Kitchen Tikka Masala – Tempeh & Spinach Tikka Masala  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Tikka Masala Sauce (home-made, see that recipe)
+200g Tempeh
+200g Spinach
+20g Sesame seeds
+15g Coriander
+1/2 tsp toasted sesame oil  ♥ Sat fat 0.1g (1%)
+1 Lime
+To serve:
+Basmati or pilau rice
+
+
+1. Make the home-made Bay's Kitchen Tikka Masala Sauce first (see that recipe), or use a frozen portion.
+
+2. Cut tempeh into chunks and marinate in Bay’s Kitchen
+
+3. Tikka Masala Stir-in Sauce overnight or for a few hours.
+
+4. Heat sesame oil in a pan over a low heat, add tempeh chunks and cook for 10 minutes. Then add spinach leaves.
+
+5. Meanwhile cook the rice.
+
+6. Take the tempeh off the heat and add chopped coriander and lime to taste.
+
+7. Serve with a sprinkle of sesame seeds and rice.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/tempeh-spinach-tikka-masala), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Tikka Masala Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): Kcal – 484; Fat – 33g; of which saturates – 6g; Carbohydrates – 11g; of which sugars – 4.1g; Fibre – 12g; Protein – 28g; Salt – 1.3g; Please note this does not include the rice to serve.
+Changed (low saturated fat): 2 Tbsp Sesame oil -> 1/2 tsp toasted sesame oil.
+
+## ℹ️ ♡ Bay's Kitchen Tomato & Basil – Caponata (Mediterranean Vegetable) Pasta with Parmesan & Pine Nuts  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Tomato & Basil Sauce (home-made, see that recipe)
+200g Gluten free linguine or tagliatelle  🟡 Fructans 67% (100 g per serving)
+1/2 Courgette  🟠 Fructans 77% (50 g per serving)
+1 Aubergine
+90g Cherry tomatoes  🟠 Fructose 100% (45 g per serving)
+80g Pepper
+30g Parsley
+20g Pine nuts
+10 g Parmesan (optional or vegan alternative*)  ♥ Sat fat 0.8g (4%)
+10g Capers
+10g Raisins
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+Salt & pepper to season
+
+
+1. Make the home-made Bay's Kitchen Tomato & Basil Sauce first (see that recipe), or use a frozen portion.
+
+2. Dice the vegetable into small chunks, put onto baking tray and drizzle with olive oil. Season and then bake for 20-30 minutes at 180°C / 160°C fan.
+
+3. Toast the pine nuts.
+
+4. Put the Bay’s Kitchen Tomato & Basil Stir-in Sauce into a pan on a medium heat, add the roasted vegetables, chopped capers and chopped parsley and stir for 2-3 minutes.
+
+5. Fill a pan 2⁄3 full with water and bring to the boil. Add the pasta and cook for 10 minutes (check the packet instructions in case these differ).
+
+6. Drain the pasta, then add the sauce and vegetables to this pan and stir for 2 minutes.
+
+7. Finish off with toasted pine nuts, raisins and parmesan shavings (if using). *Vegan & dairy free option: don’t use parmesan or replace with vegan parmesan (please check the ingredients, it is often made with cashews so could be high FODMAP in larger quantities).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/caponata-mediterranean-vegetable-pasta-with-parmesan-pine-nuts), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Tomato & Basil Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 719; Fat – 24g; of which saturates – 4.5g; Carbohydrates – 100g; of which sugars – 19g; Fibre – 11g; Protein – 20g; Salt – 1.2g
+Changed (low saturated fat): 20g Parmesan (optional or vegan alternative*) -> 10 g Parmesan (optional or vegan alternative*) (halved, saturated fat); 1 Tbsp Olive oil -> 1 tsp olive oil.
+Low FODMAP: 1 Courgette to 1/2 Courgette (cut so the FODMAPs that add up stay within the limit).
+
+## ℹ️ ♡ Bay's Kitchen Tomato & Basil – Courgette, Sweet Chard Pepper, Tomato & Basil Lasagne  (Main Meals, serves 4)
+
+260 g Bay's Kitchen Tomato & Basil Sauce (home-made, see that recipe)
+Gluten Free Lasagne Sheets
+1 1/2 Courgettes  🔴 Fructans 115% (75 g per serving)
+1 Pepper
+100g Gluten free flour  🟢 Fructans 25% (25 g per serving)
+1 tsp olive oil  ♥ Sat fat 0.2g (1%)
+250ml Almond milk
+10g Basil
+100g Spinach
+1 tsp olive oil  ♥ Sat fat 0.2g (1%)
+5g Dijon mustard
+5g Nutmeg
+25g
+
+
+1. Make the home-made Bay's Kitchen Tomato & Basil Sauce first (see that recipe), or use a frozen portion.
+
+2. Slice courgettes into rounds and the peppers into strips.
+
+3. Heat a griddle pan and griddle vegetables until chard and cooked through (about 10 minutes) or put on baking tray, drizzle in olive oil, season and roast the vegetables at 180°C / 160°C fan for 15 minutes.
+
+4. To make the white sauce whisk the oil and flour in pan on a low heat. Once combined cook for 5 minutes then slowly whisk in the nut milk a little at a time. Whisk on a low heat until thick. Take off the heat, add nutmeg, Dijon mustard, nutritional yeast flakes and season to taste.
+
+5. Layer the lasagne starting with Bay’s Kitchen Tomato & Basil Stir-in Sauce then add a few slices of courgette, peppers, basil leaves and spinach. Then add a layer of lasagne sheets followed by the white sauce. Repeat until your baking dish is full making sure you finish with a layer of white sauce. Cover the top with the grated cheese (if using) before putting in the oven.
+
+6. Bake in the oven at 180°C / 160°C fan for 30-40 minutes until golden on top. *To make this dish vegan and dairy free, either don’t use cheese, or use Vegan cheese (please check the ingredients of vegan cheese, it is typically made with cashews and so could be high FODMAP in larger quantities).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/courgette-sweet-chard-pepper-tomato-basil-lasagne), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Tomato & Basil Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): al yeast flakes; Salt, Pepper; Grated cheddar (or Vegan alternative*); Nutrition (per serve):; Kcal – 630; Fat – 32g; of which saturates – 3.4g; Carbohydrates – 69g; of which sugars – 7.7g; Fibre – 7.7g; Protein – 11g; Salt – 0.87g; Please note this was calculated using 260g of courgette and 8 gluten free lasagne sheets.
+Changed (low saturated fat): 100g Vegetable oil -> 1 tsp olive oil; 5ml Olive oil -> 1 tsp olive oil.
+Low FODMAP: 2 Courgettes to 1 1/2 Courgettes (cut so the FODMAPs that add up stay within the limit).
+
+## ℹ️ ♡ Bay's Kitchen Tomato & Basil – Homemade Veggie Pizza  (Main Meals, serves 2)
+
+130 g Bay's Kitchen Tomato & Basil Sauce (home-made, see that recipe)
+1 Gluten free pizza base (shop-bought or homemade)
+4 Tender stem broccoli
+85g Sliced red pepper  🟠 Fructose 99% (42 g per serving)
+1 Asparagus spear
+1/2 Small sliced courgette  🟠 Fructans 77% (50 g per serving)
+15 g lactose-free mozzarella (or plant-based alternative)  ♥ Sat fat 0.9g (4%)
+Fresh Basil for garnish
+
+
+1. Make the home-made Bay's Kitchen Tomato & Basil Sauce first (see that recipe), or use a frozen portion.
+
+2. If using a homemade Pizza base, remember to factor this into the preparation and cook times. We strongly recommend Becky Excell’s delicious Gluten Free & Low FODMAP Pizza base recipe.
+
+3. Prepare your vegetables – slice the half pepper into long strips. Cut the courgette lengthways into long slices. Heat a griddle pan (or regular frying pan if you don’t have a griddle, or use the BBQ!) and add a splash of oil.
+
+4. Lightly griddle the vegetables until al dente.
+
+5. Spread the Bay’s Kitchen Tomato & Basil Stir-in Sauce onto the gluten free pizza base, making sure that it is even.
+
+6. Sprinkle with cheese and arrange the cooked vegetables onto the pizza.
+
+7. Cook the pizza at 180 degrees for 8-10 minutes (depending on pizza base instructions/recipe you’re using).
+
+8. Add fresh basil leaves and serve. If using a shop bought pizza base remember to check it is FODMAP friendly and gluten free if you require your dish to be. Also, check the recipe if making this homemade. We suggest Becky Excell’s pizza base recipe which is gluten free and low FODMAP. Ensure that plant-based alternative cheese is low FODMAP. Recipe created by Paul Hunt from @skinnychefhunt.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/homemade-veggie-pizza), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Tomato & Basil Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+Changed (low saturated fat): 30g Mozzarella (or plant-based alternative) -> 15 g lactose-free mozzarella (or plant-based alternative) (halved, saturated fat).
+Low FODMAP: 1 Small sliced courgette to 1/2 Small sliced courgette (cut so the FODMAPs that add up stay within the limit).
+
+## ℹ️ ♡ Bay's Kitchen Tomato & Basil – Mediterranean Vegetable Pasta  (Main Meals, serves 2)
+
+260 g Bay's Kitchen Tomato & Basil Sauce (home-made, see that recipe)
+160g Dried gluten free pasta  🟡 Fructans 53% (80 g per serving)
+80g Red pepper  🟠 Fructose 93% (40 g per serving)
+115 g courgette (1 Small)  🟠 Fructans 88% (58 g per serving)
+62 g lactose-free mozzarella  ❣ Sat fat 3.7g (19%)
+
+
+1. Make the home-made Bay's Kitchen Tomato & Basil Sauce first (see that recipe), or use a frozen portion.
+
+2. Bring a pan of water to the boil and add the pasta. Cook for 8-10 minutes (check the packet instructions in case these differ).
+
+3. In the meantime, slice the pepper, courgette and cheese into long slices (see image!).
+
+4. Place the mozzarella to one side and put the pepper and courgette in a frying pan to lightly char each side.
+
+5. Heat the jar of Bay’s Kitchen Tomato & Basil Stir-in Sauce in a pan for 2 minutes.
+
+6. Once the pasta is cooked, drain and serve into dishes.
+
+7. Add the sauce to the pasta and then top with the mozzarella, pepper and courgette. Vegan & dairy free option: to make this recipe vegan and dairy free, you can use vegan mozzarella but please check ingredients to ensure it’s low FODMAP.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/mediterranean-vegetable-pasta), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Tomato & Basil Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 563; Fat – 19g; of which saturates – 9.6g; Carbohydrates – 74g; of which sugars – 8.2g; Fibre – 5.5g; Protein – 22g; Salt – 1.2g
+Changed (low saturated fat): 125g Mozzarella -> 62 g lactose-free mozzarella (halved, saturated fat).
+Low FODMAP: 130 g courgette (1 Small) to 115 g courgette (1 Small) (cut so the FODMAPs that add up stay within the limit).
+
+## ✅ ♡ Bay's Kitchen Tomato & Basil – Baked Feta & Tomato Pasta  (Main Meals, serves 4)
+
+520 g Bay's Kitchen Tomato & Basil Sauce (home-made, see that recipe)
+300g Gluten free pasta (check for low FODMAP ingredients)  🟢 Fructans 50% (75 g per serving)
+80 g Feta cheese  💔 Sat fat 4.2g (21%)
+1 tsp garlic-infused olive oil  ♥ Sat fat 0.2g (1%)
+½ Tsp chilli flakes (optional)
+Sea salt and freshly cracked black pepper
+Small bunch of basil leaves
+
+
+1. Make the home-made Bay's Kitchen Tomato & Basil Sauce first (see that recipe), or use a frozen portion.
+
+2. Preheat the oven to 200C, 180C fan, gas mark 6 and have a deep baking tray or dish ready.
+
+3. Place the block of feta cheese in the centre of the baking dish and drizzle with the garlic-infused olive oil. Season with salt and pepper and bake for 15 minutes, or until the feta has softened and is starting to turn golden and blister at the edges.
+
+4. Pour over two jars of Bay’s Kitchen Tomato and Basil Stir-In Sauce and sprinkle over some chilli flakes, if you like. Place the dish back in the oven and bake for 15 minutes, or until the sauce is bubbling and hot through.
+
+5. Meanwhile, bring a large pan of water to the boil. Add a good sprinkle of salt and tumble in the pasta. Cook according to packet instructions, then reserve a mug of the pasta water and drain.
+
+6. Tumble the cooked pasta into the feta and tomato sauce mix, add a splash of the reserved pasta water and give everything a stir to combine. Sprinkle some fresh basil leaves over the top and serve. Recipe created by cook and author Emma Hatcher (www.shecanteatwhat.com).
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/baked-feta-tomato-pasta), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Tomato & Basil Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+Changed (low saturated fat): 160g Feta cheese -> 80 g Feta cheese (halved, saturated fat); 2 Tbsp garlic-infused olive oil -> 1 tsp garlic-infused olive oil.
+
+## ✅ ♡ Bay's Kitchen Tomato & Basil – Homemade Gnocchi With Tomato & Basil Sauce  (Main Meals, serves 4)
+
+850g Potatoes
+140g Potato starch (1 cup)
+70g White rice flour (½ cup)
+70g Tapioca starch (½ cup)
+1 tsp garlic-infused olive oil  ♥ Sat fat 0.2g (1%)
+½ Tsp Salt
+To Fry & Serve:
+260 g Bay's Kitchen Tomato & Basil Sauce (home-made, see that recipe)
+1 Large handful of kale or cavolo nero
+2 Tbsp Pine nuts, chopped (set aside a few to use as toppings)
+1 tsp olive oil  ♥ Sat fat 0.2g (1%)
+Parmesan (optional)**
+Fresh basil
+
+
+1. Make the home-made Bay's Kitchen Tomato & Basil Sauce first (see that recipe), or use a frozen portion.
+
+2. Preheat your oven to 190°C / 170°C fan.
+
+3. Wash your potatoes, puncture them all over using a fork and place in the oven (uncovered) directly on the rack.
+
+4. Bake for 60-70 minutes or until very soft in the centre (knife should be able to insert through centre very easily). Remove potatoes from oven and let them cool.
+
+5. Remove the skins from the potatoes (they should come off relatively easy if they are cooked soft enough). Don’t throw away your potato skins! You can easily make them into crispy potato chips by drizzling them with olive oil or garlic infused oil, sprinkling them with salt /pepper and baking again for 10-15 minutes or until golden brown and crispy. If possible, run the potatoes through a potato ricer (or grate them) into a large bowl. If you don’t have a potato ricer, mash the potatoes until completely smooth, breaking up any pieces. There should be absolutely no chunks in the mixture (if there is, pick them out).
+
+6. Drizzle the riced / mashed potatoes with the garlic infused oil and sprinkle with ½ teaspoon salt. Mix until well-combined, then fold in the potato starch, rice flour and tapioca flour.
+
+7. Begin to go in with your hands, mixing it and kneading it until it becomes one smooth ball of dough (if there is leftover flour in the bowl, use it to dust your kitchen counter or any other flat surface).
+
+8. Transfer the dough to your flat surface and continue to knead it with your hands until very soft and there are no visible speckles of flour in the dough. Divide the dough into four pieces. Roll out one piece of dough at a time, ensuring the others are kept covered with cling film or a tea towel to prevent them from drying out (they will be really hard to roll otherwise).
+
+9. Roll out one piece of dough into a long log (around 1.5 inches in diameter), and slice the log into approximately 20 evenly-sized pieces. It is more important that your pieces are consistent in size rather than how many cuts you make.
+
+10. Taking one small cut piece of the dough at a time, roll it into a ball in your palms, and then roll it in one direction 2-3 times until it takes on a slight oval shape (if it’s your first time rolling gnocchi there are plenty of videos on YouTube showing how to roll gnocchi). Repeat until all of the dough is used up and shaped into small oval pieces.
+
+11. Using the front side of a fork (holding the fork upside down as to how you would normally hold it), make a light imprint into each gnocchi piece. Bring a large pot of salted water to a gentle boil. Carefully lower the gnocchi pieces into the boiling water.
+
+12. Reduce heat slightly (to a high simmer), and let the gnocchi cook until they float to the surface of the water. Once all of the gnocchi have floated to the surface, transfer them carefully to a colander to drain.
+
+13. Immediately heat the olive oil in a large frying pan over medium-high heat. Shock the gnocchi with cold water to prevent them from sticking together. Then make sure to shake off as much excess water as possible.
+
+14. Once the oil is hot add the gnocchi to the frying pan along with the chopped pine nuts. Fry 2-3 minutes on each side or until golden brown and crispy, adding the kale in the last 2 minutes or so.
+
+15. Once the kale has wilted, stir in your jar of Bay’s Kitchen Tomato & Basil Stir-in Sauce. Continue to stir until the sauce has heated through. Remove from heat, plate and top with additional chopped pine nuts, parmesan and freshly chopped basil. Enjoy! *The FODMAPs in garlic are soluble in water, not in oil, therefore garlic infused oil is Low FODMAP. Ensure you buy ‘infused’ oil and not flavoured, as flavoured will have garlic pieces or powder in it.  ** To make this dish vegan and dairy free, either don’t use parmesan, or use vegan parmesan (please check the ingredients of vegan parmesan, it is typically made with cashews and so could be high FODMAP in larger quantities.) This recipe has been created by Haley Brown, from Low Fodmapper.
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/homemade-gnocchi-with-tomato-basil-sauce), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Tomato & Basil Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): (per serve):; Kcal – 581; Fat – 16g; of which saturates – 2g; Carbohydrates – 99g; of which sugars – 4.2g; Fibre – 6.9g; Protein – 7.5g; Salt – 0.59g
+Changed (low saturated fat): 1.5 Tbsp Garlic infused oil* -> 1 tsp garlic-infused olive oil; 1.5 Tbsp Olive oil -> 1 tsp olive oil.
+
+## ✅ ♡ Bay's Kitchen Tomato & Basil – Vegan Shepherd's Pie  (Main Meals, serves 6)
+
+520 g Bay's Kitchen Tomato & Basil Sauce (home-made, see that recipe)
+400 ml low FODMAP vegetable stock (no onion or garlic)
+1.2kg Maris piper potatoes, peeled and chopped into chunks
+1 Tin lentils, drained and rinsed well
+1 Large leek, green top only, finely chopped
+1 Celery stick, finely chopped  🟢 Mannitol 13% (6.7 g per serving)
+300g Oyster mushrooms
+300g Carrots, finely chopped
+250g Parsnips, finely chopped
+100ml Dairy-free low FODMAP milk  ♥ Sat fat 0.2g (1%)
+60ml Red wine
+1 tsp garlic-infused olive oil  ♥ Sat fat 0.1g (1%)
+2 Sprigs rosemary, leaves picked and finely chopped
+1 1/2 Tbsp Tamari
+A good glug of extra virgin olive oil, plus extra for drizzling
+Small bunch chives, finely chopped
+Handful of fresh parsley, leaves picked
+2 Fresh bay leaves
+A few sprigs fresh thyme
+
+
+1. Make the home-made Bay's Kitchen Tomato & Basil Sauce first (see that recipe), or use a frozen portion.
+
+2. Plan a large saucepan or casserole dish over a medium heat and add the oil to it. When hot and glossy, tear the oyster mushrooms into the pan and cook for a few minutes, until turning golden at the edges. Add the celery, green leek tops, carrots and parsnips to the pan and cook for 5-8 minutes, or until the vegetables have started to soften.
+
+3. Add the drained lentils, chives and rosemary and cook for a few minutes more, stirring to make sure nothing sticks.
+
+4. Twist open two jars of Bay’s Kitchen Tomato and Basil stir-in sauce and pour them in, along with hot vegetable stock, the wine and tamari. Add the bay leaves and fresh thyme sprigs. Season well and stir to combine, then cover with a lid and let the filling simmer for 10-15 minutes while you cook the potatoes.
+
+5. Meanwhile, heat the oven to 190C, 170C fan.
+
+6. Bring a large saucepan of water to the boil and add a generous pinch of salt, followed by the chopped potatoes. Simmer for 15 minutes, or until a cutlery knife pierces one easily. When soft, remove from the heat, drain well and tip back into the pan to steam for a minute. Add the milk, a good glug of olive oil and a generous amount of seasoning and mash well until smooth.
+
+7. Spoon the filling into a medium oven-proof dish and and shuffle it into the corners so that it’s level, removing and discarding the bay leaves and thyme sprigs. Spoon the mash potatoes on top, using the back of your spoon to create swirls and divots to ensure maximum crispy bits.
+
+8. Drizzle the potato top with a little more oil, place the whole dish on top of a tray (to catch any spillages) and bake for 25-30 minutes, or until the pie is golden and bubbling.
+
+9. Remove from the oven, let sit for a few minutes to settle and then sprinkle over some fresh parsley to serve. Emma Hatcher Recipe created by Cook & Author Emma Hatcher from  www.shecanteatwhat.com
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/vegan-shepherds-pie), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Tomato & Basil Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+Changed (low saturated fat): 400ml Bay’s Kitchen Vegetable Stock (400ml boiling water and 4 serves of vegetable stock) -> 400 ml low FODMAP vegetable stock (no onion or garlic); 2 Tbps Garlic-infused olive oil -> 1 tsp garlic-infused olive oil.
+
+## ✅ ❣ Bay's Kitchen Tomato & Basil – Chicken Parmesan (Chicken Parmigiana)  (Main Meals, serves 2)
+
+For the sauce:
+260 g Bay's Kitchen Tomato & Basil Sauce (home-made, see that recipe)
+For the chicken:
+2 Large chicken breasts halved horizontally to make 4 fillets
+2 Large eggs  ♥ Sat fat 1.6g (8%)
+2 Tbsp fresh chopped parsley
+120g gluten-free breadcrumbs
+22 g fresh grated parmesan cheese  ♥ Sat fat 1.8g (9%)
+1 tsp olive oil  ♥ Sat fat 0.3g (2%)
+Salt and pepper to season
+For The Topping:
+60 g light mozzarella, sliced or shredded  ♥ Sat fat 1.9g (10%)
+22 g Fresh shredded parmesan cheese  ♥ Sat fat 1.8g (9%)
+2 Tbsp fresh chopped basil or parsley
+
+
+1. Make the home-made Bay's Kitchen Tomato & Basil Sauce first (see that recipe), or use a frozen portion.
+
+2. Preheat oven 220°C. (430°F). Lightly grease an oven tray (or baking dish) with non-stick cooking oil spray; set aside.
+
+3. Whisk together eggs, parsley, salt and pepper in a shallow dish. Add chicken into the egg, rotating to evenly coat each fillet in the mixture. Cover with plastic wrap and allow to marinate for 15 minutes.
+
+4. When chicken is ready for cooking, mix bread crumbs, and Parmesan cheese together in a separate shallow bowl. Dip chicken into the breadcrumb mixture to evenly coat.
+
+5. Heat oil in a large skillet over medium-high heat until hot and shimmering. Fry chicken until golden and crispy, (about 4-5 minutes each side).
+
+6. Place chicken on prepared baking tray/dish and top each breast with about 1/3 cup of sauce. Top each chicken breast with 2-3 slices of mozzarella cheese and about 3 tablespoons parmesan cheese. Sprinkle with basil or parsley.
+
+7. Bake for 15-20 minutes, or until cheese is bubbling and melted, and the chicken is completely cooked through. Recipe created by Stefani Weiss from @glutenfree_stories
+
+Adapted from Bay's Kitchen (https://www.bayskitchen.com/pages/recipes/chicken-parmesan-chicken-parmigiana), reviewed as low FODMAP by their dietitian. For personal use.
+Uses the home-made Bay's Kitchen Tomato & Basil Sauce instead of the jar (lower in saturated fat, made from single spices).
+Website nutrition per serving (with the jar): 
+Changed (low saturated fat): 45g fresh grated parmesan cheese -> 22 g fresh grated parmesan cheese (halved, saturated fat); 45g cup olive oil for frying -> 1 tsp olive oil; 250g Mozzarella cheese sliced or shredded -> 125 g lactose-free mozzarella cheese sliced or shredded (halved, saturated fat); 45g Fresh shredded parmesan cheese -> 22 g Fresh shredded parmesan cheese (halved, saturated fat); 125 g lactose-free mozzarella cheese sliced or shredded -> 60 g light mozzarella, sliced or shredded.

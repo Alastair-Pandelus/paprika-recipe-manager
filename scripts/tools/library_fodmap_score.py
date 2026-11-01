@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts"))
 sys.path.insert(0, str(ROOT / "scripts" / "tools"))
 
-from fodmap_score_lib import transform_recipe  # noqa: E402
+from fodmap_score_lib import recipe_resolver, transform_recipe  # noqa: E402
 from lib import PAPRIKA_API, paprika_credentials  # noqa: E402
 from normalize_ingredient_units import RateLimiter, api_json, safe_print  # noqa: E402
 
@@ -120,6 +120,7 @@ async def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     recipes = list_recipes(args.limit, args.name)
+    linked = recipe_resolver(list_recipes())  # scores [recipe:…] lines from the linked recipe
     mode = "APPLY" if apply else "DRY-RUN"
     safe_print(f"Library FODMAP score | {mode} | {len(recipes)} recipes")
 
@@ -152,6 +153,7 @@ async def main() -> None:
                 local["description"] or "",
                 local["notes"] or "",
                 servings=local.get("servings") or 1,
+                linked=linked,
             )
             did = (
                 t["name"] != (local["name"] or "")
@@ -191,6 +193,7 @@ async def main() -> None:
                     rec.get("description") or "",
                     rec.get("notes") or "",
                     servings=rec.get("servings") or local.get("servings") or 1,
+                    linked=linked,
                 )
                 rec["name"] = t2["name"]
                 rec["ingredients"] = t2["ingredients"]

@@ -13,6 +13,7 @@ from __future__ import annotations
 import math
 import re
 import sqlite3
+from collections.abc import Callable
 from dataclasses import dataclass
 from fractions import Fraction
 from functools import lru_cache
@@ -56,6 +57,39 @@ DENSITY_TSP: list[tuple[str, float]] = [
     ("vinegar", 5.0),
     ("stock", 5.0),
 ]
+
+# Grams per US cup for bulky / dry foods; anything not listed stays at 240 g
+# (liquids). A flat 240 g scored a cup of oats as 240 g instead of ~90 g.
+CUP_G: list[tuple[str, float]] = sorted([
+    ("rolled oat", 90.0), ("oat", 90.0), ("quinoa", 170.0), ("rice", 185.0),
+    ("flour", 125.0), ("sugar", 200.0), ("brown sugar", 220.0),
+    ("walnut", 120.0), ("pecan", 110.0), ("almond", 140.0), ("peanut", 145.0),
+    ("nut", 130.0), ("seed", 140.0), ("chickpea", 165.0), ("lentil", 190.0),
+    ("bean", 170.0), ("blueberr", 150.0), ("strawberr", 150.0),
+    ("raspberr", 125.0), ("berr", 145.0), ("cherry tomato", 150.0),
+    ("grape tomato", 150.0), ("tomato", 180.0), ("courgette", 125.0),
+    ("zucchini", 125.0), ("broccoli", 90.0), ("cauliflower", 107.0),
+    ("spinach", 30.0), ("kale", 70.0), ("lettuce", 50.0), ("cabbage", 70.0),
+    ("mushroom", 70.0), ("pepper", 150.0), ("corn", 165.0), ("pea", 145.0),
+    ("sweet potato", 133.0), ("potato", 150.0), ("carrot", 128.0),
+    ("pumpkin", 245.0), ("cheese", 100.0), ("breadcrumb", 60.0),
+    ("panko", 60.0), ("cereal", 30.0), ("pasta", 100.0), ("coconut", 80.0),
+    ("chocolate", 170.0), ("raisin", 145.0), ("spring onion", 50.0),
+    ("scallion", 50.0), ("herb", 30.0), ("parsley", 30.0), ("coriander", 16.0),
+    ("cilantro", 16.0), ("basil", 24.0),
+], key=lambda kv: -len(kv[0]))
+
+
+def cup_grams(name: str) -> float:
+    n = name.lower()
+    if re.search(r"\b(?:milk|cream|yog(?:h)?urt|stock|broth|water|juice|oil|"
+                 r"sauce|syrup|passata|puree|purée|coconut milk)\b", n):
+        return 240.0
+    for key, g in CUP_G:
+        if key in n:
+            return g
+    return 240.0
+
 
 # Whole-item estimates (g)
 ITEM_G = {
@@ -200,11 +234,13 @@ VULGAR = {"¼": "1/4", "½": "1/2", "¾": "3/4", "⅓": "1/3", "⅔": "2/3", "�
 
 
 def emoji_for(ratio: float) -> str:
-    if ratio <= 0.25:
-        return "🟢"
+    """Per-serving share of the low FODMAP limit. Red only when over it:
+    a serving exactly at the limit is still a low FODMAP serving."""
     if ratio <= 0.50:
-        return "🟡"
+        return "🟢"
     if ratio <= 0.75:
+        return "🟡"
+    if ratio <= 1.0:
         return "🟠"
     return "🔴"
 
@@ -257,7 +293,7 @@ def strip_notes_block(notes: str) -> str:
 
 
 _DESC_CHOL_RE = re.compile(
-    r"\n*(?:♡|❣|◐|💔|♥)\s+(?:Sat\s+fat\s+\d+(?:\.\d+)?g|Cholesterol\s+\d+mg)(?:\s*\(\d+%\))?\s*$"
+    r"\n*(?:♡|❣|◐|💔|♥|💚)\s+(?:Sat\s+fat\s+\d+(?:\.\d+)?g|Cholesterol\s+\d+mg)(?:\s*\(\d+%\))?\s*$"
 )
 
 
@@ -288,7 +324,12 @@ def strip_desc_fodmap(desc: str) -> str:
 def strip_inline_fodmap(line: str) -> str:
     names = "|".join(re.escape(n) for n in TYPE_NAME.values())
     names_ext = names + r"|Excess fructose"
-    line = re.sub(rf"\s+(?:🟢|🟡|🟠|🔴)\s+(?:{names_ext})\s+\d+%\s*$", "", line)
+    # A linked-recipe line can carry one tag per FODMAP type, so strip them all.
+    prev = None
+    while prev != line:
+        prev = line
+        line = re.sub(rf"\s+(?:🟢|🟡|🟠|🔴)\s+(?:{names_ext})\s+\d+%"
+                      r"(?:\s+\(\d+(?:\.\d+)?\s*g per serving\))?\s*$", "", line)
     line = re.sub(r"\s+🟢\s+free\s*$", "", line)
     line = re.sub(
         r"\s+(?:FRU|FRT|LAC|GOS|SOR|MAN)\s+(?:🟢|🟡|🟠|🔴)\s+~\d+(?:\.\d+)?×(?:\s+\([^)]*\))?\s*$",
@@ -299,7 +340,7 @@ def strip_inline_fodmap(line: str) -> str:
 
 
 _CHOL_SUFFIX_RE = re.compile(
-    r"(\s+(?:♡|❣|◐|💔|♥)\s+(?:Sat\s+fat\s+\d+(?:\.\d+)?g|Cholesterol\s+\d+mg)(?:\s*\(\d+%\))?)\s*$"
+    r"(\s+(?:♡|❣|◐|💔|♥|💚)\s+(?:Sat\s+fat\s+\d+(?:\.\d+)?g|Cholesterol\s+\d+mg)(?:\s*\(\d+%\))?)\s*$"
 )
 
 
@@ -314,7 +355,7 @@ def split_chol_suffix(line: str) -> tuple[str, str]:
 # Title: FODMAP marker first, optional cholesterol second (♡ ❣ 💔; legacy ◐ ♥).
 # Re-score replaces FODMAP only and preserves cholesterol.
 _TITLE_FODMAP_RE = re.compile(r"^(?:✅|ℹ️|⚠️|❌|🟢|🟡|🟠|🔴)\s*")
-_TITLE_CHOL_RE = re.compile(r"^(?:♡|❣|◐|💔|♥)\s*")
+_TITLE_CHOL_RE = re.compile(r"^(?:♡|❣|◐|💔|♥|💚)\s*")
 
 
 def set_title_meal_emoji(name: str, emoji: str) -> str:
@@ -383,7 +424,9 @@ _LINE_RE = re.compile(
             cups?|cup|
             ounces?|oz|
             pounds?|lbs?|lb|
-            medium|large|small
+            medium|large|small|
+            pinch(?:es)?|dash(?:es)?|splash(?:es)?|
+            portions?|handfuls?|knobs?|sprinkles?|squeezes?|sprigs?
         )
     )?
     \b
@@ -418,6 +461,17 @@ def parse_line(line: str) -> ParsedLine | None:
     unit_raw = (m.group("unit") or "").lower()
     if unit_raw in {"medium", "large", "small"}:
         return ParsedLine(value=value, unit="count", rest=rest)
+    # Small "to taste" amounts: a pinch or dash is a fraction of a gram, a splash about a
+    # teaspoon. A portion, handful, knob or sprig has no set weight, so it is not scored
+    # (it was read as a whole item: "1 portion avocado" = 1 avocado, "1 pinch red pepper
+    # flakes" = 1 pepper).
+    if re.fullmatch(r"pinch(?:es)?|dash(?:es)?", unit_raw):
+        return ParsedLine(value=value * 0.3, unit="g", rest=rest)
+    if re.fullmatch(r"splash(?:es)?", unit_raw):
+        return ParsedLine(value=value * 5, unit="ml", rest=rest)
+    if unit_raw:
+        if unit_raw.rstrip("s") in {"portion", "handful", "knob", "sprinkle", "squeeze", "sprig"} or unit_raw == "squeezes":
+            return ParsedLine(value=value, unit="unscored", rest=rest)
     unit_map = {
         "kilograms": "kg",
         "kilogram": "kg",
@@ -460,7 +514,8 @@ def density_tsp(name: str) -> float:
     for key, g in DENSITY_TSP:
         if key in n:
             return g
-    return 5.0
+    cg = cup_grams(n)
+    return cg / 48.0 if cg != 240.0 else 5.0  # 1 cup = 48 tsp
 
 
 def to_grams(p: ParsedLine) -> float | None:
@@ -482,9 +537,11 @@ def to_grams(p: ParsedLine) -> float | None:
     if p.unit == "tbsp":
         return p.value * 3 * density_tsp(rest)
     if p.unit == "cup":
-        # liquids ~240 g; pastes denser — use 240 as default kitchen cup
-        return p.value * 240.0
+        return p.value * cup_grams(rest)
     if p.unit == "count":
+        # "3 slices of banana": a slice of fruit or veg is about 10 g, not a whole one
+        if re.match(r"slices?\s+of\b", rest) and not re.search(r"bread|toast|loaf|cake|ham|cheese", rest):
+            return p.value * 10.0
         # Leek green tops only ≈ 1 cup chopped greens per large leek
         if re.search(r"\bleeks?\b", rest) and re.search(
             r"green\s+(tops?|parts?|leaves)|greens?\s+only|white\s+base\s+discarded",
@@ -522,9 +579,17 @@ def match_food(rest: str) -> FoodHit | None:
     # ("I used coconut-rice milk", "skip if the pineapple is frozen")
     n_keys = re.sub(r"\([^)]*\)", " ", n_norm)
     n_keys = re.sub(r"\s+", " ", n_keys).strip()
+    # "canned whole tomatoes", "tinned plum tomatoes", "canned sliced
+    # mushrooms": words between "canned" and the food hid the canned entry.
+    # Append the joined phrase so the longer "canned tomato" key can win.
+    m_can = re.search(
+        r"\b(canned|tinned|jarred)\s+(?:[a-z-]+\s+){1,3}?(tomato(?:es)?|mushrooms?)\b", n_keys
+    )
+    if m_can:
+        n_keys = f"{n_keys} | {m_can.group(1)} {m_can.group(2)}"
     # Garlic-infused oil is low-FODMAP (flavour only) — do not score as garlic
     garlic_infused = bool(
-        re.search(r"garlic[-\s]?infused", n)
+        re.search(r"garlic[-\s]?(?:infused|flavou?red)", n)
         or re.search(r"infused\s+.*\bgarlic\b", n)
         or "replaces onion/garlic" in n
         or "replaces garlic" in n
@@ -541,6 +606,8 @@ def match_food(rest: str) -> FoodHit | None:
     )
     onion_negated = bool(
         re.search(r"onion[-\s]?free", n)
+        # "onion- and garlic-free", "onion and garlic free"
+        or re.search(r"onion-?\s+and\s+garlic[-\s]?free", n)
         or re.search(r"(?:no|without)\s+(?:added\s+)?onion", n)
         or re.search(r"check.{0,60}onion", n)
         or re.search(r"garlic or onion|onion or garlic|onion,\s*garlic", n)
@@ -616,11 +683,23 @@ def match_food(rest: str) -> FoodHit | None:
             if re.match(r"^(sea )?salt|black pepper|mixed herbs", n):
                 return None
 
+    # Starches and rice/corn flours carry no FODMAP load; a gluten-free flour
+    # blend (rice/corn/tapioca, e.g. Schär Mix) is not wheat flour. Scoring
+    # either as generic wheat "flour" (fructans, 50 g) overstated baking.
+    if re.search(r"\b(?:corn\s?flour|corn\s?starch|potato\s+starch|tapioca|"
+                 r"arrowroot|rice\s+flour)\b", n_keys):
+        return FoodHit(green_g=None, ftype=None, no_upper_limit=True)
+    if "flour" in n_keys and re.search(
+        r"gluten[-\s]?free|\bgf\b|sch[aä]r|flour\s+(?:mix|blend)|1:1", n
+    ):
+        return FoodHit(green_g=100.0, ftype="FRT", no_upper_limit=False)
+
     best: tuple[int, FoodHit] | None = None
     for keys, green, ftype, no_lim in load_foods():
         for key in keys:
             # Word-boundary match so "apple" does not hit "pineapple", etc.
-            if not re.search(rf"(?<![a-z0-9]){re.escape(key)}(?![a-z0-9])", n_keys):
+            # Plurals too: "mushrooms", "noodles" and "tomatoes" were missed.
+            if not re.search(rf"(?<![a-z0-9]){re.escape(key)}(?:e?s)?(?![a-z0-9])", n_keys):
                 continue
             # black/white pepper spice vs capsicum
             if key in {"pepper", "red pepper", "yellow pepper", "orange pepper"} and (
@@ -706,7 +785,12 @@ def score_ingredient_line(
     """Return (clean, grams, green_g, ftype, no_upper_limit, chol_suffix) or None."""
     base, chol_suf = split_chol_suffix(line)
     clean = strip_inline_fodmap(base)
-    p = parse_line(clean)
+    if "see that recipe" in clean.lower() or "[recipe:" in base:  # a linked recipe is scored on its own
+        return None
+    # "1 portion veg, one of: 75 g broccoli, 150 g spinach, …": each option is a
+    # single serve, so score the first option rather than adding them up.
+    choice = re.search(r"\bone of:\s*([^,]+?)(?:,|\s+or\s+|$)", clean, re.I)
+    p = parse_line(choice.group(1).strip() if choice else clean)
     if not p:
         return None
     food = match_food(p.rest)
@@ -718,14 +802,75 @@ def score_ingredient_line(
     return clean, grams, food.green_g, food.ftype, food.no_upper_limit, chol_suf
 
 
+RECIPE_LINK_RE = re.compile(r"\[recipe:([^\]]+)\]")
+_TITLE_MARKERS_RE = re.compile(r"^(?:(?:✅|ℹ️|⚠️|❌|🟢|🟡|🟠|🔴|♡|❣|◐|💔|♥|💚)\s*)+")
+MAX_LINK_DEPTH = 4
+
+
+def recipe_resolver(recipes: list[dict]) -> Callable[[str], dict | None]:
+    """Look up a linked recipe by its exact name, or by its name without title markers
+    (so a link still resolves after a re-score changes the linked recipe's markers)."""
+    exact = {r["name"]: r for r in recipes if r.get("name")}
+    bare = {_TITLE_MARKERS_RE.sub("", n).strip(): r for n, r in exact.items()}
+    return lambda name: exact.get(name) or bare.get(_TITLE_MARKERS_RE.sub("", name).strip())
+
+
+def linked_recipe(line: str, linked: Callable[[str], dict | None] | None) -> dict | None:
+    if linked is None:
+        return None
+    m = RECIPE_LINK_RE.search(line)
+    return linked(m.group(1).strip()) if m else None
+
+
+def portion_grams(ingredients: str, servings: float | str | int | None) -> float:
+    """Weight of one serving, from the lines that can be weighed."""
+    total = 0.0
+    for line in (ingredients or "").splitlines():
+        p = parse_line(split_chol_suffix(line)[0])
+        g = to_grams(p) if p and p.unit not in (None, "count", "unscored") else None
+        total += g or 0.0
+    return total / parse_servings(servings)
+
+
+def linked_servings(line: str, rec: dict) -> float:
+    """Servings of the linked recipe a line uses: '1 portion [recipe:X]' is one serving;
+    '130 g [recipe:X]' is 130 g over the weight of one serving of X."""
+    p = parse_line(RECIPE_LINK_RE.sub(lambda m: m.group(1), split_chol_suffix(line)[0]))
+    if not p:
+        return 1.0
+    if p.unit in (None, "count", "unscored"):
+        return p.value
+    grams = to_grams(p)
+    per = portion_grams(rec.get("ingredients") or "", rec.get("servings"))
+    return grams / per if grams and per > 0 else 1.0
+
+
 def annotate_ingredients(
-    ingredients: str, servings: float | str | int | None = 1.0
+    ingredients: str,
+    servings: float | str | int | None = 1.0,
+    linked: Callable[[str], dict | None] | None = None,
+    _depth: int = 0,
 ) -> tuple[str, dict[str, float]]:
+    """`linked` resolves '[recipe:Name]' lines: the linked recipe is scored from its own
+    ingredients and its load added for the servings the line uses."""
     servings_n = parse_servings(servings)
     stacks: dict[str, float] = {}
     out: list[str] = []
     for line in (ingredients or "").splitlines():
         if not line.strip():
+            continue
+        rec = linked_recipe(line, linked) if _depth < MAX_LINK_DEPTH else None
+        if rec:
+            base, chol_suf = split_chol_suffix(line)
+            n = linked_servings(base, rec)
+            _, sub = annotate_ingredients(rec.get("ingredients") or "", rec.get("servings"), linked, _depth + 1)
+            tags = []
+            for t in TYPE_ORDER:
+                ratio = sub.get(t, 0.0) * n / servings_n
+                if ratio > 0:
+                    stacks[t] = stacks.get(t, 0.0) + ratio
+                    tags.append(format_tag(t, ratio))
+            out.append(strip_inline_fodmap(base) + "".join(f"  {x}" for x in tags) + chol_suf)
             continue
         scored = score_ingredient_line(line)
         if not scored:
@@ -741,7 +886,12 @@ def annotate_ingredients(
             continue
         ratio = portion_g / green
         stacks[ftype] = stacks.get(ftype, 0.0) + ratio
-        out.append(f"{clean}  {format_tag(ftype, ratio)}{chol_suf}")
+        tag = format_tag(ftype, ratio)
+        if servings_n > 1:
+            # The line shows the whole recipe; say what one serving holds.
+            g = round(portion_g) if portion_g >= 10 else round(portion_g, 1)
+            tag += f" ({g:g} g per serving)"
+        out.append(f"{clean}  {tag}{chol_suf}")
     text = "\n".join(out).rstrip() + ("\n" if out else "")
     return text, stacks
 
@@ -777,8 +927,9 @@ def transform_recipe(
     description: str,
     notes: str,
     servings: float | str | int | None = 1.0,
+    linked: Callable[[str], dict | None] | None = None,
 ) -> dict:
-    new_ings, stacks = annotate_ingredients(ingredients, servings=servings)
+    new_ings, stacks = annotate_ingredients(ingredients, servings=servings, linked=linked)
     meal_em = meal_score_emoji(stacks)
     new_name = set_title_meal_emoji(name, meal_em)
     new_notes = strip_notes_block(notes)

@@ -85,8 +85,22 @@ def aisle_for(ingredient: str, *, is_pack: bool = False) -> str:
     ):
         return "Canned and Jar Goods, Pasta and Rice"
 
-    if "frozen" in low or "oven chips" in low:
+    if "frozen" in low or "oven chips" in low or re.search(r"\bpeas\b", low):
         return "Frozen Foods"
+    # Dried spices and herbs before the nut/seed check ("nutmeg" contains "nut")
+    if any(k in low for k in ("nutmeg", "cinnamon", "mixed herbs", "dried herbs", "italian herbs",
+                              "turmeric", "cardamom", "garam masala", "coriander seed", "cumin seed",
+                              "fennel seed", "mustard seed", "fenugreek", "dried oregano", "cayenne", "chilli flakes",
+                              "chili flakes", "chilli powder", "paprika")) or re.search(r"\b(whole|ground)\s+cloves?\b", low):
+        return "Oils, Dressings, Spices and Seasonings"
+    # tomato purée, sundried tomatoes and tinned tomatoes are store-cupboard, not fresh veg
+    if re.search(r"tomato pur[ée]e|sun-?dried tomato|tinned .*tomato|chopped tomatoes|passata", low):
+        return "Canned and Jar Goods, Pasta and Rice"
+    # UK: flaked almonds, ground almonds and desiccated coconut sit with the baking goods
+    if re.search(r"flaked almonds?|almond flakes?|ground almonds?|coconut flakes?|desiccated coconut", low):
+        return "Canned and Jar Goods, Pasta and Rice"
+    if any(k in low for k in ("tapioca", "starch", "cornflour", "baking powder", "bicarbonate")):
+        return "Canned and Jar Goods, Pasta and Rice"
     if any(k in low for k in ("coffee", "tea")) or re.search(
         r"\b(drink|beverage)s?\b", low
     ):
@@ -121,8 +135,8 @@ def aisle_for(ingredient: str, *, is_pack: bool = False) -> str:
         return "Bread"
     if any(
         k in low
-        for k in ("sourdough", "bread", "baguette", "bakery", "toast", "oat cake")
-    ):
+        for k in ("sourdough", "bread", "baguette", "bakery", "oat cake")
+    ) or re.search(r"\btoast\b", low):  # not "toasted almonds"
         return "Bread"
     if any(k in low for k in ("cereal",)):
         return "Cereals"
@@ -186,6 +200,9 @@ def aisle_for(ingredient: str, *, is_pack: bool = False) -> str:
             "potato",
             "tomato",
             "chive",
+            "parsley",
+            "coriander",
+            "basil",
             "ginger",
             "lime",
             "lemon",
@@ -197,6 +214,8 @@ def aisle_for(ingredient: str, *, is_pack: bool = False) -> str:
             "radish",
             "bean sprout",
             "courgette",
+            "aubergine",
+            "eggplant",
             "rocket",
             "banana",
             "berry",

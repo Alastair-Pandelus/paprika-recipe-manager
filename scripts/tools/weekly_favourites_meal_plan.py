@@ -63,13 +63,13 @@ def strip_marker(name: str) -> str:
     """Strip leading FODMAP + sat-fat title icons for matching."""
     s = name or ""
     s = re.sub(
-        r"^(?:✅|ℹ️|⚠️|❌|🟢|🟡|🟠|🔴|♡|❣|◐|💔|♥)\s*",
+        r"^(?:✅|ℹ️|⚠️|❌|🟢|🟡|🟠|🔴|♡|❣|◐|💔|♥|💚)\s*",
         "",
         s,
     )
     # May have FODMAP then chol (or reverse on legacy titles)
     s = re.sub(
-        r"^(?:✅|ℹ️|⚠️|❌|🟢|🟡|🟠|🔴|♡|❣|◐|💔|♥)\s*",
+        r"^(?:✅|ℹ️|⚠️|❌|🟢|🟡|🟠|🔴|♡|❣|◐|💔|♥|💚)\s*",
         "",
         s,
     )
